@@ -1,0 +1,10 @@
+{
+  "name": "association-commons-server",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "engines": {"node": ">=22"},
+  "scripts": {"start":"node server.mjs","init":"node db/init.mjs"},
+  "dependencies": {"pdfkit":"0.17.2","pg":"8.16.3"}
+}

@@ -1,0 +1,62 @@
+name: association-commons
+services:
+  db:
+    image: postgres:17-bookworm
+    environment:
+      POSTGRES_DB: association_commons
+      POSTGRES_USER: commons
+      POSTGRES_PASSWORD: commons-local-container-only
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U commons -d association_commons"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+    networks: [database]
+  seed:
+    image: association-commons:0.0.1
+    build: .
+    pull_policy: build
+    command: ["node", "software/db/init.mjs"]
+    environment:
+      DATABASE_URL: postgres://commons:commons-local-container-only@db:5432/association_commons
+    volumes:
+      - ./content:/seed:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [database]
+    restart: "no"
+  web:
+    image: association-commons:0.0.1
+    build: .
+    pull_policy: build
+    environment:
+      DATABASE_URL: postgres://commons:commons-local-container-only@db:5432/association_commons
+      PORT: "3000"
+    ports:
+      - "127.0.0.1:8080:3000"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/healthz').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    init: true
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+    networks: [database, frontend]
+networks:
+  database:
+    internal: true
+  frontend: {}
+volumes:
+  postgres_data: {}

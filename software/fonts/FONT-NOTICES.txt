@@ -1,0 +1,29 @@
+NotoSans-Bold.ttf
+Copyright 2015-2021 Google LLC. All Rights Reserved.
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+NotoSans-Regular.ttf
+Copyright 2015-2021 Google LLC. All Rights Reserved.
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+NotoSansArabic-Regular-Latin.ttf
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+NotoSansDevanagari-Regular-Latin.ttf
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/devanagari)
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+
+NotoSansGujarati-Regular-Latin.ttf
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gujarati)
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+NotoSansTamil-Regular-Latin.ttf
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tamil)
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+NotoSansTelugu-Regular-Latin.ttf
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/telugu)
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+The Association Commons script variants were statically instantiated at weight 400 and width 100 from Google Fonts Noto Sans sources. Source URLs and reproduction steps are in scripts/rebuild-pdf-fonts.py.
