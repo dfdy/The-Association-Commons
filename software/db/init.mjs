@@ -19,6 +19,9 @@ export async function initialize(pool,seedPath){
    await db.query('INSERT INTO content.migrations(version) VALUES(1)');
    console.log('Database initialized with the current website content.');
   }else console.log('Database already initialized; existing content and submissions preserved.');
+  if(!(await db.query('SELECT 1 FROM content.migrations WHERE version=2')).rowCount){
+   await db.query(await fs.readFile(new URL('./002-release-0.0.2.sql',import.meta.url),'utf8'));
+  }
   await db.query('COMMIT');
  }catch(error){await db.query('ROLLBACK');throw error;}finally{db.release();}
 }

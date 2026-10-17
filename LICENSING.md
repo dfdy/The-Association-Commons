@@ -6,6 +6,8 @@ The first-party proposed legislation, explanatory prose, translations, glossary,
 constitution/stadgar templates and other editorial content of Voluntary
 Associations: The Association Commons are licensed under Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA-4.0).
+The root `privacy-policy.yaml` is editorial content under these same terms;
+it is mounted separately from the software image.
 
 You may share and adapt this content for noncommercial purposes, with appropriate
 credit, a licence link and an indication of changes. Shared adaptations must use

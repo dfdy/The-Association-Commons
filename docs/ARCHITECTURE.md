@@ -84,4 +84,20 @@ The Docker build does not include the generated Worker or depend on Sites toolin
 The initial snapshot matches commit
 `69f6387a868d491b1c20707157056a9be23ca4a8`. Baseline page hashes, normalized script
 AST hashes and text-export hashes in the seed make content parity reviewable.
-The displayed site version remains `0.0.1`.
+The displayed site version remains `0.0.2`.
+
+## Privacy policy startup override
+
+The Docker web service mounts root `privacy-policy.yaml` read-only at
+`/config/privacy-policy.yaml`. Before creating its content cache or HTTP listener,
+it validates the YAML and imports its `section_html` and `document` into the
+installed privacy page and export model in one transaction under the initialization
+advisory lock. Unchanged values cause no row updates or revision change. Errors
+prevent startup; a failed transaction preserves the previous policy.
+
+This is an explicit exception to database-only editorial authority: the YAML
+controls this section and export model on every web start. Other page layout and
+content remain in PostgreSQL. The YAML stays outside the software image and
+software source download and retains CC BY-NC-SA 4.0 terms. It contains trusted
+operator-maintained HTML and a matching structured export model, with no executable
+software. The importer validates the format; it does not sanitize untrusted HTML.

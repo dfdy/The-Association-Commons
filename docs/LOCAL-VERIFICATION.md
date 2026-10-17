@@ -82,3 +82,14 @@ This check reads pages and generates downloads without storing submissions or
 editing content. It expects the initial seed, so intentional later database edits
 can cause parity failures. The container recreation check was performed separately;
 the live check does not stop services or alter volumes.
+
+## Release 0.0.2 verification
+
+The owner authorized release 0.0.2 after the checks above. Package versions,
+Compose image tags, seeded page badges and privacy notice versions were updated.
+Migration 002 updates the installed release number without reseeding; the upgrade
+test verifies that existing editorial changes survive. Original baseline hashes
+remain intact, with only the authorized release-number change normalized during
+parity checks. Fresh installation, upgrade, startup YAML loading, unchanged-file
+revision stability, missing/invalid YAML rejection and the full test suite passed.
+The native Compose stack and all live page/export checks passed on port 8380.

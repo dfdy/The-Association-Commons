@@ -16,7 +16,7 @@ services:
     restart: unless-stopped
     networks: [database]
   seed:
-    image: association-commons:0.0.1
+    image: association-commons:0.0.2
     build: .
     pull_policy: build
     command: ["node", "software/db/init.mjs"]
@@ -30,12 +30,15 @@ services:
     networks: [database]
     restart: "no"
   web:
-    image: association-commons:0.0.1
+    image: association-commons:0.0.2
     build: .
     pull_policy: build
     environment:
       DATABASE_URL: postgres://commons:commons-local-container-only@db:5432/association_commons
       PORT: "3000"
+      PRIVACY_POLICY_PATH: /config/privacy-policy.yaml
+    volumes:
+      - ./privacy-policy.yaml:/config/privacy-policy.yaml:ro
     ports:
       - "127.0.0.1:8380:3000"
     depends_on:

@@ -5,9 +5,14 @@ import pg from 'pg';
 import PDFDocument from 'pdfkit';
 import {recordStore} from './db/store.mjs';
 import {loadSoftware,contentRuntime} from './content.mjs';
+import {loadPrivacyPolicy} from './db/privacy-policy.mjs';
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
 const pool=new pg.Pool({connectionString:process.env.DATABASE_URL,max:10,connectionTimeoutMillis:5000,statement_timeout:15000});
 pool.on('error',()=>console.error('A database connection was interrupted.'));
+if(process.env.PRIVACY_POLICY_PATH){
+ try{await loadPrivacyPolicy(pool,process.env.PRIVACY_POLICY_PATH);}
+ catch(error){console.error('Privacy policy startup failed:',error.message);await pool.end();process.exit(1);}
+}
 const current=contentRuntime(pool,await loadSoftware(),PDFDocument);
 await current(); // Fail startup rather than serve an empty/unseeded website.
 const env={BUCKET:recordStore(pool)};
