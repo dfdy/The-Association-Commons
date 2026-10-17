@@ -1,5 +1,7 @@
 # Voluntary Associations: The Association Commons
 
+![The freedom to organise — a proposed South African law for voluntary associations, inspired by the Swedish tradition of ideella föreningar.](docs/images/association-commons-freedom-to-organise.png)
+
 ## The freedom to organise.
 
 A proposed South African law for voluntary associations, inspired by the Swedish tradition of ideella föreningar (voluntary / non-profit associations): collective purpose, member self-governance, and accountability from below.
@@ -15,8 +17,6 @@ This text is a proposal for consideration. It is not an Act of Parliament and ha
 5. **Constitutional governance** — stadgar — Written rules establish membership rights, office-bearer powers, decisions, accountability, amendments and winding-up.
 6. **Separate legal personality** — självständighet — An eligible association may hold rights and incur obligations in its own name, separately from individual members.
 7. **Accountability** — ansvarsskyldighet — Delegated decision-makers answer to members through reporting, scrutiny, review and fair procedures.
-
-![The freedom to organise — a proposed South African law for voluntary associations, inspired by the Swedish tradition of ideella föreningar.](docs/images/association-commons-freedom-to-organise.png)
 
 The multilingual website is packaged for self-hosting with PostgreSQL.
 Displayed version: **0.0.2**. Do not increment it without the project owner's instruction.
