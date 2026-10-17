@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import pg from 'pg';
+import {fileURLToPath} from 'node:url';
 export async function initialize(pool,seedPath){
  const db=await pool.connect();
  try{
@@ -21,7 +22,7 @@ export async function initialize(pool,seedPath){
   await db.query('COMMIT');
  }catch(error){await db.query('ROLLBACK');throw error;}finally{db.release();}
 }
-if(process.argv[1]&&new URL(import.meta.url).pathname===process.argv[1]){
+if(process.argv[1]&&fileURLToPath(import.meta.url)===process.argv[1]){
  const pool=new pg.Pool({connectionString:process.env.DATABASE_URL});
  try{await initialize(pool,process.env.SEED_PATH||'/seed/seed.json');}catch(error){console.error('Database initialization failed:',error.message);process.exitCode=1;}finally{await pool.end();}
 }

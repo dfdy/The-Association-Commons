@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!docker-compose.yml
+!LICENSE
+!LICENSING.md
+!software/
+!software/**
+software/node_modules
+software/source.tar.gz
+**/.DS_Store
