@@ -2,7 +2,7 @@ import fs from 'node:fs';import assert from 'node:assert/strict';import {parse} 
 const compose=parse(fs.readFileSync('docker-compose.yml','utf8'));const {db,seed,web}=compose.services;
 assert.equal(db.image,'postgres:17-bookworm');assert.equal(db.ports,undefined);assert.equal(compose.networks.database.internal,true);
 assert.equal(seed.depends_on.db.condition,'service_healthy');assert.equal(web.depends_on.seed.condition,'service_completed_successfully');
-assert.deepEqual(seed.volumes,['./content:/seed:ro']);assert.equal(web.volumes,undefined);assert.ok(web.read_only);assert.ok(web.ports.includes('127.0.0.1:8080:3000'));
+assert.deepEqual(seed.volumes,['./content:/seed:ro']);assert.equal(web.volumes,undefined);assert.ok(web.read_only);assert.ok(web.ports.includes('127.0.0.1:8380:3000'));
 assert.equal(web.environment.DATABASE_URL,seed.environment.DATABASE_URL);assert.ok(!fs.readFileSync('docker-compose.yml','utf8').includes('${'));
 const docker=fs.readFileSync('Dockerfile','utf8');assert.match(docker,/USER node/);assert.ok(!/COPY\s+content/i.test(docker));assert.match(docker,/npm ci/);
 for(const path of ['software/db/init.mjs','software/server.mjs','content/seed.json','software/package-lock.json'])assert.ok(fs.existsSync(path));

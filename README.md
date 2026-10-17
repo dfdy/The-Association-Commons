@@ -11,7 +11,7 @@ Install Docker with Docker Compose v2, extract this project, then run from its d
 docker compose up
 ```
 
-Open **http://localhost:8080** once the web service is healthy. No `.env` file,
+Open **http://localhost:8380** once the web service is healthy. No `.env` file,
 manual database setup, configuration edits, Node installation or separate build
 command is needed. The first run downloads the images/dependencies and builds the
 software image. `docker compose up -d` runs the same stack in the background.
@@ -22,7 +22,7 @@ The stack has three services:
 - `db`: PostgreSQL 17, with a persistent named volume and no published database port.
 - `seed`: waits for PostgreSQL, creates the schema and imports the current content
   transactionally on first installation, then exits successfully.
-- `web`: starts after the seed service succeeds; serves the website on port 8080.
+- `web`: starts after the seed service succeeds; serves the website on port 8380.
 
 The default web binding is localhost, so starting the stack does not make it public.
 The Compose file includes working local database credentials. These are development

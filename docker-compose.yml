@@ -37,7 +37,7 @@ services:
       DATABASE_URL: postgres://commons:commons-local-container-only@db:5432/association_commons
       PORT: "3000"
     ports:
-      - "127.0.0.1:8080:3000"
+      - "127.0.0.1:8380:3000"
     depends_on:
       seed:
         condition: service_completed_successfully
