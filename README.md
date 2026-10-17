@@ -1,5 +1,7 @@
 # Voluntary Associations: The Association Commons
 
+![The freedom to organise — a proposed South African law for voluntary associations, inspired by the Swedish tradition of ideella föreningar.](docs/images/association-commons-freedom-to-organise.png)
+
 The current multilingual website, packaged for self-hosting with PostgreSQL.
 Displayed version: **0.0.2**. Do not increment it without the project owner's instruction.
 
