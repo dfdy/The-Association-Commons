@@ -1,111 +1,173 @@
 # Voluntary Associations: The Association Commons
 
+## The freedom to organise.
+
+A proposed South African law for voluntary associations, inspired by the Swedish tradition of ideella föreningar (voluntary / non-profit associations): collective purpose, member self-governance, and accountability from below.
+
+This text is a proposal for consideration. It is not an Act of Parliament and has no legal force.
+
+## Seven organising principles
+
+1. **Freedom of association** — föreningsfrihet — People may form, join, support or leave voluntary associations without a general requirement for prior state permission.
+2. **Collective self-governance** — självbestämmande — Members decide their shared purposes, internal arrangements and activities subject to constitutional rights and the law.
+3. **Democratic member control** — medlemsdemokrati — The constitution provides fair and meaningful routes for members to participate in decisions, elections and oversight.
+4. **Shared purpose** — gemensamt ändamål — The association acts for a declared common purpose; surplus resources advance that purpose instead of being distributed as profits.
+5. **Constitutional governance** — stadgar — Written rules establish membership rights, office-bearer powers, decisions, accountability, amendments and winding-up.
+6. **Separate legal personality** — självständighet — An eligible association may hold rights and incur obligations in its own name, separately from individual members.
+7. **Accountability** — ansvarsskyldighet — Delegated decision-makers answer to members through reporting, scrutiny, review and fair procedures.
+
 ![The freedom to organise — a proposed South African law for voluntary associations, inspired by the Swedish tradition of ideella föreningar.](docs/images/association-commons-freedom-to-organise.png)
 
-The current multilingual website, packaged for self-hosting with PostgreSQL.
+The multilingual website is packaged for self-hosting with PostgreSQL.
 Displayed version: **0.0.2**. Do not increment it without the project owner's instruction.
 
 ## Run the website
 
-Install Docker with Docker Compose v2, extract this project, then run from its directory:
+### 1. Install Git and Docker
+
+Git downloads a copy of this project to your computer. Docker runs the website
+and its database for you. Follow the official installation instructions for your
+operating system:
+
+| Operating system | Install Git | Install Docker |
+| --- | --- | --- |
+| macOS | [Git for macOS](https://git-scm.com/install/mac) | [Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/) |
+| Windows | [Git for Windows](https://git-scm.com/install/windows) | [Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/) |
+| Linux | [Git for Linux](https://git-scm.com/install/linux) | [Docker Desktop for Linux](https://docs.docker.com/desktop/setup/install/linux/) |
+
+Docker Desktop includes Docker Compose. After installing it, open Docker Desktop
+and wait until it is running. On Windows, follow the Docker guide's WSL 2 setup
+instructions and use Linux containers for this project.
+
+If you prefer Docker Engine on Linux, follow the official
+[Docker Engine installation guide](https://docs.docker.com/engine/install/) for
+your distribution and install the
+[Docker Compose plugin](https://docs.docker.com/compose/install/linux/).
+
+Open **Terminal** on macOS or Linux, or **PowerShell** on Windows. If your terminal
+was open during installation, close it and open it again. Run these commands,
+one line at a time, to check that the tools are available:
 
 ```sh
-docker compose up
+git --version
+docker --version
+docker compose version
 ```
 
-Open **http://localhost:8380** once the web service is healthy. No `.env` file,
-manual database setup, configuration edits, Node installation or separate build
-command is needed. The first run downloads the images/dependencies and builds the
-software image. `docker compose up -d` runs the same stack in the background.
-Use `docker compose logs -f web seed` to inspect startup.
+Each command should print a version number. This project needs Docker Compose v2
+or later, using the `docker compose` command.
 
-The stack has three services:
+### 2. Download the project with Git
 
-- `db`: PostgreSQL 17, with a persistent named volume and no published database port.
-- `seed`: waits for PostgreSQL, creates the schema and imports the current content
-  transactionally on first installation, then exits successfully.
-- `web`: starts after the seed service succeeds; serves the website on port 8380.
+In your terminal, go to the folder where you want to keep the project, then run:
 
-The default web binding is localhost, so starting the stack does not make it public.
-The Compose file includes working local database credentials. These are development
-and single-host defaults, not deployment-specific secrets. For public hosting, put
-this stack behind your HTTPS reverse proxy and supply your production credentials
-and access policy. No such setup is required for the command above.
+```sh
+git clone https://github.com/dfdy/The-Association-Commons.git
+cd The-Association-Commons
+```
 
-## Software and content are separate
+The first command downloads the project into a new `The-Association-Commons`
+folder. The second moves your terminal into that folder. Run the remaining
+Docker commands from this folder, which contains `docker-compose.yml`.
+
+### 3. Start the website
+
+```sh
+docker compose up -d
+```
+
+The first run downloads the images and dependencies, builds the software image,
+and sets up the database. This can take several minutes. The `-d` option keeps
+the website running in the background after you close the terminal.
+
+Check whether the website is ready:
+
+```sh
+docker compose ps
+```
+
+Once `web` shows `healthy`, open **[http://localhost:8380](http://localhost:8380)**
+in your browser. No `.env` file, manual database setup, configuration edits, Node
+installation or separate build command is needed.
+
+If the website does not open, check that Docker is running and inspect startup:
+
+```sh
+docker compose logs -f web seed
+```
+
+Press **Ctrl+C** to stop following the logs; the website will keep running.
+If Docker reports that it cannot connect to the daemon, start Docker Desktop
+(or the Docker Engine service on Linux) and retry the startup command.
+
+### What Docker runs
+
+- `db`: PostgreSQL 17, stored in a persistent Docker volume.
+- `seed`: creates the database schema and imports initial content, then exits.
+- `web`: serves the website on port 8380 after setup succeeds.
+
+The website is accessible only from your computer by default. For public hosting,
+use an HTTPS reverse proxy, production database credentials, and access controls.
+
+## Software and content
 
 | Location | Purpose | Licence |
 | --- | --- | --- |
-| `software/` | HTTP server, frontend behaviour, styling, exports, DB adapter and migrations | GNU AGPLv3; third-party exceptions retained |
-| `content/seed.json` | Initial pages, translations, UI text, template defaults, export content and language metadata | CC BY-NC-SA 4.0; registry exceptions retained |
-| PostgreSQL `content` schema | Authoritative installed website content | Same content terms |
-| PostgreSQL `private` schema | Visitor submissions and language suggestions | Private records, excluded from public content/source distribution |
-| `scripts/`, `docs/` | Development, verification, packaging and architecture documentation | GNU AGPLv3 |
-| `worker/` | Generated compatibility snapshot for existing Sites hosting | Generated software/content retain their separate terms |
+| `software/` | Application code and database migrations | GNU AGPLv3, with third-party exceptions |
+| `content/seed.json` | Initial website content | CC BY-NC-SA 4.0, with registry exceptions |
+| PostgreSQL `content` schema | Installed website content | Same content terms |
+| PostgreSQL `private` schema | Visitor submissions and suggestions | Private; excluded from public downloads |
+| `scripts/`, `docs/` | Development tools and documentation | GNU AGPLv3 |
+| `worker/` | Generated Sites snapshot | Separate software and content terms apply |
 
-The software image contains no page content or seed. Only the one-shot importer
-mounts `content/` read-only. The web service also mounts the privacy policy YAML
-read-only and imports it on every startup (see below). It reads page bodies, translations,
-text fragments, document models and stadgar defaults from PostgreSQL. It does not
-fall back to a bundled content file. Content can change in the database without
-rebuilding the image; a revision trigger makes the next request refresh its cache.
-The current frontend presentation and language behaviour are retained.
+After the first start, PostgreSQL holds the website's content. Restarts preserve
+edits; changing `content/seed.json` does not update an existing database. Use
+numbered migrations for schema changes. There is no administration interface yet.
+See the [architecture guide](docs/ARCHITECTURE.md) for details.
 
-The initial seed reproduces the current published content: 47 page files,
-22 frontend scripts, 35 document models, all 14 language projects, stadgar builders,
-donation pages, privacy/licence pages, suggestions, speech controls, and PDF,
-Markdown and RTF downloads. Forms save to PostgreSQL. Draft stadgar text remains
-in memory for export and is not saved as a submission. No historic visitor
-submissions were copied from the existing hosted site's private storage.
+Forms save to PostgreSQL. Draft stadgar text stays in memory for export. Historic
+submissions from the hosted site are not included.
 
-`content/seed.json` is an installation fixture. Once seeded, the **database** is
-canonical: restarting or recreating containers does not overwrite edited content
-or duplicate the initial content. Changing the seed file does not update an
-already installed database. Future schema changes should use numbered migrations;
-future content changes should use the database/editor, not reseeding.
+## Edit the privacy policy
 
-There is deliberately no administration/editor interface yet. See
-[the architecture guide](docs/ARCHITECTURE.md) for the future backend boundary.
-The older mixed source/generation files have been replaced by the separated
-software and seed; they remain recoverable in Git history and the prior backup.
+Edit `privacy-policy.yaml`: `section_html` controls the policy page section, and
+`document` controls its PDF, Markdown and RTF downloads. Keep both consistent and
+use trusted HTML. Apply changes with:
 
-## Privacy policy configuration
+```sh
+docker compose restart web
+```
 
-`privacy-policy.yaml` contains the complete current privacy notice: draft status,
-pending operator/contact details, retention and hosting arrangements, cookies,
-rights and references. It is editorial content under CC BY-NC-SA 4.0. Missing
-operational facts remain pending.
+The file is validated and imported on every web startup. Invalid or missing YAML
+blocks startup without replacing the saved policy. Direct database edits to this
+policy are overwritten on restart. No rebuild is needed.
 
-Edit `section_html` for the policy section on `/privacy/` and `document` for its
-PDF, Markdown and RTF downloads. Keep both representations consistent. The page's
-surrounding layout and other database content are preserved. This is trusted
-operator-authored HTML, not an upload interface or HTML sanitization service.
+Keep this file with your database backups. Outside Docker, set
+`PRIVACY_POLICY_PATH` to enable the same behaviour. The Sites snapshot uses the seed.
 
-After editing, run `docker compose restart web`. Every web process start reads
-and validates the mounted file before opening the HTTP port, then transactionally
-updates only the privacy page section and `/privacy/` export model in PostgreSQL.
-Unchanged values do not advance the content revision. Missing or invalid YAML
-prevents startup and preserves the last installed policy. Changes are not watched
-while running. No image rebuild or reseeding is required.
-
-For Docker, this file is authoritative for the privacy policy: direct database
-edits to its section or export model are replaced on the next web start. Keep the
-YAML alongside database backups. Non-Docker server users can opt into the same
-behavior with `PRIVACY_POLICY_PATH`; the generated Sites snapshot continues to
-use the original seed.
+The policy is a draft. Before public launch, complete operator/contact details and
+review hosting, retention, and provider references.
 
 ## Stop, restart, update
 
+Run these commands from the `The-Association-Commons` folder. To stop the website:
+
 ```sh
 docker compose down
-docker compose up
 ```
 
-The named PostgreSQL volume persists across these operations. `docker compose
-restart web` restarts only the application. After changing application code, use
-`docker compose up --build -d`. Removing the named volume (for example with
-`docker compose down -v`) removes the installed database and submissions; the next
-start would create a fresh database from the supplied seed.
+To start it again:
+
+```sh
+docker compose up -d
+```
+
+These commands preserve your database. To restart only the application, run
+`docker compose restart web`. After changing application code, run
+`docker compose up --build -d`.
+
+**Data loss:** `docker compose down -v` deletes the database and submissions.
+The next start creates a fresh database from the seed.
 
 ## Database backup and restore
 
@@ -115,9 +177,11 @@ Back up the installed database, including later content edits and private record
 docker compose exec -T db pg_dump -U commons -d association_commons --clean --if-exists > association-commons.sql
 ```
 
-Store that file privately. A project/source ZIP is not a backup of live submissions.
-To restore a dump into this stack, stop the web service, start the database, and
-load the dump (this replaces the corresponding installed data):
+Store the backup privately, alongside `privacy-policy.yaml` and the matching
+source release. A source ZIP does not contain live submissions.
+
+To restore, run the following in macOS/Linux Terminal or Windows Git Bash
+(PowerShell does not support `<` input redirection). **This replaces installed data.**
 
 ```sh
 docker compose stop web
@@ -126,13 +190,9 @@ docker compose exec -T db psql -v ON_ERROR_STOP=1 -U commons -d association_comm
 docker compose up -d
 ```
 
-Keep the source release together with your database backup. The `content.state`
-record identifies the original seed commit and displayed version.
-
 ## Development and checks
 
-Production dependencies are pinned in `software/package-lock.json`. Development
-checks are separate from the application image:
+With Node.js and npm installed, run:
 
 ```sh
 npm ci
@@ -140,36 +200,22 @@ npm --prefix software ci
 npm test
 ```
 
-The parity test compares page bytes, frontend JavaScript syntax/values and export
-hashes with the pre-refactor snapshot, normalizing only the authorized release
-number change from 0.0.1 to 0.0.2. The database test runs a PostgreSQL engine
-(PGlite) over its PostgreSQL wire protocol and exercises the actual Node HTTP
-server, initialization, content edits, submissions, restarts and persistence.
-The Compose contract test checks the declared services and isolation. These do
-not replace an actual Docker build/run on the target host. A GitHub Actions
-workflow also builds and smoke-tests the Compose stack with native PostgreSQL.
+Tests cover content parity, database behaviour, and the Compose configuration.
+GitHub Actions also builds and smoke-tests the Docker stack with PostgreSQL.
+Validate Docker on your target host before deployment.
 
-The HTTP health endpoint is `/healthz`; it checks the database connection. Container
-and HTTP logs do not intentionally log submitted form bodies. A reverse proxy
-must preserve the real request host. Set `TRUST_PROXY=true` only behind a trusted
-proxy when it supplies `X-Forwarded-Proto: https`; client IP rate limiting otherwise
-uses the immediate peer address. Configure proxy-level abuse limits for a public
-installation. No proxy is required for localhost use.
+`/healthz` checks the database connection. For public hosting, preserve the real
+request host and configure proxy-level abuse limits. Set `TRUST_PROXY=true` only
+behind a trusted proxy that supplies `X-Forwarded-Proto: https`.
 
 ## Existing hosted site
 
-The existing Sites address remains a compatible snapshot. Sites does not run this
-Docker Compose stack or provide its PostgreSQL service. `npm run build` generates
-that compatibility target from the same separated seed and software, using the
-existing Sites storage adapter. The Docker deployment uses PostgreSQL exclusively.
-Moving the live domain/audience to a Docker host is a separate hosting operation.
+The Sites deployment is a separate snapshot, generated with `npm run build`.
+It uses Sites storage rather than this Docker/PostgreSQL stack. Moving the live
+site to Docker requires a separate hosting migration.
 
-The privacy policy remains a draft: the operator/contact details and production
-hosting/retention arrangements still need to be supplied. Its existing hosted-site
-provider references must be reviewed for the chosen self-hosting provider before
-public launch. No operator identity, public access, donation provider or NPO status
-has been invented by this refactor.
+## Licensing
 
-See [LICENSING.md](LICENSING.md) for the content/software licence boundaries and
-[LICENSE](LICENSE) for the authoritative AGPLv3 text. The software source download
-at `/source.tar.gz` is retained.
+See [LICENSING.md](LICENSING.md) for software/content terms and
+[LICENSE](LICENSE) for the AGPLv3 licence. The website provides its software source
+at `/source.tar.gz`.
