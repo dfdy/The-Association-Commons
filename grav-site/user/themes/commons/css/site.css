@@ -1,0 +1,90 @@
+:root{font-family:system-ui,sans-serif;color:#202821;background:#f6f4ed;line-height:1.7;--accent:#476952}*{box-sizing:border-box}body{margin:0}a{color:var(--accent);text-underline-offset:4px}a:hover{color:#294b35}a:focus-visible,button:focus-visible,textarea:focus-visible{outline:3px solid #294b35;outline-offset:4px}header{padding:2rem max(5vw,1rem);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #cbd0c5;gap:1rem;background:#e9ecdf}.brand{font-size:1.3rem;font-weight:750;text-decoration:none;letter-spacing:-.03em}.brand span{display:block;font-size:.85rem;font-weight:400;letter-spacing:0;color:#58645a}.shell{max-width:1200px;margin:auto;padding:0 2rem}.languages{display:flex;flex-wrap:wrap;gap:.4rem 1rem;padding:1.5rem 0;font-size:.82rem}.languages a[aria-current]{font-weight:750;color:#202821}.sections{display:flex;gap:1rem;border-bottom:1px solid #cbd0c5;padding:1rem 0}.sections a{padding:.3rem 1rem;border-radius:6px;background:#e9ecdf;text-decoration:none}main{padding:2.5rem 0 4rem}.prose{width:100%;max-width:none;margin:0}.prose h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(2.4rem,6vw,4rem);line-height:1.12;margin:1rem 0 2rem;letter-spacing:-.035em}.prose h2{font-size:1.7rem;line-height:1.3;margin-top:3rem;border-top:1px solid #cbd0c5;padding-top:1.8rem}.prose h3{font-size:1.15rem;margin-top:2rem}.prose p,.prose li{font-size:1.08rem}.prose a{overflow-wrap:anywhere}footer{padding:2rem 0;border-top:1px solid #cbd0c5;display:flex;flex-wrap:wrap;gap:1rem 1.5rem;font-size:.8rem}.downloads{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin:2rem 0}.downloads a,.downloads button{background:var(--accent);color:#fff;border:0;border-radius:6px;font:inherit;font-size:.85rem;padding:.6rem 1rem;text-decoration:none;cursor:pointer}.builder{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:3rem}.builder label{display:block;font-weight:650;margin:.5rem 0}.builder textarea{font:inherit;line-height:1.5;width:100%;padding:.8rem;border:1px solid #8a9489;border-radius:7px;background:#fff;margin-bottom:1.4rem;resize:vertical}.builder-preview{position:sticky;top:1rem;align-self:start;background:#e9ecdf;border-radius:12px;padding:1.4rem;max-height:90vh;overflow:auto}.builder-preview pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:.9rem}.skip{position:absolute;left:-10000px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:1rem;z-index:9}@media(max-width:700px){header{align-items:start;padding:1.2rem}.shell{padding:0 1.2rem}.builder{grid-template-columns:1fr;gap:1rem}.builder-preview{position:static;max-height:none}.sections{justify-content:center;gap:.4rem}.sections a{padding:.3rem .7rem}footer{justify-content:center}main{padding-top:1rem}.languages{max-height:9rem;overflow:auto}}
+
+/* Folder tabs share one baseline; downloads move below them on small screens. */
+.page-toolbar{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;border-bottom:1px solid #8a9489;margin-top:1rem}
+.page-toolbar .sections{display:flex;flex:0 1 auto;gap:.6rem;border:0;padding:0;min-width:0}
+.page-toolbar .sections a{display:flex;align-items:center;justify-content:center;padding:1rem 1.5rem;border:1px solid #8a9489;border-bottom:0;border-radius:12px 12px 0 0;background:#e9ecdf;color:#202821;font-weight:700;line-height:1.3;text-align:center}
+.page-toolbar .sections a[aria-current="page"]{background:#202821;color:#f6f4ed;border-color:#202821}
+.page-toolbar .sections a:hover{background:#dce4d3}
+.page-toolbar .sections a[aria-current="page"]:hover{background:#344e3c}
+.page-toolbar .toolbar-downloads{flex:0 0 auto;gap:.5rem;margin:0;padding:0 0 .65rem}
+.toolbar-downloads a,.toolbar-downloads button{display:inline-flex;align-items:center;gap:.35rem;padding:.4rem .6rem;font-size:.75rem;line-height:1.4}
+.toolbar-downloads svg{flex-shrink:0}
+@media(max-width:700px){
+.page-toolbar{display:block;border-bottom:0;margin-top:.5rem}
+.page-toolbar .sections{justify-content:center;gap:.35rem;border-bottom:1px solid #8a9489}
+.page-toolbar .sections a{flex:1;min-width:0;padding:.85rem .35rem;font-size:.95rem;border-radius:10px 10px 0 0}
+.page-toolbar .toolbar-downloads{justify-content:center;flex-wrap:wrap;padding:.85rem 0 0}
+}
+
+.compact-toolbar .sections a{padding:.55rem 1.5rem}
+.page-toolbar.compact-toolbar .toolbar-downloads{padding-bottom:.25rem}
+.compact-toolbar .toolbar-downloads a,.compact-toolbar .toolbar-downloads button{justify-content:center;padding:.2rem .4rem;min-width:44px;min-height:44px;background:transparent;color:var(--accent)}
+.compact-toolbar .toolbar-downloads a:hover,.compact-toolbar .toolbar-downloads button:hover{background:#e9ecdf}
+@media(max-width:700px){.compact-toolbar .sections a{padding:.5rem .35rem}.page-toolbar.compact-toolbar .toolbar-downloads{padding:.65rem 0 0}}
+
+/* Format badges stay distinct by shape and lettering as well as colour. */
+.file-icon{--file-colour:#476952;--file-tint:#f0f3e9;overflow:visible;transition:transform .15s ease}
+.file-icon-rtf{--file-colour:#365c46;--file-tint:#e9f0e6}
+.file-icon-pdf{--file-colour:#274635;--file-tint:#e3ece1}
+.file-paper{fill:var(--file-tint);stroke:var(--file-colour);stroke-width:1.5;stroke-linejoin:round}
+.file-fold{fill:white;stroke:var(--file-colour);stroke-width:1.5;stroke-linejoin:round}
+.file-mark{stroke:var(--file-colour);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.file-badge{fill:var(--file-colour)}
+.toolbar-downloads a:hover .file-icon,.toolbar-downloads button:hover .file-icon{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){.file-icon{transition:none}.toolbar-downloads a:hover .file-icon,.toolbar-downloads button:hover .file-icon{transform:none}}
+@media(forced-colors:active){.file-paper,.file-fold{fill:Canvas;stroke:ButtonText}.file-mark{stroke:ButtonText}.file-badge{fill:ButtonText}.file-icon text{fill:Canvas}}
+
+:root{color-scheme:light}
+.header-actions{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.theme-toggle{display:inline-flex;align-items:center;gap:.4rem;min-height:44px;padding:.45rem .9rem;border:1px solid #476952;border-radius:999px;background:#e9ecdf;color:#202821;font:inherit;font-size:.85rem;cursor:pointer}
+.theme-toggle[hidden]{display:none}
+html[data-theme="night"]{color-scheme:dark;color:#e8ebe2;background:#151d1a;--accent:#a7c2a0}
+html[data-theme="night"] header{background:#223029;border-color:#435048}
+html[data-theme="night"] a:hover{color:#d3e2ca}
+html[data-theme="night"] .brand span{color:#a2afa4}
+html[data-theme="night"] .page-toolbar,html[data-theme="night"] .sections,html[data-theme="night"] footer,html[data-theme="night"] .prose h2{border-color:#738275}
+html[data-theme="night"] .sections a{background:#223029;color:#e8ebe2;border-color:#738275}
+html[data-theme="night"] .sections a[aria-current]{background:#a7c2a0;color:#151d1a;border-color:#a7c2a0}
+html[data-theme="night"] .sections a:hover,html[data-theme="night"] .compact-toolbar .toolbar-downloads a:hover,html[data-theme="night"] .compact-toolbar .toolbar-downloads button:hover{background:#344339}
+html[data-theme="night"] .sections a[aria-current]:hover{background:#b8ccb1}
+html[data-theme="night"] .builder-preview,html[data-theme="night"] .remember-panel{background:#223029;border-color:#738275}
+html[data-theme="night"] .builder textarea{background:#1c2720;color:#e8ebe2;border-color:#738275}
+html[data-theme="night"] .remember-panel__handle,html[data-theme="night"] .theme-toggle{background:#223029;color:#e8ebe2;border-color:#a7c2a0}
+html[data-theme="night"] .remember-panel__handle:hover,html[data-theme="night"] .theme-toggle:hover{background:#344339}
+html[data-theme="night"] .skip:focus{background:#223029}
+html[data-theme="night"] :is(a,button,textarea):focus-visible{outline-color:#b8ccb1}
+html[data-theme="night"] .file-icon{--file-colour:#476952;--file-tint:#dce7d6}
+html[data-theme="night"] .file-icon-rtf{--file-colour:#365c46;--file-tint:#cbdcc6}
+html[data-theme="night"] .file-icon-pdf{--file-colour:#274635;--file-tint:#b8ccb1}
+@media(max-width:700px){.header-actions{justify-content:flex-end;gap:.5rem;font-size:.85rem}}
+@media print{html[data-theme]{color-scheme:light;color:#202821;background:white}.header-actions{display:none}html[data-theme] .remember-panel{background:white;color:#202821}}
+
+:root{--site-header-height:120px}
+html{scroll-padding-top:calc(var(--site-header-height) + 1rem)}
+.site-header{position:sticky;top:0;z-index:100}
+.site-header.is-compact{padding-block:.5rem;align-items:center;box-shadow:0 2px 8px #20282118}
+.site-header.is-compact .brand{font-size:1.1rem}
+.site-header.is-compact .brand span{display:none}
+.skip:focus{position:fixed;z-index:110}
+:where(a,button,textarea,[tabindex]){scroll-margin-top:calc(var(--site-header-height) + 1rem)}
+@media(max-width:700px){.site-header{align-items:center}.site-header.is-compact .brand{font-size:1rem}}
+@media print{.site-header{position:static;box-shadow:none}}
+
+/* Animate header compaction while retaining a generous toggle hit area. */
+.site-header{transition:padding .22s ease,box-shadow .22s ease}
+.site-header .brand{transition:font-size .22s ease}
+.site-header .brand span{max-height:2rem;opacity:1;overflow:hidden;transition:max-height .22s ease,opacity .18s ease}
+.site-header.is-compact .brand span{display:block;max-height:0;opacity:0}
+.theme-toggle{width:44px;height:44px;padding:0;justify-content:center;flex-shrink:0}
+.theme-toggle>span[aria-hidden]{font-size:1.3rem;line-height:1;transition:font-size .22s ease}
+.theme-toggle .theme-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(prefers-reduced-motion:reduce){.site-header,.site-header .brand,.site-header .brand span{transition:none}}
+
+/* Only collapse the mode control when the header itself compacts. */
+.site-header .theme-toggle{width:auto;padding:.45rem .9rem;gap:.4rem;transition:padding .22s ease,gap .22s ease}
+.site-header .theme-toggle .theme-label{position:static;width:auto;height:auto;max-width:8rem;margin:0;clip-path:none;opacity:1;transition:max-width .22s ease,opacity .15s ease}
+.site-header.is-compact .theme-toggle{width:44px;padding:0;gap:0}
+.site-header.is-compact .theme-toggle>span[aria-hidden]{font-size:1rem}
+.site-header.is-compact .theme-toggle .theme-label{max-width:0;opacity:0}
+@media(prefers-reduced-motion:reduce){.site-header .theme-toggle,.site-header .theme-toggle .theme-label,.theme-toggle>span[aria-hidden]{transition:none}}

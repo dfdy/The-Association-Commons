@@ -1,0 +1,23 @@
+home:
+  alias: /en
+pages:
+  theme: commons
+  markdown:
+    extra: true
+  process:
+    markdown: true
+    twig: false
+cache:
+  enabled: false
+  check:
+    method: file
+errors:
+  display: false
+  log: true
+debugger:
+  enabled: false
+session:
+  timeout: 3600
+  secure: false
+  httponly: true
+  samesite: Lax

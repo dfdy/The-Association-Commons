@@ -1,0 +1,12 @@
+name: "TAC: Glossary"
+slug: glossary
+type: plugin
+version: 0.1.2
+description: Explicit Markdown glossary cards with accessible headings.
+icon: book
+license: AGPL-3.0-only
+author:
+  name: "The Associations Commons (TAC)"
+dependencies:
+  - { name: grav, version: '>=2.0.0' }
+  - { name: shortcode-core }

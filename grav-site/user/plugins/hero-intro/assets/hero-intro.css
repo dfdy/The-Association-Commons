@@ -1,0 +1,12 @@
+.prose .tac-hero-intro{padding:2.5rem 0 3rem;margin:0 0 2.5rem;border-bottom:1px solid #8a9489}
+.prose .tac-hero-intro h1{font-family:Georgia,serif;font-size:clamp(3.4rem,13vw,12rem);font-weight:500;line-height:.98;letter-spacing:-.055em;margin:0 0 3.5rem;max-width:none;overflow-wrap:anywhere}
+.prose .tac-hero-intro p{font-family:Georgia,serif;font-size:clamp(1.4rem,3.2vw,2.8rem);font-weight:500;line-height:1.4;letter-spacing:-.02em;max-width:44ch;margin:0}
+html[data-theme="night"] .tac-hero-intro{border-color:#738275}
+@media(max-width:700px){.prose .tac-hero-intro{padding:1.8rem 0 2rem}.prose .tac-hero-intro h1{font-size:clamp(2.7rem,11vw,4.8rem);margin-bottom:1.5rem}}
+@media print{.prose .tac-hero-intro h1{font-size:32pt}.prose .tac-hero-intro p{font-size:16pt}.prose .tac-hero-intro{break-inside:avoid}}
+
+.tac-hero-intro .tac-hero-accent{color:var(--accent,#476952);font-style:italic}
+
+.prose .tac-hero-intro .tac-hero-label{display:flex;align-items:center;gap:1.2rem;margin:0 0 3rem;max-width:none;font-family:system-ui,sans-serif;font-size:.85rem;font-weight:750;line-height:1.5;letter-spacing:.16em;text-transform:uppercase;color:var(--accent,#476952)}
+.tac-hero-label::before{content:"";width:3rem;height:1px;background:currentColor;flex-shrink:0}
+@media(max-width:700px){.prose .tac-hero-intro .tac-hero-label{font-size:.7rem;gap:.7rem;margin-bottom:2rem}.tac-hero-label::before{width:1.8rem}}

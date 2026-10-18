@@ -1,0 +1,28 @@
+title: Constitution builder
+extends@: default
+form:
+  fields:
+    tabs:
+      fields:
+        builder:
+          type: tab
+          title: Builder fields
+          fields:
+            header.builder_fields:
+              type: list
+              label: Editable labels and defaults
+              fields:
+                .id:
+                  type: hidden
+                .label:
+                  type: text
+                  label: Label
+                .value:
+                  type: textarea
+                  label: Default text
+                .required:
+                  type: toggle
+                  label: Required
+                  options: {1: Yes, 0: No}
+                .group:
+                  type: hidden

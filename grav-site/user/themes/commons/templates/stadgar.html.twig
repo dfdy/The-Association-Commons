@@ -1,0 +1,6 @@
+{% extends 'default.html.twig' %}
+{% block extra %}
+<form id="stadgar-form" class="builder" data-sv="{{ page.header.language_code == 'sv' ? 'true' : 'false' }}">
+<div class="builder-fields">{% for field in page.header.builder_fields %}<label for="field-{{ field.id|e('html_attr') }}">{{ field.label|e }}{% if field.required %} <span aria-label="required">*</span>{% endif %}</label><textarea id="field-{{ field.id|e('html_attr') }}" name="{{ field.id|e('html_attr') }}" data-label="{{ field.label|e('html_attr') }}" rows="{{ field.value ? 5 : 2 }}" maxlength="12000" {% if field.required %}required{% endif %}>{{ field.value|e }}</textarea>{% endfor %}</div>
+<aside class="builder-preview"><h2>{{ page.header.language_code == 'sv' ? 'Förhandsvisning' : 'Your constitution' }}</h2><p>{{ page.header.language_code == 'sv' ? 'Ändringar visas direkt.' : 'Your changes appear here as you type.' }}</p><pre id="stadgar-preview"></pre><p role="status" id="builder-status"></p></aside></form>
+{% endblock %}

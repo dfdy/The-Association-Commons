@@ -1,3 +1,8 @@
 node_modules/
 .DS_Store
 software/source.tar.gz
+.local/
+__pycache__/
+
+# Local reference copy of the original site; never publish to GitHub.
+/legacy-site/

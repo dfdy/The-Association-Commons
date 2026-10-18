@@ -1,0 +1,9 @@
+enabled: true
+site_host: http://localhost:8388
+require_trusted_host: true
+user_registration:
+  enabled: false
+rememberme:
+  enabled: false
+max_login_count: 5
+max_login_interval: 10

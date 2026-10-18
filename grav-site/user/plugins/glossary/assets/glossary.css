@@ -1,0 +1,10 @@
+.tac-glossary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:2rem 0}
+.tac-glossary-entry{background:#e9ecdf;color:#202821;padding:1.5rem;border-radius:10px;min-width:0;overflow-wrap:anywhere}
+.prose .tac-glossary-entry h3{color:#294b35;font-family:Georgia,serif;font-size:1.5rem;font-style:italic;font-weight:400;line-height:1.25;margin:0 0 .7rem}
+.prose .tac-glossary-entry p{font-size:1rem;line-height:1.65;margin:0}
+.prose .tac-glossary-entry p+p{margin-top:.75rem}
+html[data-theme="night"] .tac-glossary-entry{background:#223029;color:#e8ebe2}
+@media(max-width:700px){.tac-glossary{grid-template-columns:1fr}.tac-glossary-entry{padding:1.2rem}}
+@media print{.tac-glossary-entry{background:white!important;color:#202821!important;border:1px solid #8a9489;break-inside:avoid}}
+
+html[data-theme="night"] .tac-glossary-entry h3{color:#a7c2a0}

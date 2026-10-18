@@ -1,0 +1,11 @@
+name: "TAC: Language Menu"
+slug: language-menu
+type: plugin
+version: 0.1.2
+description: Accessible language pills shaded by the last 50 language menu clicks.
+icon: language
+license: AGPL-3.0-only
+dependencies:
+  - { name: grav, version: '>=2.0.0' }
+author:
+  name: "The Associations Commons (TAC)"

@@ -1,0 +1,9 @@
+name: "TAC: Commons downloads"
+slug: commons
+type: plugin
+version: 0.1.2
+description: Stateless page and stadgar exports for the Commons Grav trial.
+icon: download
+license: AGPL-3.0-only
+author:
+  name: "The Associations Commons (TAC)"
