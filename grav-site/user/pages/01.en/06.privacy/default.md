@@ -24,7 +24,7 @@ There is not yet a published privacy-request contact. Do not use the Join form t
 
 ## What the Join form collects
 
-The form under **Join** on the English and translated written-language proposals asks for:
+The interest form on the proposal pages and the English **Contact** page asks for:
 
 - Your name and email address, both required.
 - Your organisation or community, optional.
@@ -33,7 +33,7 @@ The form under **Join** on the English and translated written-language proposals
 
 The server saves these fields with a random record identifier, UTC submission time, request type, source page, language code, consent confirmation, and consent-notice version. The source page and language code identify the edition used to submit. Translated form labels and messages use bundled machine-translated text; submission contents are not sent to a translation service. It does not add your IP address or user-agent string to the submission record.
 
-Submitting the form expresses interest only. It does not approve membership, create an account, enrol you in a mailing list, forward your details to another language project, or send an automatic email. The purpose is to consider and respond to your interest and coordinate participation you have requested. Your details are not permission for unrelated newsletters, marketing, or donation appeals. Browsing and downloads do not require a submission.
+Submitting the form expresses interest only. It does not approve membership, create an account, enrol you in a mailing list, forward your details to another language project, or send an automatic email. The purpose is to consider and respond to your interest, including translation-project proposals and participation enquiries, and coordinate participation you have requested. Your details are not permission for unrelated newsletters, marketing, or donation appeals. Browsing and downloads do not require a submission.
 
 Avoid sensitive information, including health details, identity numbers, political affiliations, and information about children. The form is not designed to collect those categories of information or to verify consent on another person's behalf.
 

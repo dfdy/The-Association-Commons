@@ -52,6 +52,7 @@ remains written-English support pending signed media; its pages are unchanged.
   JSON/schema downloads at `/en/legal-matrix`. All initial records await verification.
 - **Governance-pattern library:** seven untested draft patterns, with suitability
   limits and evidence requirements, at `/en/governance-patterns`.
+- **Contact:** `/en/contact` accepts participation enquiries and community-led translation proposals through the private interest form.
 - **Language suggestions:** the English Suggest a language page matches registered names, publishes aggregate counts, and provides private super-admin review.
 - **Join form:** `[project-interest /]` under Join on the English and translated proposals. It stores
   contact details privately, supports non-JavaScript submissions, and sends no emails.

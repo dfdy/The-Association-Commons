@@ -10,22 +10,24 @@
   "language_sort": "kaaps",
   "content_language": "af-x-kaaps",
   "translation_source": "/en",
-  "translation_review": "afrikaans-based-draft-needs-kaaps-review",
-  "translation_source_sha256": "b676b8117906813b961a3ad671b0d6a7778bf9c128dd6039708bc28f20c28f02"
+  "translation_review": "user-supplied-reviewed-text",
+  "translation_source_sha256": "b676b8117906813b961a3ad671b0d6a7778bf9c128dd6039708bc28f20c28f02",
+  "translation_review_source": "The_Democratic_Development_Commons_Kaaps_Reviewed.md",
+  "translation_review_source_sha256": "6ad1e6b76cfcaee12827b8aacc48f061877add2b548c80a95d66eb5ea44516fc"
 }
 ---
 
 [translation-notice /]
 
-> Hierdie is ’n Afrikaans-gebaseerde konsep vir Kaaps-hersiening. Kaaps-sprekers se taal- en betekenisbeoordeling is nog nodig.
+> Hierdie is ’n masjiengegenereerde konsep vir Kaaps-hersiening. Kaaps-sprekers se taal- en betekenisbeoordeling is nog nodig.
 
 [remember-panel id="prefiguration" title="Prefigurasie" reset="7d" show="Wys" hide="Verberg"]
 
 ## Prefigurasie
 
-Prefiguratiewe politiek beteken dat ons nou al, in hoe ons saamwerk, die verhoudings en maniere van organiseer uitleef wat ons in die samelewing wil sien. Die maniere waarop ons werk, pas by wat ons wil bereik: mense neem vrywillig deel, maak saam besluite, en hou mekaar verantwoordelik.
+Prefiguratiewe politiek beteken dat ôs nou al die verhoudings en maniere van organiseer in ôs saamwerk uitleef wat ôs graag innie samelewing wil sien. Hoe ôs iets doen, moet wys wat ôs daarmee wil bereik: vrywillige deelname, besluite wat ôs saam maak, en verantwoordbaarheid teenoor mekaa.
 
-The Democratic Development Commons bied ’n vrywillige raamwerk vir organisering wat mense nou al kan uitleef deur saam te leer, mekaar te help, en hulself demokraties te bestuur. Lede kan die beginsels in hulle grondwette en daaglikse organisering bespreek, aanpas, en verder ontwikkel. Hulle grondwette is lewende ooreenkomste wat deelname moontlik maak en deur gedeelde ervaring verander. Die beplande generator en die versameling bestuurspatrone wat ontwikkel word, is bedoel om dié proses te ondersteun, terwyl lede self die gesag hou oor die reëls wat hulle aanneem. Die raamwerk is nie ’n wetsvoorstel nie, en om dit aan te neem, vervang nie die wette wat reeds bestaan nie.
+The Democratic Development Commons bied ’n raamwerk vi vrywillige organisering wat mense nou al innie praktyk kan gebruik — deur saam te leer, mekaa te help en demokraties oo hulle eie sake te besluit. Lede kan die beginsels in hulle konstitusies en hulle alledaagse organisering bespreek, aanpas en verder ontwikkel. Só bly die konstitusie ’n lewende ooreenkoms wat deelname en verandering moontlik maak deur wat mense saam ervaar en leer. Die beplande hulpmiddel om konstitusies op te stel, ennie biblioteek van selfbestuurspatrone wat nog ontwikkel wôt, moet hierrie proses ondersteun. Die gesag om reëls te aanvaar, bly byrie lede. Die raamwerk is nie voorgestelde wetgewing nie, en dit vervang nie bestaande wetgewing as mense dit aanvaar nie.
 
 [/remember-panel]
 
@@ -33,43 +35,43 @@ The Democratic Development Commons bied ’n vrywillige raamwerk vir organiserin
 
 [hero-label]The Democratic Development Commons[/hero-label]
 
-# Die vryheid om [hero-accent]te organiseer.[/hero-accent]
+# Die vryheid om te [hero-accent]organiseer.[/hero-accent]
 
-[hero-accent]Kollektiewe leer, wedersydse hulp en demokratiese selfregering:[/hero-accent] 'n Suid-Afrikaanse raamwerk vir mense om assosiasies te bou, gedeelde hulpbronne te bestuur en saam te werk sonder om hul mag om saam te besluit prys te gee.
+[hero-accent]Saam leer, mekaa help en demokratiese selfbestuur:[/hero-accent] ’n Suid-Afrikaanse raamwerk waarmee mense verenigings kan bou, saam vi gedeelde hulpbronne kan sorg en kan saamwerk sonder om hulle reg prys te gee om saam te besluit.
 
 [/hero-intro]
 
-**Ons leer demokrasie deur demokrasie te doen.** Dié is 'n vrywillige organiseringsraamwerk, nie voorgestelde wetgewing nie. Dit vervang nie Suid-Afrikaanse wetgewing nie en verleen ook nie regspersoonlikheid, registrasie, of belastingstatus nie.
+**Ôs leer demokrasie deur demokrasie te doen.** Dis ’n raamwerk vi vrywillige organisering, nie voorgestelde wetgewing nie. Dit vervang nie Suid-Afrikaanse wetgewing nie en gee nie vanself regspersoonlikheid, registrasie of belastingstatus nie.
 
 
 [section-layout label="01 / Die idee"]
 
-## Assosiasie begin met mense.
+## ’n Vereniging begin met mense.
 
-Mense moet vry wees om te assosieer rondom gedeelde behoeftes, doeleindes en moontlikhede, en om die instellings wat hulle skep, te bestuur. Samewerking beteken om oor verskille heen saam op te tree; dit vereis nie harmonie nie en sluit ook nie onenigheid, betwisting, of georganiseerde uitdagings aan mag uit nie.
+Mense moet vry wees om saam te kom rondom behoeftes, doelwitte en moontlikhede wat hulle deel, en ommie instellings wat hulle skep self te bestuur. Samewerking beteken om oo verskille heen saam op te tree; dit beteken nie almal moet altyd saamstem nie. Dit sluit ook nie meningsverskille, teenstand of georganiseerde uitdagings aan mag uit nie.
 
-Demokratiese agentskap word nie deur kundiges, organisasies, markte of die staat aan passiewe begunstigdes verleen nie. Dit ontwikkel deur mense se kollektiewe vermoë om hul omstandighede te verstaan, besluite te neem, vir mekaar om te gee, gedeelde hulpbronne te bestuur, oorheersing uit te daag, uit aksie te leer en die reëlings waardeur hulle saam leef en werk te hersien. Openbare instellings behou nietemin hul verpligtinge om regte, openbare goedere en verantwoordbare dienste te verskaf.
+Die vermoë om demokraties saam te besluit en op te tree, is nie iets wat kenners, organisasies, markte of die staat vi passiewe ontvangers uitdeel nie. Dit groei wanneer mense saam die vermoë ontwikkel om hulle omstandighede te verstaan, besluite te maak, vi mekaa om te gee, gedeelde hulpbronne te versorg, oorheersing uit te daag, uit hulle optrede te leer ennie maniere waarop hulle saam leef en wêk te verander. Openbare instellings bly steeds verplig om regte, openbare goedere en verantwoordbare dienste te voorsien.
 
-The Democratic Development Commons bied 'n gedeelde raamwerk om dit te doen. Dit steun op Suid-Afrika se uiteenlopende tradisies van werkers-, burgerlike-, wedersydse-hulp-, opvoedkundige-, geloofs-, studente-, buurt- en ander vrywillige organisasies; op nuttige praktyke wat elders ontwikkel is; en op grondwetlike verbintenisse tot vryheid, gelykheid, waardigheid en deelname.
+The Democratic Development Commons gee ’n gedeelde raamwerk om dit te doen. Dit bou op Suid-Afrika se verskillende tradisies van werkers-, burgerlike, wedersydse-hulp-, opvoedkundige, geloofs-, studente-, buurt- en ander vrywillige organisering; op bruikbare praktyke van ander plekke; en op grondwetlike verbintenisse tot vryheid, gelykheid, waardigheid en deelname.
 
-Dit skryf nie een organisasievorm of ontwikkelingspad voor nie. Verskillende verenigings kan hul eie doelwitte, name, gebruike en strukture behou terwyl hulle algemene demokratiese vrae vra oor mag, deelname, kennis, hulpbronne, aanspreeklikheid en verandering.
+Dit skryf nie net een soort organisasie of een pad van ontwikkeling voor nie. Verskillende verenigings kan hulle eie doelwitte, name, gebruike en strukture behou, terwyl hulle saam demokratiese vrae vra oo mag, deelname, kennis, hulpbronne, verantwoordbaarheid en verandering.
 
-Verenigings bly verantwoordelik vir die identifisering van die regsvorm en aktiwiteitspesifieke pligte wat relevant is vir hul werk.
+Verenigings bly self verantwoordelik om uit te wêk watter regsvorm en watter verpligtinge vi hulle spesifieke wêk geld.
 
 [/section-layout]
 
 
 [section-layout label="02 / Grondslae"]
 
-## Tien organiserende beginsels.
+## Tien beginsels vi organisering.
 
-Dié organiseringsbeginsels is oop vir bespreking, toetsing en verfyning. Hulle verskaf gedeelde vrae vir verskillende soorte assosiasie, eerder as een organisatoriese model.
+Hierrie organiseringsbeginsels kan bespreek, uitgetoets en verbeter wôt. Hulle gee vi verskillende soorte verenigings vrae om saam oo te dink, eerder as om almal in een organisasiemodel in te druk.
 
 [subsection number="01"]
 
-### Vryheid en vrywillige assosiasie
+### Vryheid en vrywillige vereniging
 
-Mense kan verenigings stig, by hulle aansluit, hulle ondersteun, of hulle verlaat sonder onnodige eksterne beheer. Lidmaatskapverwagtinge, verantwoordelikhede en gevolge moet verstaanbaar wees voordat mense hulle verbind.
+Mense mag verenigings stig, daarby aansluit, dit ondersteun of dit verlaat sonder onnodige beheer van buite. Voor mense hulle verbind, moet hulle kan verstaan wat van lede verwag wôt, wat hulle verantwoordelikhede is en wattie gevolge kan wees.
 
 [/subsection]
 
@@ -77,15 +79,15 @@ Mense kan verenigings stig, by hulle aansluit, hulle ondersteun, of hulle verlaa
 
 ### Gelyke aansien
 
-Elke lid word benader as 'n persoon wat in staat is tot nadenke, oordeel en deelname. Verskille in kennis, vermoë, ervaring, status of verantwoordelikheid skep nie meerderwaardige en minderwaardige klasse van lede nie.
+Elke lid moet as iemand gesien en behandel wôt wat self kan dink, oordeel en deelneem. Verskille in kennis, vermoë, ervaring, status of verantwoordelikheid maak nie van party lede ’n hoër en ander ’n laer klas mense nie.
 
 [/subsection]
 
 [subsection number="03"]
 
-### Kollektiewe selfregering
+### Demokratiese selfbestuur deur almal saam
 
-Lede behou uiteindelike gesag oor die vereniging se doel, grondwet en groot gedeelde hulpbronne. Verteenwoordigers en spesialiste oefen gedelegeerde magte uit eerder as om lede se vermoë om self op te tree te vervang.
+Die lede hou die finale seggenskap oorie vereniging se doel, konstitusie en belangrike gedeelde hulpbronne. Verteenwoordigers en spesialiste gebruik mag wat aan hulle gedelegeer is; hulle vat nie die lede se eie seggenskap oo nie.
 
 [/subsection]
 
@@ -93,55 +95,55 @@ Lede behou uiteindelike gesag oor die vereniging se doel, grondwet en groot gede
 
 ### Verskil sonder oorheersing
 
-Demokrasie vereis nie eendersheid nie. Verskille moet kollektiewe kapasiteit vergroot eerder as om te verhard in verhoudings van bevel, afhanklikheid, uitsluiting of meerderwaardigheid.
+Demokrasie beteken nie almal moet dieselfde wees nie. Verskille moet versterk wat mense saam kan doen, nie vasgroei in verhoudings van bevele gee, afhanklikheid, uitsluiting of meerderwaardigheid nie.
 
 [/subsection]
 
 [subsection number="05"]
 
-### Wesenlike deelname en toeganklikheid
+### Werklike deelname en toeganklikheid
 
-'n Formele reg om deel te neem is onvoldoende waar taal, geletterdheid, gestremdheid, vervoer, koste, sorg, werk, veiligheid, tegnologie of sosiale status deelname onbruikbaar maak. Demokratiese organisasie moet hindernisse verwyder deur universele ontwerp, redelike akkommodasie en verskeie maniere om deel te neem.
+’n Reg om deel te neem beteken min as taal, geletterdheid, gestremdheid, vervoer, koste, sorgwerk, wêk, veiligheid, tegnologie of sosiale status dit innie praktyk onmoontlik maak. Demokratiese organisasies moet struikelblokke afbreek deur universele ontwerp, redelike akkommodasie en meer as een manier om deel te neem.
 
 [/subsection]
 
 [subsection number="06"]
 
-### Kollektiewe leer en ondersoek
+### Saam leer en ondersoek instel
 
-Organisasie is opvoedkundig. Lede leer deur vergaderings, veldtogte, navorsing, konflik, begroting, sorg, praktiese werk en refleksie. Kundigheid behoort kollektiewe begrip te vergroot eerder as om 'n monopolie oor kennis te vestig.
+Om saam te organiseer is self ’n manier van leer. Lede leer in vergaderings, veldtogte, navorsing, konflik, begrotingswerk, sorgwerk, praktiese wêk en deur na te dink oo wat gebeur het. Kundigheid moet almal se begrip help groei, nie kennis in ’n paar mense se hande toesluit nie.
 
 [/subsection]
 
 [subsection number="07"]
 
-### Gedeelde rentmeesterskap, wedersydse hulp en ekologiese verantwoordelikheid
+### Saam omsien na hulpbronne, wedersydse hulp en ekologiese verantwoordelikheid
 
-Geld, kennis, ruimtes, toerusting, tyd, sorg en ander gedeelde hulpbronne moet ooreengekome doeleindes eerder as private verryking dien. Verenigings moet wederkerige ondersteuning organiseer waar toepaslik en die ekologiese gevolge van hul aktiwiteite in ag neem. Wedersydse hulp kan deelname en solidariteit wesenlik moontlik maak, maar dit behoort nie groter ongelykhede te verbloem, herverdeling te vervang of openbare instellings van wettige verpligtinge te onthef nie.
+Geld, kennis, ruimtes, toerusting, tyd, sorg en ander gedeelde hulpbronne moet dien wat mense saam ooreengekom het, nie iemand se eie verryking nie. Verenigings moet, waa dit pas, reël dat mense mekaa oo en weer ondersteun en ook kyk na die ekologiese gevolge van wat hulle doen. Wedersydse hulp kan dit prakties moontlik maak om deel te neem en saam te staan. Maa dit moenie groter ongelykhede wegsteek, herverdeling vervang of openbare instellings van hulle regmatige pligte vrystel nie.
 
 [/subsection]
 
 [subsection number="08"]
 
-### Verantwoordbare mag, verskille en hersiening
+### Mag wat verantwoording doen, verskil van mening en hersiening
 
-Gedelegeerde gesag moet sigbaar, beperk, verklaarbaar en hersienbaar bly. Lede het praktiese maniere nodig om besluite te bevraagteken, minderheidsposisies uit te spreek, leiers uit te daag en onafhanklike ondersoek te soek sonder vergelding.
+Mag wat aan iemand gedelegeer is, moet sigbaar, beperk, verduidelikbaar en oop vi hersiening bly. Lede moet praktiese maniere hê om besluite te bevraagteken, minderheidsstandpunte te stel, leiers uit te daag en onafhanklike ondersoek te vra, sonder om bang te wees vi vergelding.
 
 [/subsection]
 
 [subsection number="09"]
 
-### Outonomie en federasie
+### Selfstandigheid en federasie
 
-Verenigings moet hul eie doeleindes beheer terwyl hulle vry bly om saam te werk. Groter strukture moet gesag van samestellende verenigings verkry deur eksplisiete delegering eerder as om onnodige mag by die sentrum op te bou.
+Verenigings moet oo hulle eie doelwitte besluit, maa steeds vry wees om saam te wêk. Groter strukture moet hulle gesag kry vannie verenigings waaruit hulle bestaan, deur mag wat duidelik aan hulle gedelegeer is, in plaas daarvan om onnodige mag innie middel bymekaar te maak.
 
 [/subsection]
 
 [subsection number="10"]
 
-### Oop en refleksiewe ontwikkeling
+### Ontwikkeling sonder ’n vaste eindpunt, met selfondersoek
 
-Daar is geen universele leer van "tradisionele" na "moderne" organisasie nie. Verenigings moet ondersoek wat hul praktyke moontlik maak, wie se belange hulle dien, watter aannames as vanselfsprekend aanvaar word en watter veranderinge ervaring noodsaak.
+Daa is nie een universele leer van “tradisionele” na “moderne” organisering wat almal moet klim nie. Verenigings moet ondersoek wat hulle praktyke moontlik maak, wie se belange dit dien, watter aannames almal sommer as vanselfsprekend aanvaar, en wat hulle ervaring wys behoort te verander.
 
 [/subsection]
 
@@ -150,81 +152,81 @@ Daar is geen universele leer van "tradisionele" na "moderne" organisasie nie. Ve
 
 [section-layout label="03 / Die Raamwerk" surface="shaded"]
 
-## 'n Raamwerk vir organisering.
+## ’n Raamwerk vi organisering.
 
-Dié verbintenisse vertaal die beginsels in grondwette en alledaagse praktyke wat lede saam kan verstaan, gebruik en hersien.
+Hierrie verbintenisse sit die beginsels om in konstitusies en alledaagse praktyke wat lede saam kan verstaan, gebruik en verander.
 
 [subsection number="01"]
 
-### Begin met 'n gedeelde doel
+### Begin met ’n doel wat almal deel
 
-Kom ooreen wat mense bymekaar bring, wie deur die werk geraak word, wat lede hoop om te bereik, watter toestande hulle probeer verander en hoe die doel kan ontwikkel.
+Kom saam ooreen wat mense bymekaarbring, wie deurie wêk geraak wôt, wat lede hoop om reg te kry, watter omstandighede hulle wil verander en hoe die doel mettertyd kan ontwikkel.
 
 [/subsection]
 
 [subsection number="02"]
 
-### Maak die grondwet 'n werkende ooreenkoms
+### Maak die konstitusie ’n ooreenkoms wat wêk
 
-Stel lidmaatskap, besluitneming, gedelegeerde magte, hulpbronne, aanspreeklikheid, konflik, wysiging en sluiting uiteen in taal en formate wat lede kan gebruik. Die grondwet moet hersienbaar wees eerder as om as 'n stigtingsdokument behandel te word wat in 'n lêer verdwyn. Die beplande [Hulpmiddel vir die opstel van verenigingsgrondwette](/af-x-kaaps/stadgar) sal poog om 'n beginkonsep te verskaf vir lede om te bespreek, aan te pas en aan te neem; dit is nog nie beskikbaar nie. Die ontwikkelende [bestuurspatroon-biblioteek](/en/governance-patterns) bied ongetoetste konsepopsies vir navorsing en kollektiewe hersiening.
+Skryf lidmaatskap, besluitneming, gedelegeerde mag, hulpbronne, verantwoordbaarheid, konflik, wysigings en ontbinding neer in taal en formate wat lede kan gebruik. Die konstitusie moet kan verander; dit moenie net ’n stigtingsdokument wees wat in ’n lêer verdwyn nie. Die beplande [hulpmiddel om ’n verenigingskonstitusie op te stel](/af-x-kaaps/stadgar) sal ’n eerste konsep probeer gee wat lede saam kan bespreek, aanpas en aanvaar; dit is nog nie beskikbaar nie. Die [biblioteek van bestuurspatrone](/en/governance-patterns) wat ontwikkel wôt, bied konsep-opsies wat nog nie getoets is nie, vi navorsing en gesamentlike hersiening.
 
 [/subsection]
 
 [subsection number="03"]
 
-### Hou fundamentele besluite by lede
+### Hou die groot besluite byrie lede
 
-Identifiseer watter besluite die lidmaatskap self vereis en watter gedelegeer kan word. Beduidende veranderinge aan doel, grondwetlike reëls, leierskapmagte of groot gedeelde bates moet aan lede terugkeer.
+Maak duidelik watter besluite al die lede self moet maak en watter besluite gedelegeer kan wôt. Groot veranderings annie doel, konstitusionele reëls, leiers se magte of belangrike gedeelde bates moet teruggaan na die lede.
 
 [/subsection]
 
 [subsection number="04"]
 
-### Delegeer sonder politieke vervanging
+### Delegeer sonder om lede se politieke rol oo te vat
 
-Gee aan verteenwoordigers genoeg magtiging om nodige werk te doen, maar definieer hul mandaat, duur, verslagdoeningspligte, hersiening en verwydering. Delegasie moet die herhalende verhouding volg:
+Gee verteenwoordigers genoeg gesag ommie nodige wêk te doen, maa omskryf hulle mandaat, hoe lank dit geld, hulle verslagdoeningspligte, hersiening en hoe hulle uit hulle posisie verwyder kan wôt. Delegering moet hierrie herhalende verhouding volg:
 
-**mandaat → aksie → verslag → ondersoek → hersiening**
+**mandaat → optrede → verslag → ondersoek → hersiening**
 
 [/subsection]
 
 [subsection number="05"]
 
-### Maak deelname bruikbaar
+### Maak deelname prakties moontlik
 
-Ontwerp kennisgewings, vergaderings, dokumente, stemming en kommunikasie rondom die mense wat dit moet gebruik. Verskaf relevante taaltoegang, toeganklike formate, ondersteunde deelname en redelike akkommodasie sonder onnodige persoonlike of mediese openbaarmaking.
+Ontwerp kennisgewings, vergaderings, dokumente, stemprosesse en kommunikasie virrie mense wat dit moet gebruik. Sorg vi toegang in toepaslike tale, toeganklike formate, ondersteuning om deel te neem en redelike akkommodasie, sonder om onnodige bekendmaking van persoonlike of mediese inligting te vereis.
 
 [/subsection]
 
 [subsection number="06"]
 
-### Versprei kennis en organisatoriese kapasiteit
+### Deel kennis ennie vermoë om te organiseer
 
-Dokumenteer belangrike werk, deel vaardighede en beplan opvolging. Finansies, tegnologie, fasilitering, eksterne verhoudings en organisatoriese geheue moet nie onnodig gekonsentreer word in onontbeerlike individue nie.
+Hou rekord van belangrike wêk, deel vaardighede en beplan wie kan oorneem. Finansies, tegnologie, fasilitering, verhoudings met mense buite die vereniging ennie organisasie se geheue moenie onnodig vassteek by ’n paar mense waarsonder niks kan aangaan nie.
 
 [/subsection]
 
 [subsection number="07"]
 
-### Beskerm demokratiese ontmoeting en verskille
+### Beskerm demokratiese ontmoeting en meningsverskil
 
-Skep volgehoue geleenthede vir mense oor sosiale verskille heen om saam te werk aan gedeelde doeleindes, sonder om voor te gee dat strukturele ongelykhede verdwyn het. Behandel onenigheid en minderheidsredenering as bronne van inligting eerder as bewys van dislojaliteit.
+Skep geleenthede wat aanhou, waa mense oo sosiale verskille heen saam aan gedeelde doelwitte kan wêk, sonder om te maak asof strukturele ongelykhede skielik weg is. Sien meningsverskil en minderheidsredenasies as bronne van insig, nie as tekens van ontrouheid nie.
 
 [/subsection]
 
 [subsection number="08"]
 
-### Bestuur gedeelde hulpbronne en beoefen wedersydse hulp
+### Kyk saam na gedeelde hulpbronne en help mekaa
 
-Kom ooreen hoe geld, bates, kennis, sorg, ruimtes, en ander gemeenskaplike hulpbronne bygedra, gebruik, aangeteken en oorgedra word. Onderskei swaarkry van wangedrag en vermy om mense stilweg uit te sluit omdat hulle nie aan 'n veronderstelde norm kan voldoen nie. Waar behoeftes voortspruit uit wyer strukturele toestande, vra of die gepaste reaksie wedersydse hulp, herverdeling, 'n openbare eis, of 'n kombinasie hiervan is.
+Kom ooreen hoe geld, bates, kennis, sorg, ruimtes en ander gemeenskaplike hulpbronne ingebring, gebruik, op rekord gesit en oorgedra wôt. Maak ’n verskil tussen swaarkry en wangedrag, en moenie mense stilletjies uitsluit omdat hulle nie aan ’n vanselfsprekend-geagte norm kan voldoen nie. Waa behoeftes uit groter strukturele omstandighede kom, vra of die antwoord wedersydse hulp, herverdeling, ’n openbare aanspraak op regte en hulpbronne, of ’n kombinasie daarvan moet wees.
 
 [/subsection]
 
 [subsection number="09"]
 
-### Vestig onafhanklike ondersoek
+### Stel onafhanklike ondersoek in
 
-Mense wat gedelegeerde gesag uitoefen, behoort nie alleen verantwoordelik te wees om hulself te hersien nie. Lede moet onafhanklike beoordelaars aanstel wat geskik is vir die skaal en risiko's van die vereniging.
+Mense met gedelegeerde gesag moenie alleen verantwoordelik wees om hulleself na te gan nie. Lede moet onafhanklike beoordelaars aanstel wat pas byrie vereniging se grootte en risiko’s.
 
 [/subsection]
 
@@ -232,47 +234,47 @@ Mense wat gedelegeerde gesag uitoefen, behoort nie alleen verantwoordelik te wee
 
 ### Hou betroubare en toeganklike rekords
 
-Teken besluite, verantwoordelikhede en finansiële inligting aan in vorms wat lede kan inspekteer. Waar toepaslik, moet lede verifieer dat vergaderingrekords akkuraat weerspieël wat besluit is.
+Hou besluite, verantwoordelikhede en finansiële inligting op rekord in formate wat lede kan nagaan. Waa dit pas, moet lede bevestig dat vergaderingnotules reg weergee wat besluit is.
 
 [/subsection]
 
 [subsection number="11"]
 
-### Pak konflik en skade regverdig aan
+### Hanteer konflik en skade regverdig
 
-Onderskei onenigheid van skadelike gedrag. Verskaf toeganklike roetes om bekommernisse te opper, alternatiewe wanneer magtige mense geïmpliseer word, geleenthede om te reageer, proporsionele remedies en hersiening.
+Maak ’n onderskeid tussen meningsverskil en gedrag wat skade doen. Gee toeganklike maniere om bekommernisse te opper, ander roetes wanneer magtige mense betrokke is, kans om te antwoord, remedies wat byrie saak pas ennie moontlikheid van hersiening.
 
 [/subsection]
 
 [subsection number="12"]
 
-### Beskerm organisatoriese outonomie
+### Beskerm die vereniging se selfstandigheid
 
-Maak belangrike befondsingsvoorwaardes, vennootskappe, politieke verhoudings en institusionele afhanklikhede sigbaar. Lede moet in staat wees om te oordeel of eksterne ondersteuning prioriteite, spraak of bestuur herlei.
+Maak belangrike voorwaardes van befondsing, vennootskappe, politieke verhoudings en afhanklikheid van instellings sigbaar. Lede moet kan oordeel of hulp van buite hulle prioriteite, wat hulle kan sê of hoe hulle bestuur wôt, begin stuur.
 
 [/subsection]
 
 [subsection number="13"]
 
-### Leer deur aksie en periodieke hersiening
+### Leer deur op te tree en gereeld terug te kyk
 
-Gebruik kollektiewe optrede, die gevolge daarvan en refleksie as bronne van kennis. Ondersoek periodiek mag, demokratiese verhoudings, ideologie en vanselfsprekende aannames, genealogie en afleer, deelname en toegang, en pas dit wat geleer is dan in verdere optrede toe.
+Gebruik wat mense saam doen, die gevolge daarvan en hulle nadenke daaroor as bronne van kennis. Kyk gereeld krities na mag, demokratiese verhoudings, ideologie en aannames wat as vanselfsprekend aanvaar wôt; na waa gebruike vandaan kom en wat afgeleer moet wôt; en na deelname en toegang. Gebruik dan wat julle geleer het innie volgende rondte van optrede.
 
 [/subsection]
 
 [subsection number="14"]
 
-### Federeer sonder onnodige sentralisasie
+### Vorm federasies sonder onnodige sentralisering
 
-Waar samewerking op groter skaal nuttig is, spesifiseer watter magte plaaslik bly en watter opwaarts gedelegeer word. Afgevaardigdes moet mandate dra en terugrapporteer.
+Waa dit help om op groter skaal saam te wêk, sê duidelik watter magte plaaslik bly en watter na bo gedelegeer wôt. Afgevaardigdes moet met mandate gan en terugrapporteer.
 
 [/subsection]
 
 [subsection number="15"]
 
-### Gebruik die reg as minimum grondslag en hulpbron
+### Gebruik die reg as ’n minimum en ’n hulpbron
 
-Identifiseer die regsvorm en aktiwiteitspesifieke reëls wat relevant is vir die vereniging. Voldoen aan toepaslike regte, registrasie, verslagdoening, gelykheid, privaatheid, belasting, indiensneming, finansiële of ander pligte sonder om wetlike nakoming met demokratiese kwaliteit te verwar. Die [regsmatriks](/en/legal-matrix) is 'n voorlopige navorsingshulpbron; sy aanvanklike rekords wag op verifikasie.
+Vind uit watter regsvorm en watter reëls virrie vereniging se spesifieke aktiwiteite geld. Kom toepaslike verpligtinge oo regte, registrasie, verslagdoening, gelykheid, privaatheid, belasting, indiensneming, finansies en ander sake na, sonder om te dink dat wettige nakoming vanself beteken ’n vereniging is demokraties. Die [regsmatriks](/en/legal-matrix) is ’n voorlopige navorsingshulpbron; die eerste inskrywings moet nog nagegaan en bevestig wôt.
 
 [/subsection]
 
@@ -281,31 +283,31 @@ Identifiseer die regsvorm en aktiwiteitspesifieke reëls wat relevant is vir die
 
 [section-layout label="04 / In die praktyk"]
 
-## Om selfregering in die praktyk te bring.
+## Hoe ôs selfbestuur innie praktyk laat wêk.
 
-Verskillende verenigings kan verskillende name, ampte, en vergadervorme gebruik. Kies reëlings in verhouding tot die werk, terwyl gesag aan lede verantwoordbaar gehou word.
+Verskillende verenigings kan verskillende name, ampte en maniere van vergader hê. Kies reëlings wat pas byrie wêk, maa sorg dattie mense met mag teenoor die lede verantwoordbaar bly.
 
 [subsection number="01"]
 
 ### Lede
 
-Lede vorm die demokratiese basis van die vereniging. Hulle regte, verantwoordelikhede, toelating, skorsing, uittrede, en roetes vir deelname moet duidelik wees.
+Lede is die demokratiese basis vannie vereniging. Dit moet duidelik wees wat hulle regte en verantwoordelikhede is, hoe hulle aansluit, geskors kan wôt of uittree, en hoe hulle kan deelneem.
 
 [/subsection]
 
 [subsection number="02"]
 
-### Algemene ledevergadering of volksvergadering
+### Algemene vergadering of ledevergadering
 
-Die lidmaatskap se hoofbesluitnemingsforum moet sake hanteer wat vir lede voorbehou is, verslae ontvang, gedelegeerde gesag hersien en bestuursreëls wysig. Die presiese naam, frekwensie en prosedure kan verskil.
+Die lede se belangrikste vergadering of bymekaarkomplek vi besluitneming moet sake hanteer waaroor die lede self moet besluit, verslae ontvang, gedelegeerde gesag nagaan ennie bestuursreëls kan wysig. Die presiese naam, hoe gereeld dit bymekaarkom ennie prosedures kan verskil.
 
 [/subsection]
 
 [subsection number="03"]
 
-### Raad, komitee of gedelegeerde ampsdraers
+### Bestuur, komitee of gedelegeerde ampsdraers
 
-'n Direksie of gelykwaardige liggaam verrig werk tussen ledevergaderings binne bepaalde bevoegdhede. Die bestaan daarvan behoort nie gedelegeerde uitvoerende verantwoordelikheid in soewereiniteit oor die vereniging om te skakel nie.
+’n Bestuur of soortgelyke liggaam doen die wêk tussen ledevergaderings binne duidelik omskrewe magte. Net omdat dit bestaan, beteken dit nie dattie bestuur se gedelegeerde uitvoerende verantwoordelikheid die hoogste gesag oorie vereniging wôt nie.
 
 [/subsection]
 
@@ -313,7 +315,7 @@ Die lidmaatskap se hoofbesluitnemingsforum moet sake hanteer wat vir lede voorbe
 
 ### Werkgroepe en fasiliteerders
 
-Verenigings kan tydelike of voortgesette groepe vir spesifieke take skep. Hul mandate, hulpbronne en verslagdoeningsverhoudings moet duidelik wees, en fasilitering moet deelname ondersteun eerder as om intellektuele gesag te vestig.
+Verenigings kan tydelike of deurlopende groepe vi sekere take skep. Hulle mandate, hulpbronne en verslagdoeningsverhoudings moet duidelik wees, en fasilitering moet mense help deelneem, nie maak asof die fasiliteerder die finale sê oo kennis het nie.
 
 [/subsection]
 
@@ -321,54 +323,54 @@ Verenigings kan tydelike of voortgesette groepe vir spesifieke take skep. Hul ma
 
 ### Onafhanklike beoordelaars
 
-Lede stel mense aan wat voldoende onafhanklik is van diegene wat die vereniging administreer om finansies, mandate, prosedure, botsing van belange en ander wesenlike verpligtinge te hersien. Groter of gereguleerde organisasies kan professionele oudit vereis bykomend tot demokratiese hersiening.
+Lede stel mense aan wat onafhanklik genoeg staan van dié wattie vereniging bestuur om finansies, mandate, prosedures, botsende belange en ander belangrike verpligtinge na te gan. Groter of gereguleerde organisasies kan, bo en behalwe demokratiese hersiening, ’n professionele oudit nodig hê.
 
 [/subsection]
 
 [subsection number="06"]
 
-### Grondwet, rekords en organisatoriese geheue
+### Konstitusie, rekords ennie organisasie se geheue
 
-Lede moet toegang hê tot die bestuursreëls, belangrike besluite, finansiële inligting en rekords wat nodig is om die vereniging te verstaan. Organisatoriese geheue behoort leierskapveranderinge te oorleef.
+Lede moet toegang kan kry tot die bestuursreëls, belangrike besluite, finansiële inligting en rekords wat hulle nodig het ommie vereniging te verstaan. Wattie organisasie oo tyd geleer en gedoen het, moet behoue bly wanneer leiers verander.
 
 [/subsection]
 
 [subsection number="07"]
 
-### Begin 'n vereniging
+### Om ’n vereniging te begin
 
-'n Beginkontrolelys om saam te bespreek en aan te pas:
+’n Beginlys om saam te bespreek en aan te pas:
 
-1. Identifiseer die mense, gedeelde doel en mense wat wesenlik deur die werk geraak word.
-2. Bespreek lidmaatskap, deelname, taal, toeganklikheid vir mense met gestremdhede en materiële hindernisse voordat prosedures vasgestel word.
-3. Identifiseer die regsvorm en aktiwiteitspesifieke pligte wat van toepassing kan wees.
-4. Kom ooreen watter besluite by lede bly en watter gedelegeer kan word.
-5. Stel 'n bruikbare grondwet op en aanvaar dit gesamentlik.
-6. Kies verteenwoordigers en onafhanklike beoordelaars, definieer hul mandate en beplan opvolging.
-7. Kom ooreen hoe geld, bates, rekords, privaatheid en botsing van belange hanteer sal word.
-8. Teken op en verifieer stigtingsbesluite en aanstellings.
-9. Reël bankdienste, registrasies, belastinggoedkeurings of gereguleerde toestemmings waar nodig.
-10. Begin die werk, hersien dan wat die reëls in die praktyk lewer en wysig dit wanneer nodig.
+1. Maak duidelik wie die mense is, wat hulle gedeelde doel is en wie werklik deurie wêk geraak wôt.
+2. Praat oo lidmaatskap, deelname, taal, toegang vi gestremde mense en materiële struikelblokke vóór julle prosedures vasmaak.
+3. Vind uit watter regsvorm en aktiwiteitspesifieke pligte dalk geld.
+4. Kom ooreen watter besluite byrie lede bly en watter gedelegeer kan wôt.
+5. Stel ’n konstitusie op wat mense kan gebruik en neem dit saam aan.
+6. Kies verteenwoordigers en onafhanklike beoordelaars, omskryf hulle mandate en beplan wie kan oorneem.
+7. Kom ooreen hoe geld, bates, rekords, privaatheid en botsende belange hanteer gan wôt.
+8. Skryf die stigtingsbesluite en aanstellings neer en bevestig dat dit reg is.
+9. Reël bankdienste, registrasies, belastinggoedkeurings of permitte waa die wet dit vereis.
+10. Begin die wêk, kyk dan wattie reëls innie praktyk veroorsaak en verander hulle wanneer dit nodig is.
 
 [/subsection]
 
 [subsection number="08"]
 
-### Vyf herhalende demokratiese hersienings
+### Vyf demokratiese hersienings wat gereeld terugkom
 
-Verenigings kan van tyd tot tyd vyf kort hersieningspraktyke gebruik:
+Verenigings kan van tyd tot tyd vyf kort maniere gebruik om hulle wêk te hersien:
 
-**Hiërargie en potensiaal:** Waar word mag gekonsentreer, en watter nuwe vermoëns of moontlikhede kom na vore?
+**Hiërargie en potensiaal:** Waa raak mag al meer gekonsentreer, en watter nuwe vermoëns of moontlikhede begin na vore kom?
 
-**Demokratiese verhoudings:** Wie neem deel, wie kan verskil, hoe tree verskillende groepe teenoor mekaar op, en verberg harmonie ongelykheid?
+**Demokratiese verhoudings:** Wie neem deel, wie kan verskil, hoe kom verskillende groepe met mekaa oorie weg, en steek ’n skyn van eensgesindheid ongelykheid weg?
 
-**Ideologie en doxa:** Wat beloon, normaliseer of laat die organisasie onmoontlik lyk, insluitend aannames wat niemand gedink het om te bevraagteken nie?
+**Ideologie en doksa:** Wat beloon die organisasie, wat laat dit normaal lyk, of wat laat dit onmoontlik lyk — ook die aannames wat niemand nog gedink het om te bevraagteken nie?
 
-**Genealogie en afleer:** Waar kom ons kategorieë en roetines vandaan, en verwar ons professionalisering, skaal of oorgeërfde gebruik met noodsaaklikheid of vordering?
+**Genealogie en afleer:** Waa kom ôs kategorieë en roetines vandaan, en verwar ôs professionalisering, grootte of oorgeërfde gebruike met wat noodsaaklik is of met vooruitgang?
 
-**Deelname en toegang:** Wie kan nie gewone prosesse gebruik nie, watter hindernisse veroorsaak daardie uitsluiting, en watter veranderinge word vereis?
+**Deelname en toegang:** Wie kan nie die gewone prosesse gebruik nie, watter struikelblokke sluit hulle uit, en wat moet verander?
 
-Dié hersiening moet lei tot besluite, toegewysde verantwoordelikhede en, waar toepaslik, kollektiewe optrede buite die vereniging eerder as om simboliese refleksie-oefeninge te word.
+Hierrie hersienings moet uitloop op besluite, duidelike verantwoordelikhede en, waa dit pas, gesamentlike optrede buite die vereniging. Dit moenie net simboliese oefeninge in nadenke bly nie.
 
 [/subsection]
 
@@ -379,7 +381,7 @@ Dié hersiening moet lei tot besluite, toegewysde verantwoordelikhede en, waar t
 
 ## Woorde om saam te organiseer.
 
-Verduidelikings in gewone taal van begrippe wat in die DDC gebruik word. Dit is nie plaasvervangers vir tegniese wetlike definisies waar 'n term 'n spesifieke statutêre betekenis het nie.
+Hier volg eenvoudige verduidelikings van woorde soos die DDC dit gebruik. Waa ’n woord ’n spesifieke betekenis innie wet het, vervang hierrie verduidelikings nie daardie tegniese regsbetekenis nie.
 
 [glossary]
 
@@ -387,7 +389,7 @@ Verduidelikings in gewone taal van begrippe wat in die DDC gebruik word. Dit is 
 
 ### Verantwoordbaarheid
 
-Die plig om besluite te verduidelik, aan diegene wat geraak word te antwoord, ondersoek te aanvaar en mislukkings reg te stel waar nodig.
+Die plig om besluite te verduidelik, te antwoord aan mense wat geraak wôt, ondersoek te aanvaar en foute reg te maak waa dit nodig is.
 
 [/glossary-entry]
 
@@ -395,15 +397,15 @@ Die plig om besluite te verduidelik, aan diegene wat geraak word te antwoord, on
 
 ### Vereniging
 
-Mense wat vrywillig rondom 'n gedeelde doel organiseer en ooreenkom hoe om hul kollektiewe aktiwiteit te bestuur.
+Mense wat uit vrye wil rondom ’n gedeelde doel organiseer en saam ooreenkom hoe hulle hulle gesamentlike wêk gan bestuur.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Kollektiewe doeltreffendheid
+### Gesamentlike handelingsvermoë
 
-'n Groep se ervare oortuiging, gegrond in die praktyk, dat dit saam kan optree en sy toestande kan beïnvloed.
+’n Groep se oortuiging, gebou op wat hulle self ervaar en gedoen het, dat hulle saam kan optree en hulle omstandighede kan beïnvloed.
 
 [/glossary-entry]
 
@@ -411,31 +413,31 @@ Mense wat vrywillig rondom 'n gedeelde doel organiseer en ooreenkom hoe om hul k
 
 ### Samewerking
 
-Mense wat verskillende kennis, vermoëns en hulpbronne in gedeelde optrede kombineer terwyl hulle die vermoë behou om te verskil, mag te betwis, en die omstandighede waarbinne hulle saamwerk, uit te daag.
+Mense wat hulle verskillende kennis, vermoëns en hulpbronne saambring om saam op te tree, maa steeds kan verskil, mag kan betwis ennie omstandighede waarin hulle saamwerk kan uitdaag.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Commons
+### Meent (commons)
 
-Hulpbronne, kennis, infrastruktuur of vermoëns wat vir gedeelde doeleindes gehou of beheer word onder reëls wat deur die betrokke mense gemaak of aanvaar is.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Komplementariteit
-
-'n Verhouding waarin verskille bydra tot gedeelde kapasiteit sonder om in hoër en minderwaardige posisies ingedeel te word.
+Hulpbronne, kennis, infrastruktuur of vermoëns wat vi gedeelde doelwitte gehou of bestuur wôt volgens reëls wattie betrokke mense self gemaak of aanvaar het.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Grondwet
+### Aanvullendheid
 
-Die vereniging se ooreengekome bestuursreëls rakende doel, lidmaatskap, gesag, besluitneming, hulpbronne, aanspreeklikheid, wysiging en sluiting.
+’n Verhouding waa verskille mense saam sterker maak, sonder dattie een bo ennie ander onder geplaas wôt.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Konstitusie
+
+Die vereniging se ooreengekome bestuursreëls oo sy doel, lidmaatskap, gesag, besluitneming, hulpbronne, verantwoordbaarheid, wysigings en ontbinding.
 
 [/glossary-entry]
 
@@ -443,7 +445,7 @@ Die vereniging se ooreengekome bestuursreëls rakende doel, lidmaatskap, gesag, 
 
 ### Delegering
 
-Die verlening van beperkte gesag aan 'n persoon of liggaam om namens die vereniging op te tree sonder om die lidmaatskap se uiteindelike gesag oor te dra.
+Om vi ’n mens of ’n liggaam beperkte mag te gee om namens die vereniging op te tree, sonder ommie lede se finale seggenskap weg te gee.
 
 [/glossary-entry]
 
@@ -451,15 +453,15 @@ Die verlening van beperkte gesag aan 'n persoon of liggaam om namens die verenig
 
 ### Demokratiese ontwikkeling
 
-Oop ontwikkeling van die toestande en kollektiewe vermoëns waardeur mense hul gemeenskaplike lewe kan verstaan, regeer en transformeer, sonder om 'n universele pad van vooruitgang te aanvaar.
+Ontwikkeling sonder ’n vaste eindpunt, vannie omstandighede en gesamentlike vermoëns waardeur mense hulle lewe saam kan verstaan, bestuur en verander, sonder om aan te neem dat almal dieselfde pad van vooruitgang moet volg.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Onenigheid
+### Meningsverskil
 
-Uitgesproke onenigheid met 'n voorgestelde of bestaande besluit, interpretasie, of praktyk. In die DDC word dit as 'n moontlike bron van kennis eerder as dislojaliteit beskou.
+Om te sê djy stem nie saam met ’n voorgestelde of bestaande besluit, verduideliking of praktyk nie. Innie DDC wôt dit gesien as iets waaruit mense moontlik kan leer, nie as ontrouheid nie.
 
 [/glossary-entry]
 
@@ -467,15 +469,15 @@ Uitgesproke onenigheid met 'n voorgestelde of bestaande besluit, interpretasie, 
 
 ### Oorheersing
 
-'n Blywende verhouding waarin sommige mense of instellings mag oor ander uitoefen sonder om daarvoor verantwoording te doen, of vanuit 'n struktureel oorheersende posisie.
+’n Verhouding wat aanhou bestaan waarin party mense of instellings mag oo ander uitoefen sonder dat hulle verantwoording doen, of omdat die struktuur hulle meer mag gee.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Doxa
+### Doksa
 
-Aannames en praktyke wat so natuurlik of voor die hand liggend voorkom dat dit gewoonlik weergegee word sonder dat daar bewustelik voor geargumenteer word.
+Aannames en praktyke wat so natuurlik of vanselfsprekend lyk dat mense dit oo en oo doen sonder om doelbewus daaroor te redeneer.
 
 [/glossary-entry]
 
@@ -483,15 +485,15 @@ Aannames en praktyke wat so natuurlik of voor die hand liggend voorkom dat dit g
 
 ### Federasie
 
-Samewerking tussen outonome verenigings deur 'n gedeelde liggaam wie se bevoegdhede uitdruklik deur sy samestellende verenigings gedelegeer word.
+Samewerking tussen selfstandige verenigings deur ’n gedeelde liggaam wat net die magte het wattie verenigings waaruit dit bestaan duidelik aan hom gedelegeer het.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Vryheid van assosiasie
+### Vryheid van vereniging
 
-Die vryheid om organisasies te stig, by hulle aan te sluit, hulle te ondersteun, of hulle te verlaat en saam met ander op te tree, onderhewig aan grondwetlike regte en toepaslike wetgewing.
+Die vryheid om organisasies te stig, daarby aan te sluit, dit te ondersteun of dit te verlaat, en om saam met ander op te tree, binne die grondwetlike regte en toepaslike wetgewing.
 
 [/glossary-entry]
 
@@ -499,15 +501,15 @@ Die vryheid om organisasies te stig, by hulle aan te sluit, hulle te ondersteun,
 
 ### Hiërargie
 
-'n Georganiseerde verhouding van meerderwaardigheid en ondergeskiktheid. Verskil in rol of kundigheid is nie outomaties hiërargie nie; die kwessie is hoe mag gestruktureer is.
+’n Georganiseerde verhouding waa party bo en ander onder gestel wôt. Verskillende rolle of kundigheid beteken nie vanself daa is ’n hiërargie nie; dit gan oo hoe mag ingerig is.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Ideologie in die praktyk
+### Ideologie innie praktyk
 
-Die maniere waarop instellings en roetines voortdurend kommunikeer wat bestaan, wat waardeer word, wat moontlik is en watter soort sosiale rolle van mense verwag word om te beklee.
+Die maniere waarop instellings en daaglikse roetines oor en oor die boodskap gee wat bestaan, wat waarde het, wat moontlik is en watter sosiale rolle mense veronderstel is om te speel.
 
 [/glossary-entry]
 
@@ -515,7 +517,7 @@ Die maniere waarop instellings en roetines voortdurend kommunikeer wat bestaan, 
 
 ### Onafhanklike hersiening
 
-Ondersoek uitgevoer deur mense wat voldoende onafhanklik is van diegene wie se besluite, finansies of administrasie ondersoek word.
+Ondersoek deur mense wat onafhanklik genoeg is van dié wie se besluite, finansies of bestuur nagegaan wôt.
 
 [/glossary-entry]
 
@@ -523,15 +525,15 @@ Ondersoek uitgevoer deur mense wat voldoende onafhanklik is van diegene wie se b
 
 ### Mandaat
 
-Die doel, gesag en perke wat aan 'n verteenwoordiger, afgevaardigde, komitee of ampsdraer gegee word.
+Die doel, gesag en perke wat aan ’n verteenwoordiger, afgevaardigde, komitee of ampsdraer gegee wôt.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Ledesoewereiniteit
+### Finale seggenskap van lede
 
-Die beginsel dat uiteindelike gesag oor die vereniging by sy lede berus eerder as by sy direksie, personeel, befondsers of eksterne spesialiste.
+Die beginsel dattie hoogste gesag oorie vereniging by sy lede lê, nie byrie bestuur, personeel, befondsers of kenners van buite nie.
 
 [/glossary-entry]
 
@@ -539,7 +541,7 @@ Die beginsel dat uiteindelike gesag oor die vereniging by sy lede berus eerder a
 
 ### Wedersydse hulp
 
-Wederkerige organisasie waardeur mense vermoëns of hulpbronne saamvoeg om aan gedeelde behoeftes te voldoen, eerder as eenrigting-liefdadigheid van helpers tot begunstigdes.
+’n Manier van organiseer waa mense hulle vermoëns of hulpbronne saamgooi om gedeelde behoeftes aan te spreek, eerder as liefdadigheid wat net een kant toe loop, van helpers na ontvangers.
 
 [/glossary-entry]
 
@@ -547,15 +549,15 @@ Wederkerige organisasie waardeur mense vermoëns of hulpbronne saamvoeg om aan g
 
 ### Prefigurasie
 
-Om in huidige instellings die demokratiese verhoudings en vorme van samewerking wat mense poog om wyer moontlik te maak, te beoefen.
+Om nou al in ôs instellings die demokratiese verhoudings en maniere van saamwerk uit te leef wat mense graag op meer plekke moontlik wil maak.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Praxis
+### Praksis
 
-'n Herhalende verhouding tussen aksie en refleksie waardeur mense toestande interpreteer, optree, leer uit gevolge en wat hulle doen hersien.
+’n Verhouding wat oo en oo terugkom tussen optrede en nadenke: mense probeer hulle omstandighede verstaan, tree op, leer uittie gevolge en verander wat hulle doen.
 
 [/glossary-entry]
 
@@ -563,7 +565,7 @@ Om in huidige instellings die demokratiese verhoudings en vorme van samewerking 
 
 ### Redelike akkommodasie
 
-Nodige en toepaslike aanpassings wat 'n gestremde persoon in staat stel om op gelyke voet deel te neem waar algemene toeganklikheidsmaatreëls onvoldoende is, sonder om 'n buitensporige las op te lê.
+Nodige en gepaste aanpassings wat dit vi ’n gestremde persoon moontlik maak om op gelyke voet deel te neem waa algemene toeganklikheidsmaatreëls nie genoeg is nie, sonder om ’n buitensporige las op te lê.
 
 [/glossary-entry]
 
@@ -571,7 +573,7 @@ Nodige en toepaslike aanpassings wat 'n gestremde persoon in staat stel om op ge
 
 ### Herverdeling
 
-Doelbewuste verandering in hoe materiële hulpbronne, geleenthede, voordele of laste versprei word, hetsy binne 'n vereniging of deur wyer sosiale en openbare reëlings.
+’n Doelbewuste verandering aan hoe materiële hulpbronne, geleenthede, voordele of laste verdeel wôt — binne ’n vereniging of deur groter sosiale en openbare reëlings.
 
 [/glossary-entry]
 
@@ -579,7 +581,7 @@ Doelbewuste verandering in hoe materiële hulpbronne, geleenthede, voordele of l
 
 ### Gedeelde doel
 
-Die gemeenskaplike doel wat 'n vereniging rede gee om te bestaan en sy gebruik van hulpbronne rig.
+Die doel wat mense saam het, wat vi ’n vereniging ’n rede gee om te bestaan en rigting gee aan hoe dit sy hulpbronne gebruik.
 
 [/glossary-entry]
 
@@ -587,7 +589,7 @@ Die gemeenskaplike doel wat 'n vereniging rede gee om te bestaan en sy gebruik v
 
 ### Ondersteunde deelname
 
-Deelname waarin 'n persoon bystand, vertolking, kommunikasie-ondersteuning of 'n ander hulpmiddel gebruik terwyl die persoon self kan bly optree en hul politieke aansien behou.
+Deelname waa iemand hulp, tolking, kommunikasie-ondersteuning of ’n ander hulpmiddel gebruik, maa steeds hulle eie seggenskap en gelyke politieke aansien behou.
 
 [/glossary-entry]
 
@@ -595,7 +597,7 @@ Deelname waarin 'n persoon bystand, vertolking, kommunikasie-ondersteuning of 'n
 
 ### Universele ontwerp
 
-Om omgewings, inligting, prosesse en gereedskap te ontwerp sodat dit van die begin af deur die wydste praktiese reeks mense gebruik kan word eerder as om net op latere individuele aanpassings staat te maak.
+Om ruimtes, inligting, prosesse en hulpmiddels vannie begin af so te ontwerp dat soveel verskillende mense as wat prakties moontlik is dit kan gebruik, eerder as om net later aanpassings vi individue te maak.
 
 [/glossary-entry]
 
@@ -603,7 +605,7 @@ Om omgewings, inligting, prosesse en gereedskap te ontwerp sodat dit van die beg
 
 ### Vrywillige vereniging
 
-'n Vereniging wat gevorm is deur ooreenkoms tussen mense eerder as deur verpligte lidmaatskap of vooraf skepping deur die staat.
+’n Vereniging wat ontstaan omdat mense saam ooreenkom om dit te vorm, nie omdat lidmaatskap verpligtend is of omdat die staat dit vooraf geskep het nie.
 
 [/glossary-entry]
 
@@ -616,9 +618,9 @@ Om omgewings, inligting, prosesse en gereedskap te ontwerp sodat dit van die beg
 
 ## Sluit aan.
 
-Help om The Democratic Development Commons te ontwikkel en te toets deur bespreking, vertaling, praktiese gebruik en refleksie. Verenigings moet help om die raamwerk te vorm en die aannames daarvan uit te daag.
+Help om The Democratic Development Commons verder te ontwikkel en uit te toets deur gesprek, vertaling, praktiese gebruik en nadenke. Verenigings moet help ommie raamwerk te vorm ennie aannames daaragter uit te daag.
 
-Om belangstelling te toon, verleen nie outomaties lidmaatskap aan 'n taalprojek of 'n vereniging nie. Elke projek moet ooreenkom en sy eie lidmaatskap- en deelnamereëlings verduidelik.
+Om te sê djy stel belang, maak djou nie vanself ’n lid van ’n taalprojek of vereniging nie. Elke projek moet self ooreenkom en verduidelik hoe lidmaatskap en deelname wêk.
 
 [project-interest /]
 
@@ -627,12 +629,12 @@ Om belangstelling te toon, verleen nie outomaties lidmaatskap aan 'n taalprojek 
 
 [section-layout label="07 / Privaatheid en bronne"]
 
-## Oor dié webwerf.
+## Oor hierrie webwerf.
 
-Dié openbare raamwerk is gebaseer op [Deel II van die werkende witskrif](/en/white-paper#part-ii). Die referaat verskaf die vollediger redenasie, bronne en kritiese uitdagings daaragter. Beide die raamwerk en sy ondersteunende instrumente bly oop vir deelnemende toetsing en hersiening.
+Hierrie openbare raamwerk bou op [Deel II vannie werkende witskrif](/en/white-paper#part-ii). Daardie dokument gee die voller redenasie, bronne en kritiese uitdagings daaragter. Die raamwerk ennie hulpmiddels wat dit ondersteun, bly oop vi deelname annie toets en hersiening daarvan.
 
-Die doel is om verenigings se vermoë te versterk om hulself te verstaan, te regeer, te bevraagteken en te herskep, sonder afhanklikheid van die DDC-platform of sy kundiges. Kollektiewe selforganisasie behoort ook die vermoë te versterk om groter ongelykhede uit te daag en openbare instellings aanspreeklik te hou.
+Die doel is om verenigings se vermoë te versterk om hulleself te verstaan, te bestuur, te bevraagteken en oo te maak, sonder dat hulle vannie DDC-platform of sy kenners afhanklik raak. Wanneer mense hulleself saam organiseer, moet dit hulle ook sterker maak om groter ongelykhede uit te daag en openbare instellings verantwoordbaar te hou.
 
-Lees die [privaatheidsbeleid](/en/privacy), [inhoudlisensie](/en/licence/content) en [sagtewarelisensie](/en/licence/software) om te lees hoe dié webwerf en sy materiaal hanteer word.
+Lees die [privaatheidsbeleid](/en/privacy), [inhoudslisensie](/en/licence/content) en [sagtewarelisensie](/en/licence/software) om te sien hoe hierrie webwerf en sy materiaal hanteer wôt.
 
 [/section-layout]

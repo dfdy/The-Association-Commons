@@ -51,6 +51,7 @@ entrypoints and `grav-site/compose.yaml` select the same project and content fol
 | `/en/legal-matrix` | Sixteen provisional legal research records |
 | `/en/governance-patterns` | Seven untested constitutional patterns |
 | `/en/licence/content`, `/en/licence/software` | Content and software licence scope |
+| `/en/contact` | Interest form for participation enquiries and community-led translation proposals |
 | `/en/privacy` | Current Grav/Join privacy notice and unresolved operator details |
 
 The English `/en/languages` page accepts registered-language suggestions via `[language-suggestions /]`, displays aggregate counts, and is linked in every footer. See the [language-suggestions guide](user/plugins/language-suggestions/README.md) for matching, storage, retention, and administration.

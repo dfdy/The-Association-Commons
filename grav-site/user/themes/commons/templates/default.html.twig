@@ -6,7 +6,7 @@
 <div class="shell">{% include 'partials/language-menu.html.twig' %}
 {% set code = page.header.language_code|default('en') %}
 <div class="page-toolbar compact-toolbar">
-{% if page.route not in ['/en/licence/content', '/en/licence/software', '/en/governance-patterns', '/en/legal-matrix', '/en/white-paper', '/en/privacy', '/en/languages'] %}
+{% if page.route not in ['/en/licence/content', '/en/licence/software', '/en/governance-patterns', '/en/legal-matrix', '/en/white-paper', '/en/privacy', '/en/languages', '/en/contact'] %}
 {% include 'partials/project-navigation.html.twig' %}
 {% endif %}
 <div class="downloads toolbar-downloads" aria-label="Download this page">{% for format, label in {'md': 'Markdown', 'rtf': 'RTF', 'pdf': 'PDF'} %}<a href="{{ page.url }}?download={{ format }}" aria-label="Download {{ label }}" title="Download {{ label }}"><svg class="file-icon file-icon-{{ format }}" viewBox="0 0 40 44" width="25.5" height="28.5" fill="none" aria-hidden="true" focusable="false"><path class="file-paper" d="M9 2.5h16l8 8v29H9z"/><path class="file-fold" d="M25 2.5v8h8"/>{% if format == 'md' %}<path class="file-mark" d="M13 22v-7l3 4 3-4v7m5-7v7m-3-3 3 3 3-3"/>{% elseif format == 'rtf' %}<path class="file-mark" d="M14 15h13m-13 4h13m-13 4h8"/>{% else %}<path class="file-mark" d="m15 23 5-9 5 9m-8-3h6"/>{% endif %}<rect class="file-badge" x="3" y="27" width="30" height="14" rx="3"/><text x="18" y="37" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="9" font-weight="750" letter-spacing=".5">{{ format|upper }}</text></svg></a>{% endfor %}</div>
@@ -29,5 +29,6 @@
 <a href="/en/white-paper" lang="en" hreflang="en">The DDC White Paper</a>
 <a href="/en/languages" lang="en" hreflang="en">Suggest a language</a>
 <a href="/en/privacy">Privacy</a>
+<a href="/en/contact" lang="en" hreflang="en">Contact</a>
 </div>
 </footer></body></html>

@@ -31,7 +31,7 @@ The Democratic Development Commons bied ’n vrywillige organiseringsraamwerk wa
 
 [hero-label]The Democratic Development Commons[/hero-label]
 
-# Die vryheid om [hero-accent]te organiseer.[/hero-accent]
+# Die vryheid om te [hero-accent]organiseer.[/hero-accent]
 
 [hero-accent]Kollektiewe leer, wedersydse hulp en demokratiese selfregering:[/hero-accent] 'n Suid-Afrikaanse raamwerk vir mense om assosiasies te bou, gedeelde hulpbronne te bestuur en saam te werk sonder om hul mag om saam te besluit prys te gee.
 

@@ -108,3 +108,7 @@ input verbatim. Source route and language code are stored with each private reco
 No submission is sent to a translation service. Page exports link back to the form
 on the corresponding language proposal. Kaaps wording is an Afrikaans-based draft
 requiring community review, as stated on its pages.
+
+The English `/en/contact` page also uses the interest shortcode for participation
+enquiries and community-led translation proposals, with the same private storage,
+retention, consent, and super-admin access as the proposal forms.
