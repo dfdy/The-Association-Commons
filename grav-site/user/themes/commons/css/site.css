@@ -88,3 +88,9 @@ html{scroll-padding-top:calc(var(--site-header-height) + 1rem)}
 .site-header.is-compact .theme-toggle>span[aria-hidden]{font-size:1rem}
 .site-header.is-compact .theme-toggle .theme-label{max-width:0;opacity:0}
 @media(prefers-reduced-motion:reduce){.site-header .theme-toggle,.site-header .theme-toggle .theme-label,.theme-toggle>span[aria-hidden]{transition:none}}
+
+.table-scroll{max-width:100%;overflow-x:auto;margin:1.5rem 0}
+.table-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.table-scroll table{width:100%;min-width:36rem;border-collapse:collapse}
+.table-scroll th,.table-scroll td{padding:.65rem;text-align:left;vertical-align:top;border:1px solid #8a9489}
+@media print{.table-scroll{overflow:visible}.table-scroll table{min-width:0}}

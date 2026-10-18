@@ -5,6 +5,8 @@
 
 Separate licences apply to content and software. [See licence scope](LICENSING.md).
 
+Read the [Democratic Development Commons white paper — working version 0.9](grav-site/user/pages/80.white-paper/default.md), the conceptual basis for the framework.
+
 ![The freedom to organise — a framework for voluntary associations built on shared purpose, democratic self-governance and accountability.](docs/images/association-commons-framework-hero.png)
 
 ## The freedom to organise.
