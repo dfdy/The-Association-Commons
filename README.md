@@ -1,4 +1,4 @@
-<img src="grav-site/user/themes/commons/images/ddc-logo.svg" alt="The Democratic Development Commons logo" width="15%">
+<p align="center"><img src="grav-site/user/themes/commons/images/ddc-logo.svg" alt="The Democratic Development Commons logo" width="15%"></p>
 
 # The Democratic Development Commons
 
