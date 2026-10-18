@@ -1,5 +1,7 @@
 # Voluntary Associations: The Association Commons
 
+[Content: CC BY-NC-SA 4.0](LICENSE-CONTENT.txt) · [Software: AGPL-3.0-only](LICENSE) · [Licence scope](LICENSING.md)
+
 ![The freedom to organise — a framework for voluntary associations built on shared purpose, democratic self-governance and accountability.](docs/images/association-commons-framework-hero.png)
 
 ## The freedom to organise.
@@ -119,5 +121,15 @@ be writable for the editor to save content; see the Grav setup guide.
 
 ## Licences and development
 
-Content: CC BY-NC-SA 4.0. Custom software: AGPLv3. See [licensing](LICENSING.md)
-and [development instructions](AGENTS.md). Accessibility target: WCAG 2.2 AA.
+Different licences apply to the content and software:
+
+| Material | Licence |
+| --- | --- |
+| Framework text, translations, glossary, constitution templates and first-party editorial images | [CC BY-NC-SA 4.0](LICENSE-CONTENT.txt) — attribution, noncommercial use and share-alike |
+| Custom theme, plugins, scripts, tests and software documentation | [GNU AGPLv3 only](LICENSE) — software use, modification and sharing under its terms, including commercially |
+
+These licences apply to separate material; they are not a choice of licence for
+the same material. Third-party components retain their own licences. See
+[full scope and exclusions](LICENSING.md).
+
+See [development instructions](AGENTS.md). Accessibility target: WCAG 2.2 AA.

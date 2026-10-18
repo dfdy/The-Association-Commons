@@ -1,12 +1,23 @@
 # Content and software licences
 
+This repository contains separately licensed content and software. The licence
+for each part is determined by its scope below, not by GitHub’s single repository
+licence summary. The licences are not interchangeable options for the same material.
+
+| Scope | SPDX identifier | Complete licence text |
+| --- | --- | --- |
+| First-party editorial content | `CC-BY-NC-SA-4.0` | [LICENSE-CONTENT.txt](LICENSE-CONTENT.txt) |
+| First-party software and software documentation | `AGPL-3.0-only` | [LICENSE](LICENSE) |
+
 ## Website content: CC BY-NC-SA 4.0
 
-The first-party proposed legislation, explanatory prose, translations, glossary,
-constitution/stadgar templates and other editorial content of Voluntary
+The first-party organising framework, explanatory prose, translations, glossary,
+constitution templates, editorial images and other editorial content of Voluntary
 Associations: The Association Commons are licensed under Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA-4.0).
-The Markdown pages in `grav-site/user/pages/` are editorial content under these same terms.
+The Markdown pages in `grav-site/user/pages/` and first-party website screenshots
+in `docs/images/` are editorial content under these same terms. The complete
+unmodified content licence is in [LICENSE-CONTENT.txt](LICENSE-CONTENT.txt).
 
 You may share and adapt this content for noncommercial purposes, with appropriate
 credit, a licence link and an indication of changes. Shared adaptations must use
