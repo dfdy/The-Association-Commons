@@ -9,6 +9,12 @@ html[data-theme="night"] .prose .tac-reader-highlight{background-color:#a7c2a018
 .tac-reader-dialog label{display:block;font-weight:650;margin:1rem 0 .4rem}
 .tac-reader-dialog select{display:block;width:100%;min-height:44px;font:inherit;background:white;color:#202821;border:1px solid #738275;border-radius:6px;padding:.5rem}
 .tac-reader-dialog p{font-size:.9rem;line-height:1.5}
+.tac-reader-shortcuts{margin-top:1.5rem;padding-top:1rem;border-top:1px solid #8a9489}
+.tac-reader-shortcuts h3{font-size:1rem;margin:0 0 .75rem}
+.tac-reader-shortcuts dl{margin:0;font-size:.85rem}
+.tac-reader-shortcuts dl>div{display:flex;justify-content:space-between;gap:.5rem;flex-wrap:wrap;padding:.35rem 0}
+.tac-reader-shortcuts dd{margin:0}
+.tac-reader-shortcuts kbd{font-family:inherit;font-size:.85em;border:1px solid #8a9489;border-radius:4px;padding:.15rem .3rem;display:inline-block}
 .tac-reader-dialog button{min-height:44px;padding:.5rem 1rem;border:1px solid #476952;border-radius:6px;background:#e9ecdf;color:#202821;font:inherit;cursor:pointer;margin:.2rem}
 .tac-reader-dialog :is(select,button):focus-visible{outline:3px solid #294b35;outline-offset:3px}
 .tac-reader-status{position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}

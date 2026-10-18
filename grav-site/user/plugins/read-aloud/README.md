@@ -4,6 +4,8 @@ Adds play/pause and settings controls to each heading and its content inside the
 
 One native modal dialog is shared by all controls. It lists browser/device voices, supports asynchronous voice loading, and allows speeds from 0.5× to 2×. Choosing another section stops the current reading. The settings dialog also provides Stop reading. Settings changes apply when a section is started again.
 
+The bottom of the dialog lists working keyboard shortcuts: Alt+Shift+P for play/pause, Alt+Shift+Right/Left for next/previous passage, Alt+Shift+X to stop, and Alt+Shift+V for settings (Option instead of Alt on Mac). They are inactive in text fields, editable content and selects, and require modifiers to avoid single-character shortcut conflicts. Enter/Space activate focused buttons and Escape closes the dialog. Browser or assistive-technology shortcuts may take priority.
+
 The first-party `tac_read_aloud` cookie contains only the selected voice URI and speed. It lasts one year after a settings change, uses `SameSite=Lax`, applies site-wide, and adds `Secure` on HTTPS. Invalid or blocked cookies fall back safely. An unavailable saved voice falls back to the page language or browser default. There is no automatic playback.
 
 Speech uses the browser’s Web Speech API. Available languages, voice quality and pause/resume support depend on the browser and operating system. Device voices run locally; online voices may send text to their provider. No project speech server, microphone or audio recording is used. Without JavaScript or speech support, the page remains readable and no playback controls are added.

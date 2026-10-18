@@ -20,6 +20,7 @@
   dialog.className = 'tac-reader-dialog';
   dialog.id = 'tac-reader-settings';
   dialog.setAttribute('aria-labelledby', 'tac-reader-title');
+  const modifier = /Mac|iPhone|iPad/.test(navigator.platform) ? 'Option + Shift' : 'Alt + Shift';
   dialog.innerHTML = `<form method="dialog">
     <h2 id="tac-reader-title">Read-aloud settings</h2>
     <label for="tac-reader-voice">Voice</label>
@@ -30,6 +31,19 @@
     <p>Settings apply to every play control. Changes take effect the next time you start a section.</p>
     <button type="button" data-reader-stop>Stop reading</button>
     <button type="submit" autofocus>Done</button>
+    <section class="tac-reader-shortcuts" aria-labelledby="tac-reader-shortcuts-title">
+      <h3 id="tac-reader-shortcuts-title">Keyboard shortcuts</h3>
+      <dl>
+        <div><dt>Play / pause</dt><dd><kbd>${modifier} + P</kbd></dd></div>
+        <div><dt>Next passage</dt><dd><kbd>${modifier} + →</kbd></dd></div>
+        <div><dt>Previous passage</dt><dd><kbd>${modifier} + ←</kbd></dd></div>
+        <div><dt>Stop reading</dt><dd><kbd>${modifier} + X</kbd></dd></div>
+        <div><dt>Open settings</dt><dd><kbd>${modifier} + V</kbd></dd></div>
+        <div><dt>Activate a focused button</dt><dd><kbd>Enter</kbd> or <kbd>Space</kbd></dd></div>
+        <div><dt>Close this dialog</dt><dd><kbd>Escape</kbd></dd></div>
+      </dl>
+      <p>Playback shortcuts apply to the current or last selected passage and are inactive while editing text or choosing a menu option. Browser or assistive-technology shortcuts may take priority.</p>
+    </section>
   </form>`;
   document.body.append(dialog);
   const voiceSelect = dialog.querySelector('#tac-reader-voice');
@@ -61,7 +75,7 @@
   document.body.append(status);
   const headings = [...article.querySelectorAll('h1,h2,h3,h4,h5,h6')];
   const controls = [];
-  let active = null, paused = false, generation = 0, utterance = null, opener = null;
+  let active = null, paused = false, generation = 0, utterance = null, opener = null, lastControl = null;
   const rangeFor = control => {
     const range = document.createRange();
     range.setStartBefore(control.heading);
@@ -105,6 +119,7 @@
     const text = textFor(control);
     if (!text) return;
     active = control;
+    lastControl = control;
     const token = generation;
     const playbackSettings = {...settings};
     // Short utterances avoid browser limits on long sections.
@@ -149,7 +164,7 @@
     preferences.title = 'Read-aloud settings';
     preferences.setAttribute('aria-haspopup', 'dialog');
     preferences.setAttribute('aria-controls', dialog.id);
-    const control = {heading, title, play};
+    const control = {heading, title, play, group};
     controls.push(control);
     play.addEventListener('click', () => {
       if (active !== control) {start(control); return;}
@@ -157,12 +172,32 @@
       else {synth.pause(); paused = true; status.textContent = `Paused: ${title}`;}
       update();
     });
-    preferences.addEventListener('click', () => {opener = preferences; refreshVoices(); dialog.showModal();});
+    preferences.addEventListener('click', () => {lastControl = control; opener = preferences; refreshVoices(); dialog.showModal();});
     group.append(play, preferences);
     heading.after(group);
   });
   update();
   dialog.addEventListener('close', () => opener?.focus());
   dialog.querySelector('[data-reader-stop]').addEventListener('click', () => stop('Reading stopped.'));
+  document.addEventListener('keydown', event => {
+    if (event.defaultPrevented || event.isComposing || event.repeat || !event.altKey || !event.shiftKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('input,textarea,select,[contenteditable]:not([contenteditable="false"])')) return;
+    if (!['KeyP','ArrowRight','ArrowLeft','KeyX','KeyV'].includes(event.code)) return;
+    const visible = controls.filter(control => control.heading.getClientRects().length > 0);
+    const selected = active || controls.find(control => control.group.contains(document.activeElement)) || lastControl || visible[0];
+    if (!selected) return;
+    event.preventDefault();
+    if (event.code === 'KeyP') {selected.play.click(); return;}
+    if (event.code === 'KeyX') {stop('Reading stopped.'); return;}
+    if (event.code === 'KeyV') {
+      if (!dialog.open) {lastControl = selected; opener = document.activeElement === document.body ? selected.play : document.activeElement; refreshVoices(); dialog.showModal();}
+      return;
+    }
+    const index = controls.indexOf(selected), step = event.code === 'ArrowRight' ? 1 : -1;
+    for (let i = index + step; i >= 0 && i < controls.length; i += step) {
+      if (visible.includes(controls[i])) {start(controls[i]); return;}
+    }
+    status.textContent = step > 0 ? 'No next passage.' : 'No previous passage.';
+  });
   window.addEventListener('pagehide', () => stop());
 })();
