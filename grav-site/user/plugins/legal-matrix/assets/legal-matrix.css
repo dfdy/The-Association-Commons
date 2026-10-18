@@ -1,0 +1,23 @@
+.legal-matrix-filters{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;margin:1.5rem 0;padding:1rem;border:1px solid #825900;background:#fff0bc;color:#3b2900;border-radius:.5rem}
+.legal-matrix-filters[hidden]{display:none}
+.legal-matrix-filters label{display:flex;flex-direction:column;gap:.3rem;flex:1 1 12rem;font-weight:650;min-width:0}
+.legal-matrix-filters input,.legal-matrix-filters select,.legal-matrix-filters button{min-height:44px;max-width:100%;padding:.45rem;font:inherit;color:#3b2900;background:#fffdf3;border:1px solid #825900;border-radius:.25rem}
+.legal-matrix-filters button{cursor:pointer}
+.legal-matrix-filters :is(input,select,button):focus-visible{outline:3px solid #3b2900;outline-offset:3px}
+#legal-matrix-status{flex-basis:100%;margin:0}
+.legal-matrix-scroll{max-width:100%;overflow-x:auto;margin:1rem 0}
+.legal-matrix-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.legal-matrix table{width:100%;min-width:48rem;border-collapse:collapse;font-size:.9rem}
+.legal-matrix caption{text-align:left;font-weight:700;padding:.5rem 0}
+.legal-matrix table th,.legal-matrix table td{padding:.65rem;text-align:left;vertical-align:top;border:1px solid #8a9489;overflow-wrap:anywhere}
+.legal-matrix table th{font-weight:650}
+.legal-matrix table thead th{background:#e9ecdf;color:#202821}
+.legal-matrix table.dataTable thead th:focus-visible{outline:3px solid var(--accent);outline-offset:-4px}
+.legal-matrix-record{border:1px solid #8a9489;border-radius:.35rem;margin:1rem 0;padding:1rem;scroll-margin-top:calc(var(--site-header-height,6rem) + 1rem)}
+.legal-matrix-record summary{cursor:pointer;min-height:44px;font-weight:700;padding:.35rem;overflow-wrap:anywhere}
+.legal-matrix-record summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.legal-matrix-record dt{font-weight:700;margin-top:.75rem}
+.legal-matrix-record dd{margin-left:0;overflow-wrap:anywhere}
+html[data-theme="night"] .legal-matrix table thead th{background:#223029;color:#e8ebe2}
+@media(forced-colors:active){.legal-matrix-filters,.legal-matrix-filters :is(input,select,button),.legal-matrix table thead th{background:Canvas;color:CanvasText;border-color:CanvasText}.legal-matrix :focus-visible{outline-color:Highlight}}
+@media print{.legal-matrix-filters{display:none}.legal-matrix-scroll{overflow:visible}.legal-matrix table{min-width:0}.legal-matrix-record{break-inside:avoid}.legal-matrix-record::details-content{display:block}}

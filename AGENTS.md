@@ -15,3 +15,7 @@ Use the official [WCAG 2.2 recommendation](https://www.w3.org/TR/WCAG22/) as the
 Interface, design, accessibility and functionality changes apply to all language editions. Only editorial content revisions are English-only: do not translate or propagate revised English prose to other languages until the user explicitly requests translation. Preserve existing translated content when applying shared interface or functionality changes.
 
 The project centres South African needs and possibilities for rebuilding adult education as an emancipatory force. International traditions of autonomous organising and mutual aid inform the framework; Swedish experience is one reference, not its defining model. The framework is a voluntary organising agreement rather than draft legislation.
+
+## Writing preferences
+
+Use the Oxford comma by default; the user almost always prefers it.

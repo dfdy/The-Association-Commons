@@ -1,4 +1,4 @@
-name: "TAC: Hero Intro"
+name: "DDC: Hero Intro"
 slug: hero-intro
 type: plugin
 version: 0.1.2
@@ -6,7 +6,7 @@ description: Explicit Markdown wrapper for a bold headline and introductory para
 icon: header
 license: AGPL-3.0-only
 author:
-  name: "The Associations Commons (TAC)"
+  name: "The Democratic Development Commons (DDC)"
 dependencies:
   - { name: grav, version: '>=2.0.0' }
   - { name: shortcode-core }

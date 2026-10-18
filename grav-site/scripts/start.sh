@@ -23,6 +23,9 @@ cp -a /opt/commons-user/plugins/hero-intro user/plugins/
 cp -a /opt/commons-user/plugins/glossary user/plugins/
 cp -a /opt/commons-user/plugins/section-layout user/plugins/
 cp -a /opt/commons-user/plugins/read-aloud user/plugins/
+cp -a /opt/commons-user/plugins/translation-notice user/plugins/
+cp -a /opt/commons-user/plugins/legal-matrix user/plugins/
+cp -a /opt/commons-user/plugins/governance-patterns user/plugins/
 mkdir -p user/data/commons-private
 chmod 700 user/data/commons-private
 # Exclude the checkout from recursive chown: Docker on Linux must not take

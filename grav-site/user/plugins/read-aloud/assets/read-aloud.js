@@ -80,7 +80,17 @@
     const range = document.createRange();
     range.setStartBefore(control.heading);
     const next = headings[headings.indexOf(control.heading) + 1];
-    if (next) range.setEndBefore(next); else range.setEnd(article, article.childNodes.length);
+    const panelContent = control.heading.closest('.remember-panel__content');
+    if (panelContent && (!next || !panelContent.contains(next))) {
+      range.setEnd(panelContent, panelContent.childNodes.length);
+      return range;
+    }
+    if (next) {
+      // Labels and decorative numbers in the next wrapper belong to that passage.
+      let boundary = next;
+      while (boundary.parentNode !== article && !boundary.parentNode.contains(control.heading)) boundary = boundary.parentNode;
+      range.setEndBefore(boundary);
+    } else range.setEnd(article, article.childNodes.length);
     return range;
   };
   const highlight = () => {
@@ -174,7 +184,18 @@
     });
     preferences.addEventListener('click', () => {lastControl = control; opener = preferences; refreshVoices(); dialog.showModal();});
     group.append(play, preferences);
-    heading.after(group);
+    // Put controls after this passage, keeping them inside its content wrapper.
+    const range = rangeFor(control);
+    const walker = document.createTreeWalker(article, NodeFilter.SHOW_TEXT);
+    let last = heading, node;
+    while ((node = walker.nextNode())) {
+      if (node.textContent.trim() && range.intersectsNode(node) &&
+          !node.parentElement.closest('.tac-reader-controls,.tac-section-aside,script,style')) last = node;
+    }
+    let container = heading.parentNode;
+    while (!container.contains(last)) container = container.parentNode;
+    while (last.parentNode !== container) last = last.parentNode;
+    last.after(group);
   });
   update();
   dialog.addEventListener('close', () => opener?.focus());

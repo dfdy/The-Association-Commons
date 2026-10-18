@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "0.1.0",
+  "language": "en",
+  "updated_at": "2026-10-18",
+  "description": "Draft constitutional patterns for participatory testing; no initial pattern is tested or generator-ready.",
+  "patterns": [
+    {
+      "id": "contribution-options",
+      "title": "Member-agreed contribution options",
+      "category": "contributions",
+      "provision_type": "democratic_choice",
+      "problem": "A single contribution level can exclude members or conceal unequal burdens.",
+      "suitable_when": [
+        "Members pool resources and need transparent, revisable contribution rules."
+      ],
+      "unsuitable_when": [
+        "Financial promises or benefit arrangements require specialist regulation that has not been mapped.",
+        "Members cannot safely disclose income; avoid means-testing by default."
+      ],
+      "how_it_works": [
+        "Members agree a budget and compare money, in-kind, and voluntary contribution options.",
+        "Record who may change the rules and how members receive understandable accounts.",
+        "Review the effect on participation and link to a confidential hardship process."
+      ],
+      "draft_clause": "Members agree contributions of [money, time, or other resources] through [decision process]. The rules, exemptions, and review dates are recorded accessibly. Changes require [notice and decision threshold].",
+      "local_choices": [
+        "Whether contributions are required or voluntary.",
+        "How different contributions are valued without assigning unequal democratic rights.",
+        "Who approves changes, how notice works, and when rules are reviewed."
+      ],
+      "risks_and_safeguards": [
+        "Keep contribution records private where needed while reporting aggregate finances.",
+        "Check whether pooling, lending, or promised benefits activate financial regulation."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "stokvel-exemption",
+        "tax-status"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    },
+    {
+      "id": "hardship-adjustments",
+      "title": "Confidential hardship adjustments",
+      "category": "hardship",
+      "provision_type": "democratic_choice",
+      "problem": "Fixed obligations can punish inability to contribute and reduce participation.",
+      "suitable_when": [
+        "The association needs a fair way to reduce, pause, or waive contributions."
+      ],
+      "unsuitable_when": [
+        "An automatic entitlement would promise benefits the association cannot fund.",
+        "A small group cannot keep individual decisions confidential; consider a universal flexible contribution instead."
+      ],
+      "how_it_works": [
+        "Publish simple criteria and a confidential request route.",
+        "Delegate time-limited decisions to accountable people with conflict-of-interest safeguards.",
+        "Provide review or appeal and report aggregate effects without identifying members."
+      ],
+      "draft_clause": "A member may request [a reduction, pause, or waiver] through [confidential route]. [Decision-maker] responds within [period]. The member may seek review through [process]. Inability to contribute is considered separately from refusal or misconduct.",
+      "local_choices": [
+        "Adjustment options and duration.",
+        "Minimum information needed without intrusive proof.",
+        "Whether and how an adjustment affects benefits, subject to legal review."
+      ],
+      "risks_and_safeguards": [
+        "Do not require unnecessary medical or financial disclosure.",
+        "Separate help with hardship from disciplinary sanctions."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "privacy-information",
+        "disability-equality"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    },
+    {
+      "id": "rotating-facilitation",
+      "title": "Rotating facilitation with supported handover",
+      "category": "facilitation",
+      "provision_type": "institutional_pattern",
+      "problem": "The same confident people can monopolise meetings and organisational knowledge.",
+      "suitable_when": [
+        "Members want to share meeting skills and responsibility."
+      ],
+      "unsuitable_when": [
+        "Rotation would put an unwilling or unsupported member in charge of a high-risk meeting.",
+        "Continuity needs are high and a rotating co-facilitator would work better than full rotation."
+      ],
+      "how_it_works": [
+        "Agree a rotation and an accessible opt-in or exemption process.",
+        "Pair new facilitators with a supporter and share the agenda and meeting tools.",
+        "Review facilitation as a group without turning feedback into public humiliation."
+      ],
+      "draft_clause": "Facilitation rotates through [agreed process]. Members may decline or request support. The facilitator follows the agreed agenda and decision rules and gains no additional voting authority. [Support arrangement] enables handover.",
+      "local_choices": [
+        "Rotation period and voluntary participation.",
+        "Co-facilitation, training, and support.",
+        "How members raise concerns about facilitation."
+      ],
+      "risks_and_safeguards": [
+        "Rotation alone does not remove informal authority.",
+        "Keep decision-making authority with the body entitled to decide."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "member-review",
+        "disability-equality"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    },
+    {
+      "id": "independent-member-review",
+      "title": "Member-elected independent reviewers",
+      "category": "reviewers",
+      "provision_type": "institutional_pattern",
+      "problem": "People exercising delegated power should not be the only people checking their own work.",
+      "suitable_when": [
+        "Members need proportionate scrutiny of decisions, mandates, and resource stewardship."
+      ],
+      "unsuitable_when": [
+        "The group is too small to separate roles; peer review or external support may be more realistic.",
+        "A statutory audit or regulated professional review is required; this pattern cannot replace it."
+      ],
+      "how_it_works": [
+        "Members elect reviewers with a defined mandate, term, and conflict rules.",
+        "Give reviewers access to relevant records while protecting personal information.",
+        "Require understandable reports and a way for members to respond and require correction."
+      ],
+      "draft_clause": "Members appoint [reviewers] for [term]. Reviewers do not review decisions in which they participated or have a material interest. They report findings and recommendations to [member body] through [accessible process].",
+      "local_choices": [
+        "Reviewer eligibility, recall, and succession.",
+        "Records access and confidential handling.",
+        "Frequency, scope, and limits of review."
+      ],
+      "risks_and_safeguards": [
+        "Do not create a permanent superior authority over members.",
+        "Distinguish member scrutiny from legally required audit or accounting functions."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "npo-founding-document",
+        "privacy-information"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    },
+    {
+      "id": "bounded-federation-mandate",
+      "title": "Bounded federation mandate and report-back",
+      "category": "federation",
+      "provision_type": "democratic_choice",
+      "problem": "Cooperation can shift power upward without clear member authorisation or accountability.",
+      "suitable_when": [
+        "Autonomous associations want to delegate specific shared functions to a federation."
+      ],
+      "unsuitable_when": [
+        "Members cannot identify which powers are being delegated or how withdrawal affects obligations.",
+        "Shared assets or contracts create commitments that need separate legal advice."
+      ],
+      "how_it_works": [
+        "Specify the shared task, delegated powers, resources, and duration.",
+        "Mandate representatives and require timely accessible report-back.",
+        "Agree review, recall, amendment, and withdrawal arrangements before delegation."
+      ],
+      "draft_clause": "The association delegates [specified functions] to [federation] for [period]. Representatives act within [mandate], report to [member body] at [interval], and may be recalled through [process]. Withdrawal follows [notice and settlement arrangements].",
+      "local_choices": [
+        "Functions retained locally.",
+        "Representation, contribution, and decision rules.",
+        "Responsibilities for shared assets and outstanding commitments."
+      ],
+      "risks_and_safeguards": [
+        "Withdrawal must address existing obligations rather than imply they disappear.",
+        "Make the federation accountable without claiming control over matters never delegated."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "common-law-personality",
+        "member-review"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    },
+    {
+      "id": "fair-conflict-process",
+      "title": "Proportionate conflict procedure with appeal",
+      "category": "conflict",
+      "provision_type": "institutional_pattern",
+      "problem": "Informal conflict handling can become arbitrary, unsafe, or controlled by interested people.",
+      "suitable_when": [
+        "Members need a clear, accessible process for ordinary disputes and alleged breaches."
+      ],
+      "unsuitable_when": [
+        "There is immediate danger, coercion, or serious violence; urgent protective and external routes may be needed.",
+        "Mediation would force a harmed person to negotiate with someone who has power over them."
+      ],
+      "how_it_works": [
+        "Provide accessible reporting and consider immediate safety and conflict-of-interest needs.",
+        "Give parties understandable notice and a fair opportunity to respond with support.",
+        "Use proportionate decisions, explain reasons, and provide an impartial review or appeal route."
+      ],
+      "draft_clause": "Concerns may be raised through [accessible routes]. [Impartial decision-maker] gives notice, a fair opportunity to respond, and reasons for a decision within [period]. A member may appeal through [independent process]. This procedure does not remove access to external remedies.",
+      "local_choices": [
+        "Who hears matters and when they must recuse themselves.",
+        "Support, confidentiality, timescales, and record retention.",
+        "Protective steps and appeal arrangements."
+      ],
+      "risks_and_safeguards": [
+        "Do not promise absolute confidentiality or use it to hide abuse.",
+        "Distinguish inability, disagreement, and misconduct; protect lawful dissent."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "disability-equality",
+        "privacy-information"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    },
+    {
+      "id": "accessible-meeting-options",
+      "title": "Accessible meetings and supported participation",
+      "category": "accessible_meetings",
+      "provision_type": "institutional_pattern",
+      "problem": "A meeting can appear open while language, format, cost, disability, or timing excludes members.",
+      "suitable_when": [
+        "Members need to plan multiple meaningful ways to participate in deliberation and decisions."
+      ],
+      "unsuitable_when": [
+        "The proposed digital or hybrid method exposes members to surveillance or excludes those without connectivity.",
+        "A participation method conflicts with verified legal decision-making requirements and has not been adapted."
+      ],
+      "how_it_works": [
+        "Ask members about access requirements without demanding unnecessary diagnoses.",
+        "Publish accessible agendas early and arrange interpretation, support, formats, and participation costs.",
+        "Agree how remote, oral, written, and supported contributions enter the same decision process.",
+        "Review who could not participate and fund practical improvements."
+      ],
+      "draft_clause": "Notices, records, and meetings use [agreed languages and accessible formats]. Members may participate through [methods] with [support arrangements]. The association budgets for access and reviews barriers at [interval].",
+      "local_choices": [
+        "Notice periods, language support, and formats.",
+        "How participation, quorum, and voting work across methods.",
+        "Access budgets, privacy, and responsibility for arrangements."
+      ],
+      "risks_and_safeguards": [
+        "Do not equate physical presence with engagement.",
+        "Check that supported participation preserves the member’s own choices and voice."
+      ],
+      "accessibility": "Discuss the pattern in members’ preferred languages and accessible formats. Provide supported participation and ways to contribute without attending in person. Do not assume that every member can read, travel, speak publicly, or use digital tools.",
+      "legal_record_ids": [
+        "disability-equality",
+        "privacy-information"
+      ],
+      "legal_review_status": "not_reviewed",
+      "testing_status": "untested_draft",
+      "test_evidence": [],
+      "last_tested": null,
+      "reviewer": null,
+      "review_due": null,
+      "generator_ready": false,
+      "updated_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "White paper: requirements for the future constitution generator",
+          "url": "/en/white-paper#part-i-21",
+          "locator": "§21"
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial draft pattern derived from the white paper. No field testing or legal review claimed."
+        }
+      ],
+      "legal_reviewed_on": null,
+      "legal_reviewer": null,
+      "legal_review_notes": null
+    }
+  ]
+}

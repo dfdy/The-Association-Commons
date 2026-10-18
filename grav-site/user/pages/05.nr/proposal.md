@@ -11,13 +11,16 @@
 }
 ---
 
+[translation-notice /]
+
+
 [remember-panel id="prefiguration" title="Ukuphila ingomuso nje" reset="7d" show="Tjengisa" hide="Fihla"]
 
 ## Ukuphila ingomuso nje
 
 Ipolitiki yokuphila ingomuso nje itjho ukwenza ubudlelwano neendlela zokuhlela esifuna ukuzibona emphakathini ngendlela esisebenzisana ngayo namhlanjesi. Iindlela zitjengisa iminqopho: ukuzibandakanya ngokuzithandela, ukuthatha iinqunto ngokuhlanganyela nokuphendulana ngezenzo zethu.
 
-Umtlolo lo unikelwa njengesibonelo esingasetjenziswa nje: abantu bangakhetha ukusebenzisa, ukutjhugulula nokuthuthukisa iinkambisolawulo zawo kuma-stadgar wabo (imithethosisekelo namkha imithetho yehlangano) nasekuhleleni kwangamalanga, ngaphambi kokwamukelwa kwalesisiphakamiso mthetho eSewula Afrika esikhathini esizako. Amandla wawo njengomkhuba okwabelwana ngawo avela ebantwini abawamukelako. Ukuwamukela akuwenzi umtlolo lo ube mthetho begodu akuthathi indawo yomthetho okhona.
+I-The Democratic Development Commons inikela ihlaka lokuzihlela ngokuzithandela abantu abangalisebenzisa nje, ngokufunda ngokuhlanganyela, ukusizana, nokuzibusa ngokwentando yenengi. Amalunga angacocisana, atjhugulule, begodu athuthukise iinkambiso zalo emithethwenisisekelo yawo nasekuzihleleni kwamalanga woke, athathe imithethosisekelo yawo njengeemvumelwano eziphilako ezenza ukuzibandakanya kukghonakale begodu zitjhuguluke ngokuhlangenwe nakho okwabelwanako. Ithulusi elihleliweko lokwakha imithethosisekelo nebuthelelo leendlela zokuphatha elisathuthukiswako kuhloswe ngakho ukusekela ikambiso le, kukulapho amalunga asagcine amandla phezu kwemithetho ayemukelako. Ihlakeli alisiwo umthetho ophakanyiswako, begodu ukulamukela akujamiseleli imithetho ekhona.
 
 [/remember-panel]
 
@@ -25,13 +28,13 @@ Umtlolo lo unikelwa njengesibonelo esingasetjenziswa nje: abantu bangakhetha uku
 
 # isiNdebele
 
-Umthetho ophakanyiswako awukakatjhugululelwa kilelimi. Le yiphrojekthi yelimi ezijameleko.
+Ihlaka eliphakanyiswako alikakatjhugululwa ngokupheleleko kilelimi. Le yiphrojekthi yelimi ezijameleko. Ihlakeli lisivumelwano sokuzihlela ngokuzithandela, ingasi umthetho ophakanyiswako.
 
 [/hero-intro]
 
 Iphrojekthi ngayinye yelimi ilawulwa yi-stadgar yayo (umthethosisekelo namkha imithetho yehlangano). Amalunga abeka iminqopho, ukuthatha iinqunto nobulunga ngokwaleyo mithetho. Ukutjengisa ikareko lapha akukwenzi ilunga ngokuzenzakalelako.
 
-[section-layout label="06 / Participate"]
+[section-layout label="06 / Zibandakanye"]
 
 ## Tjengisa ikareko lokujoyina iphrojekthi le
 

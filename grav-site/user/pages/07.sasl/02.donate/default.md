@@ -10,6 +10,9 @@
 }
 ---
 
+[translation-notice /]
+
+
 ## English version shown
 
 The Donate page has not yet been translated for the South African Sign Language project. This page is shown in English.

@@ -1,4 +1,4 @@
-# TAC: Section Layout
+# DDC: Section Layout
 
 ```markdown
 [section-layout label="01 / The Idea" description="How people organise around a shared purpose."]

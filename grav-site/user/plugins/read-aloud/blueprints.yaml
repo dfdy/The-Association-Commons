@@ -1,4 +1,4 @@
-name: "TAC: Read Aloud"
+name: "DDC: Read Aloud"
 slug: read-aloud
 type: plugin
 version: 0.1.2
@@ -6,6 +6,6 @@ description: Browser speech for headings and content with shared voice preferenc
 icon: volume-up
 license: AGPL-3.0-only
 author:
-  name: "The Associations Commons (TAC)"
+  name: "The Democratic Development Commons (DDC)"
 dependencies:
   - { name: grav, version: '>=2.0.0' }

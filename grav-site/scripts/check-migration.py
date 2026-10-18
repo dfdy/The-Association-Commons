@@ -22,6 +22,8 @@ for code in report['languages']:
     folder=root/'grav-site/user/pages'/report['routes']['/'+code+'/']
     assert (folder/'01.stadgar/stadgar.md').is_file()
     assert (folder/'02.donate/default.md').is_file()
-    assert len(json.loads((folder/'01.stadgar/stadgar.md').read_text().split('---')[1])['builder_fields'])>10
+    generator=(folder/'01.stadgar/stadgar.md').read_text()
+    assert 'builder_fields' not in generator
+    assert '# Association Constitution Drafting Tool' in generator
 assert source['documents']['/donate/']['blocks']==source['documents']['/en/donate/']['blocks']
 print(f"Migration verified: {report['source_blocks']} content blocks; {len(report['languages'])} language trees; donation alias is identical.")

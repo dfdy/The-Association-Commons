@@ -12,8 +12,8 @@ licence summary. The licences are not interchangeable options for the same mater
 ## Website content: CC BY-NC-SA 4.0
 
 The first-party organising framework, explanatory prose, translations, glossary,
-constitution templates, editorial images and other editorial content of Voluntary
-Associations: The Association Commons are licensed under Creative Commons
+constitution templates, editorial images and other editorial content of
+The Democratic Development Commons are licensed under Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA-4.0).
 The Markdown pages in `grav-site/user/pages/` and first-party website screenshots
 in `docs/images/` are editorial content under these same terms. The complete

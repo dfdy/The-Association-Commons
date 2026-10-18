@@ -15,201 +15,216 @@
 
 ## Prefiguration
 
-Prefigurative politics means practising the relationships and ways of organising we want to see in society through how we act together now. Here, the means reflect the ends: voluntary participation, shared decision-making and accountability to one another.
+Prefigurative politics means practising the relationships and ways of organising we want to see in society through how we act together now. Here, the means reflect the ends: voluntary participation, shared decision-making, and accountability to one another.
 
-This draft is offered as a de facto template: people can choose to use, adapt and develop its principles in their own constitution and everyday organising before any future legislative recognition of this proposed framework in South Africa. Its authority as a shared practice comes from the people who adopt it. Adoption does not enact this draft or replace existing law.
+The Democratic Development Commons offers a voluntary organising framework that people can put into practice now, through collective learning, mutual aid, and democratic self-government. Members can discuss, adapt, and develop its principles in their constitutions and everyday organising, treating their constitutions as living agreements that enable participation and change through shared experience. The planned generator and developing governance-pattern library are intended to support this process, with members retaining authority over the rules they adopt. The framework is not proposed legislation, and adopting it does not replace existing law.
 
 [/remember-panel]
 
 [hero-intro]
 
-[hero-label]A framework for voluntary associations[/hero-label]
+[hero-label]The Democratic Development Commons[/hero-label]
 
 # The freedom to [hero-accent]organise.[/hero-accent]
 
-A framework for voluntary associations, inspired by international organising best practice: shared purpose, democratic self-governance, and accountability to one another.
+Collective learning, mutual aid, and democratic self-government: a South African framework for people to build associations, steward shared resources, and cooperate without surrendering their power to decide together.
 
 [/hero-intro]
 
-This text is a proposal for consideration. It is not an Act of Parliament and has no legal force.
+**We learn democracy by doing democracy.** This is a voluntary organising framework, not proposed legislation. It does not replace South African law or confer legal personality, registration, or tax status.
+
 
 [section-layout label="01 / The Idea"]
 
 ## Association begins with people.
 
-People should be free to come together, establish shared purposes and determine how they govern themselves. The state should recognise that freedom rather than make ordinary voluntary association dependent on prior permission.
+People should be free to associate around shared needs, purposes, and possibilities, and to govern the institutions they create. Collaboration means acting together across differences; it does not require harmony or exclude disagreement, contestation or organised challenge to power.
 
-The proposal draws on Sweden's ideell förening (a voluntary / non-profit association) tradition while recognising South Africa's constitutional commitments to equality, dignity, freedom of association, multilingualism and participatory democracy.
+Democratic agency is not bestowed on passive beneficiaries by experts, organisations, markets or the state. It develops through people's collective capacity to understand their circumstances, make decisions, care for one another, steward shared resources, challenge domination, learn from action and revise the arrangements through which they live and work together. Public institutions nevertheless retain their obligations to provide rights, public goods and accountable services.
 
-South Africa already recognises common-law voluntary associations, and the Nonprofit Organisations Act 71 of 1997 provides a voluntary NPO registration framework. This proposal is illustrative and would require legal drafting and harmonisation with existing law before any introduction to Parliament.
+The Democratic Development Commons provides a shared framework for doing this. It draws on South Africa's diverse traditions of worker, civic, mutual-aid, educational, faith, student, neighbourhood and other voluntary organisation; on useful practices developed elsewhere; and on constitutional commitments to freedom, equality, dignity, and participation.
+
+It does not prescribe one organisational form or developmental path. Different associations can retain their own purposes, names, customs, and structures while asking common democratic questions about power, participation, knowledge, resources, accountability and change.
+
+Associations remain responsible for identifying the legal form and activity-specific duties relevant to their work.
 
 [/section-layout]
+
 
 [section-layout label="02 / Foundations"]
 
-## Seven organising principles.
+## Ten organising principles.
+
+These organising principles are open to discussion, testing, and refinement. They provide shared questions for different kinds of association, rather than one organisational model.
 
 [subsection number="01"]
 
-### Freedom of association
+### Freedom and voluntary association
 
-föreningsfrihet — People may form, join, support or leave voluntary associations without a general requirement for prior state permission.
+People may form, join, support, or leave associations without unnecessary external control. Membership expectations, responsibilities and consequences should be understandable before people commit.
 
 [/subsection]
 
 [subsection number="02"]
 
-### Collective self-governance
+### Equal standing
 
-självbestämmande — Members decide their shared purposes, internal arrangements and activities subject to constitutional rights and the law.
-
-[/subsection]
-
-[subsection number="03"]
-
-### Democratic member control
-
-medlemsdemokrati — The constitution provides fair and meaningful routes for members to participate in decisions, elections and oversight.
-
-[/subsection]
-
-[subsection number="04"]
-
-### Shared purpose
-
-gemensamt ändamål — The association acts for a declared common purpose; surplus resources advance that purpose instead of being distributed as profits.
-
-[/subsection]
-
-[subsection number="05"]
-
-### Constitutional governance
-
-constitution — Written rules establish membership rights, office-bearer powers, decisions, accountability, amendments and winding-up.
-
-[/subsection]
-
-[subsection number="06"]
-
-### Separate legal personality
-
-självständighet — An eligible association may hold rights and incur obligations in its own name, separately from individual members.
-
-[/subsection]
-
-[subsection number="07"]
-
-### Accountability
-
-ansvarsskyldighet — Delegated decision-makers answer to members through reporting, scrutiny, review and fair procedures.
-
-[/subsection]
-
-[/section-layout]
-
-[section-layout label="03 / The Framework" surface="shaded"]
-
-## A framework for organising.
-
-These commitments turn the organising principles into agreements that members can discuss, adopt and revise. They support autonomous associations working to rebuild adult education as a practice of critical inquiry, mutual aid and collective action in South Africa.
-
-[subsection number="01"]
-
-### Begin with a shared purpose
-
-An association begins with people identifying a need they want to address and agreeing to act on it. Members define whom the work serves, what they hope to change and how others can take part. The purpose should be clear enough to guide decisions and open enough to develop through experience.
-
-In South Africa, this could mean creating spaces for adults to read, discuss their conditions, recover collective histories, share skills and organise around problems in their communities and workplaces. Members decide which needs are most urgent.
-
-[/subsection]
-
-[subsection number="02"]
-
-### Make education a collective practice
-
-Learning grows from people’s experience and their efforts to understand and change the world. Participants bring knowledge as workers, carers, neighbours and organisers. Reading, dialogue, practical work and reflection connect that knowledge with other ideas and experiences.
-
-The association makes room for disagreement and critical inquiry. Facilitators support participation rather than claim a monopoly on knowledge. Members assess education by whether it deepens understanding, strengthens confidence and expands their capacity to act, alongside any qualifications or practical skills it provides.
+Every member is approached as a person capable of thought, judgement and participation. Differences in knowledge, ability, experience, status, or responsibility do not create superior and inferior classes of members.
 
 [/subsection]
 
 [subsection number="03"]
 
-### Keep participation voluntary
+### Collective self-government
 
-People choose whether to join, contribute or leave. Membership expectations, contributions and responsibilities are explained before people commit. Participation should not depend on loyalty to a leader, party, funder or single viewpoint.
-
-Members can question decisions and withdraw without intimidation. The association agrees how people can raise concerns safely and how it will respond to harassment, coercion or abuse.
+Members retain ultimate authority over the association's purpose, constitution, and major shared resources. Representatives and specialists exercise delegated powers rather than replacing member agency.
 
 [/subsection]
 
 [subsection number="04"]
 
-### Agree a constitution that members can use
+### Difference without domination
 
-Members develop and adopt written rules covering the association’s purpose, membership, decision-making, delegated responsibilities, resources, disputes and closure. The rules should be understandable to the people who use them and available in accessible formats and relevant languages.
-
-A constitution is a working agreement. Members discuss what its provisions mean in practice, keep a shared copy and agree a fair process for changing it. The [constitution builder](/en/stadgar) can provide a starting point for that discussion.
+Democracy does not require sameness. Differences should enlarge collective capacity rather than harden into relations of command, dependency, exclusion or superiority.
 
 [/subsection]
 
 [subsection number="05"]
 
-### Remove barriers to participation
+### Substantive participation and accessibility
 
-Equal participation requires attention to the conditions that make attendance and speaking possible. Members consider language, literacy, disability access, transport costs, data costs, care responsibilities, working hours and personal safety when planning activities.
-
-No one should need an academic qualification or confidence in formal meetings to have a voice. Use small-group discussions, interpretation, oral explanations and different ways of contributing. Ask whose experience is missing and what would make their participation possible.
+A formal right to participate is insufficient where language, literacy, disability, transport, cost, care, work, safety, technology, or social status make participation unusable. Democratic organisation should remove barriers through universal design, reasonable accommodation, and multiple ways of participating.
 
 [/subsection]
 
 [subsection number="06"]
 
-### Keep decisions with the members
+### Collective learning and inquiry
 
-Members agree which decisions they make collectively and which they delegate. They establish accessible meeting notices, ways to propose agenda items, decision rules and records of what was agreed. Significant changes to purpose, leadership or shared resources return to the membership.
-
-Consensus can help build agreement, but members also need a clear way forward when agreement is not possible. Record concerns and minority views, make decisions available to absent members and provide opportunities to revisit them.
+Organisation is educational. Members learn through meetings, campaigns, research, conflict, budgeting, care, practical work, and reflection. Expertise should enlarge collective understanding rather than establish a monopoly over knowledge.
 
 [/subsection]
 
 [subsection number="07"]
 
-### Delegate responsibilities without concentrating power
+### Shared stewardship, mutual aid, and ecological responsibility
 
-Elected or appointed representatives work within clear mandates, time periods and reporting arrangements. Members can review their work, question their decisions and replace them through an agreed fair process. Conflicts of interest are disclosed and addressed.
-
-Share skills and rotate responsibilities where practical so that administration, facilitation and access to information do not become the preserve of a few people. Recognise the labour involved and agree any payment openly.
+Money, knowledge, spaces, equipment, time, care, and other shared resources should serve agreed purposes rather than private enrichment. Associations should organise reciprocal support where appropriate and consider the ecological consequences of their activities. Mutual aid can make participation and solidarity materially possible, but it should not obscure wider inequalities, substitute for redistribution or relieve public institutions of legitimate obligations.
 
 [/subsection]
 
 [subsection number="08"]
 
-### Protect autonomy and practise mutual aid
+### Accountable power, dissent, and review
 
-The association determines its priorities through its members. Before accepting funding, partnerships or institutional support, members consider the conditions attached and whether these could redirect the work or silence criticism. Agreements and significant dependencies are made visible.
-
-Mutual aid means organising reciprocal support around shared needs. Associations can share meeting spaces, learning materials, equipment and organising experience, and cooperate on common struggles while retaining control over their own decisions.
+Delegated authority must remain visible, limited, explainable, and reviewable. Members need practical ways to question decisions, express minority positions, challenge leaders and seek independent scrutiny without retaliation.
 
 [/subsection]
 
 [subsection number="09"]
 
-### Steward shared resources
+### Autonomy and federation
 
-Money, equipment, spaces and learning materials support the agreed purpose rather than private enrichment. Members agree affordable contributions, spending authority, payment arrangements and safeguards against misuse. Inability to pay should be addressed openly rather than quietly excluding people.
-
-Keep records that members can understand and inspect. Decide how shared materials will remain available, who can access accounts and assets, and how responsibilities will be handed over when office-bearers change.
+Associations should control their own purposes while remaining free to cooperate. Larger structures should derive authority from constituent associations through explicit delegation rather than accumulate unnecessary power at the centre.
 
 [/subsection]
 
 [subsection number="10"]
 
-### Make accountability part of everyday work
+### Open-ended and reflexive development
 
-Members receive regular accounts of activities, decisions and finances, with time to ask questions and challenge explanations. The scale of record-keeping and independent review should fit the association’s work and resources.
+There is no universal ladder from "traditional" to "modern" organisation. Associations should examine what their practices make possible, whose interests they serve, which assumptions have become taken for granted and what experience suggests should change.
 
-Accountability also concerns relationships: whether people are heard, commitments are kept and burdens are shared fairly. Seek feedback from participants and affected communities. Collect only the personal information needed for the work, limit access to it and agree when it will be deleted.
+[/subsection]
+
+[/section-layout]
+
+
+[section-layout label="03 / The Framework" surface="shaded"]
+
+## A framework for organising.
+
+These commitments translate the principles into constitutions and everyday practices that members can understand, use, and revise together.
+
+[subsection number="01"]
+
+### Begin with a shared purpose
+
+Agree what brings people together, who is affected by the work, what members hope to accomplish, which conditions they seek to change and how the purpose may develop.
+
+[/subsection]
+
+[subsection number="02"]
+
+### Make the constitution a working agreement
+
+Set out membership, decision-making, delegated powers, resources, accountability, conflict, amendment, and closure in language and formats members can use. The constitution should be revisable rather than treated as a founding document that disappears into a file. The planned [Association Constitution Drafting Tool](/en/stadgar) will aim to provide a starting draft for members to discuss, adapt, and adopt; it is not yet available. The developing [governance-pattern library](/en/governance-patterns) offers untested draft options for research and collective review.
+
+[/subsection]
+
+[subsection number="03"]
+
+### Keep fundamental decisions with members
+
+Identify which decisions require the membership itself and which can be delegated. Significant changes to purpose, constitutional rules, leadership powers or major shared assets should return to members.
+
+[/subsection]
+
+[subsection number="04"]
+
+### Delegate without political substitution
+
+Give representatives enough authority to do necessary work, but define their mandate, duration, reporting duties, review, and removal. Delegation should follow the recurring relationship:
+
+**mandate → action → report → scrutiny → revision**
+
+[/subsection]
+
+[subsection number="05"]
+
+### Make participation usable
+
+Design notices, meetings, documents, voting, and communication around the people who must use them. Provide relevant language access, accessible formats, supported participation and reasonable accommodation without unnecessary personal or medical disclosure.
+
+[/subsection]
+
+[subsection number="06"]
+
+### Distribute knowledge and organisational capacity
+
+Document important work, share skills and plan succession. Finance, technology, facilitation, external relationships, and organisational memory should not become unnecessarily concentrated in indispensable individuals.
+
+[/subsection]
+
+[subsection number="07"]
+
+### Protect democratic encounter and dissent
+
+Create sustained opportunities for people across social differences to work together on shared purposes, without pretending that structural inequalities have disappeared. Treat disagreement and minority reasoning as sources of information rather than evidence of disloyalty.
+
+[/subsection]
+
+[subsection number="08"]
+
+### Steward shared resources and practise mutual aid
+
+Agree how money, assets, knowledge, care, spaces, and other common resources are contributed, used, recorded and transferred. Distinguish hardship from misconduct and avoid quietly excluding people because they cannot meet an assumed norm. Where needs arise from wider structural conditions, ask whether the appropriate response is mutual aid, redistribution, a public claim, or some combination of these.
+
+[/subsection]
+
+[subsection number="09"]
+
+### Establish independent scrutiny
+
+People exercising delegated authority should not be solely responsible for reviewing themselves. Members should appoint independent reviewers appropriate to the scale and risks of the association.
+
+[/subsection]
+
+[subsection number="10"]
+
+### Keep trustworthy and accessible records
+
+Record decisions, responsibilities and financial information in forms members can inspect. Where appropriate, members should verify that meeting records accurately reflect what was decided.
 
 [/subsection]
 
@@ -217,125 +232,250 @@ Accountability also concerns relationships: whether people are heard, commitment
 
 ### Address conflict and harm fairly
 
-Agree how concerns can be raised, who will hear them and how people can respond. Provide alternatives when a complaint concerns someone in a position of authority. Processes should be understandable, timely and attentive to unequal power.
-
-Distinguish disagreement from harmful conduct. Mediation or collective discussion may help in some situations; they should not force someone into an unsafe encounter. Set out fair grounds and procedures for restrictions or removal, with a way to review decisions.
+Distinguish disagreement from harmful conduct. Provide accessible routes for raising concerns, alternatives when powerful people are implicated, opportunities to respond, proportionate remedies and review.
 
 [/subsection]
 
 [subsection number="12"]
 
-### Review, renew and pass the work on
+### Protect organisational autonomy
 
-Periodically ask whether the association is meeting its purpose, who benefits, who remains excluded and what members are learning. Use that reflection to revise activities and rules rather than treating the founding agreement as fixed.
-
-Agree how the association can merge, pause or close, and how records, resources and learning will be passed on responsibly. This framework is a basis for collective agreement, not a proposed Act or a grant of legal status. Associations still need to identify the legal obligations relevant to their activities and seek appropriate advice where needed.
+Make major funding conditions, partnerships, political relationships and institutional dependencies visible. Members should be able to judge whether external support is redirecting priorities, speech or governance.
 
 [/subsection]
 
 [subsection number="13"]
 
-### Relationship to existing legislation
+### Learn through action and periodic review
 
-This framework is a voluntary organising agreement, not legislation. Adopting it does not replace South African law, confer legal personality, register an organisation or grant tax exemption. Members should identify the obligations that apply to their association’s activities and chosen legal form.
+Use collective action, its consequences and reflection as sources of knowledge. Periodically examine power, democratic relations, ideology and taken-for-granted assumptions, genealogy and unlearning, participation and access, then return what is learned to action.
 
-- **Rights and adult education:** the [Constitution of the Republic of South Africa, 1996](https://www.gov.za/documents/constitution/chapter-2-bill-rights) protects equality (section 9), freedom of expression (section 16), assembly (section 17) and association (section 18). Section 29(1)(a) includes the right to adult basic education. These rights provide a basis for the framework’s educational and democratic commitments.
+[/subsection]
 
-- **NPO registration and accountability:** the [Nonprofit Organisations Act 71 of 1997](https://www.gov.za/documents/nonprofit-organisations-act), as amended, sets requirements for NPO registration and reporting. Associations should check the current registration provisions that apply to their activities; adopting this framework is not a substitute for registration where required or for a registered organisation’s reporting duties.
+[subsection number="14"]
 
-- **Equality in participation:** the [Promotion of Equality and Prevention of Unfair Discrimination Act 4 of 2000](https://www.gov.za/documents/promotion-equality-and-prevention-unfair-discrimination-act) addresses unfair discrimination, harassment and hate speech. Membership rules and everyday practices need to be considered alongside these protections.
+### Federate without unnecessary centralisation
 
-- **Personal information:** the [Protection of Personal Information Act 4 of 2013 (POPIA)](https://www.gov.za/documents/protection-personal-information-act) governs the processing of personal information. Membership lists, participant records and communications should be managed with the applicable privacy, security and accountability duties in mind.
+Where cooperation at larger scale is useful, specify which powers remain local and which are delegated upward. Delegates should carry mandates and report back.
 
-- **Tax and donations:** the [Income Tax Act 58 of 1962](https://www.gov.za/documents/income-tax-act-29-may-1962-0000) provides for public-benefit organisation approval under section 30 and the related exemption under section 10(1)(cN). Approval to issue tax-deductible donation receipts under section 18A is a separate matter. NPO registration does not itself confer either approval; consult [SARS guidance on public-benefit organisations](https://www.sars.gov.za/businesses-and-employers/tax-exempt-institutions/public-benefit-organisations/).
+[/subsection]
 
-- **Formal education provision:** the [Continuing Education and Training Act 16 of 2006](https://www.gov.za/documents/further-education-and-training-colleges-act), as amended, provides a framework for continuing education and training colleges, including registration of private colleges. An association planning formal education programmes should establish which registration and programme-quality requirements apply. This organising framework does not authorise a college or accredit a qualification.
+[subsection number="15"]
 
-These are starting points, not an exhaustive compliance checklist. Other duties may arise from employing people, using premises, handling funds or adopting a particular legal form. Read current amended legislation and seek advice appropriate to the association’s work.
+### Use law as a floor and resource
+
+Identify the legal form and activity-specific rules relevant to the association. Meet applicable rights, registration, reporting, equality, privacy, tax, employment, financial or other duties without confusing legal compliance with democratic quality. The [legal matrix](/en/legal-matrix) is a provisional research resource; its initial records await verification.
 
 [/subsection]
 
 [/section-layout]
 
+
 [section-layout label="04 / In Practice"]
 
-## How an association is governed.
+## Putting self-government into practice.
+
+Different associations may use different names, offices, and meeting forms. Choose arrangements proportionate to the work, while keeping authority accountable to members.
 
 [subsection number="01"]
 
 ### Members
 
-Form the collective basis of the association and exercise rights according to its constitution.
+Members constitute the democratic base of the association. Their rights, responsibilities, admission, suspension, exit, and routes for participation should be clear.
 
 [/subsection]
 
 [subsection number="02"]
 
-### General meeting
+### General meeting or assembly
 
-The ordinary forum for major decisions, elections, reports and constitutional amendments.
+The membership's principal decision-making forum should deal with matters reserved to members, receive reports, review delegated authority and amend governing rules. The precise name, frequency and procedure can vary.
 
 [/subsection]
 
 [subsection number="03"]
 
-### Governing board
+### Board, committee or delegated office-bearers
 
-Implements decisions, manages resources and reports back to members.
+A board or equivalent body carries out work between member meetings within defined powers. Its existence should not convert delegated executive responsibility into sovereignty over the association.
 
 [/subsection]
 
 [subsection number="04"]
 
-### Independent oversight
+### Working groups and facilitators
 
-Members appoint reviewers or auditors appropriate to the size and risks of the association.
+Associations may create temporary or continuing groups for particular tasks. Their mandates, resources, and reporting relationships should be clear, and facilitation should support participation rather than establish intellectual authority.
 
 [/subsection]
 
 [subsection number="05"]
 
-### Constitution
+### Independent reviewers
 
-Sets out purpose, membership, decision-making, representation and dissolution procedures.
+Members appoint people who are sufficiently independent of those administering the association to review finances, mandates, procedure, conflicts of interest and other material obligations. Larger or regulated organisations may require professional audit in addition to democratic review.
 
 [/subsection]
 
 [subsection number="06"]
 
+### Constitution, records and organisational memory
+
+Members should be able to access the governing rules, important decisions, financial information, and records needed to understand the association. Organisational memory should survive leadership changes.
+
+[/subsection]
+
+[subsection number="07"]
+
 ### Starting an association
 
-A practical organising checklist: adapt it to the law and requirements where your association operates.
+A starting checklist to discuss and adapt together:
 
-Gather founding members and agree on a shared purpose and name.
+1. Identify the people, shared purpose and people materially affected by the work.
+2. Discuss membership, participation, language, disability access and material barriers before fixing procedures.
+3. Identify the legal form and activity-specific duties that may apply.
+4. Agree which decisions remain with members and which may be delegated.
+5. Draft and collectively adopt a usable constitution.
+6. Choose representatives and independent reviewers, define their mandates and plan succession.
+7. Agree how money, assets, records, privacy, and conflicts of interest will be handled.
+8. Record and verify founding decisions and appointments.
+9. Arrange banking, registrations, tax approvals or regulated permissions where required.
+10. Begin the work, then review what the rules produce in practice and amend them when necessary.
 
-Draft and collectively adopt constitution covering membership, decisions, delegated powers, finances, disputes and dissolution. Use the [constitution builder](/en/stadgar) as a starting point.
+[/subsection]
 
-Elect representatives, define their authority and appoint independent financial oversight.
+[subsection number="08"]
 
-Record the founding decisions, adopted rules and appointments in approved, signed minutes. Keep these records accessible to members.
+### Five recurring democratic reviews
 
-Arrange banking, authorised signatories and any required identifiers, registrations or tax approvals. These are separate from agreeing to associate.
+Associations can periodically use five short review practices:
 
-Hold member meetings, keep financial records, review delegated authority and follow your amendment procedures.
+**Hierarchy and potentiality:** Where is power concentrating, and what new capacities or possibilities are emerging?
+
+**Democratic relations:** Who participates, who can disagree, how are different groups relating, and is harmony concealing inequality?
+
+**Ideology and doxa:** What does the organisation reward, normalise or make seem impossible, including assumptions nobody has thought to question?
+
+**Genealogy and unlearning:** Where did our categories and routines come from, and are we confusing professionalisation, scale or inherited custom with necessity or progress?
+
+**Participation and access:** Who cannot use ordinary processes, what barriers produce that exclusion, and what changes are required?
+
+These reviews should lead to decisions, assigned responsibilities and, where appropriate, collective action beyond the association rather than become symbolic reflection exercises.
 
 [/subsection]
 
 [/section-layout]
 
-[section-layout label="05 / Swedish Roots"]
 
-## Glossary
+[section-layout label="05 / Glossary"]
 
-Key terms for organising together. These are plain-language meanings, not definitions of legal or tax status.
+## Words for organising together.
+
+Plain-language meanings used in the DDC. These are not substitutes for technical legal definitions where a term has a specific statutory meaning.
 
 [glossary]
 
 [glossary-entry]
 
-### Voluntary association
+### Accountability
 
-People who freely come together around a shared purpose and agree how to organise themselves.
+The duty to explain decisions, answer to those affected, accept scrutiny and correct failures where required.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Association
+
+People who voluntarily organise around a shared purpose and agree how to govern their collective activity.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Collective efficacy
+
+A group's experienced belief, grounded in practice, that it can act together and affect its conditions.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Collaboration
+
+People combining different knowledge, capacities, and resources in shared action while retaining the ability to disagree, contest power and challenge the conditions within which they are working together.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Commons
+
+Resources, knowledge, infrastructure or capacities held or governed for shared purposes under rules made or accepted by the people concerned.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Complementarity
+
+A relationship in which differences contribute to shared capacity without being ranked into superior and inferior positions.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Constitution
+
+The association's agreed governing rules concerning purpose, membership, authority, decision-making, resources, accountability, amendment, and closure.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Delegation
+
+Granting a person or body limited authority to act on behalf of the association without transferring the membership's ultimate authority.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Democratic development
+
+Open-ended development of the conditions and collective capacities through which people can understand, govern, and transform their common life, without assuming a universal path of progress.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Dissent
+
+Expressed disagreement with a proposed or existing decision, interpretation or practice. In the DDC it is treated as a potential source of knowledge rather than disloyalty.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Domination
+
+A durable relationship in which some people or institutions exercise unaccountable or structurally superior power over others.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Doxa
+
+Assumptions and practices that appear so natural or obvious that they are usually reproduced without being consciously argued for.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Federation
+
+Cooperation among autonomous associations through a shared body whose powers are explicitly delegated by its constituent associations.
 
 [/glossary-entry]
 
@@ -343,23 +483,87 @@ People who freely come together around a shared purpose and agree how to organis
 
 ### Freedom of association
 
-The freedom to form, join or leave groups and act together with others.
+The freedom to form, join, support, or leave organisations and act collectively with others, subject to constitutional rights and applicable law.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Self-determination
+### Hierarchy
 
-The ability of people to shape their shared goals and make decisions about their own lives.
+An organised relation of superiority and subordination. Difference in role or expertise is not automatically hierarchy; the issue is how power is structured.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Member democracy
+### Ideology in practice
 
-Members have meaningful and fair ways to participate in decisions and hold leaders accountable.
+The ways institutions and routines continually communicate what exists, what is valued, what is possible and what kinds of social roles people are expected to occupy.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Independent review
+
+Scrutiny conducted by people sufficiently independent of those whose decisions, finances or administration are being examined.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Mandate
+
+The purpose, authority and limits given to a representative, delegate, committee or office-bearer.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Member sovereignty
+
+The principle that ultimate authority over the association rests with its members rather than its board, staff, funders or external specialists.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Mutual aid
+
+Reciprocal organisation through which people pool capacities or resources to meet shared needs, rather than one-directional charity from helpers to beneficiaries.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Prefiguration
+
+Practising in present institutions the democratic relationships and forms of cooperation that people seek to make more widely possible.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Praxis
+
+A recurring relationship between action and reflection through which people interpret conditions, act, learn from consequences and revise what they do.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Reasonable accommodation
+
+Necessary and appropriate adjustments that enable a disabled person to participate equally where general accessibility measures are insufficient, without imposing a disproportionate burden.
+
+[/glossary-entry]
+
+[glossary-entry]
+
+### Redistribution
+
+Deliberate change in how material resources, opportunities, benefits or burdens are distributed, whether within an association or through wider social and public arrangements.
 
 [/glossary-entry]
 
@@ -367,135 +571,31 @@ Members have meaningful and fair ways to participate in decisions and hold leade
 
 ### Shared purpose
 
-The common aim that brings an association together and guides its work.
+The common aim that gives an association reason to exist and guides its use of resources.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Constitution
+### Supported participation
 
-The agreed written rules for membership, decision-making, responsibilities and resolving disputes.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Organisational independence
-
-An association’s ability to make its own decisions without control by outside interests.
+Participation in which a person uses assistance, interpretation, communication support, or another aid while retaining their own agency and political standing.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Accountability
+### Universal design
 
-The duty to explain decisions, answer to those affected and put things right when needed.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Annual general meeting
-
-A yearly meeting where members review the work and finances, make decisions and elect representatives.
+Designing environments, information, processes and tools so they can be used by the widest practical range of people from the outset rather than relying only on later individual adjustments.
 
 [/glossary-entry]
 
 [glossary-entry]
 
-### Governing board
+### Voluntary association
 
-People chosen by members to oversee the association’s work within agreed powers.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Auditors and reviewers
-
-People who examine financial records and reporting and share their findings with members.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Members
-
-People who belong to an association, with rights and responsibilities under its agreed rules.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Public benefit
-
-Work that serves a wider community or the public, rather than private gain alone.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Purpose test
-
-A way of checking whether an organisation’s stated aims meet a particular set of requirements.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Activity test
-
-A way of checking whether an organisation’s actual work matches its declared purpose.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Use of resources
-
-How an association applies its money, time and assets to its shared purpose.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Open membership
-
-Welcoming people who support the shared purpose, using fair and clearly stated membership conditions.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Organisation number
-
-An identifier issued by a registration or administrative body; its role depends on the system that issues it.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Meeting minutes
-
-A written record of a meeting’s decisions, agreed actions and responsibilities.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Minutes reviewers
-
-People appointed to check that meeting minutes accurately reflect what was agreed.
-
-[/glossary-entry]
-
-[glossary-entry]
-
-### Member-owned enterprise
-
-An enterprise owned and governed by its members to meet shared economic needs.
+An association formed through agreement among people rather than by compulsory membership or prior creation by the state.
 
 [/glossary-entry]
 
@@ -503,22 +603,26 @@ An enterprise owned and governed by its members to meet shared economic needs.
 
 [/section-layout]
 
+
 [section-layout label="06 / Participate"]
 
 ## Join.
 
-Request to join the discussion community developing this proposal. Submitting a request does not confer membership in any legally established association.
+Help develop and test the Democratic Development Commons through discussion, translation, practical use, and reflection. Associations should help shape the framework and challenge its assumptions.
+
+Expressing interest does not automatically confer membership in a language project or an association. Each project should agree and explain its own membership and participation arrangements.
 
 [/section-layout]
+
 
 [section-layout label="07 / Privacy & Sources"]
 
 ## About this site.
 
-Join requests: The server stores your name, email, optional organisation and reason, selected language project (where applicable), and submission date in a local restricted file. The operator must secure this server, define a retention period and provide a contact channel before public deployment. Data is not automatically emailed or shared. Requests are not approved automatically.
+This public framework draws on [Part II of the working white paper](/en/white-paper#part-ii). The paper provides the fuller reasoning, sources, and critical challenges behind it. Both the framework and its supporting tools remain open to participatory testing and revision.
 
-Preferences: A first-party cookie stores the selected theme, language order, voice and reading speed for up to 400 days (browsers may expire it earlier). No analytics or third-party tracking are included.
+The aim is to strengthen associations’ ability to understand, govern, question, and remake themselves, without dependence on the DDC platform or its experts. Collective self-organisation should also strengthen the capacity to challenge wider inequalities and hold public institutions accountable.
 
-Legal reading: South African NPO registration guidance · Nonprofit Organisations Act · Recognition of South African Sign Language. ([Link](https://www.gov.za/services/register-nonprofit-organisation)) ([Link](https://www.gov.za/documents/nonprofit-organisations-act)) ([Link](https://www.gov.za/speeches/president-cyril-ramaphosa-enact-sign-language-12th-official-langauge))
+Read the [privacy policy](/en/privacy), [content licence](/en/licence/content), and [software licence](/en/licence/software) for how this site and its materials are handled.
 
 [/section-layout]

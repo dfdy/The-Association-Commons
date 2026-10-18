@@ -14,7 +14,7 @@ for route in report['routes']:
 for removed in ['/sv','/sv/stadgar','/sv/donate','/sv/languages']:
     status,_,_=request(removed);assert status==404,(removed,status)
 for code in report['languages']:
-    status,body,_=request('/'+code+'/stadgar');assert status==200 and b'stadgar-form' in body,(code,status)
+    status,body,_=request('/'+code+'/stadgar');assert status==200 and b'Association Constitution Drafting Tool' in body and b'id="stadgar-form"' not in body,(code,status)
 for route in ['/en','/zu','/en/donate','/en/licence/software','/en/privacy']:
     for fmt,signature in [('md',None),('rtf',b'{\\rtf'),('pdf',b'%PDF-')]:
         status,body,headers=request(route+'?download='+fmt)
@@ -30,5 +30,5 @@ status,body,_=request('/api/v1/users',headers=headers)
 assert status==200 and [u['username'] for u in json.loads(body)['data']]==['codex-editor']
 for path in ['/api/v1/users/admin','/api/v1/config/system']:
     status,_,_=request(path,headers=headers);assert status==403,(path,status)
-status,_,_=request('/en/stadgar?download=pdf',b'{"name":"Only a name"}',{'Content-Type':'application/json'});assert status==422,status
-print('PASS: all migrated routes and builders; Markdown/RTF/PDF; private-file protection; anonymous API rejection; MCP can read pages but cannot access other accounts/config; builder required fields.')
+status,body,_=request('/en/stadgar?download=md');assert status==200 and b'Association Constitution Drafting Tool' in body
+print('PASS: all migrated routes and generator descriptions; Markdown/RTF/PDF; private-file protection; anonymous API rejection; MCP can read pages but cannot access other accounts/config; generator description download.')

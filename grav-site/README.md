@@ -32,18 +32,18 @@ Alternatively, `python3 grav-site/setup.py` from the repository root starts Grav
 and saves the initial login privately in `.local/grav-admin.txt`.
 
 In **Pages**, select a language proposal, edit its content, and save. Expand the
-language to edit **Constitution** or **Donate**. The constitution page's **Builder fields**
-tab edits labels and default answers. Markdown, RTF and PDF downloads use the
-current content. Visitor constitution answers are never saved.
+language to edit **Association Constitution Drafting Tool** or **Donate**. The generator page
+describes the planned tool; the previous builder and its answer fields have been
+removed. Markdown, RTF, and PDF downloads use the current page content.
 
 ## Content structure
 
 ```text
 /en                     English proposal
-/en/stadgar             English constitution builder (existing URL retained)
+/en/stadgar             Association Constitution Drafting Tool (existing URL retained)
 /en/donate              English donations page
 /zu                     isiZulu project
-/zu/stadgar              Constitution builder (English fallback)
+/zu/stadgar              Association Constitution Drafting Tool (English fallback)
 /zu/donate               Donations page (English fallback)
 ```
 
@@ -55,7 +55,7 @@ translated equivalents under other languages. The old root-level addresses,
 including `/donate` and `/languages`, redirect to their English pages and retain
 download query parameters.
 
-The initial import contains 31 distinct public documents and 13 builders.
+The initial import contains 31 distinct public documents and 13 builder pages, now replaced by descriptions of the future generator.
 **The running editor reads and writes `grav-site/user/pages/` directly.** This
 bind mount includes Markdown, frontmatter, page folders and uploaded page media.
 Edits made in Grav Admin or through MCP appear in your Git working tree. Files
@@ -161,8 +161,8 @@ The shared interface includes day/night modes, language pills, page tabs and
 Markdown/RTF/PDF downloads. The theme choice uses a one-year cookie. Language
 shading uses a separate cookie containing the last 50 menu clicks.
 
-All project plugins use the `TAC:` prefix, version **0.1.2**, and author
-**The Associations Commons (TAC)**. Their Markdown syntax is documented here:
+All project plugins use the `DDC:` prefix, version **0.1.2**, and author
+**The Democratic Development Commons (DDC)**. Their Markdown syntax is documented here:
 
 - [Hero introduction and accent text](user/plugins/hero-intro/README.md)
 - [Numbered sections, descriptions and subsections](user/plugins/section-layout/README.md)
@@ -177,3 +177,84 @@ content may therefore reflect an earlier version of the framework.
 
 Accessibility target: **WCAG 2.2 AA**. See the repository’s development instructions;
 this target is not a completed conformance audit.
+
+### Future generator replacement checks
+
+The old `/[language]/stadgar` routes now describe the planned constitution generator
+from white paper section 21. The former form, preview, editable builder schema, and
+answer-to-constitution export handler have been removed. Migration retains these
+description pages. The replacement uses English fallback content marked `lang="en"`.
+
+Chromium checks passed for all 13 editions: description headings, absence of builder
+controls, current navigation state, Markdown downloads, and English content language.
+RTF/PDF description exports, a 360px viewport, and keyboard focus order also passed.
+PHP and JavaScript syntax checks passed. Screen-reader testing remains unperformed.
+
+Project navigation labels are translated in
+`user/themes/commons/templates/partials/project-navigation.html.twig`.
+“Constitution Jumpstart” uses an equivalent invitation to begin a constitution.
+SASL retains written English support. Chromium checks covered translated labels,
+navigation names, language attributes, links, current-page states, a 360px viewport,
+and keyboard order across all 39 proposal, generator, and donation pages.
+Fluent-speaker review and screen-reader testing remain outstanding.
+
+### Reading preferences
+
+The header offers minus/plus Text size buttons with a percentage indicator (100%–400%) beside Night mode.
+Both use the translation notice's amber palette. Text size scales the root font
+relative to the browser default, works alongside browser zoom, and persists across
+editions in the first-party `ddc-text-size` cookie for one year after a change.
+Without JavaScript, browser zoom remains available and inactive controls are hidden.
+
+`node grav-site/scripts/test-reading-preferences.cjs` checks size changes, keyboard
+focus, keyboard theme activation, cross-language persistence, amber styling,
+200% text at 320–1280px widths, compact-header layout, forced-colour focus, and
+reduced-motion operation. Set `PLAYWRIGHT_MODULE` and, if needed,
+`PLAYWRIGHT_CHROMIUM_EXECUTABLE` for a custom browser installation.
+Chromium checks passed; screen-reader and manual screen-reader testing
+remain outstanding.
+
+### Legal matrix
+
+The English-only [legal matrix](http://localhost:8388/en/legal-matrix) is linked from
+the shared footer. Its first research release contains 16 provisional records,
+separate proposed-reform tracking, JSON/schema downloads, and server-rendered indexes
+with locally hosted DataTables search, filters, and sorting. No initial record is
+verified or generator-ready. See the [plugin maintenance guide](user/plugins/legal-matrix/README.md)
+for the data model, source-review process, licences, and checks.
+
+Text sizing now extends to 400% (250%, 300%, 350%, and 400% above the original
+steps). Zoom buttons have no internal border dividers. Above 200%, the header
+scrolls normally and navigation reflows to keep enlarged controls and content
+reachable. Regression checks passed at 400% across 320–1280px viewport widths,
+including size limits, saved preferences, keyboard activation, and focus.
+
+### Governance-pattern library
+
+The English-only [governance-pattern library](http://localhost:8388/en/governance-patterns)
+is linked from the shared footer. Seven initial draft patterns cover the white paper's
+§25.5 categories. Each explains the problem, suitability limits, member choices,
+illustrative clauses, risks, accessibility, and testing evidence. All initially remain
+untested, legally unreviewed, and unavailable for automatic generator use. See the
+[maintenance guide](user/plugins/governance-patterns/README.md) for the data/schema,
+review process, dependencies, and checks.
+
+### English proposal revision and backup
+
+The English proposal now presents white paper Part II within its existing visual
+structure: the prefiguration panel, hero, seven labelled sections, shaded framework,
+numbered subsections, and glossary cards. The headings “The freedom to organise” and
+“Association begins with people” remain. Its content covers ten principles, fifteen
+commitments, eight practical subsections, and 28 glossary terms.
+
+The preceding page body is preserved exactly in
+`user/pages/01.en/09.proposal-backup-2026-10-18/default.md`, titled **English proposal —
+backup before Part II revision (18 October 2026)**. In Grav Admin, expand English in
+Pages to find it. It is unpublished, hidden from navigation, and non-routable; do not
+publish it merely to edit or inspect it. The backup's frontmatter identifies its source
+and date. Other language editions were not revised.
+
+`node grav-site/scripts/test-proposal-layout.cjs` checks retained headings and structure,
+backup public/download isolation, Markdown export, narrow layouts, and white-paper
+scrollable tables. The read-aloud browser regression suite also passed. Screen-reader
+and real speech testing remain outstanding.

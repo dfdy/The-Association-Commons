@@ -1,0 +1,12 @@
+name: "DDC: Legal Matrix"
+slug: legal-matrix
+type: plugin
+version: 0.1.2
+description: Versioned English legal research matrix for the constitution generator.
+icon: balance-scale
+license: AGPL-3.0-only
+author:
+  name: "The Democratic Development Commons (DDC)"
+dependencies:
+  - { name: grav, version: '>=2.0.0' }
+  - { name: shortcode-core }

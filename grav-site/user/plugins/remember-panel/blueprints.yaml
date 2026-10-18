@@ -1,4 +1,4 @@
-name: "TAC: Remember Panel"
+name: "DDC: Remember Panel"
 slug: remember-panel
 type: plugin
 version: 0.1.2
@@ -9,4 +9,4 @@ dependencies:
   - { name: grav, version: '>=2.0.0' }
   - { name: shortcode-core }
 author:
-  name: "The Associations Commons (TAC)"
+  name: "The Democratic Development Commons (DDC)"

@@ -1,4 +1,4 @@
-# TAC: Glossary
+# DDC: Glossary
 
 Group explicit Markdown entries in a glossary. Each entry keeps a real heading and paragraph for screen readers and exports:
 

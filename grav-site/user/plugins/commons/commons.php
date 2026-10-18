@@ -22,23 +22,9 @@ class CommonsPlugin extends Plugin
         $export=new \RocketTheme\Toolbox\Event\Event(['markdown'=>$markdown]);
         $this->grav->fireEvent('onCommonsExportMarkdown',$export);
         $markdown=$export['markdown'];
-        if ($page->template()==='stadgar') {
-            if (($_SERVER['REQUEST_METHOD']??'GET')!=='POST') {http_response_code(405);exit;}
-            if ((int)($_SERVER['CONTENT_LENGTH']??0)>250000) {http_response_code(413);exit;}
-            $input=json_decode(file_get_contents('php://input',false,null,0,250001),true);
-            if (!is_array($input)) {http_response_code(400);exit;}
-            $markdown='';
-            foreach ($page->header()->builder_fields??[] as $field) {
-                $id=$field['id'];$value=$input[$id]??'';
-                if (!is_string($value)||mb_strlen($value)>12000||(!empty($field['required'])&&trim($value)==='')) {http_response_code(422);exit;}
-                if ($value==='') continue;
-                $markdown.=($id==='name'?'# ':'## ').($id==='name'?$value:$field['label']."\n\n".$value)."\n\n";
-            }
-            $title='Constitution';
-        }
-        $markdown.="\n\nThe Association Commons · Content: CC BY-NC-SA 4.0 · https://creativecommons.org/licenses/by-nc-sa/4.0/\n";
+        $markdown.="\n\nThe Democratic Development Commons · Content: CC BY-NC-SA 4.0 · https://creativecommons.org/licenses/by-nc-sa/4.0/\n";
         header('Cache-Control: private, no-store');header('X-Content-Type-Options: nosniff');
-        header('Content-Disposition: attachment; filename="'.($page->template()==='stadgar'?'constitution':'association-commons').'.'.$format.'"');
+        header('Content-Disposition: attachment; filename="'.'democratic-development-commons'.'.'.$format.'"');
         if ($format==='md') {header('Content-Type: text/markdown; charset=utf-8');echo $markdown;exit;}
         if ($format==='rtf') {
             header('Content-Type: application/rtf');

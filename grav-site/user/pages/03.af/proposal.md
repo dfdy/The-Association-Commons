@@ -11,13 +11,16 @@
 }
 ---
 
+[translation-notice /]
+
+
 [remember-panel id="prefiguration" title="Prefigurasie" reset="7d" show="Wys" hide="Verberg"]
 
 ## Prefigurasie
 
-Prefiguratiewe politiek beteken dat ons nou reeds, deur hoe ons saam optree, die verhoudings en organisasiewyses beoefen wat ons in die samelewing wil sien. Die middele weerspieël die doelwitte: vrywillige deelname, gedeelde besluitneming en wedersydse aanspreeklikheid.
+Prefiguratiewe politiek beteken dat ons nou reeds, deur hoe ons saam optree, die verhoudings en organisasiewyses beoefen wat ons in die samelewing wil sien. Die middele weerspieël die doelwitte: vrywillige deelname, gedeelde besluitneming, en wedersydse aanspreeklikheid.
 
-Hierdie konsep word as ’n de facto-sjabloon aangebied: mense kan kies om die beginsels in hul eie stadgar (grondwet of verenigingsreëls) en daaglikse organisering te gebruik, aan te pas en te ontwikkel voordat hierdie voorgestelde raamwerk ooit wetlike erkenning in Suid-Afrika kry. Die gesag daarvan as gedeelde praktyk kom van die mense wat dit aanvaar. Aanvaarding maak nie hierdie konsep wet nie en vervang nie bestaande wetgewing nie.
+The Democratic Development Commons bied ’n vrywillige organiseringsraamwerk wat mense nou reeds deur kollektiewe leer, wedersydse hulp, en demokratiese selfbestuur in die praktyk kan toepas. Lede kan die beginsels daarvan in hul grondwette en daaglikse organisering bespreek, aanpas, en ontwikkel, en hul grondwette as lewende ooreenkomste hanteer wat deelname moontlik maak en deur gedeelde ervaring verander. Die beplande generator en die biblioteek van bestuurspatrone wat ontwikkel word, is bedoel om hierdie proses te ondersteun, terwyl lede die gesag behou oor die reëls wat hulle aanvaar. Die raamwerk is nie voorgestelde wetgewing nie, en die aanvaarding daarvan vervang nie bestaande wetgewing nie.
 
 [/remember-panel]
 
@@ -25,13 +28,13 @@ Hierdie konsep word as ’n de facto-sjabloon aangebied: mense kan kies om die b
 
 # Afrikaans
 
-Die voorgestelde wet is nog nie in hierdie taal vertaal nie. Dit is ’n afsonderlike taalprojek.
+Die voorgestelde raamwerk is nog nie volledig in hierdie taal vertaal nie. Dit is ’n afsonderlike taalprojek. Die raamwerk is ’n vrywillige organiseringsooreenkoms, nie ’n voorgestelde wet nie.
 
 [/hero-intro]
 
 Elke taalprojek word volgens sy eie stadgar (grondwet of verenigingsreëls) bestuur. Lede bepaal die doelwitte, besluitneming en lidmaatskap volgens daardie reëls. Om hier belangstelling te toon, maak jou nie outomaties ’n lid nie.
 
-[section-layout label="06 / Participate"]
+[section-layout label="06 / Neem deel"]
 
 ## Toon belangstelling om by hierdie projek aan te sluit
 

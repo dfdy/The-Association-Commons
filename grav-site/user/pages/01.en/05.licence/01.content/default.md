@@ -16,7 +16,7 @@ Website content uses CC BY-NC-SA 4.0: Attribution–NonCommercial–ShareAlike.
 
 You may copy, share, translate and adapt the first-party text, explanations, glossary and stadgar templates for noncommercial purposes.
 
-Give appropriate credit, link to the licence and indicate changes. Credit Voluntary Associations: The Association Commons, retain any supplied creator credits and link to the source page. Shared adaptations must use the same or a compatible licence permitted by the legal code. Do not imply endorsement or add restrictions that prevent permitted uses.
+Give appropriate credit, link to the licence and indicate changes. Credit The Democratic Development Commons, retain any supplied creator credits and link to the source page. Shared adaptations must use the same or a compatible licence permitted by the legal code. Do not imply endorsement or add restrictions that prevent permitted uses.
 
 Noncommercial concerns the purpose of the use, not simply whether the user is a nonprofit organisation.
 

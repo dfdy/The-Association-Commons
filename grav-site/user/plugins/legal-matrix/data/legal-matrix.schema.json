@@ -1,0 +1,324 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DDC legal matrix dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "language",
+    "updated_at",
+    "description",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "dataset_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "language": {
+      "const": "en"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "topic",
+          "dimension",
+          "title",
+          "summary",
+          "research_needed",
+          "provision_type",
+          "legal_status",
+          "review_status",
+          "legal_basis",
+          "reviewer",
+          "effective_from",
+          "effective_to",
+          "last_verified",
+          "review_due",
+          "updated_at",
+          "generator_ready",
+          "applicability",
+          "sources",
+          "change_history"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dimension": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "research_needed": {
+            "type": "string",
+            "minLength": 1
+          },
+          "provision_type": {
+            "enum": [
+              "legal_requirement",
+              "democratic_choice",
+              "prudent_safeguard",
+              "institutional_pattern"
+            ]
+          },
+          "legal_status": {
+            "enum": [
+              "common_law",
+              "enacted",
+              "proposed",
+              "repealed",
+              "uncertain",
+              "not_applicable"
+            ]
+          },
+          "review_status": {
+            "enum": [
+              "researched",
+              "awaiting_verification",
+              "verified",
+              "due_for_review"
+            ]
+          },
+          "legal_basis": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effective_from": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "effective_to": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "last_verified": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "review_due": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "generator_ready": {
+            "type": "boolean"
+          },
+          "applicability": {
+            "type": "object",
+            "required": [
+              "forms",
+              "activities",
+              "conditions"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "forms": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "activities": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "conditions": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url",
+                "locator",
+                "source_checked_on"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^(https://|/en/)"
+                },
+                "locator": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source_checked_on": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "date"
+                }
+              }
+            }
+          },
+          "change_history": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "date",
+                "note"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "generator_ready": {
+                  "const": true
+                }
+              },
+              "required": [
+                "generator_ready"
+              ]
+            },
+            "then": {
+              "properties": {
+                "review_status": {
+                  "const": "verified"
+                },
+                "last_verified": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "reviewer": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "legal_status": {
+                  "not": {
+                    "enum": [
+                      "proposed",
+                      "uncertain",
+                      "repealed"
+                    ]
+                  }
+                },
+                "sources": {
+                  "items": {
+                    "properties": {
+                      "source_checked_on": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "locator": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              },
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "provision_type": {
+                        "const": "legal_requirement"
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "legal_basis": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

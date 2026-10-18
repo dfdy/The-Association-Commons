@@ -60,12 +60,9 @@ for route,doc in docs.items():
         imported['blocks']=doc['blocks'][3:]
         omitted[route]=[0,1,2]
     write(folder,template,header,markdown(imported,code));mapped[route]=folder;total+=len(imported['blocks'])
+generator_body=((ROOT/'grav-site/user/pages')/folders['en']/'01.stadgar/stadgar.md').read_text().split('\n---\n',1)[1].strip()
 for code in codes:
-    sv=code=='sv';i=int(sv)
-    fields=[{'id':f['id'],'label':f['label'][i],'value':f['value'][i],'required':bool(f.get('required')),'group':f['group']} for f in settings['stadgarSchema']]
-    body='# '+('Skapa era stadgar' if sv else 'Create your stadgar')+'\n\n'+('Anpassa mallen tillsammans. Era svar sparas inte på servern.' if sv else 'Adapt this template together. Your answers are not saved on the server.')+'\n\n'
-    if code not in ['en','sv']:body+='The builder is shown in English; a translation is not yet available.\n\n'
-    body+='This is a discussion template, not a substitute for advice about applicable law.\n'
-    write(folders[code]+'/01.stadgar','stadgar',{'title':'Stadgar','language_code':code,'language_name':names.get(code,code),'published':True,'visible':True,'builder_fields':fields},body)
+    body=('[translation-notice /]\n\n' if code!='en' else '')+generator_body+'\n'
+    write(folders[code]+'/01.stadgar','stadgar',{'title':'Association Constitution Drafting Tool','language_code':code,'content_language':'en','language_name':names.get(code,code),'published':True,'visible':True},body)
 (ROOT/'grav-site/migration-report.json').write_text(json.dumps({'source':str(source.relative_to(ROOT)),'source_documents':len(docs),'imported_documents':len(mapped),'source_blocks':total,'languages':codes,'routes':mapped,'omitted_blocks':omitted,'alias':{'/donate/':'/en/donate'}},indent=2)+'\n')
-print(f'Imported {len(mapped)} documents ({total} blocks), plus {len(codes)} stadgar builders.')
+print(f'Imported {len(mapped)} documents ({total} blocks), plus {len(codes)} future generator descriptions.')

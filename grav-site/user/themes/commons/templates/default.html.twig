@@ -1,15 +1,30 @@
 <!doctype html>
 <html lang="{{ page.header.language_code|default('en')|e('html_attr') }}">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="{{ url('theme://js/theme.js') }}"></script><title>{{ page.title|e }} · {{ site.title|e }}</title><link rel="stylesheet" href="{{ url('theme://css/site.css') }}"><script defer src="{{ url('theme://js/site.js') }}"></script>{{ assets.css()|raw }}{{ assets.js()|raw }}</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="{{ url('theme://js/theme.js') }}"></script><script src="{{ url('theme://js/text-size.js') }}"></script><title>{{ page.title|e }} · {{ site.title|e }}</title><link rel="stylesheet" href="{{ url('theme://css/site.css') }}?v=20261018-2"><script defer src="{{ url('theme://js/site.js') }}"></script>{{ assets.css()|raw }}{{ assets.js()|raw }}</head>
 <body><a class="skip" href="#content">Skip to content</a>
-<header class="site-header"><a class="brand" href="/en">The Association Commons<span>Freedom to organise, together.</span></a><div class="header-actions"><button class="theme-toggle" type="button" aria-label="Night mode" title="Toggle night mode" aria-pressed="false" hidden><span aria-hidden="true">☾</span> <span class="theme-label">Night mode</span></button></div></header>
+<header class="site-header"><a class="brand" href="/en" lang="en">{{ site.title|e }}<span>Collective learning, mutual aid, and democratic self-government</span></a><div class="header-actions"><div class="text-size-control" role="group" aria-label="Text size" lang="en" hidden><button type="button" data-text-size="decrease" aria-label="Decrease text size" aria-controls="text-size-value">−</button><output id="text-size-value" aria-label="Text size" aria-live="polite" aria-atomic="true">100%</output><button type="button" data-text-size="increase" aria-label="Increase text size" aria-controls="text-size-value">+</button></div><button class="theme-toggle" type="button" aria-label="Night mode" title="Toggle night mode" aria-pressed="false" hidden><span aria-hidden="true">☾</span> <span class="theme-label">Night mode</span></button></div></header>
 <div class="shell">{% include 'partials/language-menu.html.twig' %}
 {% set code = page.header.language_code|default('en') %}
 <div class="page-toolbar compact-toolbar">
-<nav class="sections" aria-label="Project">{% for section in [{'path': '/' ~ code, 'label': 'Proposal'}, {'path': '/' ~ code ~ '/stadgar', 'label': 'Constitution'}, {'path': '/' ~ code ~ '/donate', 'label': 'Donate'}] %}<a href="{{ section.path }}"{% if (loop.index == 1 and page.template == 'proposal') or (loop.index == 2 and page.template == 'stadgar') or (loop.index == 3 and page.slug == 'donate') %} aria-current="page"{% endif %}>{{ section.label }}</a>{% endfor %}</nav>
-<div class="downloads toolbar-downloads" aria-label="Download this page">{% for format, label in {'md': 'Markdown', 'rtf': 'RTF', 'pdf': 'PDF'} %}{% if page.template == 'stadgar' %}<button type="submit" form="stadgar-form" name="format" value="{{ format }}" aria-label="Download {{ label }}" title="Download {{ label }}">{% else %}<a href="{{ page.url }}?download={{ format }}" aria-label="Download {{ label }}" title="Download {{ label }}">{% endif %}<svg class="file-icon file-icon-{{ format }}" viewBox="0 0 40 44" width="25.5" height="28.5" fill="none" aria-hidden="true" focusable="false"><path class="file-paper" d="M9 2.5h16l8 8v29H9z"/><path class="file-fold" d="M25 2.5v8h8"/>{% if format == 'md' %}<path class="file-mark" d="M13 22v-7l3 4 3-4v7m5-7v7m-3-3 3 3 3-3"/>{% elseif format == 'rtf' %}<path class="file-mark" d="M14 15h13m-13 4h13m-13 4h8"/>{% else %}<path class="file-mark" d="m15 23 5-9 5 9m-8-3h6"/>{% endif %}<rect class="file-badge" x="3" y="27" width="30" height="14" rx="3"/><text x="18" y="37" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="9" font-weight="750" letter-spacing=".5">{{ format|upper }}</text></svg>{% if page.template == 'stadgar' %}</button>{% else %}</a>{% endif %}{% endfor %}</div>
+{% if page.route not in ['/en/licence/content', '/en/licence/software', '/en/governance-patterns', '/en/legal-matrix', '/en/white-paper', '/en/privacy'] %}
+{% include 'partials/project-navigation.html.twig' %}
+{% endif %}
+<div class="downloads toolbar-downloads" aria-label="Download this page">{% for format, label in {'md': 'Markdown', 'rtf': 'RTF', 'pdf': 'PDF'} %}<a href="{{ page.url }}?download={{ format }}" aria-label="Download {{ label }}" title="Download {{ label }}"><svg class="file-icon file-icon-{{ format }}" viewBox="0 0 40 44" width="25.5" height="28.5" fill="none" aria-hidden="true" focusable="false"><path class="file-paper" d="M9 2.5h16l8 8v29H9z"/><path class="file-fold" d="M25 2.5v8h8"/>{% if format == 'md' %}<path class="file-mark" d="M13 22v-7l3 4 3-4v7m5-7v7m-3-3 3 3 3-3"/>{% elseif format == 'rtf' %}<path class="file-mark" d="M14 15h13m-13 4h13m-13 4h8"/>{% else %}<path class="file-mark" d="m15 23 5-9 5 9m-8-3h6"/>{% endif %}<rect class="file-badge" x="3" y="27" width="30" height="14" rx="3"/><text x="18" y="37" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="9" font-weight="750" letter-spacing=".5">{{ format|upper }}</text></svg></a>{% endfor %}</div>
 </div>
-<main id="content"><article class="prose">{{ page.content|replace({'<table>': '<div class="table-scroll" role="region" aria-label="Scrollable table" tabindex="0"><table>', '</table>': '</table></div>'})|raw }}</article>
+<main id="content"><article class="prose" lang="{{ page.header.content_language|default(code)|e('html_attr') }}">{% include 'partials/page-content.html.twig' %}</article>
 {% block extra %}{% endblock %}
 </main>
-<footer><a href="/en/white-paper" lang="en" hreflang="en">The DDC White Paper</a><a href="/en/licence/content">Content · CC BY-NC-SA 4.0</a><a href="/en/licence/software">Software · AGPLv3</a><a href="/en/privacy">Privacy</a><a href="https://github.com/dfdy/The-Association-Commons">GitHub ↗</a><span>v0.1.2</span></footer></div></body></html>
+<footer>
+<div class="footer-meta">
+<a href="/en/licence/content">Content · CC BY-NC-SA 4.0</a>
+<a href="/en/licence/software">Software · AGPLv3</a>
+<a href="https://github.com/dfdy/The-Democratic-Development-Commons">GitHub ↗</a>
+<span>v0.1.2</span>
+</div>
+<div class="footer-resources">
+<a href="/en/governance-patterns" lang="en" hreflang="en">Governance patterns</a>
+<a href="/en/legal-matrix" lang="en" hreflang="en">Legal matrix</a>
+<a href="/en/white-paper" lang="en" hreflang="en">The DDC White Paper</a>
+<a href="/en/privacy">Privacy</a>
+</div>
+</footer></div></body></html>

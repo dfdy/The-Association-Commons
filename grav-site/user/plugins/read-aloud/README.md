@@ -1,4 +1,4 @@
-# TAC: Read Aloud
+# DDC: Read Aloud
 
 Adds play/pause and settings controls to each heading and its content inside the theme’s `.prose` article. No Markdown alterations are needed. Each passage ends at the next heading, then playback advances to that heading’s control, including subsections, so text is not repeated. The previous control returns to Play and the current passage receives a subtle highlight. Collapsed passages are skipped. Controls, form fields and decorative numbering are excluded from speech. Hidden Prefiguration text is available through its section control when opened.
 
@@ -19,3 +19,12 @@ PLAYWRIGHT_MODULE=/path/to/playwright node grav-site/scripts/test-read-aloud.cjs
 ```
 
 These checks simulate the speech engine to verify interactions deterministically; they do not establish audible voice quality or screen-reader conformance. Test real playback with the browsers and assistive technologies used by your audience.
+
+Playback and settings controls appear after each heading’s passage, before the next heading. Nested content wrappers retain their controls.
+
+Placement validation: Chromium regression checks passed for controls following passage content, accessible names, play/pause, keyboard shortcuts, dialog focus restoration, mobile, language editions and no-JavaScript fallback. Speech was simulated; real audio and screen-reader testing remain unperformed.
+
+Remember-panel passages end inside `.remember-panel__content`, before the separate
+open/close handle. Their playback controls hide with the collapsed content.
+Chromium checks verify keyboard collapse/reopen, playback-control visibility, and
+focus remaining on the open/close handle. Screen-reader testing remains outstanding.

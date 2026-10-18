@@ -1,0 +1,692 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "0.1.0",
+  "language": "en",
+  "updated_at": "2026-10-18",
+  "description": "Provisional research matrix for the Association Constitution Drafting Tool. All initial records await legal verification.",
+  "records": [
+    {
+      "id": "common-law-personality",
+      "topic": "Common-law voluntary associations",
+      "dimension": "Legal form",
+      "title": "Constitutional personality choices",
+      "summary": "How should members constitute the association, define continuity, and allocate authority over assets and contracts?",
+      "provision_type": "institutional_pattern",
+      "legal_status": "common_law",
+      "applicability": {
+        "forms": [
+          "voluntary-association"
+        ],
+        "activities": [
+          "holding-property",
+          "contracting"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Identify the common-law and case-law tests for separate legal personality and the effect of the proposed constitution.",
+      "sources": [
+        {
+          "title": "White paper §3.2",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "npo-founding-document",
+      "topic": "Registered NPOs",
+      "dimension": "Registration status",
+      "title": "Founding-document requirements",
+      "summary": "Which founding-document provisions apply when applying for NPO registration?",
+      "provision_type": "legal_requirement",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "voluntary-association",
+          "trust",
+          "non-profit-company"
+        ],
+        "activities": [
+          "npo-registration"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify the current amended section 12 requirements, scope, and registration triggers; do not treat registration as a legal form.",
+      "sources": [
+        {
+          "title": "Nonprofit Organisations Act 71 of 1997",
+          "url": "https://www.gov.za/documents/nonprofit-organisations-act",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "npc-membership",
+      "topic": "Non-profit companies",
+      "dimension": "Legal form",
+      "title": "Membership and governance options",
+      "summary": "Which membership and governance structure would support member control?",
+      "provision_type": "institutional_pattern",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "non-profit-company"
+        ],
+        "activities": [
+          "incorporation"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Map the Companies Act and memorandum of incorporation requirements separately from democratic recommendations.",
+      "sources": [
+        {
+          "title": "Companies Act 71 of 2008",
+          "url": "https://www.npa.gov.za/media/companies-act-2008-act-71-2008",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "cooperative-governance",
+      "topic": "Co-operatives",
+      "dimension": "Legal form",
+      "title": "Member control and founding rules",
+      "summary": "Which founding rules and member-governance obligations apply to the chosen cooperative type?",
+      "provision_type": "legal_requirement",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "cooperative"
+        ],
+        "activities": [
+          "cooperative-registration"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify the current Act, amendments, regulations, and category-specific requirements.",
+      "sources": [
+        {
+          "title": "White paper §3.5",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "trust-authority",
+      "topic": "Trusts",
+      "dimension": "Legal form",
+      "title": "Trustee authority and member participation",
+      "summary": "How can trustee authority and participatory arrangements be made understandable and accountable?",
+      "provision_type": "prudent_safeguard",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "trust"
+        ],
+        "activities": [
+          "holding-property"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify the trust instrument, applicable statutory duties, and limits of member decision-making.",
+      "sources": [
+        {
+          "title": "White paper §3.5",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "cpa-governance",
+      "topic": "Communal-property associations",
+      "dimension": "Legal form",
+      "title": "Collective land governance",
+      "summary": "Which membership, land-governance, and reporting provisions apply?",
+      "provision_type": "legal_requirement",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "communal-property-association"
+        ],
+        "activities": [
+          "collective-landholding"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify the current communal-property association regime and land-specific circumstances before drafting.",
+      "sources": [
+        {
+          "title": "White paper §3.5",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "stokvel-exemption",
+      "topic": "Stokvels and common-bond exemptions",
+      "dimension": "Activity-specific regime",
+      "title": "Financial activity and exemption conditions",
+      "summary": "Does the proposed saving or lending activity fall within an applicable exemption, and on what conditions?",
+      "provision_type": "legal_requirement",
+      "legal_status": "uncertain",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "pooling-savings",
+          "lending"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Identify the current designation or exemption, thresholds, scope, and duties; a social label alone must not activate an exemption.",
+      "sources": [
+        {
+          "title": "White paper §3.6",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "burial-society-benefits",
+      "topic": "Burial societies",
+      "dimension": "Activity-specific regime",
+      "title": "Benefits and regulated financial activity",
+      "summary": "Which rules apply to the proposed benefits and the way they are funded or promised?",
+      "provision_type": "legal_requirement",
+      "legal_status": "uncertain",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "funeral-benefits",
+          "risk-pooling"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Map the boundary between mutual aid, insurance, and other financial regulation for the actual activity.",
+      "sources": [
+        {
+          "title": "White paper §3.6",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "friendly-society-regime",
+      "topic": "Friendly societies",
+      "dimension": "Activity-specific regime",
+      "title": "Registration and benefit rules",
+      "summary": "Does the organisation fall within a friendly-society regime, and what obligations follow?",
+      "provision_type": "legal_requirement",
+      "legal_status": "uncertain",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "member-benefits"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify current applicability, registration requirements, and interactions with other benefit regulation.",
+      "sources": [
+        {
+          "title": "White paper §3.6",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "tax-status",
+      "topic": "Tax and public-benefit status",
+      "dimension": "Tax status",
+      "title": "PBO approval and donation deductibility",
+      "summary": "Which tax approvals are relevant to the association and its fundraising?",
+      "provision_type": "legal_requirement",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "tax-exemption",
+          "tax-deductible-donations"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify approval conditions and distinguish PBO approval, tax exemption, and section 18A approval from NPO registration.",
+      "sources": [
+        {
+          "title": "SARS: Public Benefit Organisations",
+          "url": "https://www.sars.gov.za/businesses-and-employers/tax-exempt-institutions/public-benefit-organisations/",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "employment-duties",
+      "topic": "Employment duties",
+      "dimension": "Cross-cutting duty",
+      "title": "Association as employer",
+      "summary": "Which employment, equality, remuneration, and workplace-safety duties apply?",
+      "provision_type": "legal_requirement",
+      "legal_status": "uncertain",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "employing-people"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Map current duties and scope conditions; distinguish employees, volunteers, and other working arrangements on the facts.",
+      "sources": [
+        {
+          "title": "White paper §3.7",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "disability-equality",
+      "topic": "Disability and equality duties",
+      "dimension": "Cross-cutting duty",
+      "title": "Accessible and equal participation",
+      "summary": "What equality and accommodation duties apply to the association and its activities?",
+      "provision_type": "legal_requirement",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "membership",
+          "meetings",
+          "services"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Verify PEPUDA section 9, other applicable provisions, and remedies; separate legal duties from additional DDC accessibility recommendations.",
+      "sources": [
+        {
+          "title": "Justice: Equality Courts legislation",
+          "url": "https://www.justice.gov.za/EQCact/eqc_docs.htm",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "privacy-information",
+      "topic": "Privacy and information access",
+      "dimension": "Cross-cutting duty",
+      "title": "Personal data and accountable records",
+      "summary": "How can members scrutinise organisational decisions while personal information is protected?",
+      "provision_type": "prudent_safeguard",
+      "legal_status": "enacted",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "personal-information",
+          "recordkeeping"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Map POPIA and PAIA applicability and specific legal duties before turning this safeguard into clauses.",
+      "sources": [
+        {
+          "title": "White paper §3.7",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "education-activities",
+      "topic": "Other activity-specific regulation",
+      "dimension": "Activity-specific regime",
+      "title": "Education and regulated programmes",
+      "summary": "Do the proposed programmes trigger education registration, accreditation, or quality-assurance requirements?",
+      "provision_type": "legal_requirement",
+      "legal_status": "uncertain",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "education",
+          "accreditation"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Identify the actual programme, provider role, and applicable regulator rather than assuming that every learning group is regulated in the same way.",
+      "sources": [
+        {
+          "title": "White paper §3.7",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "member-review",
+      "topic": "Democratic constitutional review",
+      "dimension": "DDC practice",
+      "title": "Member-led review and revision",
+      "summary": "How often will members review their constitution, and how can they initiate changes?",
+      "provision_type": "democratic_choice",
+      "legal_status": "not_applicable",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "constitutional-review"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "Develop accessible review and amendment options; identify any legal constraints separately.",
+      "sources": [
+        {
+          "title": "White paper §21.7",
+          "url": "/en/white-paper#part-i-21",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    },
+    {
+      "id": "aml-reform-watch",
+      "topic": "Proposed reforms",
+      "dimension": "Reform watch",
+      "title": "AML reform mentioned in the white paper",
+      "summary": "Would the reform change founding-document, registration, or reporting obligations if enacted?",
+      "provision_type": "legal_requirement",
+      "legal_status": "proposed",
+      "applicability": {
+        "forms": [
+          "any"
+        ],
+        "activities": [
+          "npo-registration",
+          "reporting"
+        ],
+        "conditions": "Research scope only; applicability has not been verified."
+      },
+      "legal_basis": null,
+      "effective_from": null,
+      "effective_to": null,
+      "review_status": "awaiting_verification",
+      "last_verified": null,
+      "review_due": null,
+      "reviewer": null,
+      "updated_at": "2026-10-18",
+      "generator_ready": false,
+      "research_needed": "The white paper identifies Bill B15-2026 as proposed. Independently check its identity, parliamentary progress, final text, commencement, and any amendments before changing the legal-status field.",
+      "sources": [
+        {
+          "title": "White paper §3.3 (historical source lead; current status unverified)",
+          "url": "/en/white-paper#part-i-3",
+          "locator": null,
+          "source_checked_on": null
+        }
+      ],
+      "change_history": [
+        {
+          "date": "2026-10-18",
+          "note": "Initial research record derived from the white paper; not a verified legal rule."
+        }
+      ]
+    }
+  ]
+}

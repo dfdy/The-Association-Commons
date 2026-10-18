@@ -1,4 +1,4 @@
-# TAC: Remember Panel
+# DDC: Remember Panel
 
 An AGPLv3 Grav plugin using Shortcode Core. Wrap an explicit section in Markdown:
 

@@ -1,4 +1,4 @@
-# Voluntary Associations: The Association Commons
+# The Democratic Development Commons
 
 [![Content licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-476952)](LICENSE-CC-BY-NC-SA-4.0.txt)
 [![Software licence: AGPL-3.0-only](https://img.shields.io/badge/Software-AGPL--3.0--only-294b35)](LICENSE)
@@ -9,7 +9,7 @@ Read the [Democratic Development Commons white paper — working version 1.7](gr
 
 The paper explores how democratic associations can rebuild emancipatory adult education in South Africa through collective learning, mutual aid and shared governance. It brings South African organising traditions into dialogue with international ideas, examines the legal landscape, and proposes practical safeguards for accessibility, member control, accountability and cooperation between autonomous associations. Part I develops the reasoning; Part II outlines a public framework; Part III examines criticisms, unresolved tensions and future research. The paper also guides a future configurable constitution generator. It is a working proposal, not legislation or legal advice.
 
-![The freedom to organise — a framework for voluntary associations built on shared purpose, democratic self-governance and accountability.](docs/images/association-commons-framework-hero.png)
+![The Democratic Development Commons: The freedom to organise. Collective learning, mutual aid, and democratic self-government — a South African framework for building associations and deciding together.](docs/images/democratic-development-commons-hero.png)
 
 ## The freedom to organise.
 
@@ -89,10 +89,10 @@ With Git installed and Docker Desktop or Colima running, run this single line
 from the folder where you want to keep the project:
 
 ```sh
-git clone https://github.com/dfdy/The-Association-Commons.git && cd The-Association-Commons && docker compose up -d --build
+git clone https://github.com/dfdy/The-Democratic-Development-Commons.git && cd The-Democratic-Development-Commons && docker compose up -d --build
 ```
 
-This creates `The-Association-Commons/` in your current folder and starts the site.
+This creates `The-Democratic-Development-Commons/` in your current folder and starts the site.
 The first build may take a few minutes. Nothing is installed globally by this command.
 
 - Website: http://localhost:8388/en
@@ -105,7 +105,7 @@ docker compose exec --user www-data grav cat user/data/commons-private/admin-log
 ```
 
 Change the administrator password and email after signing in. Content edits are
-saved directly to `The-Association-Commons/grav-site/user/pages/` on your computer,
+saved directly to `The-Democratic-Development-Commons/grav-site/user/pages/` on your computer,
 including uploaded page media. Docker mounts that folder into the site: edits stay
 in the clone through container rebuilds and restarts and can be committed and merged
 through Git. Keep and back up the cloned folder.

@@ -10,6 +10,9 @@
 }
 ---
 
+[translation-notice /]
+
+
 ## English version shown
 
 The Donate page has not yet been translated for the Kaaps project. This page is shown in English.

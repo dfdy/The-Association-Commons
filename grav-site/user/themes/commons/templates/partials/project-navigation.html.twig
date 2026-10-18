@@ -1,0 +1,87 @@
+{# SASL uses written English support until signed navigation is available. #}
+{% set navigation_labels = {
+  "en": [
+    "Proposal",
+    "Constitution Jumpstart",
+    "Donate",
+    "Project"
+  ],
+  "af": [
+    "Voorstel",
+    "Begin jou grondwet",
+    "Skenk",
+    "Projek"
+  ],
+  "af-x-kaaps": [
+    "Voorstel",
+    "Begin jou grondwet",
+    "Skenk",
+    "Projek"
+  ],
+  "nr": [
+    "Isiphakamiso",
+    "Thoma umthethosisekelo wakho",
+    "Nikela",
+    "Iphrojekthi"
+  ],
+  "nso": [
+    "Tšhišinyo",
+    "Thoma molaotheo wa gago",
+    "Neela",
+    "Porojeke"
+  ],
+  "sasl": [
+    "Proposal",
+    "Constitution Jumpstart",
+    "Donate",
+    "Project"
+  ],
+  "ss": [
+    "Siphakamiso",
+    "Cala umtsetfosisekelo wakho",
+    "Nikela",
+    "Iphrojekthi"
+  ],
+  "st": [
+    "Tlhahiso",
+    "Qala molaotheo wa hao",
+    "Nehela",
+    "Morero"
+  ],
+  "tn": [
+    "Tshitshinyo",
+    "Simolola molaotheo wa gago",
+    "Neela",
+    "Porojeke"
+  ],
+  "ts": [
+    "Xiringanyeto",
+    "Sungula vumbiwa bya wena",
+    "Nyikela",
+    "Phurojeke"
+  ],
+  "ve": [
+    "Themendelo",
+    "Thomani ndayotewa yaṋu",
+    "Ṋeani",
+    "Thandela"
+  ],
+  "xh": [
+    "Isindululo",
+    "Qalisa umgaqo-siseko wakho",
+    "Nikela",
+    "Iprojekthi"
+  ],
+  "zu": [
+    "Isiphakamiso",
+    "Qala umthethosisekelo wakho",
+    "Nikela",
+    "Iphrojekthi"
+  ]
+} %}
+{% set labels = navigation_labels[code]|default(navigation_labels.en) %}
+<nav class="sections" aria-label="{{ labels[3]|e('html_attr') }}" lang="{{ (code == 'sasl' ? 'en' : code)|e('html_attr') }}">
+{% for section in [{'path': '/' ~ code, 'label': labels[0]}, {'path': '/' ~ code ~ '/stadgar', 'label': labels[1]}, {'path': '/' ~ code ~ '/donate', 'label': labels[2]}] %}
+<a href="{{ section.path|e('html_attr') }}"{% if (loop.index == 1 and page.template == 'proposal') or (loop.index == 2 and page.template == 'stadgar') or (loop.index == 3 and page.slug == 'donate') %} aria-current="page"{% endif %}>{{ section.label|e }}</a>
+{% endfor %}
+</nav>

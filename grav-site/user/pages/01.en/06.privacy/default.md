@@ -12,7 +12,7 @@
 
 # Privacy policy
 
-Voluntary Associations: The Association Commons
+The Democratic Development Commons
 
 Last reviewed: 17 October 2026. This policy describes the current site, version 0.1.2. It covers browsing, expressions of interest, language suggestions, document creation and accessibility preferences.
 
@@ -53,6 +53,8 @@ Downloading a regular content page sends its page address to the export endpoint
 ## 5. Cookies, preferences and the language heat map
 
 On the Grav site, the first-party tac-colour-mode cookie remembers your day/night choice for up to one year after you change it. It contains only day or night, applies across the site, and uses SameSite=Lax and Secure on HTTPS. Without a saved choice, the site follows your device’s colour preference. Your browser sends this cookie with requests to the same site. Clearing it resets the preference. A previously saved local-storage choice is moved into the cookie when available.
+
+The first-party ddc-text-size cookie remembers your selected text size (100%–400%) for up to one year after you change it. It contains only the size percentage, applies across language editions, and uses SameSite=Lax and Secure on HTTPS. Clearing it restores the default text size.
 
 On the Grav site, va_language_menu stores the last 50 language-menu clicks as language codes for up to one year after your latest click. Each language’s share of those clicks determines its button shading, capped at 50% darkness. The list remains alphabetical. The cookie contains no visitor identifier or timestamps; clearing it resets the shading.
 

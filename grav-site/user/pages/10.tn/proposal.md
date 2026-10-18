@@ -11,13 +11,16 @@
 }
 ---
 
+[translation-notice /]
+
+
 [remember-panel id="prefiguration" title="Go tshela bokamoso gone jaanong" reset="7d" show="Bontsha" hide="Fitlha"]
 
 ## Go tshela bokamoso gone jaanong
 
 Dipolotiki tsa go tshela bokamoso gone jaanong di raya go diragatsa dikamano le mekgwa ya go rulaganya e re batlang go e bona mo setšhabeng ka tsela e re dirang mmogo ka yone gompieno. Mekgwa e bontsha maikaelelo: go tsaya karolo ka boithaopo, go dira ditshwetso mmogo le go ikarabela mo go ba bangwe.
 
-Sekakanywa seno se newa jaaka sekao se se ka dirisiwang gone jaanong: batho ba ka tlhopha go dirisa, go fetola le go godisa melaometheo ya sone mo stadgar tsa bone (molaotheo kgotsa melao ya mokgatlho) le mo go rulaganyeng ga letsatsi le letsatsi, pele ga kamogelo epe ya semolao ya letlhomeso leno le le tshitshintsweng mo Aforika Borwa mo isagweng. Taolo ya sone jaaka mokgwa o o abelanwang e tswa mo bathong ba ba se amogelang. Go se amogela ga go dire sekakanywa seno molao e bile ga go emisetse molao o o leng teng.
+The Democratic Development Commons e neela letlhomeso la go ithulaganya ka boithaopo le batho ba ka le dirisang gone jaanong, ka go ithuta mmogo, go thusana, le go ipusa ka temokerasi. Maloko a ka buisana ka melawana ya lone, a e fetola, le go e tlhabolola mo melaotheong ya bone le mo go ithulaganyeng ga letsatsi le letsatsi, ba tsaya melaotheo ya bone e le ditumalano tse di tshelang tse di kgontshang go tsaya karolo le go fetoga ka maitemogelo a a abelanwang. Sediriswa se se rulaganyediwang go tlhama melaotheo le laeborari ya mekgwa ya tsamaiso e e tlhabololwang di ikaelela go tshegetsa thulaganyo eno, fa maloko a ntse a boloka taolo mo melaong e ba e amogelang. Letlhomeso leno ga se molao o o tshitshintsweng, mme go le amogela ga go tseye sebaka sa melao e e leng teng.
 
 [/remember-panel]
 
@@ -25,13 +28,13 @@ Sekakanywa seno se newa jaaka sekao se se ka dirisiwang gone jaanong: batho ba k
 
 # Setswana
 
-Molao o o tshitshintsweng ga o ise o ranolelwe mo puong eno. Eno ke porojeke ya puo e e ikemetseng.
+Letlhomeso le le tshitshintsweng ga le ise le ranolelwe ka botlalo mo puong eno. Eno ke porojeke ya puo e e ikemetseng. Letlhomeso leno ke tumalano ya go ithulaganya ka boithaopo, e seng molao o o tshitshintsweng.
 
 [/hero-intro]
 
 Porojeke nngwe le nngwe ya puo e laolwa ke stadgar tsa yone (molaotheo kgotsa melao ya mokgatlho). Maloko a tlhomamisa maikaelelo, go dira ditshwetso le boloko go ya ka melao eo. Go bontsha kgatlhego fano ga go go dire leloko ka tlhamalalo.
 
-[section-layout label="06 / Participate"]
+[section-layout label="06 / Tsaya karolo"]
 
 ## Bontsha kgatlhego ya go nna karolo ya porojeke eno
 

@@ -1,4 +1,4 @@
-# TAC: Hero Intro
+# DDC: Hero Intro
 
 Wrap an existing Markdown heading and summary explicitly:
 

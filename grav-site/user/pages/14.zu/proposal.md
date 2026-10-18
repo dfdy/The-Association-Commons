@@ -11,13 +11,16 @@
 }
 ---
 
+[translation-notice /]
+
+
 [remember-panel id="prefiguration" title="Ukwenza ikusasa libe khona manje" reset="7d" show="Bonisa" hide="Fihla"]
 
 ## Ukwenza ikusasa libe khona manje
 
 Ipolitiki yokwenza ikusasa libe khona manje isho ukwenza ubudlelwano nezindlela zokuhlela esifuna ukuzibona emphakathini ngendlela esisebenzisana ngayo manje. Izindlela zibonisa izinhloso: ukubamba iqhaza ngokuzithandela, ukuthatha izinqumo ngokuhlanganyela nokuphendulana ngezikwenzayo.
 
-Lolu hlaka lunikezwa njengesibonelo esingasetshenziswa vele: abantu bangakhetha ukusebenzisa, ukuguqula nokuthuthukisa izimiso zalo kuma-stadgar abo (imithethosisekelo noma imithetho yenhlangano) nasekuhleleni kwansuku zonke ngaphambi kokuba lolu hlaka oluphakanyisiwe lwamukelwe umthetho waseNingizimu Afrika esikhathini esizayo. Igunya lalo njengomkhuba ohlanganyelwayo livela kubantu abalamukelayo. Ukulamukela akulwenzi lolu hlaka lube umthetho futhi akuthathi indawo yomthetho okhona.
+I-The Democratic Development Commons inikeza uhlaka lokuzihlela ngokuzithandela abantu abangalusebenzisa manje, ngokufunda ngokuhlanganyela, ukusizana, nokuzibusa ngentando yeningi. Amalungu angaxoxa ngezimiso zalo, azivumelanise nezimo zawo, futhi azithuthukise emithethwenisisekelo yawo nasekuzihleleni kwansuku zonke, ethatha imithethosisekelo yawo njengezivumelwano eziphilayo ezenza ukubamba iqhaza kube nokwenzeka futhi ziguquke ngokuhlangenwe nakho okwabelwanayo. Ithuluzi elihleliwe lokwakha imithethosisekelo nomtapo wezindlela zokuphatha osathuthukiswa kuhloswe ngakho ukusekela le nqubo, amalungu egcina igunya phezu kwemithetho ayamukelayo. Lolu hlaka aluwona umthetho ohlongozwayo, futhi ukulamukela akuthathi indawo yemithetho ekhona.
 
 [/remember-panel]
 
@@ -25,13 +28,13 @@ Lolu hlaka lunikezwa njengesibonelo esingasetshenziswa vele: abantu bangakhetha 
 
 # isiZulu
 
-Umthetho ohlongozwayo awukahunyushelwa kulolu limi. Lena iphrojekthi yolimi ezimele.
+Uhlaka oluhlongozwayo alukahunyushwa ngokuphelele kulolu limi. Lena iphrojekthi yolimi ezimele. Lolu hlaka luyisivumelwano sokuzihlela ngokuzithandela, hhayi umthetho ohlongozwayo.
 
 [/hero-intro]
 
 Iphrojekthi ngayinye yolimi ilawulwa yi-stadgar yayo (umthethosisekelo noma imithetho yenhlangano). Amalungu anquma izinhloso, ukuthathwa kwezinqumo nobulungu ngokwaleyo mithetho. Ukuveza intshisekelo lapha akukwenzi ilungu ngokuzenzakalela.
 
-[section-layout label="06 / Participate"]
+[section-layout label="06 / Bamba iqhaza"]
 
 ## Veza intshisekelo yokujoyina le phrojekthi
 

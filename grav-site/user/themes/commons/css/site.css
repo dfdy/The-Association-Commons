@@ -102,3 +102,54 @@ html{scroll-padding-top:calc(var(--site-header-height) + 1rem)}
 html[data-theme="night"] .site-header .toolbar-downloads a:hover,html[data-theme="night"] .site-header .toolbar-downloads button:hover{background:#344339}
 .site-header.is-compact .header-actions{flex-wrap:nowrap;gap:.35rem}
 @media(max-width:600px){.site-header.is-compact{flex-wrap:wrap;gap:.25rem}.site-header.is-compact .header-actions{margin-left:auto}}
+
+/* Reading preferences: one amber outline per control, with clear rounded corners. */
+.site-header{flex-wrap:wrap;--reading-control-height:max(44px,calc(2.345rem + 4px));--reading-control-radius:.5rem}
+.site-header .theme-toggle,.site-header .text-size-control{height:var(--reading-control-height);min-height:44px;max-width:100%;border:2px solid #825900;border-radius:var(--reading-control-radius);background:#fff0bc;color:#3b2900;box-shadow:none}
+html[data-theme="night"] .site-header .theme-toggle,html[data-theme="night"] .site-header .text-size-control{background:#fff0bc;color:#3b2900;border-color:#825900}
+.site-header .theme-toggle{overflow-wrap:anywhere}
+.site-header .theme-toggle:hover,html[data-theme="night"] .site-header .theme-toggle:hover{background:#ffe49a}
+.site-header .text-size-control{display:inline-flex;align-items:center;flex-wrap:nowrap;gap:0;padding:0;font-size:.85rem}
+.text-size-control[hidden]{display:none}
+.text-size-control button{align-self:stretch;min-width:44px;min-height:0;max-width:100%;margin:0;padding:.25rem;border:0;background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer}
+.text-size-control button:first-child{border-radius:calc(var(--reading-control-radius) - 2px) 0 0 calc(var(--reading-control-radius) - 2px)}
+.text-size-control button:last-child{border-radius:0 calc(var(--reading-control-radius) - 2px) calc(var(--reading-control-radius) - 2px) 0}
+.text-size-control button:hover{background:#ffe49a}
+.text-size-control button[aria-disabled="true"]{cursor:default}
+.text-size-control button[aria-disabled="true"]:hover{background:transparent}
+.text-size-control output{min-width:0;padding-inline:.2em;text-align:center;font-variant-numeric:tabular-nums}
+.site-header .theme-toggle:focus-visible{outline:3px solid #3b2900;outline-offset:3px;box-shadow:0 0 0 6px #fff0bc}
+.text-size-control button:focus-visible{outline:3px solid #3b2900;outline-offset:-4px;box-shadow:none}
+.site-header .header-actions,.site-header.is-compact .header-actions{flex-wrap:wrap;max-width:100%}
+.site-header .brand{min-width:0;overflow-wrap:anywhere}
+.site-header .brand span{max-height:none;overflow:visible}
+@media(max-width:700px){.site-header .header-actions{justify-content:flex-start;gap:.5rem}.site-header .brand{width:100%}.site-header.is-compact .header-actions{margin-left:0}}
+@media(forced-colors:active){.site-header .theme-toggle,.site-header .text-size-control,.text-size-control button{forced-color-adjust:auto;background:Canvas;color:CanvasText;border-color:ButtonText}.site-header .theme-toggle:focus-visible,.text-size-control button:focus-visible{outline-color:Highlight;box-shadow:none}}
+/* Keep long translated panel labels within the available reading width. */
+.remember-panel__handle{max-width:100%;flex-wrap:wrap;overflow-wrap:anywhere}
+.remember-panel__handle>*{min-width:0}
+.prose,.sections a{overflow-wrap:anywhere}
+
+/* Keep the enlarged reading controls within small viewports. */
+.site-header{padding-inline:clamp(12px,5vw,32px)}
+/* Large text must not leave a viewport-sized header pinned over the page. */
+html[data-large-text="true"] .site-header{position:static}
+html[data-large-text="true"]{scroll-padding-top:1rem}
+html[data-large-text="true"] .page-toolbar{display:block}
+html[data-large-text="true"] .page-toolbar .sections{flex-wrap:wrap}
+html[data-large-text="true"] .page-toolbar .sections a{flex:1 1 8rem;min-width:0;padding:.55rem .35rem}
+html[data-large-text="true"] .page-toolbar .toolbar-downloads{flex-wrap:wrap}
+
+/* Keep footer destinations distinct, with stable left/right groups. */
+footer{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:1.5rem 3rem}
+.footer-meta,.footer-resources{display:flex;flex-wrap:wrap;align-items:baseline;gap:.75em 1.5em;min-width:0;max-width:100%}
+.footer-meta{justify-content:flex-start}
+.footer-resources{justify-content:flex-end;text-align:right}
+footer a{display:inline-block;padding:.25em 0;overflow-wrap:anywhere}
+footer .footer-meta span{padding:.25em 0}
+@media(max-width:60rem){footer{grid-template-columns:minmax(0,1fr);gap:1rem}.footer-resources{justify-content:flex-start;text-align:left}}
+html[data-large-text="true"] footer{grid-template-columns:minmax(0,1fr)}
+html[data-large-text="true"] .footer-resources{justify-content:flex-start;text-align:left}
+
+/* Downloads stay at the toolbar's right edge, with or without project tabs. */
+.page-toolbar .toolbar-downloads{margin-inline-start:auto;justify-content:flex-end}
