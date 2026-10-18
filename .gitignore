@@ -6,3 +6,6 @@ __pycache__/
 
 # Local reference copy of the original site; never publish to GitHub.
 /legacy-site/
+
+# Server-private form submissions and credentials must never enter Git.
+/grav-site/user/data/commons-private/

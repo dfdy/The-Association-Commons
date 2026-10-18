@@ -1,7 +1,7 @@
 name: "DDC: Governance Patterns"
 slug: governance-patterns
 type: plugin
-version: 0.1.2
+version: 0.2.1
 description: Versioned constitutional patterns with suitability and testing evidence.
 icon: sitemap
 license: AGPL-3.0-only

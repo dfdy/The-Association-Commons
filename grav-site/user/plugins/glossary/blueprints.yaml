@@ -1,7 +1,7 @@
 name: "DDC: Glossary"
 slug: glossary
 type: plugin
-version: 0.1.2
+version: 0.2.1
 description: Explicit Markdown glossary cards with accessible headings.
 icon: book
 license: AGPL-3.0-only

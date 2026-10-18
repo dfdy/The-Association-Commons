@@ -1,3 +1,6 @@
 README.md
 migration-report.json
 __pycache__
+# Never bake runtime accounts, private submissions, or credentials into images.
+user/accounts
+user/data

@@ -1,5 +1,7 @@
 # DDC: Glossary
 
+Part of The Democratic Development Commons **0.2.1**.
+
 Group explicit Markdown entries in a glossary. Each entry keeps a real heading and paragraph for screen readers and exports:
 
 ```markdown

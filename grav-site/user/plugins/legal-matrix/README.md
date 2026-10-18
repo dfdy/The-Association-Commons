@@ -1,5 +1,7 @@
 # DDC: Legal Matrix
 
+Part of The Democratic Development Commons **0.2.1**.
+
 An English-only public research matrix at `/en/legal-matrix`, linked from the shared
 footer. `[legal-matrix /]` renders the dataset as semantic HTML, two research indexes,
 and native detail disclosures. DataTables adds search, intersecting filters, and

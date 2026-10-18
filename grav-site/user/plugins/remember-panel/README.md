@@ -1,5 +1,7 @@
 # DDC: Remember Panel
 
+Part of The Democratic Development Commons **0.2.1**.
+
 An AGPLv3 Grav plugin using Shortcode Core. Wrap an explicit section in Markdown:
 
 ```markdown
@@ -29,7 +31,7 @@ numbers, hyphens and underscores. No heading matching or positional detection ru
 ```markdown
 [remember-panel id="prefiguration" title="Prefiguration" reset="7d" show="Öppna" hide="Stäng"]
 
-Your Swedish content.
+Your content.
 
 [/remember-panel]
 ```

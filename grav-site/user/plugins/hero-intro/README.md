@@ -1,5 +1,7 @@
 # DDC: Hero Intro
 
+Part of The Democratic Development Commons **0.2.1**.
+
 Wrap an existing Markdown heading and summary explicitly:
 
 ```markdown

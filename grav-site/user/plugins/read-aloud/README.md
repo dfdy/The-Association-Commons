@@ -1,6 +1,8 @@
 # DDC: Read Aloud
 
-Adds play/pause and settings controls to each heading and its content inside the theme’s `.prose` article. No Markdown alterations are needed. Each passage ends at the next heading, then playback advances to that heading’s control, including subsections, so text is not repeated. The previous control returns to Play and the current passage receives a subtle highlight. Collapsed passages are skipped. Controls, form fields and decorative numbering are excluded from speech. Hidden Prefiguration text is available through its section control when opened.
+Part of The Democratic Development Commons **0.2.1**.
+
+Adds play/pause and settings controls after each heading’s passage inside the theme’s `.prose` article. No Markdown alterations are needed. Each passage ends at the next heading, then playback advances to that heading’s control, including subsections, so text is not repeated. The previous control returns to Play and the current passage receives a subtle highlight. Collapsed passages are skipped. Controls, form fields and decorative numbering are excluded from speech. Hidden Prefiguration text is available through its section control when opened.
 
 One native modal dialog is shared by all controls. It lists browser/device voices, supports asynchronous voice loading, and allows speeds from 0.5× to 2×. Choosing another section stops the current reading. The settings dialog also provides Stop reading. Settings changes apply when a section is started again.
 

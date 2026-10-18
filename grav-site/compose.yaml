@@ -2,7 +2,7 @@ name: association-commons-grav
 services:
   grav:
     build: .
-    image: association-commons-grav:0.1.2
+    image: association-commons-grav:0.2.1
     ports:
       - '127.0.0.1:8388:80'
     volumes:

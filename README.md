@@ -7,28 +7,60 @@ Separate licences apply to content and software. [See licence scope](LICENSING.m
 
 Read the [Democratic Development Commons white paper — working version 1.7](grav-site/user/pages/01.en/04.white-paper/default.md), the conceptual basis for the framework.
 
-The paper explores how democratic associations can rebuild emancipatory adult education in South Africa through collective learning, mutual aid and shared governance. It brings South African organising traditions into dialogue with international ideas, examines the legal landscape, and proposes practical safeguards for accessibility, member control, accountability and cooperation between autonomous associations. Part I develops the reasoning; Part II outlines a public framework; Part III examines criticisms, unresolved tensions and future research. The paper also guides a future configurable constitution generator. It is a working proposal, not legislation or legal advice.
+The paper explores how democratic associations can rebuild emancipatory adult education in South Africa through collective learning, mutual aid, and shared governance. It brings South African organising traditions into dialogue with international ideas, examines the legal landscape, and proposes practical safeguards for accessibility, member control, accountability, and cooperation between autonomous associations. Part I develops the reasoning; Part II outlines a public framework; Part III examines criticisms, unresolved tensions, and future research. The paper also guides a planned Association Constitution Drafting Tool. It is a working proposal, not legislation or legal advice.
 
 ![The Democratic Development Commons: The freedom to organise. Collective learning, mutual aid, and democratic self-government — a South African framework for building associations and deciding together.](docs/images/democratic-development-commons-hero.png)
 
 ## The freedom to organise.
 
-A framework for voluntary associations, inspired by international organising best practice: shared purpose, democratic self-governance, and accountability to one another.
+Collective learning, mutual aid, and democratic self-government: a South African
+framework for people to build associations, steward shared resources, and cooperate
+without surrendering their power to decide together.
 
-The project supports rebuilding adult education in South Africa as an emancipatory practice of critical inquiry, mutual aid and collective action. The framework is a voluntary agreement, not legislation or a grant of legal status.
+**We learn democracy by doing democracy.** The framework is a voluntary organising
+agreement, not proposed legislation. Adopting it does not confer legal personality,
+registration, or tax status, and does not replace applicable law.
 
-## Seven organising principles
+## Ten organising principles
 
-1. **Freedom of association** — People freely form, join, support or leave associations.
-2. **Collective self-governance** — Members determine their shared purposes and arrangements.
-3. **Democratic member control** — Members participate in decisions, elections and oversight.
-4. **Shared purpose** — Resources advance the association’s purpose rather than private gain.
-5. **Constitutional governance** — Written rules define rights, responsibilities and fair procedures.
-6. **Separate legal personality** — Where applicable law permits, an association can hold rights and obligations separately from its members.
-7. **Accountability** — Delegated decision-makers answer to members.
+1. Freedom and voluntary association.
+2. Equal standing.
+3. Collective self-government.
+4. Difference without domination.
+5. Substantive participation and accessibility.
+6. Collective learning and inquiry.
+7. Shared stewardship, mutual aid, and ecological responsibility.
+8. Accountable power, dissent, and review.
+9. Autonomy and federation.
+10. Open-ended and reflexive development.
 
-The multilingual website runs on Grav, with Git-backed Markdown content.
-Displayed version: **0.1.2**. Do not increment it without the project owner's instruction.
+The [English proposal](grav-site/user/pages/01.en/proposal.md) presents Part II of the
+white paper in a public framework. The site includes 13 language sections; other
+proposal pages introduce their language projects and translate the prefiguration
+section. They are not full translations of the revised English proposal. SASL
+currently provides written-English support pending signed media.
+
+## Current website · 0.2.1
+
+- **Association Constitution Drafting Tool:** a description of the planned tool at
+  `/en/stadgar`, reached through the **Constitution Jumpstart** tab. The old builder
+  is removed; no constitution-answer form is active.
+- **Legal matrix:** 16 provisional research records, separate reform tracking, and
+  JSON/schema downloads at `/en/legal-matrix`. All initial records await verification.
+- **Governance-pattern library:** seven untested draft patterns, with suitability
+  limits and evidence requirements, at `/en/governance-patterns`.
+- **Join form:** `[project-interest /]` under Join on the English proposal. It stores
+  contact details privately, supports non-JavaScript submissions, and sends no emails.
+  Super-admins review, search, and delete records in **Admin → Project interest**.
+- **Reading tools:** day/night mode, 100%–400% text sizing, browser read-aloud,
+  remembered prefiguration panels, translated navigation, and translation notices.
+- **Downloads and footer:** public pages offer Markdown, RTF, and PDF downloads.
+  English supporting documents are linked in the footer and omit the project tabs.
+
+The multilingual site uses Grav with Git-backed Markdown. The published
+[privacy notice](grav-site/user/pages/01.en/06.privacy/default.md) describes the actual
+Join implementation; responsible-party/contact and production-hosting details remain
+pending. Records are private runtime data, not public page content or Git content.
 
 ## Run the website
 
@@ -110,8 +142,8 @@ including uploaded page media. Docker mounts that folder into the site: edits st
 in the clone through container rebuilds and restarts and can be committed and merged
 through Git. Keep and back up the cloned folder.
 
-Accounts, passwords and private keys persist separately in a Docker volume.
-They are not committed to Git; deleting Docker volumes removes that private data.
+Accounts, passwords, private keys, and Join records persist separately in a Docker volume.
+They are not committed to Git; deleting Docker volumes removes that private data. Protect backups separately.
 
 See [Grav editing, setup and MCP instructions](grav-site/README.md).
 

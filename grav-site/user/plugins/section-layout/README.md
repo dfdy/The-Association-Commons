@@ -1,5 +1,7 @@
 # DDC: Section Layout
 
+Part of The Democratic Development Commons **0.2.1**.
+
 ```markdown
 [section-layout label="01 / The Idea" description="How people organise around a shared purpose."]
 

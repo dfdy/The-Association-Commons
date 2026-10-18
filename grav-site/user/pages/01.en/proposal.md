@@ -612,6 +612,8 @@ Help develop and test the Democratic Development Commons through discussion, tra
 
 Expressing interest does not automatically confer membership in a language project or an association. Each project should agree and explain its own membership and participation arrangements.
 
+[project-interest /]
+
 [/section-layout]
 
 

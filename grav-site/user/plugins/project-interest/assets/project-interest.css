@@ -1,0 +1,28 @@
+.project-interest{margin:1.5rem 0;min-width:0;scroll-margin-top:calc(var(--site-header-height,6rem) + 1rem)}
+.project-interest form{border:1px solid #8a9489;border-radius:.5rem;padding:1.25rem}
+.project-interest .interest-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem}
+.interest-fields>div{min-width:0}
+.interest-fields>div:last-child{grid-column:1/-1}
+.project-interest label{display:block;font-weight:650;margin-bottom:.4rem}
+.project-interest input:not([type="checkbox"]):not([type="hidden"]),.project-interest textarea{display:block;width:100%;min-height:44px;min-width:0;padding:.65rem;border:1px solid #738275;border-radius:.3rem;background:#fff;color:#202821;font:inherit;line-height:1.5}
+.project-interest textarea{resize:vertical}
+.project-interest .interest-consent{display:flex;align-items:flex-start;gap:.75rem;margin:1.25rem 0;padding:.5rem 0;font-weight:400;cursor:pointer;min-height:44px}
+.interest-consent input{flex-shrink:0;width:24px;height:24px;margin:.25rem 0 0}
+.project-interest button{min-height:44px;max-width:100%;padding:.65rem 1rem;border:2px solid #825900;border-radius:.4rem;background:#fff0bc;color:#3b2900;font:inherit;font-weight:650;cursor:pointer}
+.project-interest button[aria-disabled="true"]{cursor:wait}
+.project-interest :is(input,textarea,button,a):focus-visible,.interest-errors:focus,.interest-status:focus{outline:3px solid var(--accent);outline-offset:4px}
+.project-interest .interest-errors{border:2px solid #825900;border-radius:.4rem;padding:1rem;margin-bottom:1.25rem;background:#fff0bc;color:#3b2900}
+.project-interest .interest-errors a{color:#493100}
+.project-interest .interest-field-error{font-weight:650;margin:.5rem 0}
+.project-interest [aria-invalid="true"]{border:2px solid #825900!important}
+.project-interest [hidden]{display:none!important}
+html[data-theme="night"] .project-interest input:not([type="checkbox"]),html[data-theme="night"] .project-interest textarea{background:#1c2720;color:#e8ebe2;border-color:#a2afa4}
+@media(max-width:700px){.project-interest .interest-fields{grid-template-columns:minmax(0,1fr)}.project-interest form{padding:.75rem}}
+html[data-large-text="true"] .project-interest .interest-fields{grid-template-columns:minmax(0,1fr)}
+@media(forced-colors:active){.project-interest button,.project-interest .interest-errors{background:Canvas;color:CanvasText;border-color:CanvasText}.project-interest .interest-errors a{color:LinkText}}
+@media print{.project-interest form{display:none}}
+/* Keep form controls usable with large text in a narrow content column. */
+.project-interest form{padding:clamp(8px,2vw,20px)}
+.project-interest .interest-consent{gap:min(.75rem,12px)}
+.interest-consent span{min-width:0;overflow-wrap:anywhere}
+.project-interest button{overflow-wrap:anywhere}
