@@ -43,4 +43,6 @@ Each language project is governed by its own stadgar (constitution or associatio
 
 Request to participate in this language project. This form only expresses interest; the project determines membership according to its own stadgar.
 
+[project-interest /]
+
 [/section-layout]

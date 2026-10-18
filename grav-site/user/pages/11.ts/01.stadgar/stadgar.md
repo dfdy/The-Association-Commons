@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Xitirhisiwa xo tsala Vumbiwa bya Nhlangano",
   "language_code": "ts",
   "language_name": "Xitsonga",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "ts",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Xitirhisiwa xo tsala Vumbiwa bya Nhlangano
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**Ndhawu yo sungula eka dyondzo ya nhlengeletano na ku endla vumbiwa bya xidemokirasi.** Xitirhisiwa xo tsala Vumbiwa bya Nhlangano lexi kunguhatiweke a xi si kumeka. Yi ta kongomisa ku pfuna minhlangano ya Afrika-Dzonga ku tumbuluxa tsalwa ro sungula leri swirho swi burisanaka, ku ri lulamisa, na ku amukela swin’we. Xitshuriwa xexo xi fanele ku sungula endlelo leri yaka emahlweni ra nhluvukiso wa vumbiwa, laha swirho swi hlayisaka vutihlamuleri bya milawu leyi swi yi hlawulaka.
 
-## Bringing laws, customs, and democratic commitments together
+## Ku hlanganisa milawu, mikhuva, na ku tinyiketela ka xidemokirasi
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Minhlangano ya Afrika-Dzonga yi tirha eka ndhawu leyi avaneke ya milawu, swilaveko swa milawu, na mikhuva ya minhlangano. Jeneretara yi ta kongomisa ku hlanganisa swiphemu leswi faneleke ku va vumbiwa lebyi hlanganeke, lebyi tirhisiwaka, ku hambanyisa mintirho ya nawu leyi bohaka eka maendlelo lawa swirho swi nga ma hlawulaka, ku ma cinca, kumbe ku phikizana.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+Yi ta seketela tinxaka to hambana ta nhlangano handle ko sindzisa modele wun’we wa nhlangano. Nhlangano wo lahla, ntlawa wo hlayisa mali, ntlawa wa vaaki, wo pfunetana, nhlangano wa vatirhi kumbe ntirhisano wu fanele ku kota ku tumbuluxa milawu leyi faneleke xikongomelo xa wona, migingiriko, switirhisiwa na swirho.
 
-## A guided process of democratic choice
+## Endlelo leri kongomisiweke ra ku hlawula ka xidemokirasi
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Ematshan’wini yo phakela vumbiwa byin’we bya boilerplate, jeneretara yi ta kongomisa ku pfuna swirho ku tirha hi swivutiso swin’we:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Xikongomelo na mongo:** I yini lexi hlanganisaka vanhu, va ta endla yini, naswona hi swihi swivumbeko swa nawu kumbe mintirho yo karhi ya migingiriko leyi nga vaka na nkoka?
+- **Vurho na swiboho:** I mani loyi a nga wa yena, i mani loyi a endlaka xiboho, xana swirho swi nga vumba njhani tiajenda, naswona swiboho swi rhekhodiwa no tiyisisiwa njhani?
+- **Ku rhumeriwa na vutihlamuleri:** Hi byihi vulawuri lebyi nyikiwaka vatirhela-mfumo kumbe tikomiti, ku ringana nkarhi wo tanihi kwihi, naswona swirho swi nga byi kambisisa kumbe ku byi hoxa njhani?
+- **Switirhisiwa na ku pfunetana:** Xana mali, nhundzu leyi avelaniwa, minyikelo, na ku nonoka swi khomiwa njhani hi ndlela leyi nga erivaleni na hi ku lulama?
+- **Ku nghenelela loku fikelelaka:** Xana ririmi, tifomati leti fikelelaka, nhlamuselo, vutshamo lebyi ringaneleke, ku nghenelela loku seketeriwaka, na vuhlayiseki bya xihundla swi ta akiwa njhani eka vulawuri?
+- **Ku kanetana na nsirhelelo:** Xana ku kanetana, timholovo, ku hlongoriwa, swigwevo, na swivilelo swi khomiwa njhani hi ndlela leyinene, hi ku tekela enhlokweni matimba lama nga ringaniki?
+- **Ku kambisisa na ntirhisano:** Xana swirho swi nga pfuxeta njhani vumbiwa bya swona no hlangana na minhlangano yin'wana loko swi ri karhi swi hlayisa ku tifuma ka miganga?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Endlelo ri fanele ku hlamusela vuyelo bya ku hlawula kun’wana na kun’wana, ku pfuna vutivi bya nhlangano ku rhendzeleka, na ku endla leswaku ku tiendlela vumbiwa ku va xitoloveto eka dyondzo ya nhlengeletano. Yi fanele ku tirhisa michini ya vulawuri bya le hansi leyi faneleke eka xikalo xa nhlangano na makhombo.
 
-## Clear guidance and member control
+## Nkongomiso lowu nga erivaleni na vulawuri bya swirho
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Xitirhisiwa lexi kunguhatiweke xi ta hambanyisa **swilaveko swa nawu, switsundzuxo swa DDC, vuhlayiseki bya vutlhari, na ku hlawula loku cinca-cincaka laha tikweni**. Nkongomiso wa nawu wu ta va wa modula, wu ri na siku, naswona wu fambelana na migingiriko ya nhlangano. Swirho swi ta kota ku twisisa swin’wana na ku endla swihlawulekisi leswi nga na vutivi, ku tlula ku titshega hi xifaniso lexi fihliweke kumbe vativi va nkarhi hinkwawo.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+Vumbiwa byi ta va **matsalwa lama hanyaka lama endlaka leswaku ku va na ku nghenelela ka nhlengeletano**. Swirho swi ta kota ku swi tirhisa eka ku hlela ka siku na siku, ku kanakana ndlela leyi swi tirhaka ha yona, na ku swi pfuxeta hi ku tirhisa maendlelo ya xidemokirasi lama pfumelelaniweke tanihileswi swilaveko leswi avelaniwa na ntokoto wu cincaka. Jeneretara yi ta kongomisa ku seketela mukhuva lowu lowu yaka emahlweni hi ku pfuna swirho ku endla leswaku milawu ya swona yi twisiseka, yi fikeleleka, na ku pfuleka ku kamberiwa. Rimba leri i ntwanano wo hlengeleta hi ku tirhandzela, ku nga ri ku tsariwa ka milawu. Dizayini ya jeneretara yi ta lava ku kamberiwa hi ku nghenelela na ntirho wun’wana wa nawu na ku fikelela.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Hlaya [swilaveko swa phepha ro basa eka muendli wa vumbiwa bya nkarhi lowu taka](/en/white-paper#part-i-21) na [mintlhontlho ya rona ya nkoka na ku tekeriwa enhlokweni ka nkarhi lowu taka](/en/white-paper#part-iii).

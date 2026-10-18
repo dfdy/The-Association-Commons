@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Suggest a Language",
+  "title": "Suggest a language",
   "language_code": "en",
   "language_name": "English",
   "published": true,
@@ -10,18 +10,12 @@
 }
 ---
 
-# Suggest a language.
+# Suggest a language
 
-Suggest a language you would like to help make available. Suggestions help identify interest; they do not automatically create a translated edition.
+Suggest a language you would like to help make available. Suggestions help identify interest; they do not automatically create a translated edition. To offer practical help with translation, use the [Join section](/en#join) on the English proposal.
 
-Accepted names come from the IANA Language Subtag Registry, based on ISO language codes. This means a registered language name, not necessarily a language with official status in a particular country. Minor spelling mistakes can be matched, but you confirm an uncertain match before it is counted.
+Accepted names come from the bundled IANA Language Subtag Registry snapshot, based on ISO language codes. A registered language is not necessarily an official language in a particular country.
 
-## Type your language name
+[language-suggestions /]
 
-## Suggested languages
-
-Tallies count accepted suggestions, not verified unique people. This list is read-only. Only the registered language and submission time are saved; your spelling and contact details are not stored.
-
-Loading suggestions…
-
-Language names: IANA Language Subtag Registry · 2026-09-17. ([Link](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry))
+Language names: IANA Language Subtag Registry snapshot · 2026-09-17. [Registry source](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry).

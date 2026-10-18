@@ -1,6 +1,6 @@
 # DDC: Translation Notice
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 Place `[translation-notice /]` on its own line to show the machine-translation warning, canonical English counterpart and translation volunteer invitation. Links follow the current page route: `/zu/stadgar` links to `/en/stadgar` and the `/zu` proposal. Keep corresponding English routes available when adding translated pages.
 

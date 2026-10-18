@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Ni ṋeele kha mushumo uyu.",
   "language_code": "ve",
   "language_name": "Tshivenḓa",
   "published": true,
   "visible": false,
   "source_route": "/ve/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "ve",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Ni ṋeele kha mushumo uyu.
 
-## English version shown
+Nḓila dza u ṋeela dzi ḓo ṅwalwa hafha.
 
-The Donate page has not yet been translated for the Tshivenda project. This page is shown in English.
+## Nḓila dza u ṋetshedza dzi khou ḓa nga murahu
 
-# Donate to this project.
+Siaṱari iḽi ḽi khou lugiselelwa khetho dza miṋeelo ya tshifhingani tshi ḓaho ya phurojeke. A hu athu ganḓiswa nḓila dza u badela kana zwidodombedzwa zwa bannga.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Phurojeke i khou pulana u thoma dzangano ḽi sa shumeli mbuelo. Zwidodombedzwa zwa ndangulo zwi ḓo engedzwa musi zwi hone; siaṱari iḽi a ḽi ṱoḓi tshiimo tsho ṅwaliswaho tsha NPO, PBO kana khethekanyo 18A.

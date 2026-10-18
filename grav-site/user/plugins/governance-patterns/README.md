@@ -1,6 +1,6 @@
 # DDC: Governance Patterns
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 English-only public library at `/en/governance-patterns`, linked from the shared
 footer. `[governance-patterns /]` renders a searchable index and native disclosures.
@@ -47,7 +47,7 @@ Requires `legal-matrix` for its locally served DataTables 2.3.4, jQuery 3.7.1, a
 presentation styles. No vendor library is duplicated and no external CDN is used at
 runtime. Vendor MIT notices remain in `legal-matrix/assets/vendor/`.
 First-party code: AGPL-3.0-only. Editorial pattern data: CC-BY-NC-SA-4.0 under the
-repository licence scopes. Plugin metadata matches project version 0.2.1.
+repository licence scopes. Plugin metadata matches project version 0.3.0.
 
 ## Checks
 
@@ -68,3 +68,10 @@ content, and forced-colour focus. Screen-reader and real speech testing remain o
 Axe-core 4.10.3 reported no WCAG-tagged violations on the full library page in day
 and night modes; ARIA and colour-contrast manual-review items remain. Layout also
 passed at 400% text in a 320px viewport. Automated checks do not establish conformance.
+
+## Licence scope
+
+The first-party research records in `data/governance-patterns.json` are editorial
+content under CC BY-NC-SA 4.0. The validation schema, plugin code, and technical
+documentation are AGPL-3.0-only. Cited third-party sources retain their own terms.
+See the [repository licence map](../../../../LICENSING.md#where-each-licence-applies).

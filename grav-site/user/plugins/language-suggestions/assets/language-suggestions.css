@@ -1,0 +1,35 @@
+.language-suggestions{margin:1.5rem 0;min-width:0;scroll-margin-top:calc(var(--site-header-height,6rem) + 1rem)}
+.language-suggestions form{border:1px solid #8a9489;border-radius:.5rem;padding:1.25rem}
+.language-suggestions .interest-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem}
+.interest-fields>div{min-width:0}
+.interest-fields>div:last-child{grid-column:1/-1}
+.language-suggestions label{display:block;font-weight:650;margin-bottom:.4rem}
+.language-suggestions input:not([type="checkbox"]):not([type="hidden"]),.language-suggestions textarea{display:block;width:100%;min-height:44px;min-width:0;padding:.65rem;border:1px solid #738275;border-radius:.3rem;background:#fff;color:#202821;font:inherit;line-height:1.5}
+.language-suggestions textarea{resize:vertical}
+.language-suggestions .interest-consent{display:flex;align-items:flex-start;gap:.75rem;margin:1.25rem 0;padding:.5rem 0;font-weight:400;cursor:pointer;min-height:44px}
+.interest-consent input{flex-shrink:0;width:24px;height:24px;margin:.25rem 0 0}
+.language-suggestions button{min-height:44px;max-width:100%;padding:.65rem 1rem;border:2px solid #825900;border-radius:.4rem;background:#fff0bc;color:#3b2900;font:inherit;font-weight:650;cursor:pointer}
+.language-suggestions button[aria-disabled="true"]{cursor:wait}
+.language-suggestions :is(input,textarea,button,a):focus-visible,.interest-errors:focus,.interest-status:focus{outline:3px solid var(--accent);outline-offset:4px}
+.language-suggestions .interest-errors{border:2px solid #825900;border-radius:.4rem;padding:1rem;margin-bottom:1.25rem;background:#fff0bc;color:#3b2900}
+.language-suggestions .interest-errors a{color:#493100}
+.language-suggestions .interest-field-error{font-weight:650;margin:.5rem 0}
+.language-suggestions [aria-invalid="true"]{border:2px solid #825900!important}
+.language-suggestions [hidden]{display:none!important}
+html[data-theme="night"] .language-suggestions input:not([type="checkbox"]),html[data-theme="night"] .language-suggestions textarea{background:#1c2720;color:#e8ebe2;border-color:#a2afa4}
+@media(max-width:700px){.language-suggestions .interest-fields{grid-template-columns:minmax(0,1fr)}.language-suggestions form{padding:.75rem}}
+html[data-large-text="true"] .language-suggestions .interest-fields{grid-template-columns:minmax(0,1fr)}
+@media(forced-colors:active){.language-suggestions button,.language-suggestions .interest-errors{background:Canvas;color:CanvasText;border-color:CanvasText}.language-suggestions .interest-errors a{color:LinkText}}
+@media print{.language-suggestions form{display:none}}
+/* Keep form controls usable with large text in a narrow content column. */
+.language-suggestions form{padding:clamp(8px,2vw,20px)}
+.language-suggestions .interest-consent{gap:min(.75rem,12px)}
+.interest-consent span{min-width:0;overflow-wrap:anywhere}
+.language-suggestions button{overflow-wrap:anywhere}
+
+.language-suggestions select{display:block;max-width:100%;min-height:44px;font:inherit;padding:.5rem;background:Canvas;color:CanvasText;margin-bottom:1rem}
+.language-suggestions button{margin-top:1rem}
+.language-suggestions table{width:100%;border-collapse:collapse;overflow-wrap:anywhere}
+.language-suggestions th,.language-suggestions td{text-align:left;padding:.5rem;border-bottom:1px solid currentColor}
+.language-suggestions input{margin-bottom:1rem}
+.language-suggestions select:focus-visible{outline:3px solid var(--accent);outline-offset:4px}

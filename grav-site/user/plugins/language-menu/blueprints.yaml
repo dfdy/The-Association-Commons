@@ -1,7 +1,7 @@
 name: "DDC: Language Menu"
 slug: language-menu
 type: plugin
-version: 0.2.1
+version: 0.3.0
 description: Accessible language pills shaded by the last 50 language menu clicks.
 icon: language
 license: AGPL-3.0-only

@@ -1,6 +1,6 @@
 # DDC: Project Interest
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 Place `[project-interest /]` on its own line to render the form. It is installed under
 **Join** on the English proposal only. The form's visible copy is English and marked
@@ -34,13 +34,13 @@ Records live in `user/data/commons-private/project-interest/` in the Grav data v
 The directory is mode 0700 and files are mode 0600. Apache denies HTTP access to the
 private data tree. The corresponding checkout location is also ignored by Git.
 Records include a random ID, UTC timestamp, source route/language, supplied fields,
-consent confirmation, and consent-notice version (`0.2.1-2026-10-18` for new records). Raw IP addresses and user agents are
+consent confirmation, and consent-notice version (`0.3.0-2026-10-18` for new records). Raw IP addresses and user agents are
 not added to submission records. Rate counters use a keyed IP hash and expire after an
 hour; shared connections share the quota.
 
 Super-admins can open **Admin → Project interest** (`/admin/plugin/project-interest`)
 to search records, read every submitted field and metadata item, and delete an
-individual submission after confirmation. The list is paginated at 25 records.
+individual submission after confirmation. The table lists date (UTC), name, email, and community and message excerpts (up to 80 characters). Each Open link displays the complete entry, including metadata, with a Back to submissions link. Keyboard focus moves to the entry heading and returns to its Open link. The list is paginated at 25 records.
 The JSON endpoints require `admin.super`, enforce API-key scope caps, and send
 `Cache-Control: private, no-store`. Ordinary content editors and the MCP account
 are denied. Submitted values are inserted into the admin DOM as text, not HTML.
@@ -90,3 +90,21 @@ It checks anonymous and content-editor denial, super-admin reads/search/deletion
 private cache headers, cached-route autoloading, sidebar/page discovery, escaped
 submitted text, and keyboard cancel/delete focus. API routes use the core super-admin
 permission gate, including scoped-key restrictions. No MCP tools expose these records.
+
+The table action toggles between Open and Close, with an accessible expanded state.
+Opening another entry resets the previous row to Open.
+
+Admin lists use Grav colour tokens, shaded headers and alternating rows, readable UTC dates,
+separate entry-detail cards, and a responsive search panel. Light/dark axe checks and
+320-pixel layout checks pass; screen-reader testing remains outstanding.
+
+## Language editions
+
+The shortcode is included under Join in English and all translated proposal pages,
+including written-English support on the SASL proposal. Bundled `languages/*.json` files translate
+labels, consent, validation, and JavaScript status messages; English is the fallback.
+The form exposes the edition's language to assistive technology and preserves user
+input verbatim. Source route and language code are stored with each private record.
+No submission is sent to a translation service. Page exports link back to the form
+on the corresponding language proposal. Kaaps wording is an Afrikaans-based draft
+requiring community review, as stated on its pages.

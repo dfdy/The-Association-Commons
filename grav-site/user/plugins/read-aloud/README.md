@@ -1,6 +1,6 @@
 # DDC: Read Aloud
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 Adds play/pause and settings controls after each heading’s passage inside the theme’s `.prose` article. No Markdown alterations are needed. Each passage ends at the next heading, then playback advances to that heading’s control, including subsections, so text is not repeated. The previous control returns to Play and the current passage receives a subtle highlight. Collapsed passages are skipped. Controls, form fields and decorative numbering are excluded from speech. Hidden Prefiguration text is available through its section control when opened.
 

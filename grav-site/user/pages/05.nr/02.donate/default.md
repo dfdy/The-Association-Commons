@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Nikela ngephrojekthi le.",
   "language_code": "nr",
   "language_name": "isiNdebele",
   "published": true,
   "visible": false,
   "source_route": "/nr/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "nr",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Nikela ngephrojekthi le.
 
-## English version shown
+Iindlela zokunikela zizokutlolwa lapha.
 
-The Donate page has not yet been translated for the isiNdebele project. This page is shown in English.
+## Iindlela zokunikela ziza ngemva kwesikhathi
 
-# Donate to this project.
+Ikhasi leli lilungiselelwa iindlela zokunikela zephrojekthi zesikhathi esizako. Azikho iindlela zokubhadela namkha imininingwana yebhanka egadangisiweko.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Iphrojekthi ihlela ukusungula ihlangano engenzi inzuzo. Imininingwana yehlangano izokufakwa lokha nayikhona; Ikhasi leli alifuni i-NPO etlolisiweko, i-PBO nofana ubujamo besigaba 18A.

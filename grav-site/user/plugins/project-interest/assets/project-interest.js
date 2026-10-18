@@ -2,6 +2,8 @@
   'use strict';
   document.querySelectorAll('.project-interest form').forEach(form => {
     const root = form.closest('.project-interest');
+    const messages=JSON.parse(root.dataset.messages || '{}');
+    const t=text=>messages[text] || text;
     const summary = form.querySelector('.interest-errors');
     const status = root.querySelector('.interest-status');
     const button = form.querySelector('button[type="submit"]');
@@ -16,7 +18,7 @@
       busy = true;
       button.setAttribute('aria-disabled', 'true');
       form.setAttribute('aria-busy', 'true');
-      status.textContent = 'Submitting your interest…';
+      status.textContent = t('Submitting your interest…');
       summary.hidden = true;
       form.querySelectorAll('[aria-invalid]').forEach(field => field.removeAttribute('aria-invalid'));
       form.querySelectorAll('.interest-field-error').forEach(error => { error.hidden = true; error.textContent = ''; });
@@ -26,7 +28,7 @@
         if (!response.ok || !data.success) {
           const list = summary.querySelector('ul');
           list.replaceChildren();
-          const errors = data.errors && typeof data.errors === 'object' ? data.errors : {form: 'Your interest could not be saved. Please try again.'};
+          const errors = data.errors && typeof data.errors === 'object' ? data.errors : {form: t('Your interest could not be saved. Please try again.')};
           Object.entries(errors).forEach(([key, message]) => {
             const item = document.createElement('li');
             const field = ['name', 'email', 'organisation', 'message', 'consent'].includes(key) ? form.querySelector(`#interest-${key}`) : null;
@@ -44,7 +46,7 @@
           status.focus();
         }
       } catch {
-        status.textContent = 'We could not confirm that your interest was saved. Check your connection and try again; retrying this form will not create a duplicate.';
+        status.textContent = t('We could not confirm that your interest was saved. Check your connection and try again; retrying this form will not create a duplicate.');
         status.focus();
       } finally {
         busy = false; button.removeAttribute('aria-disabled'); form.removeAttribute('aria-busy');

@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Skenk aan hierdie projek.",
   "language_code": "af",
   "language_name": "Afrikaans",
   "published": true,
   "visible": false,
   "source_route": "/af/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "af",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Skenk aan hierdie projek.
 
-## English version shown
+Maniere om te skenk sal hier gelys word.
 
-The Donate page has not yet been translated for the Afrikaans project. This page is shown in English.
+## Skenkingmetodes kom later
 
-# Donate to this project.
+Hierdie bladsy word voorberei vir die projek se toekomstige skenkingsopsies. Geen betaalmetodes of bankbesonderhede is nog gepubliseer nie.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Die projek beplan om 'n niewinsorganisasie te stig. Organisatoriese besonderhede sal bygevoeg word wanneer beskikbaar; hierdie bladsy maak nie aanspraak op geregistreerde NPO-, PBO-, of artikel 18A-status nie.

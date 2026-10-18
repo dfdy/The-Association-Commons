@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Isixhobo soYilo soMgaqo-siseko woMbutho",
   "language_code": "xh",
   "language_name": "isiXhosa",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "xh",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Isixhobo soYilo soMgaqo-siseko woMbutho
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**Isiqalo sokufunda ngokubambisana kunye nokwenziwa komgaqo-siseko wedemokhrasi.** Isixhobo soYilo soMgaqo-siseko soMbutho esicwangcisiweyo asikafumaneki. Iza kujolisa ekuncedeni imibutho yaseMzantsi Afrika ukuba iphuhlise uyilo lokuqala apho amalungu axoxayo, ayilungelelanise, kwaye ayamkele kunye. Olo yilo kufuneka luqalise inkqubo eqhubekayo yophuhliso lomgaqo-siseko, amalungu agcine uxanduva lwemithetho ayikhethayo.
 
-## Bringing laws, customs, and democratic commitments together
+## Ukuzisa imithetho, amasiko, kunye nezibophelelo zedemokhrasi kunye
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Imibutho yaseMzantsi Afrika isebenza kumhlaba ocandekileyo wemithetho, iimfuno zolawulo, kunye nezithethe zombutho. Ijenereyitha iya kujolisa ekuhlanganiseni amacandelo afanelekileyo kumgaqo-siseko ohambelanayo, osebenzisekayo, ukwahlula imisebenzi esemthethweni ebophelelayo kwizinto ezenziwa ngamalungu anokukhetha kuzo, ukuziqhelanisa, okanye ukukhuphisana.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+Iza kuxhasa iindidi ezahlukeneyo zombutho ngaphandle kokumisela imodeli enye yombutho. Umbutho wokungcwaba, iklabhu yokonga, imibutho yasekuhlaleni, imibutho yokuncedana, umbutho wabasebenzi, okanye intsebenziswano kufuneka ikwazi ukuqulunqa imigaqo ehambelana nenjongo yayo, imisebenzi, izibonelelo kunye namalungu.
 
-## A guided process of democratic choice
+## Inkqubo ekhokelwayo yokhetho lwedemokhrasi
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Endaweni yokubonelela ngomgaqo-siseko we-boilerplate enye, umenzi wejenereyitha uya kujolisa ekuncedeni amalungu asebenze ngemibuzo kunye:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Injongo kunye nomxholo:** Yintoni edibanisa abantu, baya kwenza ntoni, kwaye zeziphi iindlela zomthetho okanye imisebenzi ethile enokubaluleka?
+- **Ubulungu kunye nezigqibo:** Ngubani ongowabani, ngubani owenza isigqibo, amalungu angayilungisa njani i-ajenda, kwaye izigqibo zibhalwa kwaye zingqinisiswe njani?
+- **Amagunya kunye noxanduva lokuphendula:** Liliphi igunya elinikwa amagosa asezi-ofisini okanye iikomiti, ixesha elingakanani, kwaye amalungu anokuyiphonononga njani okanye ayirhoxise njani?
+- **Izibonelelo kunye nokuncedisana:** Ingaba imali, ii-asethi ekwabelwana ngazo, iminikelo, kunye nobunzima busingathwa njani ngokungafihlisiyo nangobulungisa?
+- **Intatho-nxaxheba efikelelekayo:** Ingaba ulwimi, iifomathi ezifikelelekayo, utoliko, indawo yokuhlala efanelekileyo, uthatho-nxaxheba oluxhaswayo, kunye nobumfihlo luya kwakhelwa kulawulo?
+- **Ungquzulwano nokhuseleko:** Ingaba ukungavisisani, iingxabano, ukukhethelwa bucala, izohlwayo, nezibheno zisingathwa njani ngokufanelekileyo, kuqwalaselwa njani amandla angalinganiyo?
+- **Uphononongo kunye nentsebenziswano:** Amalungu angawuhlaziya njani umgaqo-siseko wawo kwaye adibane neminye imibutho ngeli lixa egcine urhulumente wengingqi?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Inkqubo kufuneka ichaze iziphumo zokhetho ngalunye, incede ulwazi lombutho ukuba lujikeleze, kwaye yenze ukuqulunqwa komgaqo-siseko kube ngumsebenzi wokufunda ngokuhlangeneyo. Kufuneka isebenzise ubuncinci oomatshini bolawulo obufanelekileyo kwisikali sombutho kunye nemingcipheko.
 
-## Clear guidance and member control
+## Isikhokelo esicacileyo kunye nolawulo lwamalungu
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Isixhobo esicwangcisiweyo siya kwahlula **iimfuno zomthetho, iingcebiso ze-DDC, izikhuselo ezinobulumko, kunye nokukhetha okuguquguqukayo kwendawo **. Isikhokelo somthetho siya kuba yimodyuli, yomhla, kwaye ihambelana nemisebenzi yombutho. Amalungu aya kukwazi ukuqonda ezinye iindlela kwaye enze ukhetho olunolwazi, kunokuxhomekeka kwithemplate efihliweyo okanye iingcali ezisisigxina.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+ImiGaqo-siseko iya kuba **ngamaxwebhu aphilayo avumela kunye nokukhuthaza intatho-nxaxheba ehlangeneyo**. Amalungu aya kukwazi ukuzisebenzisa kulungiselelo lwemihla ngemihla, abuze ukuba zisebenza njani, kwaye azihlaziye ngokweenkqubo zedemokhrasi ekuvunyelwene ngazo njengeemfuno ekwabelwana ngazo kunye namava enguquko. Ijeneretha iya kuba nenjongo yokuxhasa lo mkhuba oqhubekayo ngokunceda amalungu ukuba enze imithetho yawo iqondakale, ifikeleleke, kwaye ivuleleke ukuba ihlolwe. Ubume sisivumelwano solungiselelo ngokuzithandela, hayi umthetho oyilwayo. Uyilo lwe-generator luya kufuna uvavanyo lokuthatha inxaxheba kunye nomsebenzi osemthethweni kunye nokufikeleleka.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Funda [iimfuno zephepha elimhlophe zomvelisi womgaqo-siseko wexesha elizayo](/en/white-paper#part-i-21) kunye [nemingeni yayo ebalulekileyo kunye neengqwalasela zexesha elizayo](/en/white-paper#part-iii).

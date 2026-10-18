@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Nikela kulephrojekthi.",
   "language_code": "ss",
   "language_name": "siSwati",
   "published": true,
   "visible": false,
   "source_route": "/ss/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "ss",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Nikela kulephrojekthi.
 
-## English version shown
+Tindlela tekunikela titawubhalwa lapha.
 
-The Donate page has not yet been translated for the siSwati project. This page is shown in English.
+## Tindlela tekunikela tita ngemuva kwesikhatsi
 
-# Donate to this project.
+Lelikhasi lilungiselelwa tindlela tekunikela tephrojekthi esikhatsini lesitako. Kute tindlela tekukhokha nobe imininingwane yasebhange leseyishicilelwe.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Lephrojekthi ihlela kusungula inhlangano lengasebenti inzuzo. Imininingwane yenhlangano itawungetwa uma itfolakala; lelikhasi alisho kutsi libhalisiwe njenge-NPO, PBO noma simo sesigaba 18A.

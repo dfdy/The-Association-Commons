@@ -27,7 +27,7 @@ The Democratic Development Commons offers a voluntary organising framework that 
 
 # The freedom to [hero-accent]organise.[/hero-accent]
 
-Collective learning, mutual aid, and democratic self-government: a South African framework for people to build associations, steward shared resources, and cooperate without surrendering their power to decide together.
+[hero-accent]Collective learning, mutual aid, and democratic self-government:[/hero-accent] a South African framework for people to build associations, steward shared resources, and cooperate without surrendering their power to decide together.
 
 [/hero-intro]
 

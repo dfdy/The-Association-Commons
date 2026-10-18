@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Sesebelisoa sa ho Rala Molaotheo oa Mokhatlo",
   "language_code": "st",
   "language_name": "Sesotho",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "st",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Sesebelisoa sa ho Rala Molaotheo oa Mokhatlo
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**Sebaka sa ho qala bakeng sa ho ithuta ka kopanelo le ho theha molaotheo oa demokrasi.** Sesebediswa se reriloeng sa Mokhatlo oa Ho Rala Molaotheo ha se so fumanehe. E tla ikemisetsa ho thusa mekhatlo ea Afrika Boroa ho theha moralo oa pele oo litho li buisanang ka oona, ho o fetola, le ho o amohela hammoho. Sets'oants'o seo se lokela ho qala ts'ebetso e tsoelang pele ea ntlafatso ea molao-motheo, litho li ntse li boloka boikarabello ba melao eo ba e khethang.
 
-## Bringing laws, customs, and democratic commitments together
+## Ho kopanya melao, meetlo, le boitlamo ba demokrasi
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Mekhatlo ea Afrika Boroa e sebetsa ho pholletsa le maemo a arohaneng a melao, litlhoko tsa taolo, le meetlo ea mekhatlo. Jenereithara e tla ikemisetsa ho kopanya likarolo tse amehang hore e be molaotheo o momahaneng, o ka sebelisoang, o khethollang mesebetsi ea molao e tlamang ho tsoa ho mekhoa eo litho li ka e khethang, ho ikamahanya le eona, kapa tlholisano.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+E tla tšehetsa mefuta e fapaneng ea kopano ntle le ho beha mohlala o le mong oa mokhatlo. Mokhatlo oa bapato, sehlopha sa polokelo, sechaba, sehlopha sa lithuso, mokhatlo oa basebetsi, kapa koporasi e lokela ho khona ho theha melao e lumellanang le morero oa eona, mesebetsi, lisebelisoa le litho.
 
-## A guided process of democratic choice
+## Ts'ebetso e tataisoang ea khetho ea demokrasi
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Sebakeng sa ho fana ka molao-motheo o le mong oa boilerplate, jenereithara e tla ikemisetsa ho thusa litho ho sebetsana le lipotso hammoho:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Morero le moelelo oa taba:** Ke eng e kopanyang batho, ba tla etsa'ng, le hore na ke mekhoa efe ea molao kapa mesebetsi e tobileng e ka bang bohlokoa?
+- **Botho le liqeto:** Ke mang, ke mang ea etsang qeto, litho li ka bopa litabatabelo joang, 'me liqeto li ngoloa le ho netefatsoa joang?
+- **Kabelo le boikarabello:** Ke bolaoli bofe bo fuoang basebetsi kapa likomiti, nako e kae, 'me litho li ka li hlahloba kapa tsa li hula joang?
+- **Lisebelisoa le ho thusana:** Chelete, matlotlo a arolelanoang, menehelo, le mathata li sebetsoa joang ka ponaletso le ka toka?
+- **Seabo se ka fihlellehang:** Puo, mekhoa e fumanehang habonolo, toloko, bolulo bo loketseng, ho kenya letsoho ka tšehetso, le boinotšing li tla hahuoa joang pusong?
+- **Khohlano le ts'ireletso:** Likhohlano, liqabang, ho behelloa ka thoko, likotlo le boipiletso li sebetsoa joang ka toka, ho shebiloe matla a sa lekanang?
+- **Sheba le tšebelisano-'moho:** Litho li ka fetola molao-motheo oa tsona joang le ho sebelisana le mekhatlo e meng empa li ntse li boloka puso ea lehae?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Tsamaiso e lokela ho hlalosa liphello tsa khetho e 'ngoe le e 'ngoe, ho thusa tsebo ea mokhatlo ho potoloha, le ho etsa hore ho iketsetsa molaotheo e be mosebetsi oa ho ithuta ka kopanelo. E lokela ho sebelisa mochini o fokolang oa taolo o loketseng sekala le likotsi tsa mokhatlo.
 
-## Clear guidance and member control
+## Tataiso e hlakileng le taolo ea litho
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Sesebelisoa se reriloeng se tla khetholla **litlhoko tsa molao, likhothaletso tsa DDC, litšireletso tse bohlale, le likhetho tse feto-fetohang sebakeng sa heno**. Tataiso ea molao e tla ba ea modular, ea letsatsi, le e amanang le mesebetsi ea mokhatlo. Litho li tla khona ho utloisisa mekhoa e meng le ho etsa liqeto tse nang le tsebo, ho e-na le ho itšetleha ka template e patiloeng kapa litsebi tsa ka ho sa feleng.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+Melao-motheo e tla ba **litokomane tse phelang tse nolofalletsang le ho matlafatsa seabo ka kopanelo**. Litho li tla khona ho li sebelisa tlhophisong ea letsatsi le letsatsi, ho botsa hore na li sebetsa joang, le ho li nchafatsa ka mekhoa ea demokrasi eo ho lumellanoeng ka eona ha litlhoko tse arolelanoang le boiphihlelo bo fetoha. Jenereithara e tla ikemisetsa ho ts'ehetsa mokhoa ona o tsoelang pele ka ho thusa litho ho etsa hore melao ea bona e utloisisehe, e fumanehe, 'me e bulehe ho hlahlojoa. Moralo ona ke tumellano ea boithaopo ea ho hlophisa, eseng moralo oa molao. Moralo oa jenereithara o tla hloka tlhahlobo e nkang karolo le mosebetsi o tsoelang pele oa molao le oa phihlello.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Bala [litlhoko tsa pampiri e tšoeu bakeng sa jenereithara ea ka moso ea molaotheo](/en/white-paper#part-i-21) le [liphephetso tsa eona tsa bohlokoa le maikutlo a kamoso](/en/white-paper#part-iii).

@@ -1,28 +1,29 @@
 ---
 {
-  "title": "Donate",
+  "title": "Skenk aan dié projek.",
   "language_code": "af-x-kaaps",
   "language_name": "Kaaps",
   "published": true,
   "visible": false,
   "source_route": "/af-x-kaaps/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "af-x-kaaps",
+  "translation_source": "/en/donate",
+  "translation_review": "afrikaans-based-draft-needs-kaaps-review",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+> Hierdie is ’n Afrikaans-gebaseerde konsep vir Kaaps-hersiening. Kaaps-sprekers se taal- en betekenisbeoordeling is nog nodig.
 
-## English version shown
+# Skenk aan dié projek.
 
-The Donate page has not yet been translated for the Kaaps project. This page is shown in English.
+Maniere om te skenk sal hier gelys word.
 
-# Donate to this project.
+## Skenkingmetodes kom later
 
-Ways to donate will be listed here.
+Dié bladsy word voorberei vir die projek se toekomstige skenkingsopsies. Geen betaalmetodes of bankbesonderhede is nog gepubliseer nie.
 
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Die projek beplan om 'n niewinsorganisasie te stig. Organisatoriese besonderhede sal bygevoeg word wanneer beskikbaar; dié bladsy maak nie aanspraak op geregistreerde NPO-, PBO-, of artikel 18A-status nie.

@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Ithulusi lokutlola umThethosisekelo weNhlangano",
   "language_code": "nr",
   "language_name": "isiNdebele",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "nr",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Ithulusi lokutlola umThethosisekelo weNhlangano
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**Indawo yokuthoma yokufunda ngokuhlanganyela nokwenza umthethosisekelo wentando yenengi.** Ithulusi lokutlola umThethosisekelo weNhlangano elihleliweko alikatholakali. Izakuhlose ukusiza iinhlangano zeSewula Afrika bona zenze umtlolo wokuthoma amalunga azokucoca ngawo, atjhugulule, begodu amukele ndawonye. Umtlolo loyo kufanele uthome ikambiso eragela phambili yokuthuthukisa umthethosisekelo, lapho amalunga agcina umthwalo wemithetho ayikhethako.
 
-## Bringing laws, customs, and democratic commitments together
+## Ukuhlanganisa imithetho, amasiko, kanye nokuzibophelela kwentando yenengi
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Iinhlangano zeSewula Afrika zisebenza ngeendlela ezihlukahlukeneko zemithetho, iimfuneko zokulawula, kanye namasiko weenhlangano. Ijeneretha izakuhlose ukuletha iingcenye ezifaneleko ndawonye zibe mthethosisekelo ohlangeneko, ongasebenzisekako, ukuhlukanisa imisebenzi yomthetho ebophezelako emikhubeni amalunga angakhetha, atjhugulule, nofana aphikisane nayo.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+Izokusekela imihlobo ehlukileko yokuhlangana ngaphandle kokugandelela imodeli eyodwa yehlangano. Umphakathi wokungcwaba, iklabhu yokulondoloza, umphakathi, isiqhema sokusizana, ihlangano yabasebenzi, nofana ikoporasi kufanele ikghone ukuthuthukisa imithetho efanele umnqopho wayo, imisebenzi, iinsetjenziswa, namalunga.
 
-## A guided process of democratic choice
+## Ikambiso eqondiswako yokukhetha ngentando yenengi
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Kunokobana kunikelwe umthethosisekelo owodwa, ijeneretha izakuhlose ukusiza amalunga asebenze ngemibuzo ndawonye:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Ihloso nomongo:** Khuyini ehlanganisa abantu, khuyini abazokwenza, begodu ngimiphi imihlobo yomthetho nofana imisebenzi ethileko engaba yinto efaneleko?
+- **Ubulungu neenqunto:** Ngubani ofanele, ngubani onqumako, amalunga angabumba njani ama-ajenda, begodu iinqunto zirekhodwa njani begodu ziqinisekiswa njani?
+- **Ukuthunyelwa nokuziphendulela:** Ngiliphi igunya elinikelwa abaphathi be-ofisi nofana amakomidi, isikhathi esingangani, begodu amalunga angalibuyekeza njani nofana alihoxise njani?
+- **Iinsetjenziswa nokusizana:** Imali, ipahla ehlanganyelweko, iminikelo, nobudisi kuphathwa njani ngokusobala nangokulunga?
+- **Ukuzibandakanya okufinyelelekako:** Ilimi, amafomethi afinyelelekako, ukuhlathulula, ukwamukelwa okuzwakalako, ukuzibandakanya okusekelweko, kanye nobumfihlo kuzokwakhiwa njani ekubuseni?
+- **Ukulwa nokuvikeleka:** Ukuphikisana, ukuphikisana, ukukhipha ngaphandle, iinjeziso, kanye nokudlulisa amacala kuphathwa njani ngokufaneleko, ngokutjheja amandla angalinganiko?
+- **Ukubuyekeza nokusebenzisana:** Amalunga angawubuyekeza njani umthethosisekelo wawo begodu ahlanganyele nezinye iinhlangano ngesikhathi agcina ukuzibusa kwendawo?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Ikambiso kufanele ihlathulule imiphumela yokukhetha ngalinye, isize ilwazi lehlangano bona lijikeleze, begodu yenze ukwenza umthethosisekelo kube msebenzi wokufunda ngokuhlanganyela. Kufanele isebenzise umtjhini wokulawula omncani ofanele izinga lenhlangano kanye nobungozi.
 
-## Clear guidance and member control
+## Isinqophiso esicacileko nokulawulwa kwamalunga
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Ithulusi elihleliweko lizokuhlukanisa **iimfuneko zomthetho, iimphakamiso ze-DDC, ukuvikeleka okuhlakaniphileko, kanye nokukhetha okuguquguqukako endaweni**. Iinqophiso zezomthetho zizokuba ngemojuli, zinesikhathi, begodu zifanele imisebenzi yenhlangano. Amalunga azokukghona ukuzwisisa ezinye iindlela begodu enze ukukhetha okuhle, kunokuthi athembele esifanekisweni esifihlekileko nofana izazi ezihlala njalo.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+Imithethosisekelo izakuba **amadokhumenti aphilako akghonakalisa begodu akhulise ukuzibandakanya ngokuhlanganyela**. Amalunga azokukghona ukuzisebenzisa ekuhleleni kwangamalanga, azibuze bona zisebenza njani, begodu azibuyekeze ngeendlela ezivunyelweko zentando yenengi njengeendingo ezihlanganyelweko kanye nokutjhuguluka kwesipiliyoni. Ijeneretha izakuhlose ukusekela umkhuba lo oragela phambili ngokusiza amalunga enze imithetho yawo izwisiseke, ifinyeleleke, begodu ivulekele ukuhlolisiswa. Ihlaka lisivumelwano sokuhlela ngokuzithandela, ingasi umthetho ohlongozwayo. Umklamo wejeneretha uzakutlhoga ukuhlolwa ngokuhlanganyela kanye nomsebenzi ongezelelweko wezomthetho nokufikeleleka.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Funda [iimfuneko zephepha elimhlophe lomkhiqizi womthethosisekelo wesikhathi esizako](/en/white-paper#part-i-21) kanye [neentjhijilo zawo eziqakathekileko nokucabangela kwesikhathi esizako](/en/white-paper#part-iii).

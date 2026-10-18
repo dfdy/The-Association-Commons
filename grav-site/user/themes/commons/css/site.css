@@ -131,7 +131,7 @@ html[data-theme="night"] .site-header .theme-toggle,html[data-theme="night"] .si
 .prose,.sections a{overflow-wrap:anywhere}
 
 /* Keep the enlarged reading controls within small viewports. */
-.site-header{padding-inline:clamp(12px,5vw,32px)}
+.site-header,body>footer{padding-inline:clamp(12px,5vw,32px)}
 /* Large text must not leave a viewport-sized header pinned over the page. */
 html[data-large-text="true"] .site-header{position:static}
 html[data-large-text="true"]{scroll-padding-top:1rem}
@@ -142,14 +142,29 @@ html[data-large-text="true"] .page-toolbar .toolbar-downloads{flex-wrap:wrap}
 
 /* Keep footer destinations distinct, with stable left/right groups. */
 footer{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:1.5rem 3rem}
-.footer-meta,.footer-resources{display:flex;flex-wrap:wrap;align-items:baseline;gap:.75em 1.5em;min-width:0;max-width:100%}
-.footer-meta{justify-content:flex-start}
-.footer-resources{justify-content:flex-end;text-align:right}
+.footer-meta,.footer-resources{display:flex;flex-direction:column;gap:.5rem;min-width:0;max-width:100%}
+.footer-meta{align-items:flex-start;text-align:left}
+.footer-resources{align-items:flex-end;text-align:right}
 footer a{display:inline-block;padding:.25em 0;overflow-wrap:anywhere}
 footer .footer-meta span{padding:.25em 0}
-@media(max-width:60rem){footer{grid-template-columns:minmax(0,1fr);gap:1rem}.footer-resources{justify-content:flex-start;text-align:left}}
+@media(max-width:30rem){footer{grid-template-columns:minmax(0,1fr);gap:1.5rem}}
 html[data-large-text="true"] footer{grid-template-columns:minmax(0,1fr)}
-html[data-large-text="true"] .footer-resources{justify-content:flex-start;text-align:left}
+html[data-large-text="true"] .footer-resources{align-items:flex-end;text-align:right}
 
 /* Downloads stay at the toolbar's right edge, with or without project tabs. */
 .page-toolbar .toolbar-downloads{margin-inline-start:auto;justify-content:flex-end}
+
+/* Keep the supplied logo beside the name in both header states. */
+.site-header .brand{display:flex;align-items:center;gap:1rem;max-width:100%}
+.brand-copy{min-width:0}
+.brand-logo{display:block;flex:none;width:72px;height:auto;aspect-ratio:430/455;transition:width .22s ease}
+.site-header.is-compact .brand-logo{width:48px}
+@media(max-width:700px){.site-header .brand{gap:.75rem}.brand-logo{width:56px}.site-header.is-compact .brand-logo{width:40px}}
+@media(prefers-reduced-motion:reduce){.brand-logo{transition:none}}
+
+/* Centre the logo between the two footer link lists. */
+body>footer{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
+footer .footer-logo{align-self:center;justify-self:center;padding:.5rem}
+.footer-logo img{display:block;width:88px;height:auto}
+@media(max-width:30rem){body>footer{grid-template-columns:minmax(0,1fr)}.footer-logo{grid-row:2}}
+html[data-large-text="true"] body>footer{grid-template-columns:minmax(0,1fr)}

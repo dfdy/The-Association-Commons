@@ -1,7 +1,7 @@
-.tac-reader-controls{display:flex;gap:.2rem;margin:.35rem 0 1rem}
+.tac-reader-controls{display:flex;width:fit-content;max-width:100%;gap:0;margin:.35rem 0 1rem;border-radius:999px;background:#e9ecdf}
 .prose .tac-reader-highlight{background-color:#47695212;border-radius:4px;box-shadow:-4px 0 0 #47695266}
 html[data-theme="night"] .prose .tac-reader-highlight{background-color:#a7c2a018;box-shadow:-4px 0 0 #a7c2a080}
-.tac-reader-controls button{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:0;border-radius:50%;background:#e9ecdf;color:#294b35;font:inherit;font-size:.85rem;cursor:pointer}
+.tac-reader-controls button{display:inline-flex;align-items:center;justify-content:center;width:30px;height:32px;padding:0;border:0;border-radius:0;background:#e9ecdf;color:#294b35;font:inherit;font-size:.85rem;cursor:pointer}
 .tac-reader-controls button:hover{background:#cbd8c3}
 .tac-reader-dialog{width:min(32rem,calc(100% - 2rem));max-height:85dvh;padding:1.5rem;border:1px solid #8a9489;border-radius:12px;background:#f6f4ed;color:#202821;overflow:auto}
 .tac-reader-dialog::backdrop{background:#101c16aa}
@@ -26,3 +26,13 @@ html[data-theme="night"] .tac-reader-dialog :is(select,button):focus-visible{out
 @media print{.tac-reader-controls,.tac-reader-dialog,.tac-reader-status{display:none!important}}
 @media print{.prose .tac-reader-highlight{background:transparent!important;box-shadow:none!important}}
 @media(forced-colors:active){.tac-reader-controls button{border:1px solid ButtonText}}
+
+.tac-reader-settings-icon{display:block;flex-shrink:0}
+
+.tac-reader-controls button:first-child{border-radius:999px 0 0 999px}
+.tac-reader-controls button:last-child{border-radius:0 999px 999px 0}
+.tac-reader-playback-icon{display:block;flex-shrink:0}
+html[data-theme="night"] .tac-reader-controls{background:#344339}
+.tac-reader-controls button:focus-visible{position:relative;z-index:1;outline:3px solid #294b35;outline-offset:3px}
+html[data-theme="night"] .tac-reader-controls button:focus-visible{outline-color:#b8ccb1}
+@media(forced-colors:active){.tac-reader-controls{background:Canvas;border:1px solid ButtonText}.tac-reader-controls button{border:0;color:ButtonText;background:ButtonFace}.tac-reader-controls button:focus-visible{outline-color:Highlight}}

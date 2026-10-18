@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Neela mo projeke ye.",
   "language_code": "nso",
   "language_name": "Sepedi",
   "published": true,
   "visible": false,
   "source_route": "/nso/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "nso",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Neela mo projeke ye.
 
-## English version shown
+Ditsela tša go neela di tla lokeletšwa mo.
 
-The Donate page has not yet been translated for the Sepedi project. This page is shown in English.
+## Mekgwa ya meneelo e tla ka morago
 
-# Donate to this project.
+Letlakala le le lokišetšwa dikgetho tša meneelo ya ka moso ya projeke. Ga go mekgwa ya tefelo goba dintlha tša panka tšeo di phatlaladitšwego go fihla ga bjale.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Protšeke ye e rulaganya go hloma mokgatlo wo o sa dirego poelo. Dintlha tša mokgatlo di tla okeletšwa ge di hwetšagala; letlakala le ga le bolele maemo a NPO, PBO goba karolo ya 18A ye e ngwadišitšwego.

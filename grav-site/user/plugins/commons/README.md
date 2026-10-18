@@ -1,6 +1,6 @@
 # DDC: Commons Downloads
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 Exports published, routable public pages as Markdown, RTF, or PDF through
 `?download=md`, `?download=rtf`, or `?download=pdf`. The shared toolbar is right-aligned

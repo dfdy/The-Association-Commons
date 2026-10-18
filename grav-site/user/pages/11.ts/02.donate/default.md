@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Nyikela eka phurojeke leyi.",
   "language_code": "ts",
   "language_name": "Xitsonga",
   "published": true,
   "visible": false,
   "source_route": "/ts/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "ts",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Nyikela eka phurojeke leyi.
 
-## English version shown
+Tindlela to nyikela ti ta xaxametiwa laha.
 
-The Donate page has not yet been translated for the Xitsonga project. This page is shown in English.
+## Maendlelo yo nyikela ya ta endzhaku
 
-# Donate to this project.
+Tluka leri ri lunghiseleriwa tindlela ta munyikelo ta nkarhi lowu taka ta phurojeke. Ku hava tindlela to hakela kumbe vuxokoxoko bya le bangi lebyi kandziyisiweke ku fikela sweswi.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Phurojeke leyi yi kunguhata ku simeka nhlangano lowu nga tirheliki ku endla mali. Vuxokoxoko bya nhlengeletano byi ta engeteriwa loko byi kumeka; pheji leri a ri vuli xiyimo xa NPO, PBO kumbe xiyenge xa ​​18A lexi tsarisiweke.

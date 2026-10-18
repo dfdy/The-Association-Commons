@@ -57,8 +57,8 @@ const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.emulateMedia({forcedColors:'active'});
     await page.getByLabel('Name (required)',{exact:true}).focus();
     assert(await page.getByLabel('Name (required)',{exact:true}).evaluate(e=>e===document.activeElement));
-    await page.goto(base+'/zu');assert.equal(await page.locator('.project-interest').count(),0);
-    console.log('PASS: Join placement; CSRF/cross-origin rejection; accessible validation/focus; private saving; retry idempotency; no-JS submission; storage protection; export; 400% form layout; English-only placement.');
+    await page.goto(base+'/zu');assert.equal(await page.locator('.project-interest').count(),1);
+    console.log('PASS: Join placement; CSRF/cross-origin rejection; accessible validation/focus; private saving; retry idempotency; no-JS submission; storage protection; export; 400% form layout; translated proposal placement.');
   } finally {
     if (process.env.INTEREST_TEST_IDS) fs.writeFileSync(process.env.INTEREST_TEST_IDS,JSON.stringify(saved));
     await browser.close();

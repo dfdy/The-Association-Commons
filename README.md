@@ -1,9 +1,11 @@
+<img src="grav-site/user/themes/commons/images/ddc-logo.svg" alt="The Democratic Development Commons logo" width="15%">
+
 # The Democratic Development Commons
 
 [![Content licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-476952)](LICENSE-CC-BY-NC-SA-4.0.txt)
 [![Software licence: AGPL-3.0-only](https://img.shields.io/badge/Software-AGPL--3.0--only-294b35)](LICENSE)
 
-Separate licences apply to content and software. [See licence scope](LICENSING.md).
+Separate licences apply to content and software. [See the directory-to-licence map and scope](LICENSING.md#where-each-licence-applies).
 
 Read the [Democratic Development Commons white paper — working version 1.7](grav-site/user/pages/01.en/04.white-paper/default.md), the conceptual basis for the framework.
 
@@ -35,12 +37,13 @@ registration, or tax status, and does not replace applicable law.
 10. Open-ended and reflexive development.
 
 The [English proposal](grav-site/user/pages/01.en/proposal.md) presents Part II of the
-white paper in a public framework. The site includes 13 language sections; other
-proposal pages introduce their language projects and translate the prefiguration
-section. They are not full translations of the revised English proposal. SASL
-currently provides written-English support pending signed media.
+white paper in a public framework. The site includes 13 language sections. The
+proposal, drafting-tool description, and donation page have machine-generated
+translations in the other written language editions, with English canonical-source
+notices. Kaaps is an Afrikaans-based draft requiring Kaaps-speaker review. SASL
+remains written-English support pending signed media; its pages are unchanged.
 
-## Current website · 0.2.1
+## Current website · 0.3.0
 
 - **Association Constitution Drafting Tool:** a description of the planned tool at
   `/en/stadgar`, reached through the **Constitution Jumpstart** tab. The old builder
@@ -49,7 +52,8 @@ currently provides written-English support pending signed media.
   JSON/schema downloads at `/en/legal-matrix`. All initial records await verification.
 - **Governance-pattern library:** seven untested draft patterns, with suitability
   limits and evidence requirements, at `/en/governance-patterns`.
-- **Join form:** `[project-interest /]` under Join on the English proposal. It stores
+- **Language suggestions:** the English Suggest a language page matches registered names, publishes aggregate counts, and provides private super-admin review.
+- **Join form:** `[project-interest /]` under Join on the English and translated proposals. It stores
   contact details privately, supports non-JavaScript submissions, and sends no emails.
   Super-admins review, search, and delete records in **Admin → Project interest**.
 - **Reading tools:** day/night mode, 100%–400% text sizing, browser read-aloud,

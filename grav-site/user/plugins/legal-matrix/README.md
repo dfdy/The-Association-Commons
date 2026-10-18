@@ -1,6 +1,6 @@
 # DDC: Legal Matrix
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 An English-only public research matrix at `/en/legal-matrix`, linked from the shared
 footer. `[legal-matrix /]` renders the dataset as semantic HTML, two research indexes,
@@ -68,3 +68,10 @@ Screen-reader and real speech testing remain outstanding.
 Axe-core 4.10.3 reported no WCAG-tagged violations in the matrix or full page in day
 and night modes. It flagged manual-review items for ARIA/dialog references and
 colour contrast; these remain for manual review and do not replace assistive-technology testing.
+
+## Licence scope
+
+The first-party research records in `data/legal-matrix.json` are editorial
+content under CC BY-NC-SA 4.0. The validation schema, plugin code, and technical
+documentation are AGPL-3.0-only. Cited third-party sources retain their own terms.
+See the [repository licence map](../../../../LICENSING.md#where-each-licence-applies).

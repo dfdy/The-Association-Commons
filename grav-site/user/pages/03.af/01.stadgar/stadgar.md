@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Hulpmiddel vir die opstel van verenigingsgrondwette",
   "language_code": "af",
   "language_name": "Afrikaans",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "af",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Hulpmiddel vir die opstel van verenigingsgrondwette
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**'n Beginpunt vir kollektiewe leer en demokratiese grondwetmaak.** Die beplande hulpmiddel vir die opstel van verenigingsgrondwette is nog nie beskikbaar nie. Dit sal daarop gemik wees om Suid-Afrikaanse verenigings te help om 'n aanvanklike konsep te ontwikkel wat lede saam bespreek, aanpas en aanneem. Daardie konsep moet 'n deurlopende proses van grondwetontwikkeling begin, met lede wat verantwoordelikheid behou vir die reëls wat hulle kies.
 
-## Bringing laws, customs, and democratic commitments together
+## Om wette, gebruike en demokratiese verpligtinge bymekaar te bring
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Suid-Afrikaanse verenigings werk oor 'n gefragmenteerde landskap van wette, regulatoriese vereistes en verenigingsgebruike heen. Die hulpmiddel sal poog om die relevante dele saam te bring in 'n samehangende, bruikbare grondwet, wat bindende wetlike pligte onderskei van praktyke wat lede kan kies, aanpas of betwis.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+Dit sal verskillende soorte assosiasie ondersteun sonder om een organisasiemodel af te dwing. 'n Begrafnisvereniging, spaarklub, burgerlike organisasie, wedersydse hulpgroep, werkersvereniging of koöperasie moet reëls kan ontwikkel wat geskik is vir sy doel, aktiwiteite, hulpbronne en lede.
 
-## A guided process of democratic choice
+## 'n Begeleide proses van demokratiese keuse
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Eerder as om een vaste standaardgrondwet te verskaf, sal die hulpmiddel poog om lede te help om saam deur vrae te werk:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Doel en konteks:** Wat bring mense bymekaar, wat gaan hulle doen en watter regsvorme of aktiwiteitspesifieke pligte kan relevant wees?
+- **Lidmaatskap en besluite:** Wie behoort, wie besluit, hoe kan lede agendas vorm, en hoe word besluite opgeteken en geverifieer?
+- **Delegering en aanspreeklikheid:** Watter gesag word aan ampsdraers of komitees gegee, vir hoe lank, en hoe kan lede dit hersien of terugtrek?
+- **Hulpbronne en wedersydse hulp:** Hoe word geld, gedeelde bates, bydraes en swaarkry deursigtig en regverdig hanteer?
+- **Toeganklike deelname:** Hoe sal taal, toeganklike formate, vertolking, redelike akkommodasie, ondersteunde deelname en privaatheid in bestuur ingebou word?
+- **Konflik en voorsorgmaatreëls:** Hoe word onenigheid, geskille, uitsluiting, sanksies en appèlle regverdig hanteer, met aandag aan ongelyke mag?
+- **Hersiening en samewerking:** Hoe kan lede hul grondwet hersien en met ander verenigings federeer terwyl hulle plaaslike selfregering behou?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Die proses behoort die gevolge van elke keuse te verduidelik, organisatoriese kennis te help sirkuleer, en die opstel van 'n grondwet self 'n oefening in kollektiewe leer te maak. Dit moet die minimum bestuursmasjinerie gebruik wat geskik is vir die vereniging se skaal en risiko's.
 
-## Clear guidance and member control
+## Duidelike leiding en ledebeheer
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Die beplande instrument sal **regsvereistes, DDC-aanbevelings, omsigtige voorsorgmaatreëls en plaaslik veranderlike keuses** onderskei. Regsvoorligting sal modulêr wees, gedateer en relevant tot die vereniging se aktiwiteite. Lede sal alternatiewe kan verstaan en ingeligte keuses kan maak, eerder as om afhanklik te wees van 'n versteekte sjabloon of permanente kundiges.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+Grondwette sal **lewende dokumente wees wat kollektiewe deelname moontlik maak en bevorder**. Lede sal dit in alledaagse organisering kan gebruik, bevraagteken hoe dit werk, en dit kan hersien deur ooreengekome demokratiese prosesse namate gedeelde behoeftes en ervaring verander. Die hulpmiddel sal poog om hierdie voortgesette praktyk te ondersteun deur lede te help om hul reëls verstaanbaar, toeganklik en oop vir ondersoek te maak. Die raamwerk is 'n vrywillige organiseringsooreenkoms, nie konsepwetgewing nie. Die hulpmiddel se ontwerp sal deelnemende toetsing en verdere wetlike en toeganklikheidswerk vereis.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Lees [die witskrif se vereistes vir die toekomstige grondwetgenerator](/en/white-paper#part-i-21) en [sy kritieke uitdagings en toekomstige oorwegings](/en/white-paper#part-iii).

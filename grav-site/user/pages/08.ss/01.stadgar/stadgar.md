@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Lithulusi Lekubhala Umtsetfosisekelo WeNhlangano",
   "language_code": "ss",
   "language_name": "siSwati",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "ss",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Lithulusi Lekubhala Umtsetfosisekelo WeNhlangano
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**Indzawo yekucala yekufundza ngekuhlanganyela kanye nekwentiwa kwemtsetfosisekelo ngentsandvo yelunyenti.** Lithuluzi Lekubhala Umtsetfosisekelo weNhlangano lelihleliwe alikatfolakali. Kutawuhloswa kusita tinhlangano taseNingizimu Afrika kutsi titfutfukise luhlaka lwekucala emalunga lacoca ngalo, aluvumelanise, futsi alumukele ndzawonye. Loluhlaka kufanele lucale inchubo lechubekako yekutfutfukisa umtsetfosisekelo, lapho khona emalunga agcina umtfwalo wemitsetfo layikhetsako.
 
-## Bringing laws, customs, and democratic commitments together
+## Kuletsa imitsetfo, emasiko, kanye netibopho tentsandvo yelunyenti ndzawonye
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Tinhlangano taseNingizimu Afrika tisebenta kuyo yonkhe indzawo lehlukene yemitsetfo, tidzingo tekulawula, kanye nemasiko etinhlangano. Lejeneretha itawuhlose kuletsa tincenye letifanele ndzawonye tibe ngumtsetfosisekelo lohambisanako, losebentako, wehlukanisa imisebenti lebophako yetemtsetfo kusuka emikhubeni emalunga langayikhetsa, ayivumelanise, noma ayiphikisane.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+Kutawusekela tinhlobo letehlukene tekuhlangana ngaphandle kwekubeka imodeli yinye yenhlangano. Ummango wekungcwaba, iklabhu yekonga, sive, licembu lekusitana, inhlangano yetisebenti, noma kubambisana kufanele ikhone kutfutfukisa imitsetfo lehambisana nenjongo yayo, imisebenti, tinsita, kanye nemalunga.
 
-## A guided process of democratic choice
+## Inchubo lecondzisiwe yekukhetsa ngentsandvo yelunyenti
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Esikhundleni sekuniketa umtsetfosisekelo munye we-boilerplate, le-generator itawuhlose kusita emalunga kutsi asebente ngemibuto ndzawonye:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Injongo nesimo:** Yini lehlanganisa bantfu, yini labatawuyenta, futsi ngutiphi tinhlobo temtsetfo noma imisebenti lekhetsekile yemsebenti lengahle ifaneleke?
+- **Bulunga netincumo:** Ngubani lofanele, ngubani loncumako, emalunga angawabumba njani ema-ajenda, futsi tincumo tibhalwa njani futsi ticinisekiswa njani?
+- **Kudlulisela nekutiphendvulela:** Nguliphi ligunya leliniketwa labaphetse sikhundla noma emakomidi, sikhatsi lesingakanani, futsi emalunga angalibuyeketa njani noma alihocise njani?
+- **Tintfo tekusebenta kanye nekusitana:** Imali, tintfo letabelwana ngato, iminikelo, kanye nebumatima kuphatfwa njani ngendlela lesebaleni nalefanele?
+- **Kuhlanganyela lokufinyelelekako:** Lulwimi, emafomethi lafinyelelekako, kuhumusha, indzawo yekuhlala lefanele, kuhlanganyela lokusekelwako, kanye nekuba mfihlo kutawukwakhiwa njani ekubuseni?
+- **Kungcubutana nekuvikela:** Kuphikisana, kucabana, kukhishwa, kunklinya, kanye nekudvonsa sicelo kuphatfwa njani ngendlela lefanele, kunakwa emandla langalingani?
+- **Kubuyeketa nekubambisana:** Emalunga angabuyeketa njani umtsetfosisekelo wawo futsi ahlangane naletinye tinhlangano abe agcina kutibusa kwendzawo?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Lenchubo kufanele ichaze imiphumela yekukhetsa ngamunye, isite lwati lwenhlangano kutsi lujikelete, futsi yente kwenta umtsetfosisekelo ngokwako kube ngumsebenti wekufundza ngekuhlanganyela. Kufanele isebentise imishini yekuphatsa lencane lefanele sikali senhlangano kanye nebungoti.
 
-## Clear guidance and member control
+## Sicondziso lesicacile kanye nekulawula emalunga
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Lithulusi lelihleliwe litawehlukanisa **tidzingo temtsetfo, tincomo te-DDC, tindlela tekuvikela letihlakaniphile, kanye nekukhetsa lokugucukako endzaweni**. Sicondziso semtsetfo sitawuba ngemamojula, sibe nelusuku, futsi sihambisane nemisebenti yenhlangano. Emalunga atawukhona kuvisisa letinye tindlela futsi akhetse ngekwati, kunekutsi ancike kusifanekiso lesifihlekile noma tingcweti letihlala njalo.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+Imitsetfosisekelo itawuba **mibhalo lephilako lenika emandla futsi lekhutsata kuhlanganyela lokuhlangene**. Emalunga atawukhona kutisebentisa ekuhleleni kwamalanga onkhe, kubuta kutsi tisebenta njani, kanye nekutibuyeketa ngetinchubo tentsandvo yelinyenti letivunyelwene ngato njengobe tidzingo letihlanganyelwe kanye nelushintjo lwesipiliyoni. Lejeneretha itawuhlose kusekela lomkhuba lochubekako ngekusita emalunga kutsi imitsetfo yawo ivisiseke, ifinyeleleke, futsi ivulekele kuhlolwa. Loluhlaka sivumelwano sekuhlela ngekutitsandzela, hhayi umtsetfo lohlaka. Umklamo wejeneretha utawudzinga kuhlolwa kwekuhlanganyela kanye nemsebenti lochubekako wetemtsetfo kanye nekufinyeleleka.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Fundza [tidzingo teliphepha lelimhlophe tekukhicita umtsetfosisekelo wakusasa](/en/white-paper#part-i-21) kanye [netinsayeya tayo letibucayi kanye nekucabanga kwesikhatsi lesitako](/en/white-paper#part-iii).

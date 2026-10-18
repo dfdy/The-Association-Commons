@@ -75,6 +75,10 @@
   document.body.append(status);
   const headings = [...article.querySelectorAll('h1,h2,h3,h4,h5,h6')];
   const controls = [];
+  const playbackIcons={
+    play:'<svg class="tac-reader-playback-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z"/></svg>',
+    pause:'<svg class="tac-reader-playback-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>'
+  };
   let active = null, paused = false, generation = 0, utterance = null, opener = null, lastControl = null;
   const rangeFor = control => {
     const range = document.createRange();
@@ -106,7 +110,7 @@
     const action = active === control && paused ? 'Resume' : playing ? 'Pause' : 'Read aloud';
     control.play.setAttribute('aria-label', `${action}: ${control.title}`);
     control.play.title = `${action}: ${control.title}`;
-    control.play.querySelector('span').textContent = playing ? 'Ⅱ' : '▶';
+    control.play.innerHTML = playing ? playbackIcons.pause : playbackIcons.play;
   });
   const stop = (message = '') => {
     generation++;
@@ -166,10 +170,10 @@
     group.className = 'tac-reader-controls';
     const play = document.createElement('button');
     play.type = 'button';
-    play.innerHTML = '<span aria-hidden="true">▶</span>';
+    play.innerHTML = playbackIcons.play;
     const preferences = document.createElement('button');
     preferences.type = 'button';
-    preferences.innerHTML = '<span aria-hidden="true">⚙</span>';
+    preferences.innerHTML = '<svg class="tac-reader-settings-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M21.952 11.020 L21.952 12.980 L19.656 14.322 L19.055 15.771 L19.730 18.344 L18.344 19.730 L15.771 19.055 L14.322 19.656 L12.980 21.952 L11.020 21.952 L9.678 19.656 L8.229 19.055 L5.656 19.730 L4.270 18.344 L4.945 15.771 L4.344 14.322 L2.048 12.980 L2.048 11.020 L4.344 9.678 L4.945 8.229 L4.270 5.656 L5.656 4.270 L8.229 4.945 L9.678 4.344 L11.020 2.048 L12.980 2.048 L14.322 4.344 L15.771 4.945 L18.344 4.270 L19.730 5.656 L19.055 8.229 L19.656 9.678 Z M15 12 A3 3 0 1 0 9 12 A3 3 0 1 0 15 12 Z"/></svg>';
     preferences.setAttribute('aria-label', `Read-aloud settings: ${title}`);
     preferences.title = 'Read-aloud settings';
     preferences.setAttribute('aria-haspopup', 'dialog');

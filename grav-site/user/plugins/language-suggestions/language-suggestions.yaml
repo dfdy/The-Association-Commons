@@ -1,0 +1,3 @@
+enabled: true
+hourly_limit: 10
+retention_days: 90

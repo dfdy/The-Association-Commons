@@ -1,6 +1,6 @@
 # DDC: Remember Panel
 
-Part of The Democratic Development Commons **0.2.1**.
+Part of The Democratic Development Commons **0.3.0**.
 
 An AGPLv3 Grav plugin using Shortcode Core. Wrap an explicit section in Markdown:
 

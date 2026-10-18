@@ -16,6 +16,7 @@ class ProjectInterestPlugin extends Plugin
     private bool $success=false;
     private bool $formActive=false;
     private bool $rendered=false;
+    private ?array $translatedMessages=null;
     public static function getSubscribedEvents(): array
     {
         return ['onApiRegisterRoutes'=>['adminRoutes',0],'onApiSidebarItems'=>['adminSidebar',0],'onPluginsInitialized'=>['initialize',0],'onShortcodeHandlers'=>['shortcodes',0],'onPageInitialized'=>['page',20],'onTwigSiteVariables'=>['assets',0],'onCommonsExportMarkdown'=>['exportMarkdown',0]];
@@ -72,7 +73,7 @@ class ProjectInterestPlugin extends Plugin
                 else {
                     try {
                         $rate=hash_hmac('sha256',$_SERVER['REMOTE_ADDR']??'unknown',Security::getNonceKey());
-                        $record=['id'=>$id,'submitted_at'=>gmdate('c'),'request_type'=>'project_interest','source_route'=>$this->grav['uri']->route(),'language_code'=>(string)($page->header()->language_code??'en'),'name'=>$this->values['name'],'email'=>$this->values['email'],'organisation'=>$this->values['organisation'],'message'=>$this->values['message'],'consent'=>true,'consent_notice_version'=>'0.2.1-2026-10-18'];
+                        $record=['id'=>$id,'submitted_at'=>gmdate('c'),'request_type'=>'project_interest','source_route'=>$this->grav['uri']->route(),'language_code'=>(string)($page->header()->language_code??'en'),'name'=>$this->values['name'],'email'=>$this->values['email'],'organisation'=>$this->values['organisation'],'message'=>$this->values['message'],'consent'=>true,'consent_notice_version'=>'0.3.0-2026-10-18'];
                         if (!$this->store()->save($id,$record,$rate,$this->configValue('hourly_limit',10),$this->configValue('retention_days',90))) {
                             $this->errors=['form'=>'Too many submissions have been received from this connection. Please try again in an hour.'];$this->respond(429);
                         } else {
@@ -97,7 +98,7 @@ class ProjectInterestPlugin extends Plugin
     {
         if (!$this->wantsJson()) {http_response_code($status);return;}
         http_response_code($status);header('Content-Type: application/json; charset=utf-8');header('X-Content-Type-Options: nosniff');
-        echo json_encode(['success'=>$this->success,'message'=>$this->success?'Thank you. Your interest has been recorded. This does not confer membership.':'Please check your submission.','errors'=>$this->errors],JSON_THROW_ON_ERROR);exit;
+        echo json_encode(['success'=>$this->success,'message'=>$this->translate($this->success?'Thank you. Your interest has been recorded. This does not confer membership.':'Please check your submission.'),'errors'=>array_map(fn($error)=>$this->translate($error),$this->errors)],JSON_THROW_ON_ERROR);exit;
     }
     public function assets(): void
     {
@@ -106,29 +107,43 @@ class ProjectInterestPlugin extends Plugin
         $this->grav['assets']->addJs('plugin://project-interest/assets/project-interest.js',['loading'=>'defer']);
     }
     private static function e($value): string {return htmlspecialchars((string)$value,ENT_QUOTES|ENT_SUBSTITUTE,'UTF-8');}
+    private function formLanguage(): string
+    {
+        $code=(string)($this->grav['page']->header()->language_code??'en');
+        return preg_match('/^[a-z]{2,3}(?:-x-[a-z]+)?$/D',$code) && is_file(__DIR__.'/languages/'.$code.'.json')?$code:'en';
+    }
+    private function messages(): array
+    {
+        $language=$this->formLanguage();
+        return $this->translatedMessages??=($language==='en'?[]:json_decode(file_get_contents(__DIR__.'/languages/'.$language.'.json'),true,512,JSON_THROW_ON_ERROR));
+    }
+    private function translate(string $text): string {return $this->messages()[$text]??$text;}
     public function render(): string
     {
         if (!$this->formActive || $this->rendered) return '';
         $this->rendered=true;
-        $html='<div class="project-interest" id="project-interest" lang="en"><p id="interest-instructions">Express your interest in helping develop this project. Required fields are labelled. We will use your details to consider and respond to your interest; submitting this form does not confer membership or subscribe you to a mailing list.</p><p>Do not include sensitive personal information. Read the <a href="/en/privacy">privacy policy</a> before submitting.</p><p class="interest-status" role="status" tabindex="-1">'.($this->success?'Thank you. Your interest has been recorded. This does not confer membership.':'').'</p>';
+        $text=fn(string $value): string=>self::e($this->translate($value));
+        $html='<div class="project-interest" id="project-interest" lang="'.self::e($this->formLanguage()).'" data-messages="'.self::e(json_encode($this->messages(),JSON_THROW_ON_ERROR)).'"><p id="interest-instructions">'.$text('Express your interest in helping develop this project. Required fields are labelled. We will use your details to consider and respond to your interest; submitting this form does not confer membership or subscribe you to a mailing list.').'</p><p>'.$text('Do not include sensitive personal information. Read the ').'<a href="/en/privacy">'.$text('privacy policy').'</a>'.$text(' before submitting.').'</p><p class="interest-status" role="status" tabindex="-1">'.($this->success?$text('Thank you. Your interest has been recorded. This does not confer membership.'):'').'</p>';
         if ($this->success) return $html.'</div>';
-        $html.='<form method="post" action="'.self::e($this->grav['uri']->route()).'#project-interest" aria-label="Express interest in the project" aria-describedby="interest-instructions" novalidate><input type="hidden" name="interest_action" value="submit"><input type="hidden" name="form_id" value="'.self::e($this->formId).'"><input type="hidden" name="nonce" value="'.self::e($this->nonce).'">';
-        $html.='<div class="interest-errors" id="interest-errors" role="alert" tabindex="-1"'.(!$this->errors?' hidden':'').'><p>Please check the following:</p><ul>';
-        foreach ($this->errors as $field=>$error) $html.='<li>'.($field==='form'?self::e($error):'<a href="#interest-'.self::e($field).'">'.self::e($error).'</a>').'</li>';
+        $html.='<form method="post" action="'.self::e($this->grav['uri']->route()).'#project-interest" aria-label="'.$text('Express interest in the project').'" aria-describedby="interest-instructions" novalidate><input type="hidden" name="interest_action" value="submit"><input type="hidden" name="form_id" value="'.self::e($this->formId).'"><input type="hidden" name="nonce" value="'.self::e($this->nonce).'">';
+        $html.='<div class="interest-errors" id="interest-errors" role="alert" tabindex="-1"'.(!$this->errors?' hidden':'').'><p>'.$text('Please check the following:').'</p><ul>';
+        foreach ($this->errors as $field=>$error) $html.='<li>'.($field==='form'?$text($error):'<a href="#interest-'.self::e($field).'">'.$text($error).'</a>').'</li>';
         $html.='</ul></div><div class="interest-fields">';
         foreach (['name'=>['Name (required)',120,'text','name'],'email'=>['Email address (required)',254,'email','email'],'organisation'=>['Organisation or community (optional)',160,'text','organization'],'message'=>['How would you like to take part? (optional)',1500,'textarea','off']] as $key=>[$label,$limit,$type,$autocomplete]) {
             $error=$this->errors[$key]??'';
-            $html.='<div><label for="interest-'.$key.'">'.$label.'</label>';
+            $html.='<div><label for="interest-'.$key.'">'.$text($label).'</label>';
             $attrs=' id="interest-'.$key.'" name="'.$key.'" maxlength="'.$limit.'" autocomplete="'.$autocomplete.'" aria-describedby="interest-'.$key.'-error'.($key==='message'?' interest-message-help':'').'"'.($error?' aria-invalid="true"':'').(in_array($key,['name','email'],true)?' required':'');
             $html.=$type==='textarea'?'<textarea'.$attrs.' rows="4">'.self::e($this->values[$key]??'').'</textarea>':'<input type="'.$type.'"'.$attrs.' value="'.self::e($this->values[$key]??'').'">';
-            if ($key==='message') $html.='<p id="interest-message-help">Up to 1,500 characters. You can mention discussion, translation, practical use, research, or another interest.</p>';
-            $html.='<p class="interest-field-error" id="interest-'.$key.'-error"'.(!$error?' hidden':'').'>'.self::e($error).'</p></div>';
+            if ($key==='message') $html.='<p id="interest-message-help">'.$text('Up to 1,500 characters. You can mention discussion, translation, practical use, research, or another interest.').'</p>';
+            $html.='<p class="interest-field-error" id="interest-'.$key.'-error"'.(!$error?' hidden':'').'>'.$text($error).'</p></div>';
         }
-        $html.='</div><div hidden aria-hidden="true"><label for="interest-website">Leave this field empty</label><input id="interest-website" name="website" tabindex="-1" autocomplete="off"></div><label class="interest-consent" for="interest-consent"><input type="checkbox" id="interest-consent" name="consent" value="yes" required aria-describedby="interest-consent-error"'.(!empty($this->values['consent'])?' checked':'').(isset($this->errors['consent'])?' aria-invalid="true"':'').'><span>I agree that the project may store and use these details to consider and respond to my interest, as described in the privacy policy. (required)</span></label><p class="interest-field-error" id="interest-consent-error"'.(!isset($this->errors['consent'])?' hidden':'').'>'.self::e($this->errors['consent']??'').'</p><button type="submit">Express interest</button></form></div>';
+        $html.='</div><div hidden aria-hidden="true"><label for="interest-website">'.$text('Leave this field empty').'</label><input id="interest-website" name="website" tabindex="-1" autocomplete="off"></div><label class="interest-consent" for="interest-consent"><input type="checkbox" id="interest-consent" name="consent" value="yes" required aria-describedby="interest-consent-error"'.(!empty($this->values['consent'])?' checked':'').(isset($this->errors['consent'])?' aria-invalid="true"':'').'><span>'.$text('I agree that the project may store and use these details to consider and respond to my interest, as described in the privacy policy. (required)').'</span></label><p class="interest-field-error" id="interest-consent-error"'.(!isset($this->errors['consent'])?' hidden':'').'>'.$text($this->errors['consent']??'').'</p><button type="submit">'.$text('Express interest').'</button></form></div>';
         return $html;
     }
     public function exportMarkdown(Event $event): void
     {
-        $event['markdown']=str_replace('[project-interest /]','To express interest in the project, use the form on the [English proposal page](/en#project-interest). Read the [privacy policy](/en/privacy) before submitting.',$event['markdown']);
+        $route=$this->grav['uri']->route();
+        $event['markdown']=str_replace('[project-interest /]','To express interest in the project, use the form on this [proposal page](/LANGUAGE#project-interest). Read the [privacy policy](/en/privacy) before submitting.',$event['markdown']);
+        $event['markdown']=str_replace('/LANGUAGE#project-interest',$route.'#project-interest',$event['markdown']);
     }
 }

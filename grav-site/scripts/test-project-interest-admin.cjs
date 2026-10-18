@@ -35,11 +35,41 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
   await page.evaluate(({admin})=>{window.__GRAV_API_TOKEN=admin;window.__GRAV_API_PREFIX='/api/v1';window.__GRAV_API_SERVER_URL='';window.__GRAV_PAGE_TAG='grav-project-interest--page';}, {admin});
   await page.addScriptTag({content:await script.text()});
   await page.evaluate(()=>{const host=document.createElement('grav-project-interest--page');document.querySelector('main').replaceChildren(host);});
-  const root=page.locator('.interest-admin');await root.locator('details').first().waitFor();
+  const root=page.locator('.interest-admin');await root.locator('tbody tr').first().waitFor();
+  assert.deepEqual(await root.locator('th').allTextContents(),['Date (UTC)','Name','Email','Community','Message','Entry']);
   assert.equal(await root.locator('img').count(),0);
-  const record=root.locator('details').filter({hasText:'admin-fixture@example.invalid'});await record.locator('summary').click();
+  await root.getByRole('searchbox').fill('admin-fixture@example.invalid');await root.getByRole('button',{name:'Search',exact:true}).click();
+  await page.waitForFunction(()=>document.querySelectorAll('.interest-admin tbody tr').length===1);
+  assert.equal(await root.locator('time span').count(),1);
+  assert((await root.locator('time span').textContent()).endsWith('UTC'));
+  if(process.env.ADMIN_CSS)await page.addStyleTag({path:process.env.ADMIN_CSS});
+  const row=root.locator('tbody tr').filter({hasText:'admin-fixture@example.invalid'});
+  await row.getByRole('link',{name:/Open submission/}).focus();await page.keyboard.press('Enter');
+  const record=root.locator('.entry').filter({hasText:'admin-fixture@example.invalid'});
+  assert(await record.locator('h2').evaluate(e=>e===document.activeElement));
+  const toggle=row.getByRole('link',{name:/Close submission/});
+  assert.equal(await toggle.getAttribute('aria-expanded'),'true');
+  await toggle.focus();await page.keyboard.press('Enter');
+  assert(await record.evaluate(e=>e.hidden));
+  assert.equal(await row.getByRole('link',{name:/Open submission/}).getAttribute('aria-expanded'),'false');
+  assert(await row.getByRole('link').evaluate(e=>e===document.activeElement));
+  await row.getByRole('link').click();
+  await record.getByRole('link',{name:'Back to submissions'}).click();
+  assert(await row.getByRole('link').evaluate(e=>e===document.activeElement));
+  await row.getByRole('link').click();
   for(const value of ['Synthetic group','Synthetic backend review test','2026-10-18'])assert((await record.textContent()).includes(value));
-  if(process.env.AXE_SCRIPT){await page.addScriptTag({path:process.env.AXE_SCRIPT});const results=await page.evaluate(()=>axe.run('.interest-admin',{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}}));assert.equal(results.violations.length,0,JSON.stringify(results.violations.map(v=>v.id)));console.log('PASS: automated admin-component accessibility check; manual review remains.');}
+  if(process.env.AXE_SCRIPT){
+   await page.addScriptTag({path:process.env.AXE_SCRIPT});
+   for(const dark of [false,true]) {
+    await page.evaluate(dark=>document.documentElement.classList.toggle('dark',dark),dark);
+    const results=await page.evaluate(()=>axe.run('.interest-admin',{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}}));assert.equal(results.violations.length,0,JSON.stringify(results.violations.map(v=>v.id)));
+    if(process.env.ADMIN_SCREENSHOT)await root.screenshot({path:process.env.ADMIN_SCREENSHOT+(dark?'-dark.png':'-light.png')});
+   }
+   console.log('PASS: automated admin-component accessibility in light/dark; manual review remains.');
+  }
+  await page.setViewportSize({width:320,height:800});
+  assert(await root.evaluate(e=>e.scrollWidth<=e.clientWidth+1));
+  await page.setViewportSize({width:1280,height:900});
   await record.getByRole('button',{name:/Delete submission from/}).click();await root.getByRole('dialog').waitFor();
   await page.keyboard.press('Escape');assert(await record.getByRole('button',{name:/Delete submission from/}).evaluate(e=>e===document.activeElement));
   await record.getByRole('button',{name:/Delete submission from/}).click();await root.getByRole('dialog').getByRole('button',{name:'Delete submission',exact:true}).click();

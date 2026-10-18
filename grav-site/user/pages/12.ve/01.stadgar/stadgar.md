@@ -1,44 +1,47 @@
 ---
 {
-  "title": "Association Constitution Drafting Tool",
+  "title": "Tshishumiswa tsha Dzangano tsha u Nwala Ndayotewa",
   "language_code": "ve",
   "language_name": "Tshivenḓa",
   "published": true,
   "visible": true,
-  "content_language": "en"
+  "content_language": "ve",
+  "translation_source": "/en/stadgar",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "39ac4548d7869cfd4bbb43b02255b9113527d1aa315a7e2877f70e3d9da5fd17"
 }
 ---
 
 [translation-notice /]
 
-# Association Constitution Drafting Tool
+# Tshishumiswa tsha Dzangano tsha u Nwala Ndayotewa
 
-**A starting point for collective learning and democratic constitution-making.** The planned Association Constitution Drafting Tool is not yet available. It will aim to help South African associations develop an initial draft that members discuss, adapt, and adopt together. That draft should begin an ongoing process of constitution development, with members retaining responsibility for the rules they choose.
+**Mathomo a u guda roṱhe na u ita ndayotewa ya dimokirasi.** Tshishumiswa tsho pulaniwaho tsha u ṅwala Ndayotewa ya Dzangano a tshi athu wanala. I ḓo sedza kha u thusa madzangano a Afrika Tshipembe u bveledza mvetamveto ya u thoma ine miraḓo ya i haseledza, u ṱanganedza, na u ṱanganedza vhoṱhe. Mvetamveto iyo i tea u thoma maitele a bvelaho phanḓa a mveledziso ya ndayotewa, hune miraḓo ya vha na vhuḓifhinduleli ha milayo ine vha i nanga.
 
-## Bringing laws, customs, and democratic commitments together
+## U ḓisa milayo, mvelele, na vhuḓikumedzeli ha dimokirasi fhethu huthihi
 
-South African associations work across a fragmented landscape of laws, regulatory requirements, and associational customs. The generator will aim to bring the relevant parts together into a coherent, usable constitution, distinguishing binding legal duties from practices members can choose, adapt, or contest.
+Madzangano a Afrika Tshipembe a shuma kha shango ḽo fhandekanaho ḽa milayo, ṱhoḓea dza ndaulo, na mvelele dza madzangano. Dzheneratha i ḓo sedza kha u ṱanganya zwipiḓa zwo teaho kha ndayotewa yo ṱanganelanaho, i shumiseaho, i fhambanyaho mishumo ya mulayo i vhofhaho na maitele ane miraḓo ya nga a nanga, u a ṱanganedza, kana u a ṱaṱisana.
 
-It will support different kinds of association without imposing one organisational model. A burial society, savings club, civic, mutual-aid group, worker association, or cooperative should be able to develop rules suited to its purpose, activities, resources, and members.
+I ḓo tikedza tshaka dzo fhambanaho dza vhudzangano hu si na u kombetshedza modele muthihi wa ndangulo. Tshitshavha tsha u vhulunga, kilabu ya u vhulunga tshelede, tshitshavha, tshigwada tsha u thusana, dzangano ḽa vhashumi, kana tshumisano zwi fanela u kona u bveledza milayo yo teaho ndivho yazwo, mishumo, zwishumiswa, na miraḓo.
 
-## A guided process of democratic choice
+## Maitele o livhiswaho a khetho ya dimokirasi .
 
-Rather than supplying a single boilerplate constitution, the generator will aim to help members work through questions together:
+Nṱhani ha u ṋetshedza ndayotewa nthihi ya boilerplate, dzhenereiṱa i ḓo sedza kha u thusa miraḓo u shuma nga kha mbudziso vhoṱhe:
 
-- **Purpose and context:** What brings people together, what will they do, and which legal forms or activity-specific duties may be relevant?
-- **Membership and decisions:** Who belongs, who decides, how can members shape agendas, and how are decisions recorded and verified?
-- **Delegation and accountability:** What authority is given to office-bearers or committees, for how long, and how can members review or withdraw it?
-- **Resources and mutual aid:** How are money, shared assets, contributions, and hardship handled transparently and fairly?
-- **Accessible participation:** How will language, accessible formats, interpretation, reasonable accommodation, supported participation, and privacy be built into governance?
-- **Conflict and safeguards:** How are dissent, disputes, exclusion, sanctions, and appeals handled fairly, with attention to unequal power?
-- **Review and cooperation:** How can members revise their constitution and federate with other associations while retaining local self-government?
+- **Ndivho na nyimele:** Ndi mini zwine zwa ṱanganya vhathu, vha ḓo ita mini, nahone ndi zwivhumbeo zwifhio zwa mulayo kana mishumo yo khetheaho ya mushumo ine ya nga vha yo teaho?
+- **Murado na tsheo:** Ndi nnyi ane a vha wawe, ndi nnyi ane a dzhia tsheo, mirado i nga vhumba hani adzhenda, na uri tsheo dzi rekhodiwa hani na u khwathisedzwa hani?
+- **U ṋewa maanḓa na vhuḓifhinduleli:** Ndi maanḓa afhio ane a ṋewa vhafari vha ofisi kana komiti, lwa tshifhinga tshingafhani, nahone miraḓo i nga a sedzulusa kana u a bvisa hani?
+- **Zwishumiswa na u thusana:** Tshelede, thundu dzo kovhekanywaho, miṋeelo, na vhuleme zwi shumiwa hani nga nḓila i vhonalaho na nga nḓila yo teaho?
+- **U shela mulenzhe hu swikeleleaho:** Luambo, zwivhumbeo zwi swikeleleaho, ṱhalutshedzo, vhudzulo vhu pfalaho, u shela mulenzhe ho tikedzwaho, na tshiphiri zwi ḓo fhaṱiwa hani kha vhuvhusi?
+- **Khuḓano na tsireledzo:** U sa tendelana, khanedzano, u sa dzheniswa, zwiṱarafu, na mbilaelo zwi shumiwa hani nga nḓila yo teaho, hu tshi dzhielwa nṱha maanḓa a sa lingani?
+- **U vusuludza na tshumisano:** Mirado i nga vusuludza hani ndayotewa yayo na u ṱangana na maṅwe madzangano ngeno i tshi khou vhulunga vhuvhusi hapo?
 
-The process should explain the consequences of each choice, help organisational knowledge circulate, and make constitution-making itself an exercise in collective learning. It should use the minimum governance machinery appropriate to the association’s scale and risks.
+Maitele a tea u ṱalutshedza mvelelo dza khetho iṅwe na iṅwe, u thusa nḓivho ya ndangulo u tshimbidzana, na u ita uri u ita ndayotewa nga ho livhaho hu vhe mushumo wa u guda wo ṱanganelaho. I fanela u shumisa mitshini ya vhuvhusi ya fhasisa yo teaho kha tshikalo tsha dzangano na khombo.
 
-## Clear guidance and member control
+## Vhulivhisi vhu re khagala na ndaulo ya miraḓo .
 
-The planned tool should distinguish **legal requirements, DDC recommendations, prudent safeguards, and locally variable choices**. Legal guidance should be modular, dated, and relevant to the association’s activities. Members should be able to understand alternatives and make informed choices, rather than depend on a hidden template or permanent experts.
+Tshishumiswa tsho pulaniwaho tshi ḓo fhambanya **ṱhoḓea dza mulayo, themendelo dza DDC, tsireledzo dza vhuṱali, na khetho dzine dza fhambana fhethu**. Vhulivhisi ha mulayo vhu ḓo vha ha modulu, ha ḓuvha, na u tshimbilelana na mishumo ya dzangano. Miraḓo i ḓo kona u pfesesa dziṅwe nḓila na u khetha nga nḓivho, nṱhani ha u ḓitika nga thempleithi yo dzumbamaho kana vhaḓivhi vha tshoṱhe.
 
-Constitutions should be **living documents that enable and enhance collective participation**. Members should be able to use them in everyday organising, question how they work, and revise them through agreed democratic processes as shared needs and experience change. The generator will aim to support this continuing practice by helping members make their rules understandable, accessible, and open to scrutiny. The framework is a voluntary organising agreement, not draft legislation. The generator’s design will require participatory testing and further legal and accessibility work.
+Ndayotewa dzi ḓo vha **maṅwalo a tshilaho ane a konisa na u khwinisa u shela mulenzhe ha vhathu vhoṱhe**. Miraḓo i ḓo kona u zwi shumisa kha u dzudzanya ha ḓuvha na ḓuvha, u vhudzisa uri zwi shuma hani, na u zwi vusuludza nga kha maitele a dimokirasi o tendelwaho sa ṱhoḓea dzo ṱanganelanaho na tshanduko ya tshenzhemo. Dzhenereitha i ḓo sedza kha u tikedza maitele aya a bvelaho phanḓa nga u thusa miraḓo u ita uri milayo yavho i pfesesee, i swikelelee, na u vulea kha u sedzuluswa. Muhanga ndi thendelano ya u dzudzanya nga u ḓifunela, hu si mvetamveto ya mulayo. Dizaini ya dzhenereiṱa i ḓo ṱoḓa ndingo dza u shela mulenzhe na mushumo wo engedzeaho wa mulayo na wa u swikelelea.
 
-Read [the white paper’s requirements for the future constitution generator](/en/white-paper#part-i-21) and [its critical challenges and future considerations](/en/white-paper#part-iii).
+Vhalani [ṱhoḓea dza bammbiri ḽitshena ḽa mubveledzi wa ndayotewa wa tshifhinga tshi ḓaho](/en/white-paper#part-i-21) na [khaedu dzayo dza ndeme na zwine zwa ḓo dzhielwa nṱha tshifhinga tshi ḓaho](/en/white-paper#part-iii).

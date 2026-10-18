@@ -1,0 +1,5 @@
+id: language-suggestions
+plugin: language-suggestions
+title: Language suggestions
+icon: fa-users
+page_type: component

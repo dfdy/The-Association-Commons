@@ -1,7 +1,7 @@
 name: "DDC: Remember Panel"
 slug: remember-panel
 type: plugin
-version: 0.2.1
+version: 0.3.0
 description: Explicit Markdown panels with a remembered open/close handle and timed reset.
 icon: chevron-up
 license: AGPL-3.0-only

@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Neela porojeke e.",
   "language_code": "tn",
   "language_name": "Setswana",
   "published": true,
   "visible": false,
   "source_route": "/tn/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "tn",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Neela porojeke e.
 
-## English version shown
+Ditsela tsa go neela di tla kwalwa fano.
 
-The Donate page has not yet been translated for the Setswana project. This page is shown in English.
+## Mekgwa ya go neela ka madi e tla moragonyana
 
-# Donate to this project.
+Tsebe eno e baakanyediwa ditlhopho tsa moneelo tsa mo isagweng tsa porojeke. Ga go ise go phasaladiwe mekgwa ya go duela kgotsa dintlha tsa banka.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Porojeke e rulaganya go tlhoma mokgatlho o o sa direng dipoelo. Dintlha tsa mokgatlho di tla okediwa fa di le teng; tsebe e ga e batle maemo a a kwadisitsweng a NPO, PBO kgotsa karolo 18A.

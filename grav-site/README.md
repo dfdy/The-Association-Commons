@@ -1,4 +1,4 @@
-# Grav website · 0.2.1
+# Grav website · 0.3.0
 
 The Democratic Development Commons runs on pinned Grav **2.2.10** with Admin Next.
 Its public framework follows Part II of white paper **1.7**. First-party theme,
@@ -17,7 +17,7 @@ docker compose exec --user www-data grav cat user/data/commons-private/admin-log
 
 - Website: http://localhost:8388/en
 - Administration: http://localhost:8388/admin
-- Submissions: **Admin → Project interest**, for super-admins only.
+- Submissions: **Admin → Project interest** and **Admin → Language suggestions**, for super-admins only.
 
 Sign in with the generated account and change its password and email. Existing
 accounts survive rebuilds. Public registration is disabled. The development server
@@ -44,7 +44,7 @@ entrypoints and `grav-site/compose.yaml` select the same project and content fol
 | Route | Current purpose |
 | --- | --- |
 | `/en` | Full English public framework: ten principles, fifteen commitments, practical reviews, and glossary |
-| `/{language}` | Other language-project introductions with translated prefiguration text |
+| `/{language}` | Full translated proposals with machine-translation notices |
 | `/{language}/stadgar` | Association Constitution Drafting Tool description; no active builder |
 | `/{language}/donate` | Donation information; no payment collection |
 | `/en/white-paper` | Working white paper 1.7 |
@@ -53,10 +53,13 @@ entrypoints and `grav-site/compose.yaml` select the same project and content fol
 | `/en/licence/content`, `/en/licence/software` | Content and software licence scope |
 | `/en/privacy` | Current Grav/Join privacy notice and unresolved operator details |
 
-There are 13 language sections. The revised full English proposal has not been
-translated into all of them. The drafting-tool descriptions use English fallback;
-SASL uses written-English support pending signed content. The machine-translation
-notice identifies the English canonical source. Translated navigation labels retain
+The English `/en/languages` page accepts registered-language suggestions via `[language-suggestions /]`, displays aggregate counts, and is linked in every footer. See the [language-suggestions guide](user/plugins/language-suggestions/README.md) for matching, storage, retention, and administration.
+
+There are 13 language sections. All written editions have machine-translated
+proposals, drafting-tool descriptions, and donation pages. Kaaps is an Afrikaans-based
+draft requiring Kaaps-speaker review. SASL remains unchanged, with written-English
+support pending signed content. The machine-translation notice identifies the
+English canonical source. Translated navigation labels retain
 stable proposal, `/stadgar`, and donation routes.
 
 The original English proposal body is preserved in
@@ -69,7 +72,7 @@ resources. Old root-level supporting routes redirect to their English addresses.
 
 ## Join records and privacy
 
-`[project-interest /]` under English **Join** collects required name, email, and consent,
+`[project-interest /]` under **Join** in English and the translated proposals collects required name, email, and consent,
 plus optional organisation/community and message. It records a timestamp, random ID,
 source/language, request type, and consent-notice version. It sends no email, creates
 no membership, and does not subscribe people to a mailing list.
@@ -96,7 +99,7 @@ be supplied; local implementation checks are not a public-launch privacy audit.
 
 ## Theme and plugins
 
-First-party packages are version **0.2.1**, plugin display names begin `DDC:`, and
+First-party packages are version **0.3.0**, plugin display names begin `DDC:`, and
 authorship is **The Democratic Development Commons (DDC)**. Upstream dependencies
 retain their own versions and licences.
 
@@ -112,6 +115,7 @@ retain their own versions and licences.
 | Translation Notice | [Machine-translation disclosure](user/plugins/translation-notice/README.md) |
 | Legal Matrix | [Versioned legal research data](user/plugins/legal-matrix/README.md) |
 | Governance Patterns | [Pattern data and testing evidence](user/plugins/governance-patterns/README.md) |
+| Language Suggestions | [Registered-language suggestions and private administration](user/plugins/language-suggestions/README.md) |
 | Project Interest | [Join form and private administration](user/plugins/project-interest/README.md) |
 
 Amber header controls provide day/night mode and 100%–400% text sizing. Preferences

@@ -1,28 +1,27 @@
 ---
 {
-  "title": "Donate",
+  "title": "Nikela le phrojekthi.",
   "language_code": "zu",
   "language_name": "isiZulu",
   "published": true,
   "visible": false,
   "source_route": "/zu/donate/",
-  "content_license": "CC BY-NC-SA 4.0"
+  "content_license": "CC BY-NC-SA 4.0",
+  "content_language": "zu",
+  "translation_source": "/en/donate",
+  "translation_review": "machine-draft",
+  "translation_source_sha256": "4bee5e40a80c4e6894864de9ee9754a07e2979bccf9e6f899c2efe60645e450a"
 }
 ---
 
 [translation-notice /]
 
+# Nikela le phrojekthi.
 
-## English version shown
+Izindlela zokunikela zizofakwa ohlwini lapha.
 
-The Donate page has not yet been translated for the isiZulu project. This page is shown in English.
+## Izindlela zokunikela ziyeza kamuva
 
-# Donate to this project.
+Leli khasi lilungiselelwa izinketho zokunikela zesikhathi esizayo zephrojekthi. Azikho izindlela zokukhokha noma imininingwane yasebhange eshicilelwe okwamanje.
 
-Ways to donate will be listed here.
-
-## Donation methods are coming later
-
-This page is being prepared for the project’s future donation options. No payment methods or bank details have been published yet.
-
-The project plans to establish a nonprofit organisation. Organisational details will be added when available; this page does not claim registered NPO, PBO or section 18A status.
+Iphrojekthi ihlela ukusungula inhlangano engenzi nzuzo. Imininingwane yenhlangano izokwengezwa uma itholakala; leli khasi alisho isimo se-NPO esibhalisiwe, i-PBO noma isigaba 18A.

@@ -12,9 +12,9 @@
 
 # Privacy policy
 
-The Democratic Development Commons · Site version **0.2.1** · Last reviewed: **18 October 2026**
+The Democratic Development Commons · Site version **0.3.0** · Last reviewed: **18 October 2026**
 
-This notice describes the current Grav website and its project-interest plugin. It does not describe the retired site's forms or promise features that are not implemented.
+This notice describes the current Grav website and its project-interest and language-suggestions plugins. It does not describe the retired site's forms or promise features that are not implemented.
 
 ## Responsible party and contact
 
@@ -24,14 +24,14 @@ There is not yet a published privacy-request contact. Do not use the Join form t
 
 ## What the Join form collects
 
-The form under **Join** on the English proposal asks for:
+The form under **Join** on the English and translated written-language proposals asks for:
 
 - Your name and email address, both required.
 - Your organisation or community, optional.
 - A message about how you would like to take part, optional.
 - Required confirmation that the project may store and use these details to consider and respond to your interest.
 
-The server saves these fields with a random record identifier, UTC submission time, request type, source page, language code, consent confirmation, and consent-notice version. It does not add your IP address or user-agent string to the submission record.
+The server saves these fields with a random record identifier, UTC submission time, request type, source page, language code, consent confirmation, and consent-notice version. The source page and language code identify the edition used to submit. Translated form labels and messages use bundled machine-translated text; submission contents are not sent to a translation service. It does not add your IP address or user-agent string to the submission record.
 
 Submitting the form expresses interest only. It does not approve membership, create an account, enrol you in a mailing list, forward your details to another language project, or send an automatic email. The purpose is to consider and respond to your interest and coordinate participation you have requested. Your details are not permission for unrelated newsletters, marketing, or donation appeals. Browsing and downloads do not require a submission.
 
@@ -77,11 +77,15 @@ Read-aloud playback starts only when you choose it. The browser or operating sys
 
 ## Downloads, research resources, and other services
 
-The old constitution builder has been removed. The **Association Constitution Drafting Tool** page describes a planned tool and does not collect constitution answers. Markdown, RTF, and PDF buttons export the current public page content, processed in request memory. The Join form's fields and tokens are replaced by a link in those exports.
+The old constitution builder has been removed. The **Association Constitution Drafting Tool** page describes a planned tool and does not collect constitution answers. Markdown, RTF, and PDF buttons export the current public page content, processed in request memory. The Join form's fields and tokens are replaced by a link to the corresponding language proposal in those exports.
 
 The legal matrix and governance-pattern library publish research records, not Join submissions. Their JSON/schema downloads contain that public research data. Search and filters run in the browser; DataTables and jQuery are served locally. They do not send visitor searches or submissions to a third-party table service.
 
-There is no live language-suggestion submission service on this Grav site. No payment form, advertising tracker, analytics script, or automatic marketing service is configured. Linked external websites have their own privacy practices.
+The English **Suggest a language** page saves only a random identifier, the matched registered language name and code, and the UTC submission time. It does not save the typed spelling, name, email, or other contact details. Public tallies show only language names and totals, not individual timestamps or identifiers. These are counts of accepted suggestions, not verified unique people, and decrease when records expire or are deleted. Existing language editions cannot be suggested again.
+
+Language suggestions use a separate private storage directory, session-bound verification, duplicate-retry protection, a hidden spam field, and a separate keyed-IP rate counter with the same defaults as Join: ten accepted submissions per connection per hour and 90-day retention. Counts, administrative listing, subsequent submissions, and manual maintenance trigger retention cleanup. Without traffic or scheduled maintenance, expired files can remain until cleanup. Backups are separate. Only super-admins can search, inspect, and delete individual suggestions under **Admin → Language suggestions**; ordinary editors and the MCP account are denied. No external registry service receives submitted names: matching uses a bundled snapshot. Public page downloads replace the suggestion form with a link.
+
+No payment form, advertising tracker, analytics script, or automatic marketing service is configured. Linked external websites have their own privacy practices.
 
 ## Hosting, logs, and transfers
 
