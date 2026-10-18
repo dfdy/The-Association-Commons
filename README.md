@@ -1,5 +1,7 @@
 # Voluntary Associations: The Association Commons
 
+![The freedom to organise — a framework for voluntary associations built on shared purpose, democratic self-governance and accountability.](docs/images/association-commons-framework-hero.png)
+
 ## The freedom to organise.
 
 A framework for voluntary associations, inspired by international organising best practice: shared purpose, democratic self-governance, and accountability to one another.
