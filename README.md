@@ -1,6 +1,9 @@
 # Voluntary Associations: The Association Commons
 
-[Content: CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0.txt) · [Software: AGPL-3.0-only](LICENSE) · [Licence scope](LICENSING.md)
+[![Content licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-476952)](LICENSE-CC-BY-NC-SA-4.0.txt)
+[![Software licence: AGPL-3.0-only](https://img.shields.io/badge/Software-AGPL--3.0--only-294b35)](LICENSE)
+
+Separate licences apply to content and software. [See licence scope](LICENSING.md).
 
 ![The freedom to organise — a framework for voluntary associations built on shared purpose, democratic self-governance and accountability.](docs/images/association-commons-framework-hero.png)
 
