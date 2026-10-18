@@ -1,0 +1,22 @@
+.tac-reader-controls{display:flex;gap:.2rem;margin:.35rem 0 1rem}
+.prose .tac-reader-highlight{background-color:#47695212;border-radius:4px;box-shadow:-4px 0 0 #47695266}
+html[data-theme="night"] .prose .tac-reader-highlight{background-color:#a7c2a018;box-shadow:-4px 0 0 #a7c2a080}
+.tac-reader-controls button{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:0;border-radius:50%;background:#e9ecdf;color:#294b35;font:inherit;font-size:.85rem;cursor:pointer}
+.tac-reader-controls button:hover{background:#cbd8c3}
+.tac-reader-dialog{width:min(32rem,calc(100% - 2rem));max-height:85dvh;padding:1.5rem;border:1px solid #8a9489;border-radius:12px;background:#f6f4ed;color:#202821;overflow:auto}
+.tac-reader-dialog::backdrop{background:#101c16aa}
+.tac-reader-dialog h2{font-family:Georgia,serif;font-size:1.7rem;margin:0 0 1rem}
+.tac-reader-dialog label{display:block;font-weight:650;margin:1rem 0 .4rem}
+.tac-reader-dialog select{display:block;width:100%;min-height:44px;font:inherit;background:white;color:#202821;border:1px solid #738275;border-radius:6px;padding:.5rem}
+.tac-reader-dialog p{font-size:.9rem;line-height:1.5}
+.tac-reader-dialog button{min-height:44px;padding:.5rem 1rem;border:1px solid #476952;border-radius:6px;background:#e9ecdf;color:#202821;font:inherit;cursor:pointer;margin:.2rem}
+.tac-reader-dialog :is(select,button):focus-visible{outline:3px solid #294b35;outline-offset:3px}
+.tac-reader-status{position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+html[data-theme="night"] .tac-reader-controls button,html[data-theme="night"] .tac-reader-dialog button{background:#344339;color:#e8ebe2}
+html[data-theme="night"] .tac-reader-dialog{background:#223029;color:#e8ebe2}
+html[data-theme="night"] .tac-reader-dialog select{background:#151d1a;color:#e8ebe2}
+html[data-theme="night"] .tac-reader-dialog :is(select,button):focus-visible{outline-color:#b8ccb1}
+@media(pointer:coarse){.tac-reader-controls button{width:44px;height:44px}}
+@media print{.tac-reader-controls,.tac-reader-dialog,.tac-reader-status{display:none!important}}
+@media print{.prose .tac-reader-highlight{background:transparent!important;box-shadow:none!important}}
+@media(forced-colors:active){.tac-reader-controls button{border:1px solid ButtonText}}

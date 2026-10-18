@@ -33,13 +33,15 @@ operating system:
 | --- | --- | --- |
 | macOS | [Git for macOS](https://git-scm.com/install/mac) | [Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/) or [Colima](https://colima.run/docs/installation/) |
 | Windows | [Git for Windows](https://git-scm.com/install/windows) | [Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/) |
-| Linux | [Git for Linux](https://git-scm.com/install/linux) | [Docker Desktop for Linux](https://docs.docker.com/desktop/setup/install/linux/) |
+| Linux | [Git for Linux](https://git-scm.com/install/linux) | [Docker Engine](https://docs.docker.com/engine/install/) and [Compose plugin](https://docs.docker.com/compose/install/linux/) |
 
 Docker Desktop includes Docker Compose. After installing it, open Docker Desktop
 and wait until it is running. On Windows, follow the Docker guide's WSL 2 setup
 instructions and use Linux containers for this project.
 
-**Colima option on macOS:** install [Homebrew](https://brew.sh/) first, then run:
+**macOS without Docker Desktop:** [Colima](https://colima.run/docs/installation/)
+runs the containers using the Docker CLI and Compose. Install [Homebrew](https://brew.sh/)
+first, then run:
 
 ```sh
 brew install colima docker docker-compose docker-buildx
@@ -58,7 +60,8 @@ If you prefer Docker Engine on Linux, follow the official
 your distribution and install the
 [Docker Compose plugin](https://docs.docker.com/compose/install/linux/).
 
-Open **Terminal** on macOS or Linux, or **PowerShell** on Windows. If your terminal
+Open **Terminal** on macOS or Linux, or **Git Bash** (included with Git for Windows)
+or **PowerShell 7+** on Windows. If your terminal
 was open during installation, close it and open it again. Run these commands,
 one line at a time, to check that the tools are available:
 
@@ -73,11 +76,15 @@ Each command should print a version number. This project needs Docker Compose
 
 ### 2. Clone and start
 
+With Git installed and Docker Desktop or Colima running, run this single line
+from the folder where you want to keep the project:
+
 ```sh
-git clone https://github.com/dfdy/The-Association-Commons.git
-cd The-Association-Commons
-docker compose up -d --build
+git clone https://github.com/dfdy/The-Association-Commons.git && cd The-Association-Commons && docker compose up -d --build
 ```
+
+This creates `The-Association-Commons/` in your current folder and starts the site.
+The first build may take a few minutes. Nothing is installed globally by this command.
 
 - Website: http://localhost:8388/en
 - Editor: http://localhost:8388/admin
@@ -89,8 +96,13 @@ docker compose exec --user www-data grav cat user/data/commons-private/admin-log
 ```
 
 Change the administrator password and email after signing in. Content edits are
-saved directly to `grav-site/user/pages/` and can be committed and merged through Git.
-Accounts and private keys stay in a Docker volume.
+saved directly to `The-Association-Commons/grav-site/user/pages/` on your computer,
+including uploaded page media. Docker mounts that folder into the site: edits stay
+in the clone through container rebuilds and restarts and can be committed and merged
+through Git. Keep and back up the cloned folder.
+
+Accounts, passwords and private keys persist separately in a Docker volume.
+They are not committed to Git; deleting Docker volumes removes that private data.
 
 See [Grav editing, setup and MCP instructions](grav-site/README.md).
 
@@ -104,16 +116,6 @@ docker compose up -d
 Use `docker compose up -d --build` after changing themes or plugins. Markdown
 content changes appear without rebuilding. On Colima, the repository share must
 be writable for the editor to save content; see the Grav setup guide.
-
-## Local original site
-
-An existing local copy is kept in `legacy-site/`, which is excluded from Git.
-It continues to run at http://localhost:8380 with its existing database. This
-folder is not included in new clones. To manage that local copy:
-
-```sh
-docker compose -f legacy-site/docker-compose.yml up -d --build
-```
 
 ## Licences and development
 

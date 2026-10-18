@@ -1,0 +1,11 @@
+name: "TAC: Read Aloud"
+slug: read-aloud
+type: plugin
+version: 0.1.2
+description: Browser speech for headings and content with shared voice preferences.
+icon: volume-up
+license: AGPL-3.0-only
+author:
+  name: "The Associations Commons (TAC)"
+dependencies:
+  - { name: grav, version: '>=2.0.0' }

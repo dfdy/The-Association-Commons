@@ -165,6 +165,7 @@ All project plugins use the `TAC:` prefix, version **0.1.2**, and author
 - [Glossary cards](user/plugins/glossary/README.md)
 - [Remembered open/close panels](user/plugins/remember-panel/README.md)
 - [Language menu](user/plugins/language-menu/README.md)
+- [Browser read-aloud controls and shared voice settings](user/plugins/read-aloud/README.md)
 
 Interface and functionality changes apply to all languages. Editorial revisions
 remain English-only until translation is requested. Existing other-language

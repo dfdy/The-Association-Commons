@@ -66,6 +66,8 @@ You can remove or block these cookies using your browser’s site-data settings.
 
 ## 6. Browser speech and accessibility
 
+On the Grav site, the shared read-aloud settings use the first-party tac_read_aloud cookie. It stores the chosen voice identifier and reading speed for up to one year after a settings change, applies across language pages, and contains no reading history or visitor identifier. It uses SameSite=Lax and Secure on HTTPS. Clearing the cookie restores the defaults. Playback starts only when you select a play control; the controls read page content, not constitution form answers.
+
 The reader uses your browser’s speech-synthesis interface. It reads the available voice names and language identifiers to populate the selector, and sends the passage you choose to the browser’s speech engine. Some voices are local and others may use a browser or operating-system provider’s online service. In the latter case that provider may receive the text, including draft text if you play your draft. Its processing depends on your device, selected voice and provider settings.
 
 The application does not record microphone input or save generated speech recordings. It saves the chosen voice identifier and speed in the preference cookie. Pre-generated audio and signed-language media are not currently implemented. You can use the page without enabling speech.
