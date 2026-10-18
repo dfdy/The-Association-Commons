@@ -26,7 +26,7 @@ Download the full AGPLv3 licence ([Link](/LICENSE.txt))
 
 Download complete corresponding source ([Link](/source.tar.gz))
 
-Content licence: CC BY-NC-SA 4.0 ([Link](/licence/content/))
+Content licence: CC BY-NC-SA 4.0 ([Link](/en/licence/content/))
 
 These explanations are brief summaries; the authoritative licence terms govern.
 

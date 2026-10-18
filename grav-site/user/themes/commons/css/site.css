@@ -94,3 +94,11 @@ html{scroll-padding-top:calc(var(--site-header-height) + 1rem)}
 .table-scroll table{width:100%;min-width:36rem;border-collapse:collapse}
 .table-scroll th,.table-scroll td{padding:.65rem;text-align:left;vertical-align:top;border:1px solid #8a9489}
 @media print{.table-scroll{overflow:visible}.table-scroll table{min-width:0}}
+
+/* Reuse the page's download controls in the compact sticky header. */
+.site-header .toolbar-downloads{margin:0;padding:0;gap:0;flex-wrap:nowrap}
+.site-header .toolbar-downloads a,.site-header .toolbar-downloads button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:.2rem .4rem;background:transparent;color:var(--accent)}
+.site-header .toolbar-downloads a:hover,.site-header .toolbar-downloads button:hover{background:#dce3d3}
+html[data-theme="night"] .site-header .toolbar-downloads a:hover,html[data-theme="night"] .site-header .toolbar-downloads button:hover{background:#344339}
+.site-header.is-compact .header-actions{flex-wrap:nowrap;gap:.35rem}
+@media(max-width:600px){.site-header.is-compact{flex-wrap:wrap;gap:.25rem}.site-header.is-compact .header-actions{margin-left:auto}}

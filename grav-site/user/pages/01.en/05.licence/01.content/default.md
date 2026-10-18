@@ -24,7 +24,7 @@ Official Creative Commons summary ([Link](https://creativecommons.org/licenses/b
 
 Authoritative CC BY-NC-SA 4.0 legal code ([Link](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en))
 
-Software licence: GNU AGPLv3 ([Link](/licence/software/))
+Software licence: GNU AGPLv3 ([Link](/en/licence/software/))
 
 These explanations are brief summaries; the authoritative licence terms govern.
 

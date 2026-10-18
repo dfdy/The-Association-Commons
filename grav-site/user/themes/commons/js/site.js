@@ -13,11 +13,21 @@ if(form){
 (() => {
  const header=document.querySelector('.site-header');
  if(!header)return;
+ const downloads=document.querySelector('.toolbar-downloads');
+ const actions=header.querySelector('.header-actions');
+ const downloadHome=downloads?document.createComment('Download controls return here when the header expands'):null;
+ if(downloads)downloads.before(downloadHome);
  let compact=false,pending=false;
  const update=()=>{
   pending=false;
   const next=compact?scrollY>16:scrollY>96;
-  if(next!==compact){compact=next;header.classList.toggle('is-compact',compact);}
+  if(next!==compact){
+   compact=next;header.classList.toggle('is-compact',compact);
+   if(downloads&&actions){
+    if(compact)actions.prepend(downloads);
+    else downloadHome.after(downloads);
+   }
+  }
  };
  const measure=()=>document.documentElement.style.setProperty('--site-header-height',header.getBoundingClientRect().height+'px');
  new ResizeObserver(measure).observe(header);

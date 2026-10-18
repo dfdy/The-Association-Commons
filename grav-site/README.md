@@ -48,8 +48,12 @@ current content. Visitor constitution answers are never saved.
 ```
 
 All 13 language projects have this structure. Untranslated material
-keeps the existing English fallback. Licence and privacy pages stay at the root.
-The old `/donate` and `/languages` addresses redirect to their English pages.
+keeps the existing English fallback. Supporting documents live under English:
+`/en/white-paper`, `/en/licence` (with `/content` and `/software` children), and
+`/en/privacy`. Their files are children of `user/pages/01.en/`, ready for future
+translated equivalents under other languages. The old root-level addresses,
+including `/donate` and `/languages`, redirect to their English pages and retain
+download query parameters.
 
 The initial import contains 31 distinct public documents and 13 builders.
 **The running editor reads and writes `grav-site/user/pages/` directly.** This

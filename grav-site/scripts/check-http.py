@@ -15,7 +15,7 @@ for removed in ['/sv','/sv/stadgar','/sv/donate','/sv/languages']:
     status,_,_=request(removed);assert status==404,(removed,status)
 for code in report['languages']:
     status,body,_=request('/'+code+'/stadgar');assert status==200 and b'stadgar-form' in body,(code,status)
-for route in ['/en','/zu','/en/donate','/licence/software']:
+for route in ['/en','/zu','/en/donate','/en/licence/software','/en/privacy']:
     for fmt,signature in [('md',None),('rtf',b'{\\rtf'),('pdf',b'%PDF-')]:
         status,body,headers=request(route+'?download='+fmt)
         assert status==200 and (not signature or body.startswith(signature)),(route,fmt,status,body[:100])

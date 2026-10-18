@@ -7,7 +7,10 @@ class CommonsPlugin extends Plugin
     public function redirectAliases(): void
     {
         $path=rtrim(parse_url($_SERVER['REQUEST_URI']??'',PHP_URL_PATH)??'','/');
-        if (in_array($path,['/donate','/languages','/stadgar'],true)) {header('Location: /en'.$path,true,302);exit;}
+        if (in_array($path,['/donate','/languages','/stadgar','/white-paper','/privacy','/licence','/licence/content','/licence/software'],true)) {
+            $query=$_SERVER['QUERY_STRING']??'';
+            header('Location: /en'.$path.($query!==''?'?'.$query:''),true,302);exit;
+        }
     }
     public function download(): void
     {

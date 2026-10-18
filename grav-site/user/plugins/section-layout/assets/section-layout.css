@@ -27,11 +27,10 @@ html[data-theme="night"] .tac-subsection{border-color:#738275}
 
 .prose .tac-section-body>h2:first-child{color:var(--accent,#476952)}
 
-.tac-section--shaded{background:#dce3d3;padding:4.5rem 2rem}
+.tac-section--shaded{background:#dce3d3}
 .tac-section--shaded .tac-subsection{border-color:#9ba992}
 html[data-theme="night"] .tac-section--shaded{background:#223029}
 html[data-theme="night"] .tac-section--shaded .tac-subsection{border-color:#738275}
-@media(max-width:700px){.tac-section--shaded{padding:2.5rem 1rem}}
 @media print{.tac-section--shaded{background:transparent!important;padding:1rem 0}}
 
 /* Paint the shaded surface to the viewport edges without widening the content. */

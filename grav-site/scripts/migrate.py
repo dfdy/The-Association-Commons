@@ -17,6 +17,7 @@ def local(url,code):
     if url=='/stadgar/':return f'/{code}/stadgar'
     if url=='/donate/':return '/en/donate'
     if url=='/languages/':return '/en/languages'
+    if url.rstrip('/') in ['/privacy','/licence','/licence/content','/licence/software','/white-paper']:return '/en'+url
     return url
 
 def markdown(doc,code):
@@ -45,6 +46,8 @@ for route,doc in docs.items():
     if parts[0] in codes:
         folder=folders[code]+('/02.donate' if parts[1:]==['donate'] else '/03.languages' if parts[1:]==['languages'] else '')
     elif route=='/languages/':folder=folders['en']+'/03.languages'
+    elif parts[0]=='privacy':folder=folders['en']+'/06.privacy'
+    elif parts[0]=='licence':folder=folders['en']+'/05.licence'+''.join('/0'+str(i+1)+'.'+p for i,p in enumerate(parts[1:]))
     else:folder='90.'+parts[0]+''.join('/0'+str(i+1)+'.'+p for i,p in enumerate(parts[1:]))
     template='proposal' if route.strip('/') in codes else 'default'
     title=names.get(code,code) if template=='proposal' else doc['title'].split(' — ')[0]

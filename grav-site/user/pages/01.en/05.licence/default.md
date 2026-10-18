@@ -14,9 +14,9 @@
 
 The website’s content and software have separate licences.
 
-Content — CC BY-NC-SA 4.0 explained ([Link](/licence/content/))
+Content — CC BY-NC-SA 4.0 explained ([Link](/en/licence/content/))
 
-Software — GNU AGPLv3 explained ([Link](/licence/software/))
+Software — GNU AGPLv3 explained ([Link](/en/licence/software/))
 
 These explanations are brief summaries; the authoritative licence terms govern.
 

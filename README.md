@@ -5,7 +5,9 @@
 
 Separate licences apply to content and software. [See licence scope](LICENSING.md).
 
-Read the [Democratic Development Commons white paper — working version 0.9](grav-site/user/pages/80.white-paper/default.md), the conceptual basis for the framework.
+Read the [Democratic Development Commons white paper — working version 1.7](grav-site/user/pages/01.en/04.white-paper/default.md), the conceptual basis for the framework.
+
+The paper explores how democratic associations can rebuild emancipatory adult education in South Africa through collective learning, mutual aid and shared governance. It brings South African organising traditions into dialogue with international ideas, examines the legal landscape, and proposes practical safeguards for accessibility, member control, accountability and cooperation between autonomous associations. Part I develops the reasoning; Part II outlines a public framework; Part III examines criticisms, unresolved tensions and future research. The paper also guides a future configurable constitution generator. It is a working proposal, not legislation or legal advice.
 
 ![The freedom to organise — a framework for voluntary associations built on shared purpose, democratic self-governance and accountability.](docs/images/association-commons-framework-hero.png)
 
