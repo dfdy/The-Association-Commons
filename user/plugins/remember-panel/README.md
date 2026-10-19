@@ -9,7 +9,7 @@ read without the interactive styling.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 An AGPLv3 Grav plugin using Shortcode Core. Wrap an explicit section in Markdown:
 

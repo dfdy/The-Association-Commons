@@ -1,7 +1,7 @@
 name: "DDC: Section Layout"
 slug: section-layout
 type: plugin
-version: 0.3.1
+version: 0.3.2
 description: Explicit numbered section labels with a quarter-width sidebar.
 icon: header
 license: AGPL-3.0-only

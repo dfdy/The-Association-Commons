@@ -10,7 +10,7 @@ The maintenance notes below are for editors and operators.
 
 ## Editor and maintainer reference
 
-Project release: **0.3.1**. First-party Grav plugin, AGPL-3.0-only.
+Project release: **0.3.2**. First-party Grav plugin, AGPL-3.0-only.
 
 Place `[language-suggestions /]` in a published, routable Markdown page with shortcode
 processing enabled. The English page is `/en/languages`, linked as **Suggest a language**

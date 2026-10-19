@@ -10,7 +10,7 @@ The notes below explain how to maintain the research.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 English-only public library at `/en/governance-patterns`, linked from the shared
 footer. `[governance-patterns /]` renders a searchable index and native disclosures.
@@ -57,7 +57,7 @@ Requires `legal-matrix` for its locally served DataTables 2.3.4, jQuery 3.7.1, a
 presentation styles. No vendor library is duplicated and no external CDN is used at
 runtime. Vendor MIT notices remain in `legal-matrix/assets/vendor/`.
 First-party code: AGPL-3.0-only. Editorial pattern data: CC-BY-NC-SA-4.0 under the
-repository licence scopes. Plugin metadata matches project version 0.3.1.
+repository licence scopes. Plugin metadata matches project version 0.3.2.
 
 ## Checks
 

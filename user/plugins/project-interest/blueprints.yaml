@@ -1,7 +1,7 @@
 name: "DDC: Project Interest"
 slug: project-interest
 type: plugin
-version: 0.3.1
+version: 0.3.2
 description: Accessible shortcode form with private project-interest storage.
 icon: users
 license: AGPL-3.0-only

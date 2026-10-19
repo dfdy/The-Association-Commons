@@ -12,7 +12,7 @@
 
 # Privacy policy
 
-The Democratic Development Commons · Site version **0.3.1** · Last reviewed: **19 October 2026**
+The Democratic Development Commons · Site version **0.3.2** · Last reviewed: **19 October 2026**
 
 This notice describes the current Grav website and its project-interest and language-suggestions plugins. It does not describe the retired site's forms or promise features that are not implemented.
 

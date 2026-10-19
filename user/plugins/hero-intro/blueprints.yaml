@@ -1,7 +1,7 @@
 name: "DDC: Hero Intro"
 slug: hero-intro
 type: plugin
-version: 0.3.1
+version: 0.3.2
 description: Explicit Markdown wrapper for a bold headline and introductory paragraph.
 icon: header
 license: AGPL-3.0-only

@@ -1,7 +1,7 @@
 name: "DDC: Translation Notice"
 slug: translation-notice
 type: plugin
-version: 0.3.1
+version: 0.3.2
 description: Canonical English source and translation volunteer notice.
 icon: language
 license: AGPL-3.0-only

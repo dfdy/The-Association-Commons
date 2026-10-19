@@ -22,9 +22,9 @@ The content’s noncommercial restriction applies to the separately licensed edi
 
 Authoritative GNU AGPLv3 licence ([Link](https://www.gnu.org/licenses/agpl-3.0.html))
 
-Download the full AGPLv3 licence ([Link](https://raw.githubusercontent.com/dfdy/The-Democratic-Development-Commons/v0.3.1/LICENSE))
+Download the full AGPLv3 licence ([Link](https://raw.githubusercontent.com/dfdy/The-Democratic-Development-Commons/v0.3.2/LICENSE))
 
-Download complete corresponding source ([Link](https://github.com/dfdy/The-Democratic-Development-Commons/archive/refs/tags/v0.3.1.tar.gz))
+Download complete corresponding source ([Link](https://github.com/dfdy/The-Democratic-Development-Commons/archive/refs/tags/v0.3.2.tar.gz))
 
 Content licence: CC BY-NC-SA 4.0 ([Link](/en/licence/content/))
 
@@ -32,4 +32,4 @@ These explanations are brief summaries; the authoritative licence terms govern.
 
 These works are provided without warranty. Third-party material retains its own terms. Private visitor submissions and personal data are excluded.
 
-Scope, earlier releases and third-party notices ([Link](https://github.com/dfdy/The-Democratic-Development-Commons/blob/v0.3.1/LICENSING.md))
+Scope, earlier releases and third-party notices ([Link](https://github.com/dfdy/The-Democratic-Development-Commons/blob/v0.3.2/LICENSING.md))

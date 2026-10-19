@@ -9,7 +9,7 @@ or send an automatic email. The notes below explain placement and private handli
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 Place `[project-interest /]` on its own line to show the form. It is installed under
 **Join** on all language proposals and on the English Contact page. Bundled language

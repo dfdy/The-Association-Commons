@@ -22,4 +22,4 @@ These explanations are brief summaries; the authoritative licence terms govern.
 
 These works are provided without warranty. Third-party material retains its own terms. Private visitor submissions and personal data are excluded.
 
-Scope, earlier releases and third-party notices ([Link](https://github.com/dfdy/The-Democratic-Development-Commons/blob/v0.3.1/LICENSING.md))
+Scope, earlier releases and third-party notices ([Link](https://github.com/dfdy/The-Democratic-Development-Commons/blob/v0.3.2/LICENSING.md))

@@ -9,7 +9,7 @@ including their closing markers, when rearranging content.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 ```markdown
 [section-layout label="01 / The Idea" description="How people organise around a shared purpose."]

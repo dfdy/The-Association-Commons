@@ -9,7 +9,7 @@ when the decorative styling is absent.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 Wrap an existing Markdown heading and summary explicitly:
 

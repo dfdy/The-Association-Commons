@@ -274,7 +274,7 @@ operator/contact details, hosting arrangements, HTTPS, secure session cookies,
 trusted login host, administrative access, retention schedule, and backup policy.
 Update the privacy notice to reflect actual arrangements.
 
-The website uses Grav **2.2.10** with Admin Next. First-party packages are **0.3.1**,
+The website uses Grav **2.2.10** with Admin Next. First-party packages are **0.3.2**,
 with separate upstream dependency versions and licences. Review dependency changes
 against the Docker build. [Licence scopes](../LICENSING.md) and [contribution guidance](../CONTRIBUTING.md)
 apply to published copies too.

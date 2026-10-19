@@ -8,7 +8,7 @@ The example below goes in the page body; replace its sample term and definition.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 Group explicit Markdown entries in a glossary. Each entry keeps a real heading and paragraph for screen readers and exports:
 

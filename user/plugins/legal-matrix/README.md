@@ -9,7 +9,7 @@ review records and keep uncertainty visible.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 An English-only public research matrix at `/en/legal-matrix`, linked from the shared
 footer. `[legal-matrix /]` renders the dataset as semantic HTML, two research indexes,

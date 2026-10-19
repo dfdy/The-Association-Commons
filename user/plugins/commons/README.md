@@ -25,7 +25,7 @@ links back to the website. Dark PDFs retain dark backgrounds, including when pri
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 Exports published, routable public pages as Markdown, RTF, or PDF through
 `?download=md`, `?download=rtf`, or `?download=pdf`. The shared toolbar is right-aligned

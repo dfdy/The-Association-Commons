@@ -12,7 +12,7 @@ Those pages' metadata and landing-page indicators distinguish their status.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 Place `[translation-notice /]` on its own line to show the machine-translation warning, canonical English counterpart and translation volunteer invitation. Links follow the current page route: `/zu/stadgar` links to `/en/stadgar` and the `/zu` proposal. Keep corresponding English routes available when adding translated pages.
 

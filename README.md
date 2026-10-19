@@ -64,7 +64,7 @@ connects them to practical commitments, recurring reviews, and a glossary.
 
 ## What can the website do now?
 
-The current website is version **0.3.1**.
+The current website is version **0.3.2**.
 
 - Read the framework in 13 language sections, adjust text size and colours, listen
   to passages, and download public pages as Markdown, RTF, or PDF.

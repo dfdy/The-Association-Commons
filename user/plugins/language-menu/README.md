@@ -9,7 +9,7 @@ rating. The notes below explain that behaviour and its storage.
 
 ## Editor and maintainer reference
 
-Part of The Democratic Development Commons **0.3.1**.
+Part of The Democratic Development Commons **0.3.2**.
 
 The theme includes `partials/language-menu.html.twig`. Languages appear alphabetically as keyboard-accessible pill links; the active language has bold text and a stronger border independently of click history.
 

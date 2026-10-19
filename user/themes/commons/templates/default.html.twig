@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ page.header.language_code|default('en')|e('html_attr') }}">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="{{ url('theme://js/theme.js') }}"></script><script src="{{ url('theme://js/text-size.js') }}"></script><title>{{ page.title|e }} · {{ site.title|e }}</title><link rel="stylesheet" href="{{ url('theme://css/site.css') }}?v=0.3.1"><script defer src="{{ url('theme://js/site.js') }}"></script>{{ assets.css()|raw }}{{ assets.js()|raw }}</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="{{ url('theme://js/theme.js') }}"></script><script src="{{ url('theme://js/text-size.js') }}"></script><title>{{ page.title|e }} · {{ site.title|e }}</title><link rel="stylesheet" href="{{ url('theme://css/site.css') }}?v=0.3.2"><script defer src="{{ url('theme://js/site.js') }}"></script>{{ assets.css()|raw }}{{ assets.js()|raw }}</head>
 <body id="top"><a class="skip" href="#content">Skip to content</a>
 {% set proposal_code = page.header.language_code|default('en') %}
 <header class="site-header"><a class="brand" href="/{{ proposal_code|e('html_attr') }}" lang="en"><img class="brand-logo" src="{{ url('theme://images/ddc-logo.svg') }}" width="430" height="455" alt=""><div class="brand-copy">{{ site.title|e }}<span>Collective learning, mutual aid, and democratic self-government</span></div></a><div class="header-actions"><div class="text-size-control" role="group" aria-label="Text size" lang="en" hidden><button type="button" data-text-size="decrease" aria-label="Decrease text size" aria-controls="text-size-value">−</button><output id="text-size-value" aria-label="Text size" aria-live="polite" aria-atomic="true">100%</output><button type="button" data-text-size="increase" aria-label="Increase text size" aria-controls="text-size-value">+</button></div><button class="theme-toggle" type="button" aria-label="Night mode" title="Toggle night mode" aria-pressed="false" hidden><span aria-hidden="true">☾</span> <span class="theme-label">Night mode</span></button></div></header>
@@ -21,7 +21,7 @@
 <a href="/en/licence/content">Content · CC BY-NC-SA 4.0</a>
 <a href="/en/licence/software">Software · AGPLv3</a>
 <a href="https://github.com/dfdy/The-Democratic-Development-Commons">GitHub ↗</a>
-<span>v0.3.1</span>
+<span>v0.3.2</span>
 </div>
 <a class="footer-logo" href="#top" aria-label="Back to top"><img src="{{ url('theme://images/ddc-logo.svg') }}" width="430" height="455" alt=""></a>
 <div class="footer-resources">

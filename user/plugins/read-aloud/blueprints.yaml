@@ -1,7 +1,7 @@
 name: "DDC: Read Aloud"
 slug: read-aloud
 type: plugin
-version: 0.3.1
+version: 0.3.2
 description: Browser speech for headings and content with shared voice preferences.
 icon: volume-up
 license: AGPL-3.0-only

@@ -30,7 +30,8 @@ instructions. A plugin is a small package that adds a website feature.
 and package conventions. Dated reports describe checks performed at a particular
 time; they are not a promise that every future change has passed those checks.
 
-- [Release 0.3.1](release-0.3.1.md): current release and upgrade notes.
+- [Release 0.3.2](release-0.3.2.md): current release and upgrade notes.
+- [Release 0.3.1](release-0.3.1.md): previous release and repository-layout migration notes.
 - [Release 0.3.0](release-0.3.0.md): previous release.
 - [Accessibility report, 18 October 2026](accessibility-2026-10-18.md).
 - [Translation report, 18 October 2026](translations-2026-10-18.md).
