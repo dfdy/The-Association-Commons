@@ -19,3 +19,25 @@ The project centres South African needs and possibilities for rebuilding adult e
 ## Writing preferences
 
 Use the Oxford comma by default; the user almost always prefers it.
+
+## Documentation
+
+Write instructions that help people understand and control their own work. Begin
+with the task and its purpose, explain unfamiliar terms where they are needed, and
+show how to check the result and recover from common problems. Distinguish ordinary
+reading and editing from optional developer tools.
+
+Welcome practical experience, language review, accessibility feedback, and reasoned
+disagreement alongside code contributions. Do not imply community approval,
+participatory testing, or collective decisions that have not occurred. Keep known
+limitations visible without making the reader navigate a development log.
+
+Give examples meaningful to South African adult education and autonomous organising.
+Include routes back to the main guides, preserve licence terms, and keep dated
+verification reports separate from current instructions.
+
+## First-party packages
+
+Custom plugins written for this project must use a display name beginning with `DDC: ` in their `blueprints.yaml`. Quote the YAML name because it contains a colon. This convention applies to first-party plugins, not upstream dependencies.
+
+All first-party plugin versions must match the main project version (currently `0.3.1`). Set their `author.name` to `The Democratic Development Commons (DDC)`. Do not change upstream dependency versions to match the project.

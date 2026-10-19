@@ -1,0 +1,24 @@
+name: association-commons-grav
+services:
+  grav:
+    build: .
+    image: association-commons-grav:0.3.1
+    ports:
+      - '127.0.0.1:8388:80'
+    volumes:
+      - grav_user:/var/www/html/user
+      - type: bind
+        source: ./user/pages
+        target: /var/www/html/user/pages
+        bind:
+          create_host_path: false
+    restart: unless-stopped
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD, curl, -fsS, http://127.0.0.1/en]
+      interval: 20s
+      timeout: 10s
+      start_period: 60s
+      retries: 5
+volumes:
+  grav_user: {}

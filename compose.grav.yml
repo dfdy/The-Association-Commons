@@ -1,3 +1,0 @@
-name: association-commons-grav
-include:
-  - ./grav-site/compose.yaml

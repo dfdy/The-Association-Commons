@@ -1,29 +1,52 @@
-<p align="center"><img src="grav-site/user/themes/commons/images/ddc-logo.svg" alt="The Democratic Development Commons logo" width="15%"></p>
+<p align="center"><img src="user/themes/commons/images/ddc-logo.svg" alt="The Democratic Development Commons logo" width="120"></p>
 
 # The Democratic Development Commons
 
-[![Content licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-476952)](LICENSE-CC-BY-NC-SA-4.0.txt)
-[![Software licence: AGPL-3.0-only](https://img.shields.io/badge/Software-AGPL--3.0--only-294b35)](LICENSE)
+The Democratic Development Commons (DDC) is a working framework for people in South
+Africa to learn, organise, and govern together. It explores how voluntary associations
+can rebuild adult education as an emancipatory force through collective learning,
+mutual aid, and democratic self-government.
 
-Separate licences apply to content and software. [See the directory-to-licence map and scope](LICENSING.md#where-each-licence-applies).
+**We learn democracy by doing democracy.** People should be able to understand,
+question, and change the arrangements they live with. This includes the framework
+and the tools in this repository: they are open to discussion, testing, and revision.
 
-Read the [Democratic Development Commons white paper — working version 1.7](grav-site/user/pages/01.en/04.white-paper/default.md), the conceptual basis for the framework.
+The framework is a voluntary organising agreement, not proposed legislation.
+Adopting it does not confer legal personality, registration, or tax status, or replace
+applicable law. International experiences inform the work, alongside South African
+organising traditions and needs.
 
-The paper explores how democratic associations can rebuild emancipatory adult education in South Africa through collective learning, mutual aid, and shared governance. It brings South African organising traditions into dialogue with international ideas, examines the legal landscape, and proposes practical safeguards for accessibility, member control, accountability, and cooperation between autonomous associations. Part I develops the reasoning; Part II outlines a public framework; Part III examines criticisms, unresolved tensions, and future research. The paper also guides a planned Association Constitution Drafting Tool. It is a working proposal, not legislation or legal advice.
+## Start where you are
 
-![The Democratic Development Commons: The freedom to organise. Collective learning, mutual aid, and democratic self-government — a South African framework for building associations and deciding together.](docs/images/democratic-development-commons-hero.png)
+You do not need to install software to read the documents or join the discussion.
 
-## The freedom to organise.
+| What would you like to do? | Start here |
+| --- | --- |
+| Understand the proposal | [Read the public framework](user/pages/01.en/proposal.md) |
+| Explore the reasoning and open questions | [Read the white paper, working version 1.7](user/pages/01.en/04.white-paper/default.md) |
+| Try the website on your computer | [Follow the installation guide](docs/install.md) |
+| Plan a cloud-hosted site | [Compare VM requirements and South African hosting providers](docs/cloud-hosting.md) |
+| Change a page or add an image | [Use the editing guide](docs/operations.md#edit-a-page) |
+| Help with language, accessibility, research, or code | [Find a way to contribute](CONTRIBUTING.md) |
+| Find a file or understand the software | [Explore the repository layout](docs/repository-layout.md) |
+| Reuse the writing or software | [Read the licence guide](LICENSING.md) |
 
-Collective learning, mutual aid, and democratic self-government: a South African
-framework for people to build associations, steward shared resources, and cooperate
-without surrendering their power to decide together.
+The linked framework and white paper are the website's source documents. On GitHub,
+some formatting instructions may appear in square brackets. For the fully formatted
+versions, start the local website and open [the framework](http://localhost:8388/en)
+or [the white paper](http://localhost:8388/en/white-paper). These addresses work only
+while the site is running on your computer.
 
-**We learn democracy by doing democracy.** The framework is a voluntary organising
-agreement, not proposed legislation. Adopting it does not confer legal personality,
-registration, or tax status, and does not replace applicable law.
+The white paper is a longer discussion. Its executive summary offers an overview;
+Part I develops the reasoning, Part II presents the public framework, and Part III
+examines criticisms and unresolved questions. You can begin with the part that
+speaks to your interests.
 
-## Ten organising principles
+![The Democratic Development Commons: The freedom to organise. Collective learning, mutual aid, and democratic self-government.](docs/images/democratic-development-commons-hero.png)
+
+## What holds the framework together?
+
+The proposal develops ten organising principles:
 
 1. Freedom and voluntary association.
 2. Equal standing.
@@ -36,144 +59,77 @@ registration, or tax status, and does not replace applicable law.
 9. Autonomy and federation.
 10. Open-ended and reflexive development.
 
-The [English proposal](grav-site/user/pages/01.en/proposal.md) presents Part II of the
-white paper in a public framework. The site includes 13 language sections. The
-proposal, drafting-tool description, and donation page have machine-generated
-translations in the other written language editions, with English canonical-source
-notices. Kaaps is an Afrikaans-based draft requiring Kaaps-speaker review. SASL
-remains written-English support pending signed media; its pages are unchanged.
+These are starting points for collective work. The [public framework](user/pages/01.en/proposal.md)
+connects them to practical commitments, recurring reviews, and a glossary.
 
-## Current website · 0.3.0
+## What can the website do now?
 
-- **Association Constitution Drafting Tool:** a description of the planned tool at
-  `/en/stadgar`, reached through the **Constitution Jumpstart** tab. The old builder
-  is removed; no constitution-answer form is active.
-- **Legal matrix:** 16 provisional research records, separate reform tracking, and
-  JSON/schema downloads at `/en/legal-matrix`. All initial records await verification.
-- **Governance-pattern library:** seven untested draft patterns, with suitability
-  limits and evidence requirements, at `/en/governance-patterns`.
-- **Contact:** `/en/contact` accepts participation enquiries and community-led translation proposals through the private interest form.
-- **Language suggestions:** the English Suggest a language page matches registered names, publishes aggregate counts, and provides private super-admin review.
-- **Join form:** `[project-interest /]` under Join on the English and translated proposals. It stores
-  contact details privately, supports non-JavaScript submissions, and sends no emails.
-  Super-admins review, search, and delete records in **Admin → Project interest**.
-- **Reading tools:** day/night mode, 100%–400% text sizing, browser read-aloud,
-  remembered prefiguration panels, translated navigation, and translation notices.
-- **Downloads and footer:** public pages offer Markdown, RTF, and PDF downloads.
-  English supporting documents are linked in the footer and omit the project tabs.
+The current website is version **0.3.1**.
 
-The multilingual site uses Grav with Git-backed Markdown. The published
-[privacy notice](grav-site/user/pages/01.en/06.privacy/default.md) describes the actual
-Join implementation; responsible-party/contact and production-hosting details remain
-pending. Records are private runtime data, not public page content or Git content.
+- Read the framework in 13 language sections, adjust text size and colours, listen
+  to passages, and download public pages as Markdown, RTF, or PDF.
+- Explore 16 provisional legal research records and seven draft governance patterns.
+  These resources identify questions and possibilities; the initial records still
+  need verification, and the patterns have not been tested.
+- Express interest in participation or a community-led translation project through
+  the contact or Join form. Submission does not create membership or subscribe
+  anyone to a mailing list, and no automatic email is sent.
+- Suggest another registered language and see counts of accepted suggestions.
+- Read about the planned Association Constitution Drafting Tool, reached through
+  the **Constitution Jumpstart** tab. It is a description of future work; no
+  constitution-building form or payment collection is active.
 
-## Run the website
+Written language editions include machine-generated translations that need review
+by speakers of those languages. The Kaaps proposal includes user-supplied reviewed
+text; its edition still invites Kaaps-speaker community review. South African Sign Language (SASL) currently has written-English
+support, pending signed media. A language section does not mean a translation has
+been approved by its community.
 
-### 1. Install Git and Docker
+The [privacy notice](user/pages/01.en/06.privacy/default.md) explains what the forms
+store and who can read it. Operator contact details and production hosting
+arrangements remain to be supplied. The supplied setup runs locally on your
+computer; [public hosting requires further preparation](docs/operations.md#before-public-hosting).
 
-Git downloads a copy of this project to your computer. Docker runs the website
-and its editor for you. Follow the official installation instructions for your
-operating system:
+## Try it locally
 
-| Operating system | Install Git | Install Docker |
-| --- | --- | --- |
-| macOS | [Git for macOS](https://git-scm.com/install/mac) | [Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/) or [Colima](https://colima.run/docs/installation/) |
-| Windows | [Git for Windows](https://git-scm.com/install/windows) | [Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/) |
-| Linux | [Git for Linux](https://git-scm.com/install/linux) | [Docker Engine](https://docs.docker.com/engine/install/) and [Compose plugin](https://docs.docker.com/compose/install/linux/) |
-
-Docker Desktop includes Docker Compose. After installing it, open Docker Desktop
-and wait until it is running. On Windows, follow the Docker guide's WSL 2 setup
-instructions and use Linux containers for this project.
-
-**macOS without Docker Desktop:** [Colima](https://colima.run/docs/installation/)
-runs the containers using the Docker CLI and Compose. Install [Homebrew](https://brew.sh/)
-first, then run:
+You need Git and a running Docker installation. The [installation guide](docs/install.md)
+explains these tools, gives instructions for macOS, Windows, and Linux, and helps
+with common problems. If they are already installed, run each line in order:
 
 ```sh
-brew install colima docker docker-compose docker-buildx
-mkdir -p ~/.docker/cli-plugins
-ln -sfn "$(brew --prefix)/opt/docker-compose/bin/docker-compose" ~/.docker/cli-plugins/docker-compose
-ln -sfn "$(brew --prefix)/opt/docker-buildx/bin/docker-buildx" ~/.docker/cli-plugins/docker-buildx
-colima start
+git clone https://github.com/dfdy/The-Democratic-Development-Commons.git
+cd The-Democratic-Development-Commons
+docker compose up -d --build
 ```
 
-Continue with the same `docker compose` commands below. After restarting your
-computer, run `colima start` again; use `colima stop` when finished. See the
-official [Colima installation guide](https://colima.run/docs/installation/).
-
-If you prefer Docker Engine on Linux, follow the official
-[Docker Engine installation guide](https://docs.docker.com/engine/install/) for
-your distribution and install the
-[Docker Compose plugin](https://docs.docker.com/compose/install/linux/).
-
-Open **Terminal** on macOS or Linux, or **Git Bash** (included with Git for Windows)
-or **PowerShell 7+** on Windows. If your terminal
-was open during installation, close it and open it again. Run these commands,
-one line at a time, to check that the tools are available:
-
-```sh
-git --version
-docker --version
-docker compose version
-```
-
-Each command should print a version number. This project needs Docker Compose
-2.20.3 or newer, using the `docker compose` command.
-
-### 2. Clone and start
-
-With Git installed and Docker Desktop or Colima running, run this single line
-from the folder where you want to keep the project:
-
-```sh
-git clone https://github.com/dfdy/The-Democratic-Development-Commons.git && cd The-Democratic-Development-Commons && docker compose up -d --build
-```
-
-This creates `The-Democratic-Development-Commons/` in your current folder and starts the site.
-The first build may take a few minutes. Nothing is installed globally by this command.
-
-- Website: http://localhost:8388/en
-- Editor: http://localhost:8388/admin
-
-Retrieve the initial login:
+Open [the language-selection landing page](http://localhost:8388) or [the editor](http://localhost:8388/admin)
+when startup finishes. To retrieve the generated initial login, run:
 
 ```sh
 docker compose exec --user www-data grav cat user/data/commons-private/admin-login.txt
 ```
 
-Change the administrator password and email after signing in. Content edits are
-saved directly to `The-Democratic-Development-Commons/grav-site/user/pages/` on your computer,
-including uploaded page media. Docker mounts that folder into the site: edits stay
-in the clone through container rebuilds and restarts and can be committed and merged
-through Git. Keep and back up the cloned folder.
+Keep the password private and change it after signing in. Page edits are saved in
+`user/pages/` in your project folder. Accounts and private submissions are stored
+separately in a Docker volume, which is storage managed by Docker. Keep both when
+backing up your site.
 
-Accounts, passwords, private keys, and Join records persist separately in a Docker volume.
-They are not committed to Git; deleting Docker volumes removes that private data. Protect backups separately.
+See [installation and troubleshooting](docs/install.md), [editing and maintenance](docs/operations.md),
+or the [documentation index](docs/README.md) for the next step.
 
-See [Grav editing, setup and MCP instructions](grav-site/README.md).
+## Sharing the work
 
-To stop or restart the site:
-
-```sh
-docker compose stop
-docker compose up -d
-```
-
-Use `docker compose up -d --build` after changing themes or plugins. Markdown
-content changes appear without rebuilding. On Colima, the repository share must
-be writable for the editor to save content; see the Grav setup guide.
-
-## Licences and development
-
-Different licences apply to the content and software:
+The writing and the software have separate licences:
 
 | Material | Licence |
 | --- | --- |
-| Framework text, translations, glossary, constitution templates and first-party editorial images | [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0.txt) — attribution, noncommercial use and share-alike |
-| Custom theme, plugins, scripts, tests and software documentation | [GNU AGPLv3 only](LICENSE) — software use, modification and sharing under its terms, including commercially |
+| Framework, translations, glossary, constitution templates, and first-party editorial images | [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0.txt): attribution, noncommercial use, and share-alike |
+| Custom theme, plugins, scripts, tests, and software documentation | [GNU AGPLv3 only](LICENSE): software use, modification, and sharing under its terms, including commercially |
 
-These licences apply to separate material; they are not a choice of licence for
-the same material. Third-party components retain their own licences. See
-[full scope and exclusions](LICENSING.md).
+These apply to different material; they are not alternative licences for the same
+work. Third-party components retain their own terms. The [licence guide](LICENSING.md)
+explains the scope and exclusions, including private submissions.
 
-See [development instructions](AGENTS.md). Accessibility target: WCAG 2.2 AA.
+Our accessibility target is WCAG 2.2 Level AA. This is a development commitment,
+not a claim of a completed audit. [Contributions](CONTRIBUTING.md) can include
+identifying barriers, explaining an unfamiliar term, or sharing a disagreement.

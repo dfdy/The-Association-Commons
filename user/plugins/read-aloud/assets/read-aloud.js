@@ -1,0 +1,240 @@
+(() => {
+  'use strict';
+  const article = document.querySelector('.prose');
+  if (!article || !window.speechSynthesis || typeof window.SpeechSynthesisUtterance !== 'function') return;
+  const synth = window.speechSynthesis;
+  const cookieName = 'tac_read_aloud';
+  let settings = {voice: '', rate: 1};
+  try {
+    const raw = document.cookie.split('; ').find(c => c.startsWith(cookieName + '='));
+    const saved = raw ? JSON.parse(decodeURIComponent(raw.slice(cookieName.length + 1))) : {};
+    if (saved && typeof saved.voice === 'string' && saved.voice.length < 1000) settings.voice = saved.voice;
+    if (saved && typeof saved.rate === 'number' && saved.rate >= 0.5 && saved.rate <= 2) settings.rate = saved.rate;
+  } catch { /* Invalid or blocked cookies use browser defaults. */ }
+  const save = () => {
+    try {
+      document.cookie = `${cookieName}=${encodeURIComponent(JSON.stringify(settings))}; Path=/; Max-Age=31536000; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`;
+    } catch {}
+  };
+  const dialog = document.createElement('dialog');
+  dialog.className = 'tac-reader-dialog';
+  dialog.id = 'tac-reader-settings';
+  dialog.setAttribute('aria-labelledby', 'tac-reader-title');
+  const modifier = /Mac|iPhone|iPad/.test(navigator.platform) ? 'Option + Shift' : 'Alt + Shift';
+  dialog.innerHTML = `<form method="dialog">
+    <h2 id="tac-reader-title">Read-aloud settings</h2>
+    <label for="tac-reader-voice">Voice</label>
+    <select id="tac-reader-voice" aria-describedby="tac-reader-voice-note"></select>
+    <p id="tac-reader-voice-note">Voices depend on your browser and device. Online voices may send text to the voice provider.</p>
+    <label for="tac-reader-rate">Reading speed</label>
+    <select id="tac-reader-rate"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1">Normal</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+    <p>Settings apply to every play control. Changes take effect the next time you start a section.</p>
+    <button type="button" data-reader-stop>Stop reading</button>
+    <button type="submit" autofocus>Done</button>
+    <section class="tac-reader-shortcuts" aria-labelledby="tac-reader-shortcuts-title">
+      <h3 id="tac-reader-shortcuts-title">Keyboard shortcuts</h3>
+      <dl>
+        <div><dt>Play / pause</dt><dd><kbd>${modifier} + P</kbd></dd></div>
+        <div><dt>Next passage</dt><dd><kbd>${modifier} + →</kbd></dd></div>
+        <div><dt>Previous passage</dt><dd><kbd>${modifier} + ←</kbd></dd></div>
+        <div><dt>Stop reading</dt><dd><kbd>${modifier} + X</kbd></dd></div>
+        <div><dt>Open settings</dt><dd><kbd>${modifier} + V</kbd></dd></div>
+        <div><dt>Activate a focused button</dt><dd><kbd>Enter</kbd> or <kbd>Space</kbd></dd></div>
+        <div><dt>Close this dialog</dt><dd><kbd>Escape</kbd></dd></div>
+      </dl>
+      <p>Playback shortcuts apply to the current or last selected passage and are inactive while editing text or choosing a menu option. Browser or assistive-technology shortcuts may take priority.</p>
+    </section>
+  </form>`;
+  document.body.append(dialog);
+  const voiceSelect = dialog.querySelector('#tac-reader-voice');
+  const rateSelect = dialog.querySelector('#tac-reader-rate');
+  rateSelect.value = String(settings.rate);
+  if (!rateSelect.value) {settings.rate = 1; rateSelect.value = '1';}
+  let voices = [];
+  let selectedVoice = null;
+  const refreshVoices = () => {
+    voices = synth.getVoices();
+    // Some engines temporarily omit voices while refreshing their catalogue.
+    selectedVoice = voices.find(v => v.voiceURI === settings.voice) || selectedVoice;
+    voiceSelect.replaceChildren(new Option('Automatic — match the page language', ''));
+    [...voices].sort((a,b) => a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name)).forEach(voice => {
+      voiceSelect.add(new Option(`${voice.name} · ${voice.lang}${voice.localService ? ' · device' : ' · online'}`, voice.voiceURI));
+    });
+    // Keep a saved but currently unavailable choice for a later voiceschanged event.
+    if (settings.voice && !voices.some(v => v.voiceURI === settings.voice)) {
+      const missing = new Option('Saved voice unavailable — using automatic', settings.voice);
+      missing.disabled = true;
+      voiceSelect.add(missing);
+    }
+    voiceSelect.value = settings.voice;
+  };
+  refreshVoices();
+  synth.addEventListener('voiceschanged', refreshVoices);
+  voiceSelect.addEventListener('change', () => {
+    settings.voice = voiceSelect.value;
+    selectedVoice = voices.find(v => v.voiceURI === settings.voice) || null;
+    save();
+  });
+  rateSelect.addEventListener('change', () => {settings.rate = Number(rateSelect.value); save();});
+  const status = document.createElement('p');
+  status.className = 'tac-reader-status';
+  status.setAttribute('role', 'status');
+  document.body.append(status);
+  const headings = [...article.querySelectorAll('h1,h2,h3,h4,h5,h6')];
+  const controls = [];
+  const playbackIcons={
+    play:'<svg class="tac-reader-playback-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z"/></svg>',
+    pause:'<svg class="tac-reader-playback-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>'
+  };
+  let active = null, paused = false, generation = 0, utterance = null, opener = null, lastControl = null;
+  const rangeFor = control => {
+    const range = document.createRange();
+    range.setStartBefore(control.heading);
+    const next = headings[headings.indexOf(control.heading) + 1];
+    const panelContent = control.heading.closest('.remember-panel__content');
+    if (panelContent && (!next || !panelContent.contains(next))) {
+      range.setEnd(panelContent, panelContent.childNodes.length);
+      return range;
+    }
+    if (next) {
+      // Labels and decorative numbers in the next wrapper belong to that passage.
+      let boundary = next;
+      while (boundary.parentNode !== article && !boundary.parentNode.contains(control.heading)) boundary = boundary.parentNode;
+      range.setEndBefore(boundary);
+    } else range.setEnd(article, article.childNodes.length);
+    return range;
+  };
+  const highlight = () => {
+    article.querySelectorAll('.tac-reader-highlight').forEach(node => node.classList.remove('tac-reader-highlight'));
+    if (!active) return;
+    const range = rangeFor(active);
+    article.querySelectorAll('h1,h2,h3,h4,h5,h6,p,li').forEach(node => {
+      if (range.intersectsNode(node) && !node.closest('.tac-section-aside,.tac-reader-controls')) node.classList.add('tac-reader-highlight');
+    });
+  };
+  const update = () => controls.forEach(control => {
+    const playing = active === control && !paused;
+    const action = active === control && paused ? 'Resume' : playing ? 'Pause' : 'Read aloud';
+    control.play.setAttribute('aria-label', `${action}: ${control.title}`);
+    control.play.title = `${action}: ${control.title}`;
+    control.play.innerHTML = playing ? playbackIcons.pause : playbackIcons.play;
+  });
+  const stop = (message = '') => {
+    generation++;
+    synth.cancel();
+    active = null; paused = false; utterance = null;
+    update();
+    highlight();
+    if (message) status.textContent = message;
+  };
+  const textFor = control => {
+    const range = rangeFor(control);
+    const fragment = range.cloneContents();
+    fragment.querySelectorAll('.tac-reader-controls,.tac-section-aside,button,input,textarea,select,script,style,[aria-hidden="true"]').forEach(node => node.remove());
+    // Preserve pauses between paragraphs, headings and list items.
+    fragment.querySelectorAll('p,h1,h2,h3,h4,h5,h6,li,br').forEach(node => node.append(document.createTextNode('\n')));
+    return fragment.textContent.replace(/[ \t]+/g, ' ').replace(/\n\s*\n/g, '\n').trim();
+  };
+  const start = control => {
+    stop();
+    const text = textFor(control);
+    if (!text) return;
+    active = control;
+    lastControl = control;
+    const token = generation;
+    const playbackSettings = {...settings};
+    // Short utterances avoid browser limits on long sections.
+    const chunks = text.match(/[^\n.!?]+[.!?]*|[.!?]+/g)?.flatMap(sentence => sentence.match(/.{1,220}(?:\s|$)|\S{1,220}/g) || []).map(s => s.trim()).filter(Boolean) || [text];
+    let index = 0;
+    const speakNext = () => {
+      if (token !== generation) return;
+      if (index >= chunks.length) {
+        const next = controls.slice(controls.indexOf(control) + 1).find(item => item.heading.getClientRects().length > 0);
+        if (next) {start(next); return;}
+        active = null; utterance = null; update(); highlight(); status.textContent = 'Reading finished.'; return;
+      }
+      utterance = new SpeechSynthesisUtterance(chunks[index++]);
+      const lang = control.heading.closest('[lang]')?.lang || document.documentElement.lang;
+      utterance.lang = lang === 'sasl' ? 'en-ZA' : lang;
+      const voice = voices.find(v => v.voiceURI === playbackSettings.voice) ||
+        (selectedVoice?.voiceURI === playbackSettings.voice ? selectedVoice : null) ||
+        voices.find(v => v.lang.toLowerCase() === utterance.lang.toLowerCase()) || voices.find(v => v.lang.split('-')[0] === utterance.lang.split('-')[0]);
+      if (voice) {
+        utterance.voice = voice;
+        utterance.lang = voice.lang;
+      }
+      utterance.rate = playbackSettings.rate;
+      utterance.onend = speakNext;
+      utterance.onerror = event => {
+        if (token !== generation || ['canceled','interrupted'].includes(event.error)) return;
+        stop('Reading could not continue. Try another voice in read-aloud settings.');
+      };
+      synth.speak(utterance);
+    };
+    synth.resume();
+    speakNext(); update(); highlight();
+    status.textContent = `Reading: ${control.title}`;
+  };
+  headings.forEach(heading => {
+    const title = heading.textContent.trim();
+    if (!title) return;
+    const group = document.createElement('div');
+    group.className = 'tac-reader-controls';
+    const play = document.createElement('button');
+    play.type = 'button';
+    play.innerHTML = playbackIcons.play;
+    const preferences = document.createElement('button');
+    preferences.type = 'button';
+    preferences.innerHTML = '<svg class="tac-reader-settings-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path fill-rule="evenodd" d="M21.952 11.020 L21.952 12.980 L19.656 14.322 L19.055 15.771 L19.730 18.344 L18.344 19.730 L15.771 19.055 L14.322 19.656 L12.980 21.952 L11.020 21.952 L9.678 19.656 L8.229 19.055 L5.656 19.730 L4.270 18.344 L4.945 15.771 L4.344 14.322 L2.048 12.980 L2.048 11.020 L4.344 9.678 L4.945 8.229 L4.270 5.656 L5.656 4.270 L8.229 4.945 L9.678 4.344 L11.020 2.048 L12.980 2.048 L14.322 4.344 L15.771 4.945 L18.344 4.270 L19.730 5.656 L19.055 8.229 L19.656 9.678 Z M15 12 A3 3 0 1 0 9 12 A3 3 0 1 0 15 12 Z"/></svg>';
+    preferences.setAttribute('aria-label', `Read-aloud settings: ${title}`);
+    preferences.title = 'Read-aloud settings';
+    preferences.setAttribute('aria-haspopup', 'dialog');
+    preferences.setAttribute('aria-controls', dialog.id);
+    const control = {heading, title, play, group};
+    controls.push(control);
+    play.addEventListener('click', () => {
+      if (active !== control) {start(control); return;}
+      if (paused) {synth.resume(); paused = false; status.textContent = `Reading: ${title}`;}
+      else {synth.pause(); paused = true; status.textContent = `Paused: ${title}`;}
+      update();
+    });
+    preferences.addEventListener('click', () => {lastControl = control; opener = preferences; refreshVoices(); dialog.showModal();});
+    group.append(play, preferences);
+    // Put controls after this passage, keeping them inside its content wrapper.
+    const range = rangeFor(control);
+    const walker = document.createTreeWalker(article, NodeFilter.SHOW_TEXT);
+    let last = heading, node;
+    while ((node = walker.nextNode())) {
+      if (node.textContent.trim() && range.intersectsNode(node) &&
+          !node.parentElement.closest('.tac-reader-controls,.tac-section-aside,script,style')) last = node;
+    }
+    let container = heading.parentNode;
+    while (!container.contains(last)) container = container.parentNode;
+    while (last.parentNode !== container) last = last.parentNode;
+    last.after(group);
+  });
+  update();
+  dialog.addEventListener('close', () => opener?.focus());
+  dialog.querySelector('[data-reader-stop]').addEventListener('click', () => stop('Reading stopped.'));
+  document.addEventListener('keydown', event => {
+    if (event.defaultPrevented || event.isComposing || event.repeat || !event.altKey || !event.shiftKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('input,textarea,select,[contenteditable]:not([contenteditable="false"])')) return;
+    if (!['KeyP','ArrowRight','ArrowLeft','KeyX','KeyV'].includes(event.code)) return;
+    const visible = controls.filter(control => control.heading.getClientRects().length > 0);
+    const selected = active || controls.find(control => control.group.contains(document.activeElement)) || lastControl || visible[0];
+    if (!selected) return;
+    event.preventDefault();
+    if (event.code === 'KeyP') {selected.play.click(); return;}
+    if (event.code === 'KeyX') {stop('Reading stopped.'); return;}
+    if (event.code === 'KeyV') {
+      if (!dialog.open) {lastControl = selected; opener = document.activeElement === document.body ? selected.play : document.activeElement; refreshVoices(); dialog.showModal();}
+      return;
+    }
+    const index = controls.indexOf(selected), step = event.code === 'ArrowRight' ? 1 : -1;
+    for (let i = index + step; i >= 0 && i < controls.length; i += step) {
+      if (visible.includes(controls[i])) {start(controls[i]); return;}
+    }
+    status.textContent = step > 0 ? 'No next passage.' : 'No previous passage.';
+  });
+  window.addEventListener('pagehide', () => stop());
+})();

@@ -1,9 +1,0 @@
-name: "DDC: Commons downloads"
-slug: commons
-type: plugin
-version: 0.3.0
-description: Public page exports and legacy-route redirects for the Commons.
-icon: download
-license: AGPL-3.0-only
-author:
-  name: "The Democratic Development Commons (DDC)"

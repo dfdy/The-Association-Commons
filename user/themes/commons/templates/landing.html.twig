@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Choose your language · {{ site.title|e }}</title>
+<script src="{{ url('theme://js/theme.js') }}"></script>
+<script src="{{ url('theme://js/text-size.js') }}"></script>
+<link rel="stylesheet" href="{{ url('theme://css/site.css') }}?v=0.3.1">
+<link rel="stylesheet" href="{{ url('theme://css/landing.css') }}?v=0.3.1">
+<script defer src="{{ url('theme://js/landing.js') }}"></script>
+<script defer src="{{ url('plugin://language-menu/assets/language-menu.js') }}"></script>
+</head>
+<body class="language-landing">
+<main id="content">
+  {# The open non-modal dialog also provides usable language links without JavaScript. #}
+  <dialog open id="language-dialog" class="language-dialog" aria-labelledby="language-title" aria-describedby="language-description">
+    <div class="language-dialog-brand">
+      <img src="{{ url('theme://images/ddc-logo.svg') }}" width="430" height="455" alt="">
+      <h1 id="language-title" tabindex="-1" autofocus>{{ site.title|e }}</h1>
+    </div>
+    <p id="language-description">Choose a language to explore the framework.</p>
+    <nav class="landing-language-list" data-language-menu aria-label="Languages">
+    {% for item in pages.children.visible.order('header.language_sort', 'asc') %}
+      {% if item.header.language_code %}
+      {% set pending = item.header.language_code == 'sasl' %}
+      {% set draft = item.header.translation_review == 'machine-draft' or item.header.language_code == 'af-x-kaaps' %}
+      <a href="{{ item.url }}" lang="{{ (pending ? 'en' : item.header.language_code)|e('html_attr') }}" data-language="{{ item.header.language_code|e('html_attr') }}"{% if pending or draft %} aria-describedby="{{ pending ? 'sasl-pending-note' : 'machine-translation-note' }}"{% endif %}><span>{{ item.header.language_name|default(item.title)|e }}</span>{% if pending or draft %}<svg class="language-draft-icon{{ pending ? ' language-pending-icon' : '' }}" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M12 3 2 21h20Z"/><path d="M12 9v5"/><circle cx="12" cy="17.5" r=".8" fill="currentColor" stroke="none"/></svg><span class="landing-sr-only" lang="en"> ({{ pending ? 'Signed-language edition pending' : 'Translation draft awaiting community review' }})</span>{% endif %}</a>
+      {% endif %}
+    {% endfor %}
+    </nav>
+    <p id="machine-translation-note" class="translation-invitation">Languages marked with a <svg class="language-draft-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M12 3 2 21h20Z"/><path d="M12 9v5"/><circle cx="12" cy="17.5" r=".8" fill="currentColor" stroke="none"/></svg><span class="landing-sr-only">warning triangle</span> currently include machine-translated drafts or translations awaiting community review. Kaaps includes user-supplied reviewed proposal text and still welcomes review by Kaaps speakers. The project welcomes people and groups to <a href="/en/contact">adopt a language and work together on its translation</a>.</p>
+    <p id="sasl-pending-note" class="translation-invitation"><svg class="language-draft-icon language-pending-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M12 3 2 21h20Z"/><path d="M12 9v5"/><circle cx="12" cy="17.5" r=".8" fill="currentColor" stroke="none"/></svg><span class="landing-sr-only">Green warning triangle:</span> The South African Sign Language (SASL) edition is pending. Its page currently provides written-English support while signed content is developed.</p>
+  </dialog>
+</main>
+</body>
+</html>

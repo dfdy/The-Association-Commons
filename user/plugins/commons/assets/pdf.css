@@ -1,0 +1,38 @@
+/* Use screen colours and components, with document-specific pagination only.
+   The renderer emulates screen media so ordinary print-to-paper overrides do not
+   erase the selected theme. Keep palette values in the shared theme styles. */
+@page{size:A4;margin:6mm;background:#f6f4ed}
+html[data-theme="night"]{background:#151d1a}
+html,body{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+/* Shared body copy is 1.08rem: this root makes it exactly 10pt while
+   scaling the existing rem-based headings by the same proportion. */
+html{font-size:9.259259pt}
+body{padding:0 18px;font-size:10pt}
+.prose p,.prose li,.prose dd,.prose dt,.prose .tac-glossary-entry p{font-size:10pt}
+.site-header{position:static;flex-direction:column;align-items:stretch;padding:20px 0;background:transparent!important;box-shadow:none;break-inside:avoid}
+.pdf-export-meta{font-size:.75rem;line-height:1.6}
+.pdf-export-meta p{margin:.4rem 0 0}
+.brand{font-size:1.15rem}
+main{padding:1rem 0 2rem}
+.tac-section-aside{position:static;top:auto;padding:0;margin-bottom:1.2rem;break-after:avoid}
+.tac-section{display:block;padding:2.5rem 0}
+.tac-section-body{width:100%}
+.prose .tac-hero-intro h1{font-size:5rem}
+.prose .tac-hero-intro p{font-size:1.7rem}
+.tac-hero-intro{break-inside:avoid}
+.prose .tac-section-body>h2:first-child{font-size:2.8rem}
+.tac-subsection,.tac-glossary-entry,figure,tr{break-inside:avoid}
+h1,h2,h3,h4,h5,h6,summary{break-after:avoid}
+p,li{orphans:3;widows:3}
+table,.legal-matrix table{width:100%;border-collapse:collapse;font-size:10pt;table-layout:fixed}
+th,td{overflow-wrap:anywhere;padding:.45rem;vertical-align:top}
+thead{display:table-header-group}
+.table-scroll,.legal-matrix-scroll{overflow:visible}
+.table-scroll table,.legal-matrix table{min-width:0}
+img{max-width:100%;height:auto}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.remember-panel__content[hidden]{display:block!important}
+.remember-panel__handle,.tac-reader-controls,.tac-reader-status,.tac-reader-dialog,.legal-matrix-filters{display:none!important}
+details>summary{list-style:none}
+details>summary::marker{content:""}
+.pdf-attribution{display:block;padding:1rem 0;font-size:.75rem}

@@ -34,7 +34,7 @@ The visible document badge says **MD**, while its link or button is named **Down
 
 Evidence: axe `label-content-name-mismatch`, 88 instances across 88 page states. Example: `/en/languages?download=md`, `aria-label="Download Markdown"`, visible SVG text `MD`. The badge remains visible even though the SVG is hidden from the accessibility tree.
 
-Location: `grav-site/user/themes/commons/templates/default.html.twig`, download controls.
+Location: `user/themes/commons/templates/default.html.twig`, download controls.
 
 Recommendation: use a name such as **Download MD (Markdown)**, retaining the visible abbreviation verbatim, or change the visible badge. Verify the accessible name and a voice-input command after the change.
 
@@ -70,7 +70,7 @@ The language-menu plugin’s specific focus rule overrides the theme’s lighter
 
 Reproduce: enable night mode, then Tab to a language pill. The active-language border and keyboard focus are different states; the active border does not replace an adequate focus indicator.
 
-Location: `grav-site/user/plugins/language-menu/assets/language-menu.css`, `.languages.va-language-menu a:focus-visible`.
+Location: `user/plugins/language-menu/assets/language-menu.css`, `.languages.va-language-menu a:focus-visible`.
 
 Recommendation: supply an equally specific night-mode focus rule with a contrasting light outline. Verify current and non-current pills at every history-dependent background shade, including forced colours.
 
@@ -82,7 +82,7 @@ On desktop the preview has a maximum height and internal scrolling. The sampled 
 
 axe flagged `scrollable-region-focusable` on all 13 builders in both modes, 26 instances. This warning needs interpretation: current Chromium and Firefox automatically place the preview in keyboard focus order. In tested WebKit the preview could not be focused, including by calling `focus()`, so keyboard users cannot reliably reach its internal scrolling area.
 
-Location: `grav-site/user/themes/commons/templates/stadgar.html.twig`, `.builder-preview`.
+Location: `user/themes/commons/templates/stadgar.html.twig`, `.builder-preview`.
 
 Recommendation: explicitly make the scrollable preview keyboard-focusable, label it from its heading, and give it a visible focus style. Verify arrow/Page Down scrolling and exit with Tab in installed Safari, Firefox and Chromium. This fixes the interoperability problem rather than relying solely on the automated warning.
 
@@ -108,7 +108,7 @@ Recommendation: let expanded-header text grow naturally, allow controls to wrap,
 
 The sampled English proposal PDF contains no `/StructTreeRoot`, `/MarkInfo` or `/Lang`. Visual heading sizes in a PDF do not provide heading semantics to a screen reader. The current exporter does not produce a tagged document with programmatically identified sections and lists.
 
-Location: `grav-site/user/plugins/commons/commons.php`, Dompdf export path.
+Location: `user/plugins/commons/commons.php`, Dompdf export path.
 
 Recommendation: produce and validate tagged accessible PDFs, or provide and verify an explicitly identified conforming HTML alternative for the same information and functionality. Do not claim the PDF is accessible because its HTML source or visual layout is accessible. In particular, the constitution preview’s flat `<pre>` output needs evaluation as an alternative for structured generated documents.
 

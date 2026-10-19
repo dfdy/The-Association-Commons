@@ -1,8 +1,0 @@
-/* Text and border identify the notice independently of its amber colour. */
-.prose .tac-translation-notice{box-sizing:border-box;margin:1.5rem 0;padding:1rem 1.25rem;background:#fff0bc;color:#3b2900;border:2px solid #825900;border-inline-start-width:6px;border-radius:.35rem;overflow-wrap:anywhere}
-.prose .tac-translation-notice p{margin:.5rem 0}
-.prose .tac-translation-notice a{color:#493100;text-decoration:underline;text-underline-offset:.2em}
-.prose .tac-translation-notice a:focus-visible{outline:3px solid currentColor;outline-offset:4px}
-html[data-theme="night"] .prose .tac-translation-notice{background:#fff0bc;color:#3b2900}
-html[data-theme="night"] .prose .tac-translation-notice a{color:#493100}
-@media(forced-colors:active){.prose .tac-translation-notice{background:Canvas;color:CanvasText;border-color:CanvasText}.prose .tac-translation-notice a{color:LinkText}}

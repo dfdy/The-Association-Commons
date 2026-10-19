@@ -1,0 +1,9 @@
+name: Democratic Development Commons
+slug: commons
+type: theme
+version: 0.3.1
+description: A reading-focused theme for the Democratic Development Commons.
+icon: book
+license: AGPL-3.0-only
+author:
+  name: "The Democratic Development Commons (DDC)"

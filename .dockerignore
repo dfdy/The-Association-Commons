@@ -1,0 +1,26 @@
+# Only build inputs enter the Docker context, excluding local archives and secrets.
+**
+!Dockerfile
+!docker/
+!docker/apache.conf
+!assets/
+!assets/fonts/
+!assets/fonts/**
+!scripts/
+!scripts/start.sh
+!scripts/provision.php
+!scripts/mcp.mjs
+!user/
+!user/config/
+!user/config/**
+!user/pages/
+!user/pages/**
+!user/plugins/
+!user/plugins/**
+!user/themes/
+!user/themes/**
+user/accounts/**
+user/data/**
+user/config/plugins/api-private.php
+**/.DS_Store
+**/__pycache__/**

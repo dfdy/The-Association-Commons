@@ -1,0 +1,13 @@
+name: "DDC: Governance Patterns"
+slug: governance-patterns
+type: plugin
+version: 0.3.1
+description: Versioned constitutional patterns with suitability and testing evidence.
+icon: sitemap
+license: AGPL-3.0-only
+author:
+  name: "The Democratic Development Commons (DDC)"
+dependencies:
+  - { name: grav, version: '>=2.0.0' }
+  - { name: shortcode-core }
+  - { name: legal-matrix }
