@@ -141,6 +141,10 @@ They are an agenda for research, practical testing, and discussion, not agreed
 answers or a promise that the work is already under way. Contributions can include
 experiences, counterexamples, disagreements, or help trying an idea in practice.
 
+- [ ] Design and test the proposed constitution generator with participants. Make
+  its assumptions, defaults, and warnings understandable; offer legitimate
+  alternatives and lawful overrides; and check whether it reduces or increases
+  dependence on specialists. Start with simple patterns before complex procedures.
 - [ ] Explain the DDC's commitments and limits in plain language, including why
   some limits on authority are justified and where those limits remain contested.
 - [ ] Test ways to distinguish useful expertise, leadership, and continuity from
@@ -173,7 +177,3 @@ experiences, counterexamples, disagreements, or help trying an idea in practice.
   delegation, or markets improve outcomes, and revise the framework when warranted.
   Explain tensions between its theoretical sources rather than presenting them as
   one settled doctrine.
-- [ ] Design and test the proposed constitution generator with participants. Make
-  its assumptions, defaults, and warnings understandable; offer legitimate
-  alternatives and lawful overrides; and check whether it reduces or increases
-  dependence on specialists. Start with simple patterns before complex procedures.
