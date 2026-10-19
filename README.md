@@ -133,3 +133,47 @@ explains the scope and exclusions, including private submissions.
 Our accessibility target is WCAG 2.2 Level AA. This is a development commitment,
 not a claim of a completed audit. [Contributions](CONTRIBUTING.md) can include
 identifying barriers, explaining an unfamiliar term, or sharing a disagreement.
+
+## To-Do
+
+These open tasks come from [Part III of the white paper](user/pages/01.en/04.white-paper/default.md#part-iii).
+They are an agenda for research, practical testing, and discussion, not agreed
+answers or a promise that the work is already under way. Contributions can include
+experiences, counterexamples, disagreements, or help trying an idea in practice.
+
+- [ ] Explain the DDC's commitments and limits in plain language, including why
+  some limits on authority are justified and where those limits remain contested.
+- [ ] Test ways to distinguish useful expertise, leadership, and continuity from
+  domination. Consider consent, accountability, succession, access to information,
+  material dependency, and whether people can challenge or reverse decisions.
+- [ ] Test participation demands with people who have different time, care, and
+  access needs. Make room for delegation and temporary disengagement, and keep
+  reviews and governance procedures proportionate to an association's size and risks.
+- [ ] Make critical reflection usable through ordinary language, stories, and
+  practical questions, without requiring academic knowledge or specialist help.
+- [ ] Develop the framework with South African and African intellectual, movement,
+  and everyday organising traditions as sources of ideas. Let participants rename,
+  reject, or replace its categories, and examine how inherited practices can evolve
+  without dismissing the value of belonging and continuity.
+- [ ] Clarify protections against majority domination, including equality, dignity,
+  accessibility, and fair procedures. Explore safeguards for members who cannot
+  realistically leave without serious loss.
+- [ ] Develop ways for affected nonmembers and neighbouring communities to be
+  heard, and for decisions to account for workers, ecosystems, and future users,
+  while preserving member self-government.
+- [ ] Study how democratic associations connect to wider struggles over ownership,
+  labour, wealth, and public power. Map relationships with movements, unions,
+  parties, courts, and public institutions without prescribing one political strategy
+  or treating public responsibility as state supremacy.
+- [ ] Compare markets, public provision, commons, and cooperatives using the same
+  questions about power, dependency, distribution, ecological effects, and democratic
+  agency, rather than assuming one form always works best.
+- [ ] Set research questions and identify evidence that could challenge the DDC's
+  assumptions. Include cases where stable leadership, professionalisation,
+  delegation, or markets improve outcomes, and revise the framework when warranted.
+  Explain tensions between its theoretical sources rather than presenting them as
+  one settled doctrine.
+- [ ] Design and test the proposed constitution generator with participants. Make
+  its assumptions, defaults, and warnings understandable; offer legitimate
+  alternatives and lawful overrides; and check whether it reduces or increases
+  dependence on specialists. Start with simple patterns before complex procedures.
